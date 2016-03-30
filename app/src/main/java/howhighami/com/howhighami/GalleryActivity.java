@@ -14,6 +14,6 @@ public class GalleryActivity extends SingleFragmentActivity {
     @Override
     protected Fragment createFragment() {
         Log.d(TAG, "creatingFragment() called");
-        return GalleryFragment.newInstance();
+        return new GalleryFragment();
     }
 }
