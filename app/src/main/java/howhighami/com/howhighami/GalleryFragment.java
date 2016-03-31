@@ -1,18 +1,23 @@
 package howhighami.com.howhighami;
 
 import android.Manifest;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -31,8 +36,11 @@ import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Context;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,6 +53,8 @@ import java.util.List;
 public class GalleryFragment extends Fragment {
 
     private static final String TAG = "GalleryFragment";
+    // Request codes for implicit intents
+    private static final int REQUEST_PHOTO= 1;
 
     /**
      * Our RecyclerView object to display the photos
@@ -59,12 +69,10 @@ public class GalleryFragment extends Fragment {
      */
     private List<GalleryItem> mGalleryItems;
 
-
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
-        // TODO: implement a galleryItem object
         mGalleryItems = new ArrayList<>();
     }
 
@@ -86,6 +94,9 @@ public class GalleryFragment extends Fragment {
         mPhotoRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
 
         mPhotoAdapter = null;
+        setupAdapter();
+
+        // TODO: Reload images when closing/starting the app in onPause/onResume
 
         return view;
     }
@@ -98,27 +109,76 @@ public class GalleryFragment extends Fragment {
         inflater.inflate(R.menu.gallery_menu, menu);
     }
 
-    // Handle options being selected in title bar
+    /**
+     * Handle options being selected in title bar
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         switch (item.getItemId()) {
             case R.id.take_picture:
-                // TODO: Set up camera to take picture, save to disk or database?
+
+                /**
+                 * Take the picture, save it to disk, record URI
+                 */
+                ContentValues values = new ContentValues();
+                values.put(MediaStore.Images.Media.TITLE, "Image File name");
+                Uri mCapturedImageURI = getContext().getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+                Intent intentPicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                intentPicture.putExtra(MediaStore.EXTRA_OUTPUT, mCapturedImageURI);
+                /**
+                 * Create a galleryItem object and add to list of galleryItem to be displayed
+                 */
+                startActivityForResult(intentPicture, REQUEST_PHOTO);
+                GalleryItem newItem = new GalleryItem();
+                newItem.setFilePath(getRealPathFromURI(mCapturedImageURI));
+
+
+                // TODO: Pair elevation data with image
+                // TODO: Open different fragment for editing before adding to grid(pass the bitmap to editing fragment)?
+                mGalleryItems.add(newItem);
+
                 return true;
             case R.id.share:
-                // TODO: Set up sharing photo and elevation data to facebook, twitter etc.
+                // TODO: Set up sharing photo and elevation data to facebook, twitter etc. This could probably be implemented last
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
-
     /**
-     * Sets up our RecyclerView Adapter if the Fragment has been attached to an
-     * activity
+     * Gets path to image with uri
+     * @return
      */
+    public String getRealPathFromURI(Uri contentUri)
+    {
+        try
+        {
+            String[] proj = {MediaStore.Images.Media.DATA};
+            Cursor cursor = getActivity().getContentResolver().query(
+                    contentUri,
+                    proj, null, null, null);
+            int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+            cursor.moveToFirst();
+            return cursor.getString(column_index);
+        }
+        catch (Exception e)
+        {
+            return contentUri.getPath();
+        }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+    }
+
+    /*****************************************************************************
+     * Everything under this comment is related to displaying the photos on the grid
+     *
+     *****************************************************************************/
     private void setupAdapter() {
         Log.d(TAG, "setupAdapter() called");
 
@@ -164,6 +224,7 @@ public class GalleryFragment extends Fragment {
 
             mItemImageView = (ImageView) itemView
                     .findViewById(R.id.fragment_photo_gallery_image_view);
+
         }
 
         /**
@@ -171,8 +232,10 @@ public class GalleryFragment extends Fragment {
          *
          * @see GalleryItem
          */
-        public void bindDrawable(Drawable drawable) {
-            mItemImageView.setImageDrawable(drawable);
+        public void bindDrawable(Bitmap image) {
+            // Resize the image for the grid layout
+            Bitmap resized = Bitmap.createScaledBitmap(image, 120, 240, true);
+            mItemImageView.setImageBitmap(resized);
         }
     }
 
@@ -201,9 +264,13 @@ public class GalleryFragment extends Fragment {
             return new PhotoHolder(view);
         }
 
+        // Display the picture in the grid
         @Override
         public void onBindViewHolder(PhotoHolder photoHolder, int position) {
             GalleryItem galleryItem = mGalleryItems.get(position);
+            Bitmap bitmap = PictureUtils.getScaledBitmap(galleryItem.getFilePath(), getActivity());
+
+            photoHolder.bindDrawable(bitmap);
             //Drawable placeholder = getResources().getDrawable(R.drawable.shaq);
         }
 
@@ -212,4 +279,12 @@ public class GalleryFragment extends Fragment {
             return mGalleryItems.size();
         }
     }
+
+    // TODO: possibly setup a listener for each photo so they can view the photo up close
+    public void imageClick(View view){
+
+        Log.d(TAG, "Something was touched");
+
+    }
+
 }
