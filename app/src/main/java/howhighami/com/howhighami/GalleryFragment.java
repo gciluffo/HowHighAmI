@@ -10,6 +10,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.location.Location;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -38,9 +39,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Context;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationServices;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,7 +56,7 @@ import java.util.List;
  */
 
 
-public class GalleryFragment extends Fragment {
+public class GalleryFragment extends Fragment implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private static final String TAG = "GalleryFragment";
     // Request codes for implicit intents
@@ -69,9 +75,29 @@ public class GalleryFragment extends Fragment {
      */
     private List<GalleryItem> mGalleryItems;
 
+    /**
+     * The google services API client which allows us to get a Location
+     */
+    private GoogleApiClient mGoogleApiClient;
+
+    /**
+     * The last known GPS location
+     */
+    private Location mLastLocation;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+
+        // Create an instance of GoogleAPIClient.
+        if (mGoogleApiClient == null) {
+            mGoogleApiClient = new GoogleApiClient.Builder(getActivity().getApplicationContext())
+                    .addConnectionCallbacks(this)
+                    .addOnConnectionFailedListener(this)
+                    .addApi(LocationServices.API)
+                    .build();
+            Log.d(TAG, "created mGoogleApiClient to be used for GPS");
+        }
 
         mGalleryItems = new ArrayList<>();
     }
@@ -135,6 +161,16 @@ public class GalleryFragment extends Fragment {
 
 
                 // TODO: Pair elevation data with image
+                // Attempt to get the altitude
+                if(mLastLocation != null) {
+                    double altitude = mLastLocation.getAltitude(); // returns 0.0 if unknown
+
+                    if(altitude != 0.0) { // if we have an altiude
+                        newItem.setElevation((int) altitude);
+                        Log.d(TAG, "GPS SET ALTITUDE TO " + (int) altitude );
+                    }
+                }
+
                 // TODO: Open different fragment for editing before adding to grid(pass the bitmap to editing fragment)?
                 mGalleryItems.add(newItem);
 
@@ -173,7 +209,63 @@ public class GalleryFragment extends Fragment {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
+        if(requestCode == REQUEST_PHOTO && resultCode == getActivity().RESULT_OK) {
+            Log.d(TAG, "Successfully got image from camera activity");
+            mPhotoAdapter.notifyDataSetChanged();
+        }
+
     }
+
+    public void onStart() {
+        mGoogleApiClient.connect();
+        super.onStart();
+    }
+
+    public void onStop() {
+        mGoogleApiClient.disconnect();
+        super.onStop();
+    }
+
+    /**
+     * Called when a connection to the google play services API has been established
+     * @param connectionHint
+     */
+    @Override
+    public void onConnected(Bundle connectionHint) {
+        mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
+                mGoogleApiClient);
+        if (mLastLocation != null) {
+            Log.d(TAG, "GPS LOCK " + mLastLocation.getAltitude());
+        } else {
+            //Log.d(TAG, "UNABLE TO GET GPS LOCK");
+            makeToast(Toast.LENGTH_LONG, "Unable to get GPS lock. We will be unable to determine your elevation.");
+        }
+    }
+
+    /**
+     * Called when the connection to the google play services API has been lost
+     * @param arg0
+     */
+    @Override
+    public void onConnectionSuspended(int arg0) {
+        // purposely left blank
+        // GoogleAPIClient will attempt to reconnect automatically
+    }
+
+    @Override
+    public void onConnectionFailed(ConnectionResult connectionResult) {
+        makeToast(Toast.LENGTH_LONG, "Lost connection to location services.");
+    }
+
+    private void makeToast(int duration, String message) {
+        Context context = getContext();
+        Toast toast = Toast.makeText(context, message, duration);
+        toast.show();
+    }
+//    @Override
+//    public void onDisconnected() {
+//
+//    }
 
     /*****************************************************************************
      * Everything under this comment is related to displaying the photos on the grid
