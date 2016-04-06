@@ -85,6 +85,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
      */
     private Location mLastLocation;
 
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
@@ -172,6 +173,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
                 }
 
                 // TODO: Open different fragment for editing before adding to grid(pass the bitmap to editing fragment)?
+                // TODO: Attach bitmap to a canvas so the image can be edited
                 mGalleryItems.add(newItem);
 
                 return true;
@@ -300,11 +302,12 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
     /**
      * The ViewHolder for our RecyclerView to display Photos
      */
-    private class PhotoHolder extends RecyclerView.ViewHolder {
+    private class PhotoHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         /**
          * A textview to display the photo caption
          */
         private ImageView mItemImageView;
+
 
         /**
          * Creates a new ViewHolder
@@ -316,7 +319,17 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
 
             mItemImageView = (ImageView) itemView
                     .findViewById(R.id.fragment_photo_gallery_image_view);
+            mItemImageView.setOnClickListener(this);
+        }
 
+        /**
+         * listen for clicks on an individual image
+         */
+        @Override
+        public void onClick(View v) {
+            int pos = getAdapterPosition();
+            Log.d(TAG, "Image: " + pos);
+            Bitmap picture = PictureUtils.getScaledBitmap(mGalleryItems.get(pos).getFilePath(), getActivity());
         }
 
         /**
@@ -370,13 +383,6 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
         public int getItemCount() {
             return mGalleryItems.size();
         }
-    }
-
-    // TODO: possibly setup a listener for each photo so they can view the photo up close
-    public void imageClick(View view){
-
-        Log.d(TAG, "Something was touched");
-
     }
 
 }
