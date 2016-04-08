@@ -12,7 +12,7 @@ import java.util.UUID;
  */
 public class GalleryItem {
 
-    private int elevation;
+    private double elevation;
     private UUID mId;
     private String mTitle;
     private Date mDate;
@@ -26,7 +26,7 @@ public class GalleryItem {
         mDate = new Date();
     }
 
-    public int getElevation() {
+    public double getElevation() {
         return elevation;
     }
 
@@ -42,7 +42,7 @@ public class GalleryItem {
         return mDate;
     }
 
-    public void setElevation(int elevation) {
+    public void setElevation(double elevation) {
         this.elevation = elevation;
     }
 

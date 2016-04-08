@@ -5,6 +5,12 @@
     xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
 
     <item
+        android:id="@+id/delete"
+        android:title="delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        yourapp:showAsAction="ifRoom"/>
+
+    <item
         android:id="@+id/share"
         android:title="@string/share"
         android:icon="@android:drawable/ic_menu_share"

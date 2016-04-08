@@ -11,6 +11,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
+import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -43,8 +44,18 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.protocol.BasicHttpContext;
+import org.apache.http.protocol.HttpContext;
+
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URI;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -81,9 +92,9 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
     private GoogleApiClient mGoogleApiClient;
 
     /**
-     * The last known GPS location
+     * The current altitude. This is set in the async task
      */
-    private Location mLastLocation;
+    private double mCurrentAltitude;
 
 
     public void onCreate(Bundle savedInstanceState) {
@@ -101,6 +112,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
         }
 
         mGalleryItems = new ArrayList<>();
+        new GoogleAltitude().execute();
     }
 
     /**
@@ -127,7 +139,6 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
 
         return view;
     }
-
 
     // Initialize the menu from the res/menu directory
     @Override
@@ -160,25 +171,20 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
                 GalleryItem newItem = new GalleryItem();
                 newItem.setFilePath(getRealPathFromURI(mCapturedImageURI));
 
-
-                // TODO: Pair elevation data with image
-                // Attempt to get the altitude
-                if(mLastLocation != null) {
-                    double altitude = mLastLocation.getAltitude(); // returns 0.0 if unknown
-
-                    if(altitude != 0.0) { // if we have an altiude
-                        newItem.setElevation((int) altitude);
-                        Log.d(TAG, "GPS SET ALTITUDE TO " + (int) altitude );
-                    }
-                }
+                // Run async task to get current altitude
+                new GoogleAltitude().execute();
+                Log.d(TAG, "THE ALTITUDE IS " + mCurrentAltitude + " feet");
+                newItem.setElevation(mCurrentAltitude);
 
                 // TODO: Open different fragment for editing before adding to grid(pass the bitmap to editing fragment)?
-                // TODO: Attach bitmap to a canvas so the image can be edited
                 mGalleryItems.add(newItem);
 
                 return true;
             case R.id.share:
                 // TODO: Set up sharing photo and elevation data to facebook, twitter etc. This could probably be implemented last
+                return true;
+            case R.id.delete:
+                makeToast(Toast.LENGTH_SHORT, "Select the image you want to delete");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -234,14 +240,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
      */
     @Override
     public void onConnected(Bundle connectionHint) {
-        mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
-                mGoogleApiClient);
-        if (mLastLocation != null) {
-            Log.d(TAG, "GPS LOCK " + mLastLocation.getAltitude());
-        } else {
-            //Log.d(TAG, "UNABLE TO GET GPS LOCK");
-            makeToast(Toast.LENGTH_LONG, "Unable to get GPS lock. We will be unable to determine your elevation.");
-        }
+        Log.d(TAG, "On Connected Called");
     }
 
     /**
@@ -256,6 +255,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
+        Log.d(TAG, "onConnectionFalied() called");
         makeToast(Toast.LENGTH_LONG, "Lost connection to location services.");
     }
 
@@ -268,6 +268,58 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
 //    public void onDisconnected() {
 //
 //    }
+
+    class GoogleAltitude extends AsyncTask<Void, Void, Double> {
+
+        // Do things to connect to Google database and query for altitude with current lat/long
+        protected Double doInBackground(Void... params) {
+            LocationManager lm = (LocationManager)getActivity().getSystemService(Context.LOCATION_SERVICE);
+            Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+            double longitude = location.getLongitude();
+            double latitude = location.getLatitude();
+            Log.d(TAG, "LONGITUDE IS " + longitude);
+            Log.d(TAG, "LATITUDE IS " + latitude);
+
+            double result = Double.NaN;
+            HttpClient httpClient = new DefaultHttpClient();
+            HttpContext localContext = new BasicHttpContext();
+            String url = "http://maps.googleapis.com/maps/api/elevation/"
+                    + "xml?locations=" + String.valueOf(latitude)
+                    + "," + String.valueOf(longitude)
+                    + "&sensor=true";
+            HttpGet httpGet = new HttpGet(url);
+            try {
+                HttpResponse response = httpClient.execute(httpGet, localContext);
+                HttpEntity entity = response.getEntity();
+                if (entity != null) {
+                    InputStream instream = entity.getContent();
+                    int r = -1;
+                    StringBuffer respStr = new StringBuffer();
+                    while ((r = instream.read()) != -1)
+                        respStr.append((char) r);
+                    String tagOpen = "<elevation>";
+                    String tagClose = "</elevation>";
+                    if (respStr.indexOf(tagOpen) != -1) {
+                        int start = respStr.indexOf(tagOpen) + tagOpen.length();
+                        int end = respStr.indexOf(tagClose);
+                        String value = respStr.substring(start, end);
+                        result = (double)(Double.parseDouble(value)*3.2808399); // convert from meters to feet
+                    }
+                    instream.close();
+                }
+            } catch (ClientProtocolException e) {}
+            catch (IOException e) {}
+
+            return result;
+        }
+
+        @Override
+        protected void onPostExecute(Double alt) {
+            Log.d(TAG, "onPostExecute value is " + alt);
+            // Set the value
+            mCurrentAltitude = alt;
+        }
+    }
 
     /*****************************************************************************
      * Everything under this comment is related to displaying the photos on the grid
@@ -329,7 +381,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
         public void onClick(View v) {
             int pos = getAdapterPosition();
             Log.d(TAG, "Image: " + pos);
-            Bitmap picture = PictureUtils.getScaledBitmap(mGalleryItems.get(pos).getFilePath(), getActivity());
+            GalleryItem item = mGalleryItems.get(pos);
         }
 
         /**
