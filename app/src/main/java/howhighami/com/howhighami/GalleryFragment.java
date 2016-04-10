@@ -300,6 +300,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
         // Do things to connect to Google database and query for altitude with current lat/long
         protected Double doInBackground(Void... params) {
             LocationManager lm = (LocationManager)getActivity().getSystemService(Context.LOCATION_SERVICE);
+            // TODO: Add check to see if user accepts permission
             Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
             double longitude = location.getLongitude();
             double latitude = location.getLatitude();

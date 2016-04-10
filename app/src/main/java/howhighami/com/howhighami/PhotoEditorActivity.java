@@ -18,26 +18,8 @@ public class PhotoEditorActivity extends SingleFragmentActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         Log.d(TAG, "The URI in PhotoEditorActivity is: " + mUri);
-        /*
-        Bundle bundle=new Bundle();
-        bundle.putString("message", mUri);
-        //set Fragmentclass Arguments
-        PhotoEditorFragment fragobj = new PhotoEditorFragment();
-        fragobj.setArguments(bundle);
-
-
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-
-        // Replace whatever is in the fragment_container view with this fragment,
-        // and add the transaction to the back stack so the user can navigate back
-        transaction.replace(R.id.fragmentContainer, fragobj);
-        transaction.addToBackStack(null);
-
-        // Commit the transaction
-        transaction.commit();
-        */
-        
     }
 
     @Override

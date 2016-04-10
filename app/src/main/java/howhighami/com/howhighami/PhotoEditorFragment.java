@@ -105,7 +105,6 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         Bundle args = getArguments();
         String uri = args.getString(PICTURE_ID);
         mUri = Uri.parse(uri);
-        //TODO: Edit the image somehow
         if(mUri != null) {
             Log.d(TAG, "The URI in PhotoEditorFrag is: " + uri);
 

@@ -26,7 +26,6 @@ public class GalleryActivity extends SingleFragmentActivity implements GalleryFr
         return new GalleryFragment();
     }
 
-
     @Override
     public void sendPicture(String path) {
 
