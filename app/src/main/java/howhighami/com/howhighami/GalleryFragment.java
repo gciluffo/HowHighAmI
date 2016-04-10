@@ -102,7 +102,7 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
 
 
     public interface Callbacks {
-        void sendPicture(String path);
+        void sendPicture(String path, double alt);
     }
 
     @Override
@@ -191,16 +191,15 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
                 GalleryItem newItem = new GalleryItem();
                 newItem.setFilePath(getRealPathFromURI(mCapturedImageURI));
                 newItem.setUri(mCapturedImageURI);
-                Log.d(TAG, "The Uri from fragment is " + newItem.getUri().toString());
+                Log.d(TAG, "The path from fragment is " + newItem.getFilePath());
 
                 // Run async task to get current altitude
                 new GoogleAltitude().execute();
-                Log.d(TAG, "THE ALTITUDE IS " + mCurrentAltitude + " feet");
                 newItem.setElevation(mCurrentAltitude);
 
                 // TODO: Open different fragment for editing before adding to grid(pass the bitmap to editing fragment)?
                 // Send path to activity
-                mCallbacks.sendPicture(newItem.getUri().toString());
+                mCallbacks.sendPicture(newItem.getUri().toString(), mCurrentAltitude);
 
 
                 mGalleryItems.add(newItem);
