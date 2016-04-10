@@ -70,6 +70,7 @@ import java.util.List;
 public class GalleryFragment extends Fragment implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private static final String TAG = "GalleryFragment";
+    private static final String uri = "image-uri";
     // Request codes for implicit intents
     private static final int REQUEST_PHOTO= 1;
 
@@ -96,6 +97,25 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
      */
     private double mCurrentAltitude;
 
+
+    private Callbacks mCallbacks;
+
+
+    public interface Callbacks {
+        void sendPicture(String path);
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        mCallbacks = (Callbacks)context;
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+        mCallbacks = null;
+    }
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -170,6 +190,8 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
                 startActivityForResult(intentPicture, REQUEST_PHOTO);
                 GalleryItem newItem = new GalleryItem();
                 newItem.setFilePath(getRealPathFromURI(mCapturedImageURI));
+                newItem.setUri(mCapturedImageURI);
+                Log.d(TAG, "The Uri from fragment is " + newItem.getUri().toString());
 
                 // Run async task to get current altitude
                 new GoogleAltitude().execute();
@@ -177,6 +199,10 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
                 newItem.setElevation(mCurrentAltitude);
 
                 // TODO: Open different fragment for editing before adding to grid(pass the bitmap to editing fragment)?
+                // Send path to activity
+                mCallbacks.sendPicture(newItem.getUri().toString());
+
+
                 mGalleryItems.add(newItem);
 
                 return true;

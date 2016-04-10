@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+/* 1) Apply the Gradle Retrolambda Plugin */
+apply plugin: 'me.tatarka.retrolambda'
+
 android {
     useLibrary 'org.apache.http.legacy'
     compileSdkVersion 23
@@ -9,7 +12,7 @@ android {
     defaultConfig {
         applicationId "howhighami.com.howhighami"
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
@@ -19,12 +22,31 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    /* 2) Compile for Java 1.8 or greater */
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    /* 3) Exclude duplicate licenses */
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/DEPENDENCIES'
+        pickFirst 'AndroidManifest.xml'
+    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
     compile 'com.google.android.gms:play-services-location:8.4.0' // required for Location services
+
+    compile 'com.adobe.creativesdk.foundation:auth:0.9.7'
+    compile 'com.adobe.creativesdk:image:4.4.8'
 }

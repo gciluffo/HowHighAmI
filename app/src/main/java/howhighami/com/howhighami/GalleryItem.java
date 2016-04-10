@@ -1,9 +1,11 @@
 package howhighami.com.howhighami;
 
 import android.content.Context;
+import android.net.Uri;
 import android.os.Environment;
 
 import java.io.File;
+import java.net.URI;
 import java.util.Date;
 import java.util.UUID;
 
@@ -18,6 +20,7 @@ public class GalleryItem {
     private Date mDate;
     private String filePath;
     private Context mAppContext;
+    private Uri uri;
 
 
     public GalleryItem() {
@@ -67,4 +70,11 @@ public class GalleryItem {
         return "IMG_" + getmId().toString() + ".jpg";
     }
 
+    public void setUri(Uri uri) {
+        this.uri = uri;
+    }
+
+    public Uri getUri() {
+        return uri;
+    }
 }
