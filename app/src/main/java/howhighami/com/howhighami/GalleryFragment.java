@@ -66,8 +66,7 @@ import java.util.List;
  * Created by gciluffo on 3/30/16.
  */
 
-
-public class GalleryFragment extends Fragment implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+public class GalleryFragment extends Fragment {
 
     private static final String TAG = "GalleryFragment";
     private static final String uri = "image-uri";
@@ -88,16 +87,13 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
     private List<GalleryItem> mGalleryItems;
 
     /**
-     * The google services API client which allows us to get a Location
-     */
-    private GoogleApiClient mGoogleApiClient;
-
-    /**
      * The current altitude. This is set in the async task
      */
     private double mCurrentAltitude;
 
-
+    /**
+     * Used to communitate with editor fragment
+     */
     private Callbacks mCallbacks;
 
 
@@ -120,16 +116,6 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
-
-        // Create an instance of GoogleAPIClient.
-        if (mGoogleApiClient == null) {
-            mGoogleApiClient = new GoogleApiClient.Builder(getActivity().getApplicationContext())
-                    .addConnectionCallbacks(this)
-                    .addOnConnectionFailedListener(this)
-                    .addApi(LocationServices.API)
-                    .build();
-            Log.d(TAG, "created mGoogleApiClient to be used for GPS");
-        }
 
         mGalleryItems = new ArrayList<>();
         new GoogleAltitude().execute();
@@ -193,14 +179,16 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
                 newItem.setUri(mCapturedImageURI);
                 Log.d(TAG, "The path from fragment is " + newItem.getFilePath());
 
-                // Run async task to get current altitude
+                /**
+                 * Run the async task to get elevation
+                 */
                 new GoogleAltitude().execute();
                 newItem.setElevation(mCurrentAltitude);
 
-                // TODO: Open different fragment for editing before adding to grid(pass the bitmap to editing fragment)?
-                // Send path to activity
+                /**
+                 * Send file path and alt to edit fragment
+                 */
                 mCallbacks.sendPicture(newItem.getUri().toString(), mCurrentAltitude);
-
 
                 mGalleryItems.add(newItem);
 
@@ -246,42 +234,6 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
             Log.d(TAG, "Successfully got image from camera activity");
             mPhotoAdapter.notifyDataSetChanged();
         }
-
-    }
-
-    public void onStart() {
-        mGoogleApiClient.connect();
-        super.onStart();
-    }
-
-    public void onStop() {
-        mGoogleApiClient.disconnect();
-        super.onStop();
-    }
-
-    /**
-     * Called when a connection to the google play services API has been established
-     * @param connectionHint
-     */
-    @Override
-    public void onConnected(Bundle connectionHint) {
-        Log.d(TAG, "On Connected Called");
-    }
-
-    /**
-     * Called when the connection to the google play services API has been lost
-     * @param arg0
-     */
-    @Override
-    public void onConnectionSuspended(int arg0) {
-        // purposely left blank
-        // GoogleAPIClient will attempt to reconnect automatically
-    }
-
-    @Override
-    public void onConnectionFailed(ConnectionResult connectionResult) {
-        Log.d(TAG, "onConnectionFalied() called");
-        makeToast(Toast.LENGTH_LONG, "Lost connection to location services.");
     }
 
     private void makeToast(int duration, String message) {
@@ -289,10 +241,6 @@ public class GalleryFragment extends Fragment implements GoogleApiClient.Connect
         Toast toast = Toast.makeText(context, message, duration);
         toast.show();
     }
-//    @Override
-//    public void onDisconnected() {
-//
-//    }
 
     class GoogleAltitude extends AsyncTask<Void, Void, Double> {
 

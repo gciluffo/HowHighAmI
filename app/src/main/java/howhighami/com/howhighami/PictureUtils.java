@@ -16,6 +16,9 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v4.content.CursorLoader;
 
+import java.io.File;
+import java.io.FileOutputStream;
+
 /**
  * Created by gciluffo on 3/31/16.
  */
@@ -90,6 +93,20 @@ public class PictureUtils {
         canvas.drawText(text, x, y, paint);
 
         return mutableBitmap;
+
+    }
+
+    public static void writeBitmapToFile(Bitmap bitmap, String path){
+        try{
+            File file = new File(path);
+            FileOutputStream fOut = new FileOutputStream(file);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 85, fOut);
+            fOut.flush();
+            fOut.close();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 }

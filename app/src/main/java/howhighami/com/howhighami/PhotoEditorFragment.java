@@ -181,10 +181,9 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         Log.d(TAG, "PHOTO EDITOR FRAGMENT onSTART ");
     }
 
-    /*
+    /**
     * For some reason this fragment is called before the picture is saved to file
-    * To compensate we read from file on resume and we do the callback in gallery fragment
-    * Should probably fix this at some point maybe?
+    * To compensate we read from file on resume after we do the callback in gallery fragment
     * */
     @Override
     public void onResume() {
@@ -192,12 +191,15 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         Log.d(TAG, "PHOTO EDITOR FRAGMENT onRESUME ");
         mOldBitmap = PictureUtils.getScaledBitmap(getRealPathFromURI(mUri), getActivity());
         String text = "Elevation : " + (int)mAltitude + " ft";
+        /**
+         * Edit the bitmap to add text
+         */
         mNewBitmap = PictureUtils.drawTextToBitmap(mOldBitmap, text);
-
-        // Generate the bitmap from uri
-        if(mNewBitmap == null)
-            Log.d(TAG, "The new bitmap is empty :( ");
-
         mImageView.setImageBitmap(mNewBitmap);
+        /**
+         * Writes bitmap to original file path so the edited image will appear in the grid
+         * in the main activity
+         */
+        PictureUtils.writeBitmapToFile(mNewBitmap, getRealPathFromURI(mUri));
     }
 }
