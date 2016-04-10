@@ -8,8 +8,6 @@ import android.util.Log;
 
 public class GalleryActivity extends SingleFragmentActivity implements GalleryFragment.Callbacks {
 
-    private static final String TAG = "GalleryActivity";
-
     @Override
     protected Fragment createFragment() {
         return new GalleryFragment();

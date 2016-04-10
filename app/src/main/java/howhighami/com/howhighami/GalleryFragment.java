@@ -1,29 +1,17 @@
 package howhighami.com.howhighami;
 
-import android.Manifest;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationManager;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.provider.MediaStore;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -33,16 +21,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
 import android.widget.ImageView;
-import android.widget.SearchView;
-import android.widget.TextView;
 import android.widget.Toast;
-import android.content.Context;
-
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -53,11 +33,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URI;
-import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -244,7 +221,11 @@ public class GalleryFragment extends Fragment {
 
     class GoogleAltitude extends AsyncTask<Void, Void, Double> {
 
-        // Do things to connect to Google database and query for altitude with current lat/long
+        /**
+         * Do things to connect to google maps and get elevation from lat/long
+         * @param params
+         * @return
+         */
         protected Double doInBackground(Void... params) {
             LocationManager lm = (LocationManager)getActivity().getSystemService(Context.LOCATION_SERVICE);
             // TODO: Add check to see if user accepts permission
@@ -287,6 +268,10 @@ public class GalleryFragment extends Fragment {
             return result;
         }
 
+        /**
+         * Return the value from doInBackground to fragment
+         * @param alt
+         */
         @Override
         protected void onPostExecute(Double alt) {
             Log.d(TAG, "onPostExecute value is " + alt);
@@ -356,6 +341,7 @@ public class GalleryFragment extends Fragment {
             int pos = getAdapterPosition();
             Log.d(TAG, "Image: " + pos);
             GalleryItem item = mGalleryItems.get(pos);
+
         }
 
         /**

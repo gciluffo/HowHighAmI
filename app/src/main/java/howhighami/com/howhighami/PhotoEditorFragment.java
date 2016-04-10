@@ -1,80 +1,25 @@
 package howhighami.com.howhighami;
 
-import android.Manifest;
-import android.content.ContentResolver;
-import android.content.ContentValues;
-import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
-import android.location.Location;
-import android.location.LocationManager;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
-import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
 import android.provider.MediaStore;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
 import android.widget.ImageView;
-import android.widget.SearchView;
-import android.widget.TextView;
-import android.widget.Toast;
-import android.content.Context;
 
 import com.adobe.creativesdk.aviary.AdobeImageIntent;
 import com.adobe.creativesdk.aviary.IAviaryClientCredentials;
 import com.adobe.creativesdk.foundation.AdobeCSDKFoundation;
 import com.adobe.creativesdk.foundation.auth.IAdobeAuthClientCredentials;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.protocol.BasicHttpContext;
-import org.apache.http.protocol.HttpContext;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URI;
-import java.sql.ResultSet;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
 
 /**
  * Created by gciluffo on 4/9/16.
@@ -83,8 +28,6 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
 
     private Uri mUri;
     private double mAltitude;
-    private String mPath;
-    private Canvas mCanvas;
     private Bitmap mOldBitmap, mNewBitmap;
     private static final String TAG = "PhotoEditorFragment";
     public static final String PICTURE_ID = "howhighami.picture.id";
@@ -120,22 +63,7 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         String uri = args.getString(PICTURE_ID);
         mAltitude = args.getDouble(PICTURE_ALT);
         mUri = Uri.parse(uri);
-        // TODO: Get Adobe Aviary working
-        /*
-        if(mUri != null) {
-
-            Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
-            ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-
-            Intent imageEditorIntent = new AdobeImageIntent.Builder(getContext())
-                    .setData(mUri)
-                    .build();
-
-            startActivityForResult(imageEditorIntent, 1);
-        }
-        */
     }
-
 
     @Override
     public String getClientID() {
@@ -201,5 +129,20 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
          * in the main activity
          */
         PictureUtils.writeBitmapToFile(mNewBitmap, getRealPathFromURI(mUri));
+
+        // TODO: Get Adobe Aviary working
+
+        if(mUri != null) {
+
+            //Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
+            //((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+
+            Intent imageEditorIntent = new AdobeImageIntent.Builder(getContext())
+                    .setData(mUri)
+                    .build();
+
+            startActivityForResult(imageEditorIntent, 1);
+        }
+
     }
 }
