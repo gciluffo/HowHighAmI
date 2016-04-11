@@ -220,44 +220,54 @@ public class GalleryFragment extends Fragment {
          * @return
          */
         protected Double doInBackground(Void... params) {
-            LocationManager lm = (LocationManager)getActivity().getSystemService(Context.LOCATION_SERVICE);
-            // TODO: Add check to see if user accepts permission
-            Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-            double longitude = location.getLongitude();
-            double latitude = location.getLatitude();
-            Log.d(TAG, "LONGITUDE IS " + longitude);
-            Log.d(TAG, "LATITUDE IS " + latitude);
-
             double result = Double.NaN;
-            HttpClient httpClient = new DefaultHttpClient();
-            HttpContext localContext = new BasicHttpContext();
-            String url = "http://maps.googleapis.com/maps/api/elevation/"
-                    + "xml?locations=" + String.valueOf(latitude)
-                    + "," + String.valueOf(longitude)
-                    + "&sensor=true";
-            HttpGet httpGet = new HttpGet(url);
             try {
-                HttpResponse response = httpClient.execute(httpGet, localContext);
-                HttpEntity entity = response.getEntity();
-                if (entity != null) {
-                    InputStream instream = entity.getContent();
-                    int r = -1;
-                    StringBuffer respStr = new StringBuffer();
-                    while ((r = instream.read()) != -1)
-                        respStr.append((char) r);
-                    String tagOpen = "<elevation>";
-                    String tagClose = "</elevation>";
-                    if (respStr.indexOf(tagOpen) != -1) {
-                        int start = respStr.indexOf(tagOpen) + tagOpen.length();
-                        int end = respStr.indexOf(tagClose);
-                        String value = respStr.substring(start, end);
-                        result = (double)(Double.parseDouble(value)*3.2808399); // convert from meters to feet
-                    }
-                    instream.close();
-                }
-            } catch (ClientProtocolException e) {}
-            catch (IOException e) {}
+                LocationManager lm = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
+                // TODO: Add check to see if user accepts permission
+                Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                if(location != null) {
 
+                    double longitude = location.getLongitude();
+                    double latitude = location.getLatitude();
+                    Log.d(TAG, "LONGITUDE IS " + longitude);
+                    Log.d(TAG, "LATITUDE IS " + latitude);
+
+
+                    HttpClient httpClient = new DefaultHttpClient();
+                    HttpContext localContext = new BasicHttpContext();
+                    String url = "http://maps.googleapis.com/maps/api/elevation/"
+                            + "xml?locations=" + String.valueOf(latitude)
+                            + "," + String.valueOf(longitude)
+                            + "&sensor=true";
+                    HttpGet httpGet = new HttpGet(url);
+                    try {
+                        HttpResponse response = httpClient.execute(httpGet, localContext);
+                        HttpEntity entity = response.getEntity();
+                        if (entity != null) {
+                            InputStream instream = entity.getContent();
+                            int r = -1;
+                            StringBuffer respStr = new StringBuffer();
+                            while ((r = instream.read()) != -1)
+                                respStr.append((char) r);
+                            String tagOpen = "<elevation>";
+                            String tagClose = "</elevation>";
+                            if (respStr.indexOf(tagOpen) != -1) {
+                                int start = respStr.indexOf(tagOpen) + tagOpen.length();
+                                int end = respStr.indexOf(tagClose);
+                                String value = respStr.substring(start, end);
+                                result = (double) (Double.parseDouble(value) * 3.2808399); // convert from meters to feet
+                            }
+                            instream.close();
+                        }
+                    } catch (ClientProtocolException e) {
+                    } catch (IOException e) {
+                    }
+                } else {
+                    Log.d(TAG, "ERROR: Location was null");
+                }
+            } catch (SecurityException e) {
+                Log.d(TAG, "ERROR: App does not have location permissions.");
+            }
             return result;
         }
 
