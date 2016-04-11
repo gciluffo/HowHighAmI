@@ -75,7 +75,7 @@ public class GalleryFragment extends Fragment {
 
 
     public interface Callbacks {
-        void sendPicture(String path, double alt);
+        void sendPicture(String path, double alt, boolean addText);
     }
 
     @Override
@@ -165,16 +165,9 @@ public class GalleryFragment extends Fragment {
                 /**
                  * Send file path and alt to edit fragment
                  */
-                mCallbacks.sendPicture(newItem.getUri().toString(), mCurrentAltitude);
-
+                mCallbacks.sendPicture(newItem.getUri().toString(), mCurrentAltitude, true);
                 mGalleryItems.add(newItem);
 
-                return true;
-            case R.id.share:
-                // TODO: Set up sharing photo and elevation data to facebook, twitter etc. This could probably be implemented last
-                return true;
-            case R.id.delete:
-                makeToast(Toast.LENGTH_SHORT, "Select the image you want to delete");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -334,14 +327,14 @@ public class GalleryFragment extends Fragment {
         }
 
         /**
-         * listen for clicks on an individual image
+         * Pull up the fragment to edit it or share when clicking it
          */
         @Override
         public void onClick(View v) {
             int pos = getAdapterPosition();
             Log.d(TAG, "Image: " + pos);
             GalleryItem item = mGalleryItems.get(pos);
-
+            mCallbacks.sendPicture(item.getUri().toString(), item.getElevation(), false);
         }
 
         /**

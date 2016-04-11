@@ -1,5 +1,6 @@
 package howhighami.com.howhighami;
 
+import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -7,13 +8,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.adobe.creativesdk.aviary.AdobeImageIntent;
 import com.adobe.creativesdk.aviary.IAviaryClientCredentials;
@@ -28,23 +31,18 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
 
     private Uri mUri;
     private double mAltitude;
-    private Bitmap mOldBitmap, mNewBitmap;
+    private Boolean mAddAltitudeText;
     private static final String TAG = "PhotoEditorFragment";
     public static final String PICTURE_ID = "howhighami.picture.id";
     public static final String PICTURE_ALT = "howhighami.picture.alt";
+    public static final String PICTURE_ADD = "howhighami.picture.add";
+    public static final int REQUEST_CODE_EDITOR = 13;
     /* Be sure to fill in the two strings below. */
     private static final String CREATIVE_SDK_CLIENT_ID = "e264b6e98fa4459fbdf91e556b45a9e5";
     private static final String CREATIVE_SDK_CLIENT_SECRET = "ae2eb369-6677-4dab-bba3-36d365bf252d";
 
     private ImageView mImageView;
-    /**
-     * Called when the view is created.  Gets a reference to our recycler view
-     *
-     * @param inflater           our layout inflater
-     * @param container          the parent container
-     * @param savedInstanceState a state from a saved previous run
-     * @return the created view
-     */
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.photo_edit, container, false);
@@ -63,6 +61,8 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         String uri = args.getString(PICTURE_ID);
         mAltitude = args.getDouble(PICTURE_ALT);
         mUri = Uri.parse(uri);
+        mAddAltitudeText = args.getBoolean(PICTURE_ADD);
+
     }
 
     @Override
@@ -103,6 +103,46 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         }
     }
 
+    // Initialize the menu from the res/menu directory
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.image_menu, menu);
+    }
+
+    /**
+     * Handle options being selected in title bar
+     */
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()) {
+            case R.id.share:
+                // TODO: Set up sharing photo and elevation data to facebook, twitter etc. This could probably be implemented last
+                return true;
+            case R.id.delete:
+
+                return true;
+            case R.id.edit:
+                // TODO: Get Adobe Aviary working
+                /*
+                if(mUri != null) {
+
+                    //Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
+                    //((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+
+                    Intent imageEditorIntent = new AdobeImageIntent.Builder(getContext())
+                            .setData(mUri)
+                            .build();
+
+                    startActivityForResult(imageEditorIntent, REQUEST_CODE_EDITOR);
+                }
+                */
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
     @Override
     public void onStart() {
         super.onStart();
@@ -117,32 +157,49 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
     public void onResume() {
         super.onResume();
         Log.d(TAG, "PHOTO EDITOR FRAGMENT onRESUME ");
-        mOldBitmap = PictureUtils.getScaledBitmap(getRealPathFromURI(mUri), getActivity());
-        String text = "Elevation : " + (int)mAltitude + " ft";
-        /**
-         * Edit the bitmap to add text
-         */
-        mNewBitmap = PictureUtils.drawTextToBitmap(mOldBitmap, text);
-        mImageView.setImageBitmap(mNewBitmap);
-        /**
-         * Writes bitmap to original file path so the edited image will appear in the grid
-         * in the main activity
-         */
-        PictureUtils.writeBitmapToFile(mNewBitmap, getRealPathFromURI(mUri));
-
-        // TODO: Get Adobe Aviary working
-
-        if(mUri != null) {
-
-            //Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
-            //((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-
-            Intent imageEditorIntent = new AdobeImageIntent.Builder(getContext())
-                    .setData(mUri)
-                    .build();
-
-            startActivityForResult(imageEditorIntent, 1);
+        // If text needs to be added
+        if(mAddAltitudeText){
+            Bitmap oldBitmap = PictureUtils.getScaledBitmap(getRealPathFromURI(mUri), getActivity());
+            String text = "Elevation : " + (int)mAltitude + " ft";
+            /**
+             * Edit the bitmap to add text
+             */
+            Bitmap newBitmap = PictureUtils.drawTextToBitmap(oldBitmap, text);
+            mImageView.setImageBitmap(newBitmap);
+            /**
+             * Writes bitmap to original file path so the edited image will appear in the grid
+             * in the main activity
+             */
+            PictureUtils.writeBitmapToFile(newBitmap, getRealPathFromURI(mUri));
+        }
+        // If user just want to look at image/edit/share
+        else {
+            Bitmap oldBitmap = PictureUtils.getScaledBitmap(getRealPathFromURI(mUri), getActivity());
+            mImageView.setImageBitmap(oldBitmap);
         }
 
+
     }
+
+    /**
+     * Method to get return result after editing with adobe
+     * @param requestCode
+     * @param resultCode
+     * @param data
+     */
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode == getActivity().RESULT_OK) {
+            switch (requestCode) {
+
+                case REQUEST_CODE_EDITOR:
+
+                    Uri editedImageUri = data.getData();
+                    mImageView.setImageURI(editedImageUri);
+
+                    break;
+            }
+        }
+    }
+
 }
