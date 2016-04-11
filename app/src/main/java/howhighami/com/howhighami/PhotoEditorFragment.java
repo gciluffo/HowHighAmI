@@ -118,7 +118,11 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
 
         switch (item.getItemId()) {
             case R.id.share:
-                // TODO: Set up sharing photo and elevation data to facebook, twitter etc. This could probably be implemented last
+                Intent i = new Intent(android.content.Intent.ACTION_SEND);
+                i.setType("image/*");
+                i.putExtra(android.content.Intent.EXTRA_TEXT, "Check out how high I am right now!");
+                i.putExtra(Intent.EXTRA_STREAM, mUri);
+                startActivity(Intent.createChooser(i, "Share this image via"));
                 return true;
             case R.id.delete:
 
