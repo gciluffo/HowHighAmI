@@ -63,7 +63,6 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         mAltitude = args.getDouble(PICTURE_ALT);
         mUri = Uri.parse(uri);
         mAddAltitudeText = args.getBoolean(PICTURE_ADD);
-
     }
 
     @Override

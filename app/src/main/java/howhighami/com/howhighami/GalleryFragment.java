@@ -257,10 +257,23 @@ public class GalleryFragment extends Fragment {
                 LocationManager lm = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
                 // TODO: Add check to see if user accepts permission
                 Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                if(location != null) {
 
-                    double longitude = location.getLongitude();
-                    double latitude = location.getLatitude();
+                List<String> providers = lm.getProviders(true);
+                Location bestLocation = null;
+                for (String provider : providers) {
+                    Location l = lm.getLastKnownLocation(provider);
+                    if (l == null) {
+                        continue;
+                    }
+                    if (bestLocation == null || l.getAccuracy() < bestLocation.getAccuracy()) {
+                        // Found best last known location: %s", l);
+                        bestLocation = l;
+                    }
+                }
+                if(bestLocation != null) {
+
+                    double longitude = bestLocation.getLongitude();
+                    double latitude = bestLocation.getLatitude();
                     Log.d(TAG, "LONGITUDE IS " + longitude);
                     Log.d(TAG, "LATITUDE IS " + latitude);
 
