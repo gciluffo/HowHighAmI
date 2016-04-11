@@ -31,7 +31,7 @@ import com.adobe.creativesdk.foundation.auth.IAdobeAuthClientCredentials;
 public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCredentials, IAviaryClientCredentials {
 
     private Uri mUri;
-    private double mAltitude;
+    private int mAltitude;
     private Boolean mAddAltitudeText;
     private static final String TAG = "PhotoEditorFragment";
     public static final String PICTURE_ID = "howhighami.picture.id";
@@ -60,7 +60,7 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         // Get file path and start Adobe editor
         Bundle args = getArguments();
         String uri = args.getString(PICTURE_ID);
-        mAltitude = args.getDouble(PICTURE_ALT);
+        mAltitude = args.getInt(PICTURE_ALT);
         mUri = Uri.parse(uri);
         mAddAltitudeText = args.getBoolean(PICTURE_ADD);
     }
@@ -170,7 +170,7 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         // If text needs to be added
         if(mAddAltitudeText){
             Bitmap oldBitmap = PictureUtils.getScaledBitmap(getRealPathFromURI(mUri), getActivity());
-            String text = "Elevation : " + (int)mAltitude + " ft";
+            String text = "Elevation : " + mAltitude + " ft";
             /**
              * Edit the bitmap to add text
              */

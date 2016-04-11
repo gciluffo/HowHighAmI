@@ -20,14 +20,14 @@ public class GalleryActivity extends SingleFragmentActivity implements GalleryFr
     }
 
     @Override
-    public void sendPicture(String path, double alt, boolean addText) {
+    public void sendPicture(String path, int alt, boolean addText) {
 
         // Start the photo editing fragment
         // Create fragment and give it an argument for the selected article
         PhotoEditorFragment newFragment = new PhotoEditorFragment();
         Bundle args = new Bundle();
         args.putString(PhotoEditorFragment.PICTURE_ID, path);
-        args.putDouble(PhotoEditorFragment.PICTURE_ALT, alt);
+        args.putInt(PhotoEditorFragment.PICTURE_ALT, alt);
         args.putBoolean(PhotoEditorFragment.PICTURE_ADD, addText);
         newFragment.setArguments(args);
 
