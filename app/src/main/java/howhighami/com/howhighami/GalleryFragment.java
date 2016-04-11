@@ -73,6 +73,23 @@ public class GalleryFragment extends Fragment {
      */
     private Callbacks mCallbacks;
 
+    /**
+     * Called by parent activity when an image has been deleted
+     */
+    public void deleteImage(Uri uri) {
+        Log.d(TAG, "delete image called " + uri.toString());
+        int targetIndex = getIndexFromURI(uri);
+
+        // remove the image from the list and the recycler view
+        mGalleryItems.remove(targetIndex);
+        mPhotoAdapter.notifyItemRemoved(targetIndex);
+        mPhotoAdapter.notifyItemRangeChanged(targetIndex, mGalleryItems.size());
+        mPhotoAdapter.notifyDataSetChanged();
+
+        // delete the image from storage
+        getActivity().getContentResolver().delete(uri, null, null);
+    }
+
 
     public interface Callbacks {
         void sendPicture(String path, double alt, boolean addText);
@@ -196,6 +213,20 @@ public class GalleryFragment extends Fragment {
         }
     }
 
+    /**
+     * Takes image uri, returns position of that image in mPhotoAdapter
+     * @param imageURI
+     * @return the index of image corresponding to the URI, -1 if not found
+     */
+    private int getIndexFromURI(Uri imageURI) {
+        for(int i = 0; i < mGalleryItems.size(); i++) {
+            if(mGalleryItems.get(i).getUri().equals(imageURI)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -204,6 +235,7 @@ public class GalleryFragment extends Fragment {
             Log.d(TAG, "Successfully got image from camera activity");
             mPhotoAdapter.notifyDataSetChanged();
         }
+
     }
 
     private void makeToast(int duration, String message) {

@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -125,7 +126,13 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
                 startActivity(Intent.createChooser(i, "Share this image via"));
                 return true;
             case R.id.delete:
+                // find the parent and notify it of the deletion
+                GalleryActivity parent = (GalleryActivity) getActivity();
+                parent.notifyDelete(mUri);
 
+                // return to parent activity
+                FragmentManager fm = getActivity().getSupportFragmentManager();
+                fm.popBackStack();
                 return true;
             case R.id.edit:
                 // TODO: Get Adobe Aviary working

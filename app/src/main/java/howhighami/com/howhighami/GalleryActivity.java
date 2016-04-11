@@ -1,16 +1,22 @@
 package howhighami.com.howhighami;
 
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 
-public class GalleryActivity extends SingleFragmentActivity implements GalleryFragment.Callbacks {
+public class GalleryActivity extends SingleFragmentActivity implements GalleryFragment.Callbacks{
+
+    private static final String TAG = "GalleryActivity";
+
+    private GalleryFragment mGalleryFragment;
 
     @Override
     protected Fragment createFragment() {
-        return new GalleryFragment();
+        mGalleryFragment = new GalleryFragment();
+        return mGalleryFragment;
     }
 
     @Override
@@ -36,4 +42,8 @@ public class GalleryActivity extends SingleFragmentActivity implements GalleryFr
         transaction.commit();
     }
 
+    public void notifyDelete(Uri uri) {
+        Log.d(TAG, "notifyDelete() called");
+        mGalleryFragment.deleteImage(uri);
+    }
 }
