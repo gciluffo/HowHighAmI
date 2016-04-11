@@ -34,6 +34,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -115,8 +116,8 @@ public class GalleryFragment extends Fragment {
         mGalleryItems = new ArrayList<>();
         new GoogleAltitude().execute();
 
-
         // Restore preferences
+        /*
         SharedPreferences settings = getActivity().getSharedPreferences(IMG_PATHS, 0);
         mGalleryItems.clear();
         int size = settings.getInt("gallery_size", 0);
@@ -130,6 +131,7 @@ public class GalleryFragment extends Fragment {
             item.setUri(uri);
             mGalleryItems.add(item);
         }
+        */
     }
 
     /**
@@ -247,16 +249,20 @@ public class GalleryFragment extends Fragment {
     @Override
     public void onStop() {
         super.onStop();
+
         Log.d(TAG, "onStop() Called");
         // We need an Editor object to make preference changes.
         // All objects are from android.context.Context
+        /*
         SharedPreferences settings = getActivity().getSharedPreferences(IMG_PATHS, 0);
         SharedPreferences.Editor editor = settings.edit();
 
         editor.putInt("gallery_size", mGalleryItems.size());
         for(int i=0;i<mGalleryItems.size();i++) {
-            editor.remove("img_uri" + i);
-            editor.putString("img_uri" + i, mGalleryItems.get(i).getUri().toString());
+            // TODO: Check if the user deleted the image from gallery before adding path
+                editor.remove("img_uri" + i);
+                editor.putString("img_uri" + i, mGalleryItems.get(i).getUri().toString());
+
         }
 
         for(int i=0;i<mGalleryItems.size();i++) {
@@ -266,6 +272,7 @@ public class GalleryFragment extends Fragment {
 
         // Commit the edits!
         editor.commit();
+        */
     }
 
     @Override
@@ -292,11 +299,11 @@ public class GalleryFragment extends Fragment {
          * @param params
          * @return
          */
+        // TODO: Check that the user has internet first, else altitude is 0
         protected Integer doInBackground(Void... params) {
             double result = Double.NaN;
             try {
                 LocationManager lm = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
-                // TODO: Add check to see if user accepts permission
                 Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
                 List<String> providers = lm.getProviders(true);
