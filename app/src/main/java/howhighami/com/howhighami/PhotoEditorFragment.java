@@ -28,20 +28,15 @@ import com.adobe.creativesdk.foundation.auth.IAdobeAuthClientCredentials;
 /**
  * Created by gciluffo on 4/9/16.
  */
-public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCredentials, IAviaryClientCredentials {
+public class PhotoEditorFragment extends Fragment {
 
     private Uri mUri;
     private int mAltitude;
-    private Boolean mAddAltitudeText;
+    private Boolean mAddAltitudeText = false;
     private static final String TAG = "PhotoEditorFragment";
     public static final String PICTURE_ID = "howhighami.picture.id";
     public static final String PICTURE_ALT = "howhighami.picture.alt";
     public static final String PICTURE_ADD = "howhighami.picture.add";
-    public static final int REQUEST_CODE_EDITOR = 13;
-    /* Be sure to fill in the two strings below. */
-    private static final String CREATIVE_SDK_CLIENT_ID = "e264b6e98fa4459fbdf91e556b45a9e5";
-    private static final String CREATIVE_SDK_CLIENT_SECRET = "ae2eb369-6677-4dab-bba3-36d365bf252d";
-
     private ImageView mImageView;
 
     @Override
@@ -64,22 +59,6 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
         mUri = Uri.parse(uri);
         mAddAltitudeText = args.getBoolean(PICTURE_ADD);
     }
-
-    @Override
-    public String getClientID() {
-        return CREATIVE_SDK_CLIENT_ID; }
-
-    @Override
-    public String getClientSecret() {
-        return CREATIVE_SDK_CLIENT_SECRET;
-    }
-
-    /* 2) Add the getBillingKey() method */
-    @Override
-    public String getBillingKey() {
-        return ""; // Leave this blank
-    }
-
 
     /**
      * Gets path to image with uri
@@ -135,11 +114,9 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
                 return true;
             case R.id.edit:
                 // TODO: Get Adobe Aviary working
-                /*
                 Intent i2 = new Intent(getActivity(), AdobeEditor.class);
                 i2.putExtra("uri", mUri.toString());
                 startActivity(i2);
-                */
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -173,35 +150,14 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
              * in the main activity
              */
             PictureUtils.writeBitmapToFile(newBitmap, getRealPathFromURI(mUri));
+            mAddAltitudeText = false;
         }
         // If user just want to look at image/edit/share
         else {
             Bitmap oldBitmap = PictureUtils.getScaledBitmap(getRealPathFromURI(mUri), getActivity());
             mImageView.setImageBitmap(oldBitmap);
         }
-
-
     }
 
-    /**
-     * Method to get return result after editing with adobe
-     * @param requestCode
-     * @param resultCode
-     * @param data
-     */
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (resultCode == getActivity().RESULT_OK) {
-            switch (requestCode) {
-
-                case REQUEST_CODE_EDITOR:
-
-                    Uri editedImageUri = data.getData();
-                    mImageView.setImageURI(editedImageUri);
-
-                    break;
-            }
-        }
-    }
 
 }

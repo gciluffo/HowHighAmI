@@ -31,8 +31,8 @@ public class AdobeEditor extends AppCompatActivity {
         String uri = b.getString("uri");
         mUri = Uri.parse(uri);
 
-  //      Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         mEditedImageView = (ImageView) findViewById(R.id.editedImageView);
 
