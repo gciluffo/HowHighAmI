@@ -116,22 +116,11 @@ public class GalleryFragment extends Fragment {
         mGalleryItems = new ArrayList<>();
         new GoogleAltitude().execute();
 
-        // Restore preferences
-        /*
         SharedPreferences settings = getActivity().getSharedPreferences(IMG_PATHS, 0);
-        mGalleryItems.clear();
-        int size = settings.getInt("gallery_size", 0);
-        for(int i=0;i<size;i++) {
-            GalleryItem item = new GalleryItem();
-            Uri uri = Uri.parse(settings.getString("img_uri" + i, null));
-            String path = getRealPathFromURI(uri);
-            int alt = settings.getInt("img_alt" + i, 0);
-            item.setElevation(alt);
-            item.setFilePath(path);
-            item.setUri(uri);
-            mGalleryItems.add(item);
-        }
-        */
+        SharedPreferences.Editor editor = settings.edit();
+
+        editor.clear();
+        editor.commit();
     }
 
     /**
@@ -153,8 +142,6 @@ public class GalleryFragment extends Fragment {
 
         mPhotoAdapter = null;
         setupAdapter();
-
-        // TODO: Reload images when closing/starting the app in onPause/onResume
 
         return view;
     }
@@ -251,28 +238,6 @@ public class GalleryFragment extends Fragment {
         super.onStop();
 
         Log.d(TAG, "onStop() Called");
-        // We need an Editor object to make preference changes.
-        // All objects are from android.context.Context
-        /*
-        SharedPreferences settings = getActivity().getSharedPreferences(IMG_PATHS, 0);
-        SharedPreferences.Editor editor = settings.edit();
-
-        editor.putInt("gallery_size", mGalleryItems.size());
-        for(int i=0;i<mGalleryItems.size();i++) {
-            // TODO: Check if the user deleted the image from gallery before adding path
-                editor.remove("img_uri" + i);
-                editor.putString("img_uri" + i, mGalleryItems.get(i).getUri().toString());
-
-        }
-
-        for(int i=0;i<mGalleryItems.size();i++) {
-            editor.remove("img_alt" + i);
-            editor.putInt("img_alt" + i, mGalleryItems.get(i).getElevation());
-        }
-
-        // Commit the edits!
-        editor.commit();
-        */
     }
 
     @Override

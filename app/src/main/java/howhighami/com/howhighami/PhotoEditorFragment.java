@@ -136,17 +136,9 @@ public class PhotoEditorFragment extends Fragment implements IAdobeAuthClientCre
             case R.id.edit:
                 // TODO: Get Adobe Aviary working
                 /*
-                if(mUri != null) {
-
-                    //Toolbar toolbar = (Toolbar) getActivity().findViewById(R.id.toolbar);
-                    //((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-
-                    Intent imageEditorIntent = new AdobeImageIntent.Builder(getContext())
-                            .setData(mUri)
-                            .build();
-
-                    startActivityForResult(imageEditorIntent, REQUEST_CODE_EDITOR);
-                }
+                Intent i2 = new Intent(getActivity(), AdobeEditor.class);
+                i2.putExtra("uri", mUri.toString());
+                startActivity(i2);
                 */
                 return true;
             default:

@@ -107,6 +107,14 @@ public class PictureUtils {
         catch (Exception e) {
             e.printStackTrace();
         }
+    }
 
+    public boolean dir_exists(String dir_path)
+    {
+        boolean ret = false;
+        File dir = new File(dir_path);
+        if(dir.exists() && dir.isDirectory())
+            ret = true;
+        return ret;
     }
 }
