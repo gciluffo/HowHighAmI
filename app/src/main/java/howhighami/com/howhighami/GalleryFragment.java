@@ -412,7 +412,8 @@ public class GalleryFragment extends Fragment {
          */
         public void bindDrawable(Bitmap image) {
             // Resize the image for the grid layout
-            Bitmap resized = Bitmap.createScaledBitmap(image, 120, 240, true);
+            // TODO: Handle landscape images
+            Bitmap resized = PictureUtils.resizeBitmap(image, 160, 320);
             mItemImageView.setImageBitmap(resized);
         }
     }

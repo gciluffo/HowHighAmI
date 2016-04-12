@@ -113,7 +113,6 @@ public class PhotoEditorFragment extends Fragment {
                 fm.popBackStack();
                 return true;
             case R.id.edit:
-                // TODO: Get Adobe Aviary working
                 Intent i2 = new Intent(getActivity(), AdobeEditor.class);
                 i2.putExtra("uri", mUri.toString());
                 startActivity(i2);
@@ -158,6 +157,4 @@ public class PhotoEditorFragment extends Fragment {
             mImageView.setImageBitmap(oldBitmap);
         }
     }
-
-
 }
