@@ -3,6 +3,7 @@ package howhighami.com.howhighami;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -14,11 +15,13 @@ import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.Rect;
 import android.net.Uri;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.content.CursorLoader;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 /**
  * Created by gciluffo on 3/31/16.
@@ -137,4 +140,11 @@ public class PictureUtils {
         return scaledBitmap;
 
     }
+
+    public static String getGalleryPath() {
+        String photoDir = Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM + "/";
+        return photoDir;
+    }
+
+
 }

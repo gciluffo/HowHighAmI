@@ -1,9 +1,11 @@
 package howhighami.com.howhighami;
 
+import android.Manifest;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.location.Location;
@@ -11,8 +13,11 @@ import android.location.LocationManager;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -49,9 +54,10 @@ public class GalleryFragment extends Fragment {
 
     private static final String TAG = "GalleryFragment";
     private static final String IMG_PATHS = "image-paths";
+    private static final int REQUEST_WRITE_STORAGE = 112;
+    private static final int REQUEST_PERMISSION_LOCATION_FINE = 111;
     // Request codes for implicit intents
     private static final int REQUEST_PHOTO= 1;
-
     /**
      * Our RecyclerView object to display the photos
      */
@@ -75,9 +81,6 @@ public class GalleryFragment extends Fragment {
      */
     private Callbacks mCallbacks;
 
-    /**
-     * Called by parent activity when an image has been deleted
-     */
     public void deleteImage(Uri uri) {
         Log.d(TAG, "delete image called " + uri.toString());
         int targetIndex = getIndexFromURI(uri);
@@ -112,15 +115,45 @@ public class GalleryFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
-
         mGalleryItems = new ArrayList<>();
-        new GoogleAltitude().execute();
 
+        /**
+         * Request permissions for writing to disk and getting location
+         */
+        boolean hasLocationPermission = (ContextCompat.checkSelfPermission(getActivity(),
+                Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED);
+        boolean hasStoragePermission = (ContextCompat.checkSelfPermission(getActivity(),
+                Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED);
+
+        if (!hasStoragePermission) {
+            requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_WRITE_STORAGE);
+        }
+        if (!hasLocationPermission) {
+            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_PERMISSION_LOCATION_FINE);
+        }
+
+
+        /**
+         * Restore image paths and GalleryItem Obj's when starting app
+         */
         SharedPreferences settings = getActivity().getSharedPreferences(IMG_PATHS, 0);
-        SharedPreferences.Editor editor = settings.edit();
+        mGalleryItems.clear();
+        int size = settings.getInt("gallery_size", 0);
+        for(int i=0;i<size;i++) {
+            GalleryItem item = new GalleryItem();
+            Uri uri = Uri.parse(settings.getString("img_uri" + i, null));
+            String path = getRealPathFromURI(uri);
+            int alt = settings.getInt("img_alt" + i, 0);
+            item.setElevation(alt);
+            item.setFilePath(path);
+            item.setUri(uri);
 
-        editor.clear();
-        editor.commit();
+            File f = new File(item.getFilePath());
+            if(f.exists()){
+                mGalleryItems.add(item);
+            }
+
+        }
     }
 
     /**
@@ -161,7 +194,6 @@ public class GalleryFragment extends Fragment {
 
         switch (item.getItemId()) {
             case R.id.take_picture:
-
                 /**
                  * Take the picture, save it to disk, record URI
                  */
@@ -190,7 +222,6 @@ public class GalleryFragment extends Fragment {
                  */
                 mCallbacks.sendPicture(newItem.getUri().toString(), mCurrentAltitude, true);
                 mGalleryItems.add(newItem);
-
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -236,9 +267,30 @@ public class GalleryFragment extends Fragment {
     @Override
     public void onStop() {
         super.onStop();
-
         Log.d(TAG, "onStop() Called");
+
+        /**
+         * Save info of images before closing app
+         */
+        SharedPreferences settings = getActivity().getSharedPreferences(IMG_PATHS, 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.clear();
+
+        editor.putInt("gallery_size", mGalleryItems.size());
+        for(int i=0;i<mGalleryItems.size();i++) {
+            editor.remove("img_uri" + i);
+            editor.putString("img_uri" + i, mGalleryItems.get(i).getUri().toString());
+        }
+
+        for(int i=0;i<mGalleryItems.size();i++) {
+            editor.remove("img_alt" + i);
+            editor.putInt("img_alt" + i, mGalleryItems.get(i).getElevation());
+        }
+
+        // Commit the edits!
+        editor.commit();
     }
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -248,14 +300,28 @@ public class GalleryFragment extends Fragment {
             Log.d(TAG, "Successfully got image from camera activity");
             mPhotoAdapter.notifyDataSetChanged();
         }
-
     }
 
-    private void makeToast(int duration, String message) {
-        Context context = getContext();
-        Toast toast = Toast.makeText(context, message, duration);
-        toast.show();
+    /**
+     * Handles the result of a permission
+     * @param requestCode
+     * @param permissions
+     * @param grantResults
+     */
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case REQUEST_PERMISSION_LOCATION_FINE: {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    new GoogleAltitude().execute();
+                } else {
+                    Toast.makeText(getActivity().getParent(), "The app was not allowed to write to your storage. Hence, it cannot function properly. Please consider granting it this permission", Toast.LENGTH_LONG).show();
+                }
+            }
+        }
     }
+
 
     class GoogleAltitude extends AsyncTask<Void, Void, Integer> {
 
@@ -313,7 +379,7 @@ public class GalleryFragment extends Fragment {
                                 int start = respStr.indexOf(tagOpen) + tagOpen.length();
                                 int end = respStr.indexOf(tagClose);
                                 String value = respStr.substring(start, end);
-                                result = (double) (Double.parseDouble(value) * 3.2808399); // convert from meters to feet
+                                result = (Double.parseDouble(value) * 3.2808399); // convert from meters to feet
                             }
                             instream.close();
                         }
@@ -326,6 +392,7 @@ public class GalleryFragment extends Fragment {
             } catch (SecurityException e) {
                 Log.d(TAG, "ERROR: App does not have location permissions.");
             }
+            Log.d(TAG, "The Result is " + result);
             return (int)result;
         }
 
