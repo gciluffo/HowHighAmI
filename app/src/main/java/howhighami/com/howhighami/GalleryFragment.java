@@ -81,6 +81,8 @@ public class GalleryFragment extends Fragment {
      */
     private Callbacks mCallbacks;
 
+    private GalleryItem mMostRecentPhoto;
+
     public void deleteImage(Uri uri) {
         Log.d(TAG, "delete image called " + uri.toString());
         int targetIndex = getIndexFromURI(uri);
@@ -130,6 +132,9 @@ public class GalleryFragment extends Fragment {
         }
         if (!hasLocationPermission) {
             requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_PERMISSION_LOCATION_FINE);
+        } else {
+            // preemptively get location
+            new GoogleAltitude().execute();
         }
 
 
@@ -206,22 +211,22 @@ public class GalleryFragment extends Fragment {
                  * Create a galleryItem object and add to list of galleryItem to be displayed
                  */
                 startActivityForResult(intentPicture, REQUEST_PHOTO);
-                GalleryItem newItem = new GalleryItem();
-                newItem.setFilePath(getRealPathFromURI(mCapturedImageURI));
-                newItem.setUri(mCapturedImageURI);
-                Log.d(TAG, "The path from fragment is " + newItem.getFilePath());
+                mMostRecentPhoto = new GalleryItem();
+                mMostRecentPhoto.setFilePath(getRealPathFromURI(mCapturedImageURI));
+                mMostRecentPhoto.setUri(mCapturedImageURI);
+                Log.d(TAG, "The path from fragment is " + mMostRecentPhoto.getFilePath());
 
                 /**
                  * Run the async task to get elevation
                  */
                 new GoogleAltitude().execute();
-                newItem.setElevation(mCurrentAltitude);
+//                newItem.setElevation(mCurrentAltitude);
 
                 /**
                  * Send file path and alt to edit fragment
                  */
-                mCallbacks.sendPicture(newItem.getUri().toString(), mCurrentAltitude, true);
-                mGalleryItems.add(newItem);
+                mCallbacks.sendPicture(mMostRecentPhoto.getUri().toString(), mCurrentAltitude, true);
+                mGalleryItems.add(mMostRecentPhoto);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -379,15 +384,23 @@ public class GalleryFragment extends Fragment {
                                 int start = respStr.indexOf(tagOpen) + tagOpen.length();
                                 int end = respStr.indexOf(tagClose);
                                 String value = respStr.substring(start, end);
+                                Log.d(TAG, "Elevation result is " + value + " m ");
                                 result = (Double.parseDouble(value) * 3.2808399); // convert from meters to feet
+                                mCurrentAltitude = (int) result;
+
+                                // update the most recent photo's elevation
+                                if(mMostRecentPhoto != null) {
+                                    mMostRecentPhoto.setElevation(mCurrentAltitude);
+                                }
                             }
                             instream.close();
                         }
-                    } catch (ClientProtocolException e) {
-                    } catch (IOException e) {
+                    } catch (Exception e) {
+                        Log.d(TAG, e.getMessage());
                     }
                 } else {
                     Log.d(TAG, "ERROR: Location was null");
+//                    Toast.makeText(getActivity().getParent(), "Unable to get location fix. Make sure location in enabled", Toast.LENGTH_LONG).show();
                 }
             } catch (SecurityException e) {
                 Log.d(TAG, "ERROR: App does not have location permissions.");
