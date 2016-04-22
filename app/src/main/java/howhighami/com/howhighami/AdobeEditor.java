@@ -9,6 +9,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -21,6 +22,7 @@ public class AdobeEditor extends AppCompatActivity {
 
     private ImageView mEditedImageView;
     private Uri mUri;
+    private Uri mEditedUri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,14 +47,14 @@ public class AdobeEditor extends AppCompatActivity {
         /* 3) Start the Image Editor with request code 1 */
         startActivityForResult(imageEditorIntent, 1);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
     }
 
     /* Handle the results */
@@ -67,6 +69,8 @@ public class AdobeEditor extends AppCompatActivity {
                     /* Show the image! */
                     Uri editedImageUri = data.getData();
                     mEditedImageView.setImageURI(editedImageUri);
+                    // update the URI in case the user decides to edit again
+                    mEditedUri = editedImageUri;
 
                     break;
             }
@@ -87,10 +91,29 @@ public class AdobeEditor extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.delete_edited_photo) {
+            // TODO: delete edited image and return to unedited image
         }
+
+        if (id == R.id.edit_again) {
+            // TODO: open edited image in adobe image editor
+//            if(mEditedUri != null) {
+//                Intent imageEditorIntent = new AdobeImageIntent.Builder(this)
+//                        .setData(mUri)
+//                        .build();
+//
+//                startActivityForResult(imageEditorIntent, 1);
+//            }
+        }
+
+        if (id == R.id.save_edited) {
+            // TODO: save edited image
+        }
+
+//        //noinspection SimplifiableIfStatement
+//        if (id == R.id.) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }

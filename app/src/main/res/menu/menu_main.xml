@@ -2,9 +2,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="howhighami.com.howhighami.AdobeEditor">
+
+    <item
+        android:id="@+id/delete_edited_photo"
+        android:title="delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/edit_again"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="edit_picture"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/save_edited"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="edit_picture"
+        app:showAsAction="always" />
+    <!--
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="Settings"
         app:showAsAction="never" />
+        -->
 </menu>
