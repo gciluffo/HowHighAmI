@@ -8,6 +8,8 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationManager;
 import android.net.Uri;
@@ -15,6 +17,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -28,6 +31,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import org.apache.http.HttpEntity;
@@ -81,7 +85,9 @@ public class GalleryFragment extends Fragment {
      */
     private Callbacks mCallbacks;
 
+
     private GalleryItem mMostRecentPhoto;
+    private FloatingActionButton mFAB;
 
     public void deleteImage(Uri uri) {
         Log.d(TAG, "delete image called " + uri.toString());
@@ -116,7 +122,6 @@ public class GalleryFragment extends Fragment {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setHasOptionsMenu(true);
         mGalleryItems = new ArrayList<>();
 
         /**
@@ -157,7 +162,6 @@ public class GalleryFragment extends Fragment {
             if(f.exists()){
                 mGalleryItems.add(item);
             }
-
         }
     }
 
@@ -178,27 +182,9 @@ public class GalleryFragment extends Fragment {
         mPhotoRecyclerView = (RecyclerView) view.findViewById(R.id.fragment_photo_gallery_recycler_view);
         mPhotoRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
 
-        mPhotoAdapter = null;
-        setupAdapter();
-
-        return view;
-    }
-
-    // Initialize the menu from the res/menu directory
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.gallery_menu, menu);
-    }
-
-    /**
-     * Handle options being selected in title bar
-     */
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        switch (item.getItemId()) {
-            case R.id.take_picture:
+        mFAB = (FloatingActionButton) view.findViewById(R.id.fab);
+        mFAB.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
                 /**
                  * Take the picture, save it to disk, record URI
                  */
@@ -220,18 +206,23 @@ public class GalleryFragment extends Fragment {
                  * Run the async task to get elevation
                  */
                 new GoogleAltitude().execute();
-//                newItem.setElevation(mCurrentAltitude);
+//              newItem.setElevation(mCurrentAltitude);
 
                 /**
                  * Send file path and alt to edit fragment
                  */
                 mCallbacks.sendPicture(mMostRecentPhoto.getUri().toString(), mCurrentAltitude, true);
                 mGalleryItems.add(mMostRecentPhoto);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
+            }
+        });
+
+        mPhotoAdapter = null;
+        setupAdapter();
+
+
+        return view;
     }
+
 
     /**
      * Gets path to image with uri

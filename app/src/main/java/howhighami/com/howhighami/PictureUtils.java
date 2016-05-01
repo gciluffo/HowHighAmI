@@ -77,7 +77,12 @@ public class PictureUtils {
     }
 
     public static Bitmap drawTextToBitmap(Bitmap bitmap,  String text) {
-        Bitmap mutableBitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
+        Bitmap mutableBitmap;
+        if(bitmap != null)
+            mutableBitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
+        else
+            mutableBitmap = bitmap;
+
         Canvas canvas = new Canvas(mutableBitmap);
 
         // new antialised Paint
