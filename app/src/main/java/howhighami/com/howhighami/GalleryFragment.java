@@ -206,7 +206,6 @@ public class GalleryFragment extends Fragment {
                  * Run the async task to get elevation
                  */
                 new GoogleAltitude().execute();
-//              newItem.setElevation(mCurrentAltitude);
 
                 /**
                  * Send file path and alt to edit fragment
