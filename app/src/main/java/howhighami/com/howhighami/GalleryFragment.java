@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.location.LocationManager;
@@ -181,6 +182,8 @@ public class GalleryFragment extends Fragment {
 
         mPhotoRecyclerView = (RecyclerView) view.findViewById(R.id.fragment_photo_gallery_recycler_view);
         mPhotoRecyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
+        // Add spacing to items in recycler view
+        mPhotoRecyclerView.addItemDecoration(new VerticalSpaceItemDecoration(2));
 
         mFAB = (FloatingActionButton) view.findViewById(R.id.fab);
         mFAB.setOnClickListener(new View.OnClickListener() {
@@ -218,10 +221,8 @@ public class GalleryFragment extends Fragment {
         mPhotoAdapter = null;
         setupAdapter();
 
-
         return view;
     }
-
 
     /**
      * Gets path to image with uri
@@ -439,6 +440,29 @@ public class GalleryFragment extends Fragment {
     public void onResume() {
         super.onResume();
         Log.d(TAG, "onResume() called");
+    }
+
+
+    /**
+     * Class that adds spacing between items in recycler view
+     */
+    public class VerticalSpaceItemDecoration extends RecyclerView.ItemDecoration {
+
+        private final int mVerticalSpaceHeight;
+
+        public VerticalSpaceItemDecoration(int mVerticalSpaceHeight) {
+            this.mVerticalSpaceHeight = mVerticalSpaceHeight;
+        }
+
+        @Override
+        public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
+                                   RecyclerView.State state) {
+            outRect.bottom = mVerticalSpaceHeight;
+            // Dont add white space to the last item in the row
+            if((parent.getChildPosition(view) + 1) % 3 != 0)
+            outRect.right = mVerticalSpaceHeight;
+
+        }
     }
 
     /**

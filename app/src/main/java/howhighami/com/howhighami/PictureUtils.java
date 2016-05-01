@@ -54,7 +54,6 @@ public class PictureUtils {
         return BitmapFactory.decodeFile(path, options);
     }
 
-
     public static Bitmap getScaledBitmap(String path, Activity activity) {
         Point size = new Point();
         activity.getWindowManager().getDefaultDisplay()
@@ -118,15 +117,6 @@ public class PictureUtils {
         }
     }
 
-    public boolean dir_exists(String dir_path)
-    {
-        boolean ret = false;
-        File dir = new File(dir_path);
-        if(dir.exists() && dir.isDirectory())
-            ret = true;
-        return ret;
-    }
-
     public static Bitmap resizeBitmap(Bitmap bitmap,int newWidth,int newHeight) {
         Bitmap scaledBitmap = Bitmap.createBitmap(newWidth, newHeight, Bitmap.Config.ARGB_8888);
 
@@ -143,13 +133,10 @@ public class PictureUtils {
         canvas.drawBitmap(bitmap, middleX - bitmap.getWidth() / 2, middleY - bitmap.getHeight() / 2, new Paint(Paint.FILTER_BITMAP_FLAG));
 
         return scaledBitmap;
-
     }
 
     public static String getGalleryPath() {
         String photoDir = Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM + "/";
         return photoDir;
     }
-
-
 }
