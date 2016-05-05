@@ -17,8 +17,10 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -321,6 +323,7 @@ public class GalleryFragment extends Fragment {
 
     class GoogleAltitude extends AsyncTask<Void, Void, Integer> {
 
+        private boolean mFoundLocation;
         /**
          * Do things to connect to google maps and get elevation from lat/long
          * @param params
@@ -329,6 +332,7 @@ public class GalleryFragment extends Fragment {
         // TODO: Check that the user has internet first, else altitude is 0
         protected Integer doInBackground(Void... params) {
             double result = Double.NaN;
+            mFoundLocation = false;
             try {
                 LocationManager lm = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
                 Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
@@ -352,6 +356,7 @@ public class GalleryFragment extends Fragment {
                     Log.d(TAG, "LONGITUDE IS " + longitude);
                     Log.d(TAG, "LATITUDE IS " + latitude);
 
+                    mFoundLocation = true;
 
                     HttpClient httpClient = new DefaultHttpClient();
                     HttpContext localContext = new BasicHttpContext();
@@ -407,6 +412,10 @@ public class GalleryFragment extends Fragment {
         @Override
         protected void onPostExecute(Integer alt) {
             Log.d(TAG, "onPostExecute value is " + alt);
+            if(!mFoundLocation) {
+                Handler handler =  new Handler(getActivity().getMainLooper());
+                handler.post( () -> Toast.makeText(getActivity(), "Unable to get location fix; your elevation will show as 0. Make sure location is enabled.", Toast.LENGTH_LONG).show());
+            }
             // Set the value
             mCurrentAltitude = alt;
         }
