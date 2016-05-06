@@ -8,12 +8,17 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
+
 import com.adobe.creativesdk.aviary.AdobeImageIntent;
+
+import java.io.File;
 
 /**
  * Created by gciluffo on 4/12/16.
@@ -84,11 +89,15 @@ public class AdobeEditor extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.delete_edited_photo) {
-            // TODO: delete edited image and return to unedited image
+            if(mEditedUri != null) {
+                new File(mEditedUri.getPath()).delete();
+            } else {
+                new File(mUri.getPath()).delete();
+            }
+            finish();
         }
 
         if (id == R.id.edit_again) {
-            // TODO: open edited image in adobe image editor
             if(mEditedUri != null) {
                 Intent imageEditorIntent = new AdobeImageIntent.Builder(this)
                         .setData(mEditedUri)
@@ -98,15 +107,24 @@ public class AdobeEditor extends AppCompatActivity {
             }
         }
 
-        if (id == R.id.save_edited) {
-            // TODO: save edited image
-        }
-
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.) {
-//            return true;
-//        }
-
         return super.onOptionsItemSelected(item);
     }
+
+//    @Override
+//    public void onDestroy() {
+//        super.onDestroy();
+//        finishWithResult();
+//    }
+
+//    private void finishWithResult() {
+//        if(mEditedUri != null) {
+//            // https://stackoverflow.com/questions/2497205/how-to-return-a-result-startactivityforresult-from-a-tabhost-activity
+//            Bundle conData = new Bundle();
+//            conData.putString("IMG_URI", mEditedUri.toString());
+//            Intent intent = new Intent();
+//            intent.putExtras(conData);
+//            setResult(RESULT_OK, intent);
+//        }
+//        finish();
+//    }
 }

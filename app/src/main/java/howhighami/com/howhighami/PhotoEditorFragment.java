@@ -37,6 +37,7 @@ public class PhotoEditorFragment extends Fragment {
     public static final String PICTURE_ID = "howhighami.picture.id";
     public static final String PICTURE_ALT = "howhighami.picture.alt";
     public static final String PICTURE_ADD = "howhighami.picture.add";
+    public static final int REQUEST_EDIT = 5;
     private ImageView mImageView;
 
     @Override
@@ -156,5 +157,15 @@ public class PhotoEditorFragment extends Fragment {
             Bitmap oldBitmap = PictureUtils.getScaledBitmap(getRealPathFromURI(mUri), getActivity());
             mImageView.setImageBitmap(oldBitmap);
         }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+//        if(requestCode == REQUEST_EDIT  && resultCode == getActivity().RESULT_OK) {
+//            // get the URI of the edited image
+//            Log.d(TAG, "got result. Current uri " + mUri.toString() + " new uri " + data.getSerializableExtra("IMG_URI"));
+//            mUri = Uri.parse(data.getStringExtra("IMG_URI"));
+//        }
     }
 }
