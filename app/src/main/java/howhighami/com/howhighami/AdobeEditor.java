@@ -37,7 +37,7 @@ public class AdobeEditor extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         mEditedImageView = (ImageView) findViewById(R.id.editedImageView);
-
+        mEditedUri = null;
 
         /* 2) Create a new Intent */
         Intent imageEditorIntent = new AdobeImageIntent.Builder(this)
@@ -89,13 +89,13 @@ public class AdobeEditor extends AppCompatActivity {
 
         if (id == R.id.edit_again) {
             // TODO: open edited image in adobe image editor
-//            if(mEditedUri != null) {
-//                Intent imageEditorIntent = new AdobeImageIntent.Builder(this)
-//                        .setData(mUri)
-//                        .build();
-//
-//                startActivityForResult(imageEditorIntent, 1);
-//            }
+            if(mEditedUri != null) {
+                Intent imageEditorIntent = new AdobeImageIntent.Builder(this)
+                        .setData(mEditedUri)
+                        .build();
+
+                startActivityForResult(imageEditorIntent, 1);
+            }
         }
 
         if (id == R.id.save_edited) {
