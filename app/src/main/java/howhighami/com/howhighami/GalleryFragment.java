@@ -216,7 +216,7 @@ public class GalleryFragment extends Fragment {
                  * Send file path and alt to edit fragment
                  */
                 mCallbacks.sendPicture(mMostRecentPhoto.getUri().toString(), mCurrentAltitude, true);
-                mGalleryItems.add(mMostRecentPhoto);
+                mGalleryItems.add(0, mMostRecentPhoto);
             }
         });
 
@@ -296,7 +296,7 @@ public class GalleryFragment extends Fragment {
 
         if(requestCode == REQUEST_PHOTO && resultCode == getActivity().RESULT_OK) {
             Log.d(TAG, "Successfully got image from camera activity");
-            mPhotoAdapter.notifyDataSetChanged();
+            //mPhotoAdapter.notifyDataSetChanged();
         }
     }
 
