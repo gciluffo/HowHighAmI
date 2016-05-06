@@ -47,14 +47,6 @@ public class AdobeEditor extends AppCompatActivity {
         /* 3) Start the Image Editor with request code 1 */
         startActivityForResult(imageEditorIntent, 1);
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
     }
 
     /* Handle the results */
