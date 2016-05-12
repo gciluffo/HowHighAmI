@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ViewRelealAnimator"><attr name="android:inAnimation"/><attr name="android:outAnimation"/><attr name="android:animateFirstView"/><attr name="android:measureAllChildren"/><attr format="boolean" name="vra_hideBeforeReveal"/><attr name="android:animationDuration"/><attr name="android:interpolator"/></declare-styleable>
+</resources>

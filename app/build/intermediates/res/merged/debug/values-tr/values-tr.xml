@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Tamamlandı"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AÇ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s ile paylaş"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="adobe_aviary_client_id_required">Müşteri kimliği gerekiyor</string>
+    <string name="adobe_aviary_client_secret_required">Müşteri Parolası gerekiyor</string>
+    <string name="adobe_aviary_device_id_required">Cihaz kimliği gerekiyor</string>
+    <string name="adobe_aviary_invalid_argument">Geçersiz bağımsız değişken</string>
+    <string name="adobe_aviary_module_not_initialized">Modül başlatılmadı</string>
+    <string name="adobe_aviary_unknown_error">Bilinmeyen Hata</string>
+    <string name="adobe_aviary_user_cancelled">Kullanıcı iptal etti</string>
+    <string name="adobe_aviary_user_interaction_required">Kullanıcı etkileşimi gerekiyor</string>
+    <string name="adobe_aviary_username_password_required">Kullanıcı adı ve şifre gerekiyor</string>
+    <string name="adobe_csdk_auth_required">Kimlik Doğrulaması Gerekli</string>
+    <string name="adobe_csdk_auth_sign_in_close">Kapat</string>
+    <string name="adobe_csdk_cancelLogIn">İPTAL</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">İnternet Bağlantısı Yok</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Kimlik doğrulanırken hata oluştu.\nDaha sonra tekrar deneyin.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Kullanıcının, videoyu önizleme yetkisi olmadığını gösteren mesaj."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Adobe ID hesabına tam erişim</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Yalnızca bir Adobe ID desteklenir</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">OTURUM AÇ</string>
+    <string name="adobe_csdk_proxy_passwd_label">PAROLA</string>
+    <string name="adobe_csdk_proxy_username_label">KULLANICI ADI</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">http://%s sunucusu, kullanıcı adı ve parola gerektiriyor. Sunucu mesajı: %s</string>
+    <string name="com_adobe_image_recent">En Son</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda kullanılamayan bir veya daha fazla Google Play hizmetini gerektiriyor. Yardım için lütfen geliştiriciyle iletişim kurun."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Google Play hizmetlerini etkinleştir"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"Google Play hizmetlerini etkinleştirmezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmaz."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Google Play hizmetlerini etkinleştirin"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Google Play hizmetlerini yükle"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda telefonunuzda bulunmayan Google Play hizmetleri olmadan çalışmaz."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda tabletinizde bulunmayan Google Play hizmetleri olmadan çalışmaz."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Google Play hizmetlerini edinin"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"Belirtilen hesap bu cihazda mevcut değil. Lütfen farklı bir hesap seçin."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Geçersiz Hesap"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"Google Play hizmetlerine bağlanmak için bir veri bağlantısı gerekiyor."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Ağ Hatası"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Google Play hizmetleri hatası"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"Kısıtlı bir profilden hesaplara erişim desteklenmiyor."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Kısıtlı Profil"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Belirtilen hesapta oturum açılırken hata oluştu. Lütfen farklı bir hesap seçin."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Oturum açılamadı"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play hizmetleriyle ilgili sorun yaşıyor. Sorun devam ederse lütfen yardım için geliştiriciyle iletişim kurun."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, cihazınız tarafından desteklenmeyen Google Play hizmetlerine ihtiyaç duyuyor. Yardım için üreticiyle iletişim kurun."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Google Play hizmetleri"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Güncelle"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"Google Play hizmetlerini güncellemezseniz <ns1:g id="APP_NAME">%1$s</ns1:g> çalışmaz."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Google Play hizmetlerini güncelleyin"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g>, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Google Play hizmetleri güncelleniyor"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Telefonda aç"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Oturum aç"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Google\'da oturum aç"</string>
+    <string name="feather_acc_a_sticker">Bir çıkartma</string>
+    <string name="feather_acc_color">Renk</string>
+    <string name="feather_acc_flip_h">Yatay çevir</string>
+    <string name="feather_acc_flip_v">Dikey çevir</string>
+    <string name="feather_acc_lens_toggle">Yakınlaştırmayı aç/kapat</string>
+    <string name="feather_acc_rotate_ccw">Saatin tersi yönde döndür</string>
+    <string name="feather_acc_rotate_cw">Saat yönünde döndür</string>
+    <string name="feather_acc_size">Boyut</string>
+    <string name="feather_activate">Etkinleştir</string>
+    <string name="feather_activity_not_found">Üzgünüz, cihazınızda bu işlemi gerçekleştirebilecek bir uygulama bulunmuyor. Mağazadan şimdi indirmek ister misiniz?</string>
+    <string name="feather_adjust">Yönlendirme</string>
+    <string name="feather_an_error_occurred">Bir hata oluştu</string>
+    <string name="feather_apply">Uygula</string>
+    <string name="feather_applying_actions">İşlemler uygulanıyor…</string>
+    <string name="feather_ask_to_login_before_restore">Adobe ID ile daha önce oturum açtıysanız eşitlenmiş malzemeleri geri yüklemek için giriş yapın</string>
+    <string name="feather_attention">Dikkat</string>
+    <string name="feather_blemish">Leke</string>
+    <string name="feather_blemish_tool_tip">Dokunmanız yeterli</string>
+    <string name="feather_blur">Bulanıklaştır</string>
+    <string name="feather_borders">Çerçeveler</string>
+    <string name="feather_borders_dialog_first_time">Başlamak için Aviary\'nin yüksek çözünürlüklü güzel çerçevelerini ücretsiz olarak yükleyin.</string>
+    <string name="feather_brightness">Parlaklık</string>
+    <string name="feather_cant_undo_anymore">Geri alınacak başka işlem yok</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Daire</string>
+    <string name="feather_close">Kapat</string>
+    <string name="feather_colorfix">Renk Düzeltme</string>
+    <string name="feather_colorsplash_eraser">Silgi</string>
+    <string name="feather_colorsplash_free">Serbest Renk</string>
+    <string name="feather_colorsplash_smart">Akıllı Renk</string>
+    <string name="feather_contrast">Kontrast</string>
+    <string name="feather_crop">Kırp</string>
+    <string name="feather_custom">Özel</string>
+    <string name="feather_delete">Sil</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Ayrıntılar</string>
+    <string name="feather_discard">At</string>
+    <string name="feather_discard_edits">Düzenleme atılsın mı?</string>
+    <string name="feather_download">İndir</string>
+    <string name="feather_download_start_failed">İndirme işlemi başlatılamadı. Daha sonra tekrar deneyin</string>
+    <string name="feather_draw">Çiz</string>
+    <string name="feather_edit_bottom_text">Alt Metni Düzenle</string>
+    <string name="feather_edit_top_text">Üst Metni Düzenle</string>
+    <string name="feather_edit_your_photo">Fotoğraf Düzenleyici</string>
+    <string name="feather_effect_intensity_tooltip">Yoğunluğu ayarlamak için yukarı veya aşağı çekin</string>
+    <string name="feather_effect_loading_message">Efektler uygulanıyor</string>
+    <string name="feather_effects">Efektler</string>
+    <string name="feather_email_email_invalid">Geçersiz e-posta adresi</string>
+    <string name="feather_email_feedback_empty">Geri bildirim boş olamaz</string>
+    <string name="feather_email_hint">E-posta (destek amaçlı iletişim için)</string>
+    <string name="feather_enhance">Geliştir</string>
+    <string name="feather_enhance_effect_food">Yiyecek</string>
+    <string name="feather_enhance_effect_night">Gece</string>
+    <string name="feather_enhance_effect_portrait">Portre</string>
+    <string name="feather_enhance_effect_scenery">Manzara</string>
+    <string name="feather_enter_text_here">Metni buraya girin</string>
+    <string name="feather_error_download_image_message">Görüntü indirilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="feather_error_saving_image">Hay aksi, görüntü kaydedilirken bir hata oluştu.</string>
+    <string name="feather_error_validating_adobe_id">Adobe ID\'nizi doğrulama ile ilgili sorunlar yaşıyoruz. Lütfen çıkış yapıp sonra yeniden giriş yapın. Sorun devam ederse support@aviary.com adresine e-postayla bildirin</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Öne Çıkanlar</string>
+    <string name="feather_featured_effects">Öne Çıkan Efektler</string>
+    <string name="feather_featured_frames">Öne Çıkan Çerçeveler</string>
+    <string name="feather_featured_overlays">Öne Çıkan Kaplamalar</string>
+    <string name="feather_featured_stickers">Öne Çıkan Çıkartmalar</string>
+    <string name="feather_feedback">Geri Bildirim</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Bu fotoğraf düzenleyicisini iyileştirmek için bir öneriniz mi var? Bize bildirin.</string>
+    <string name="feather_feedback_dislike">Beğenmediğiniz yönleri bizimle paylaşın</string>
+    <string name="feather_feedback_hint">Geri bildiriminizi yazın</string>
+    <string name="feather_feedback_love">Sevdiğiniz yönleri bizimle paylaşın</string>
+    <string name="feather_feedback_posted_failure">Geri bildirim gönderilemedi</string>
+    <string name="feather_feedback_posted_success">Geri bildirim gönderildi!</string>
+    <string name="feather_feedback_title">Geri Bildirim</string>
+    <string name="feather_filters">Filtreler</string>
+    <string name="feather_flip">Çevir</string>
+    <string name="feather_free">Ücretsiz</string>
+    <string name="feather_generic_error_title">Hata</string>
+    <string name="feather_get_more">Malzemeler</string>
+    <string name="feather_got_it">Anladım!</string>
+    <string name="feather_have_an_adobe_id">Adobe ID\'niz var mı?</string>
+    <string name="feather_hidef">Yüksek Çözünürlük</string>
+    <string name="feather_iap_download">Ücretsiz</string>
+    <string name="feather_iap_download_failed">İndirme başarısız oldu</string>
+    <string name="feather_iap_failed_download_informations">Gerekli bilgiler indirilemedi</string>
+    <string name="feather_iap_install">Yükle</string>
+    <string name="feather_iap_installing">Yükleniyor</string>
+    <string name="feather_iap_notification_installed_summary">Eklenti başarıyla yüklendi</string>
+    <string name="feather_iap_owned">Yüklendi</string>
+    <string name="feather_iap_pack_installed">Yüklendi</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Geri Yükle</string>
+    <string name="feather_iap_restore_all">Tümünü Geri Yükle</string>
+    <string name="feather_iap_restore_all_failed">Tüm Başarısız Olanları Geri Yükle</string>
+    <string name="feather_iap_restore_all_in_progress">Tüm Devam Edenleri Geri Yükle</string>
+    <string name="feather_iap_retry">Yeniden Dene</string>
+    <string name="feather_iap_unavailable">Kullanılamıyor</string>
+    <string name="feather_iap_uninstall">Kaldır</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Aydınlat</string>
+    <string name="feather_item_does_not_exists">İstenen öğe bulunmuyor</string>
+    <string name="feather_item_not_found">Öğe bulunamadı</string>
+    <string name="feather_learn_more">Daha fazla bilgi</string>
+    <string name="feather_linear">Doğrusal</string>
+    <string name="feather_loading_image">Görüntü yükleniyor...</string>
+    <string name="feather_loading_title">Yükleniyor...</string>
+    <string name="feather_meme">Mem</string>
+    <string name="feather_message_button_no">Hayır, teşekkürler.</string>
+    <string name="feather_message_button_yes">Elbette!</string>
+    <string name="feather_my_account">Hesap</string>
+    <string name="feather_no_thanks">Hayır, teşekkürler</string>
+    <string name="feather_notification_n_items_cant_be_restored">%1$s öğe geri yüklenemedi</string>
+    <string name="feather_notification_no_items_to_restore">Geri yüklenmesi gereken öğe yok</string>
+    <string name="feather_notification_plugins_installed_count">%1$d Eklenti Yüklendi</string>
+    <string name="feather_notification_plus_more">%1$d daha</string>
+    <string name="feather_notification_restore_all_completed">Tüm Tamamlananları Geri Yükle</string>
+    <string name="feather_notification_some_items_cant_be_restored">Bazı öğeler geri yüklenemedi</string>
+    <string name="feather_ops_error_download_image">Bağlantı sorunları yaşıyoruz :(</string>
+    <string name="feather_original">Orijinal</string>
+    <string name="feather_overlay_blemish_close_text">Yeni &lt;b>Bulanıklaştır&lt;/b> aracına bakın!</string>
+    <string name="feather_overlay_blemish_tap_text">Silmek istediğiniz kusurlara dokunun.</string>
+    <string name="feather_overlay_stickers_text">Başlamak için bu ücretsiz paketi yükleyin!</string>
+    <string name="feather_overlay_tap_title">Dokunun</string>
+    <string name="feather_overlay_undo_title">Düzenlemeleri geri almak ya da yinelemek için çekin</string>
+    <string name="feather_overlay_zoom_text">Sıkıştırarak da yakınlaştırabilirsiniz!</string>
+    <string name="feather_overlay_zoom_title">Yakınlaştır</string>
+    <string name="feather_overlays">Kaplamalar</string>
+    <string name="feather_owned">Sahip Olunan</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">Sıkıştırarak yakınlaştırın!</string>
+    <string name="feather_please_try_again_later">Daha sonra tekrar deneyin</string>
+    <string name="feather_powered_by_aviary">Aviary.com tarafından sağlanır</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Fotoğraflarınız üzerinde düzenleme yapmak için 1000\'den fazla &lt;b>Efekt, Çıkartma, Kaplama ve Çerçeve&lt;/b></string>
+    <string name="feather_premium_days_left">Premium\'a %d günlük erişim hakkınız bulunuyor</string>
+    <string name="feather_premium_description">Sürekli genişleyen Fotoğraf Düzenleme Malzemeleri koleksiyonumuzun tamamına sadece %s karşılığında 30 günlük erişim elde edin</string>
+    <string name="feather_premium_error_no_internet">Premium erişiminizi etkinleştirmek için lütfen internet bağlantınızı kontrol edin</string>
+    <string name="feather_premium_expired_message">Aviary Premium\'a erişiminizin süresi doldu. %s karşılığında 30 günlüğüne etkinleştirmek ister misiniz?</string>
+    <string name="feather_premium_expired_title">Erişim Süresi Doldu</string>
+    <string name="feather_premium_get_price_error">Google Play ile bağlantı kurulamadı. Daha sonra tekrar deneyin</string>
+    <string name="feather_premium_sign_in">&lt;u>Adobe ID\'niz var mı? Giriş yapın&lt;/u></string>
+    <string name="feather_premium_subscribe">Etkinleştir</string>
+    <string name="feather_premium_sync">Adobe ID\'nizi kullanarak Malzemelerinizi kalıcı olarak otomatik eşitleyin</string>
+    <string name="feather_premium_text1">• Aviary\'nin TÜM Efektler, Çerçeveler, Çıkartmalar ve Kaplamalar içeriğine
+		sadece %1$s karşılığında 30 günlük erişim.&lt;br />&lt;br />• Adobe ID\'nizle otomatik olarak eşitlenen malzemelerinizi dilediğiniz zaman dilediğiniz cihazdan geri yükleyebilirsiniz.</string>
+    <string name="feather_premium_thank_you_message">Aviary\'nin fotoğraf düzenleme malzemeleri koleksiyonunun tamamına şimdi 30 günlük erişiminiz bulunuyor.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• En popüler 16 fotoğraf düzenleme malzememizin &lt;b>ÜCRETSİZ&lt;/b> olarak sunulduğu &lt;b>Aviary Essentials&lt;/b>\'ı edinin&lt;br />&lt;br />
+• Creative Cloud ile malzemelerinizi eşitleyin ve geri yükleyin&lt;br />&lt;br />
+• Yakında sunulacak özelliklere özel erişim edinin</string>
+    <string name="feather_promo_title1">Teşekkürler!</string>
+    <string name="feather_promo_title2">Aviary Essentials toplam 16 farklı Efekt, Çerçeve, Çıkartma ve Kaplama paketi içeriyor. Adobe rozetini bulun ve hemen mağazadan indirin!</string>
+    <string name="feather_promo_title_with_promo">Adobe ID ile Aviary Essentials\'a
+sahip olun</string>
+    <string name="feather_radial">Radyal</string>
+    <string name="feather_rectangle">Dikdörtgen</string>
+    <string name="feather_red_eye">Kırmızı Göz</string>
+    <string name="feather_redo">Yinele</string>
+    <string name="feather_refresh">Yenile</string>
+    <string name="feather_report_bug">Hata bildir</string>
+    <string name="feather_report_bug_message">Bu işlem, geçerli cihaz durumunuz ile ilgili bilgileri e-posta iletisi olarak göndermek üzere toplayacaktır. Hata raporu oluşturulmaya başlandıktan sonra raporun gönderilmeye hazır olması biraz zaman alabilir. Lütfen sabırlı olun.</string>
+    <string name="feather_restore_all_request_sent">İstek gönderildi. Lütfen daha fazla bilgi için cihazınızın bildirim alanına bakın</string>
+    <string name="feather_rotate">Döndür</string>
+    <string name="feather_saturation">Doygunluk</string>
+    <string name="feather_save">Bitti</string>
+    <string name="feather_save_progress">Kaydediliyor...</string>
+    <string name="feather_see_more">Diğerlerini Gör</string>
+    <string name="feather_send">Gönder</string>
+    <string name="feather_send_feedback">Geri Bildirim Gönder</string>
+    <string name="feather_settings_join_beta_description">Yeni özelliklere ilk sizin erişiminiz olsun ve Aviary\'nin çok daha iyi hale getirilmesine yardımcı olun!</string>
+    <string name="feather_settings_join_beta_title">Aviary Beta\'ya Katılın</string>
+    <string name="feather_sharpen">Keskinlik</string>
+    <string name="feather_signin">Giriş Yap</string>
+    <string name="feather_signup">Kaydolun</string>
+    <string name="feather_square">Kare</string>
+    <string name="feather_sticker_flip_tooltip">Bu çıkartmayı çevirmek için dokunun</string>
+    <string name="feather_stickers">Çıkartmalar</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Bu, sınırlı özelliklere sahip olan ücretsiz bir sürümdür. Bu sürümü kaldırırsanız ileride geri yükleyemeyebilirsiniz.</string>
+    <string name="feather_store_checking_additional_packs">Diğer paketler kontrol ediliyor...</string>
+    <string name="feather_store_connection_problem">Google Play Store ile bağlantı kurulurken bir sorun oluştu. Lütfen tekrar deneyin.</string>
+    <string name="feather_store_monthly">Aylık</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Malzemelerim</string>
+    <string name="feather_store_passport_banner_text">Bu pakete ve daha birçok Aviary efektine Aviary Passport ile çok uygun fiyatlarla sahip olun! Daha fazla bilgi için burayı tıklatın!</string>
+    <string name="feather_store_passport_cancelled">İptal edildi</string>
+    <string name="feather_store_passport_unknown">Bilinmiyor</string>
+    <string name="feather_store_purchase_date">Satın Alma Tarihi</string>
+    <string name="feather_store_title">Aviary Malzeme Mağazası</string>
+    <string name="feather_take_survey">Yeni bir anket var!</string>
+    <string name="feather_tell_us_what_you_think">Düşüncelerinizi bizimle paylaşın</string>
+    <string name="feather_text">Metin</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Araç</string>
+    <string name="feather_tool_color">Renk</string>
+    <string name="feather_tool_colorsplash">Sıçratma</string>
+    <string name="feather_tool_consolidation_adjust">Ayarla</string>
+    <string name="feather_tool_exposure">Pozlama</string>
+    <string name="feather_tool_fade">Soldur</string>
+    <string name="feather_tool_highlight">Vurgulamalar</string>
+    <string name="feather_tool_lighting">Aydınlatma</string>
+    <string name="feather_tool_shadow">Gölgeler</string>
+    <string name="feather_tool_temperature">Sıcaklık</string>
+    <string name="feather_tool_tiltshift">Odak</string>
+    <string name="feather_tool_tint">Renk Tonu</string>
+    <string name="feather_tool_vibrance">Canlılık</string>
+    <string name="feather_tooltip_adjust_intro">Parlaklık, Kontrast, Sıcaklık ve Doygunluk artık kullanılabilir!</string>
+    <string name="feather_try_again">Tekrar Deneyin</string>
+    <string name="feather_try_again_connected">Bağlantı kurduğunuzda tekrar deneyin</string>
+    <string name="feather_undo">Geri Al</string>
+    <string name="feather_vignette">Vinyet</string>
+    <string name="feather_want_it_free">Ücretsiz sahip olmak ister misiniz?</string>
+    <string name="feather_warning">Uyarı</string>
+    <string name="feather_welcome_to_frames">Çerçeveler\'e hoş geldiniz!</string>
+    <string name="feather_welcome_to_stickers">Çıkartmalar\'a hoş geldiniz!</string>
+    <string name="feather_whiten">Rengini Aç</string>
+    <string name="feather_zoom_mode">Yakınlaştırma Modu</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Aramayı temizle"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Ara"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

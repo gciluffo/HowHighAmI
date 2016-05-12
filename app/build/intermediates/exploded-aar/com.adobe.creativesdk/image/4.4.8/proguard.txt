@@ -1,0 +1,227 @@
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# Optimization is turned off by default. Dex does not like code run
+# through the ProGuard optimize and preverify steps (and performs some
+# of these optimizations on its own).
+-dontoptimize
+-dontpreverify
+# Note that if you want to enable optimization, you cannot just
+# include optimization flags in your own project configuration file;
+# instead you will need to point to the
+# "proguard-android-optimize.txt" file instead of this one from your
+# project.properties file.
+
+-keepattributes *Annotation*
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keepclassmembers class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator CREATOR;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# The support library contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version.  We know about them, and they are safe.
+-dontwarn android.support.**
+
+
+-dontpreverify
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+#-skipnonpubliclibraryclasses
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*,!code/allocation/variable
+-renamesourcefileattribute SourceFile
+
+-keepattributes SourceFile
+-keepattributes LineNumberTable
+-keepattributes Signature
+-keepattributes InnerClasses
+-keepattributes *Annotation*
+
+-dontwarn org.apache.commons.**
+-dontwarn com.squareup.okhttp.internal.**
+-dontwarn okio.**
+-dontwarn java.lang.invoke.*
+-dontwarn sun.misc.Unsafe
+-dontwarn javax.annotation.**
+-dontwarn rx.**
+-dontwarn com.adobe.creativesdk.aviary.AdobeImageEditorActivity**
+-dontwarn org.apache.http.**
+-dontwarn oauth.signpost.signature.**
+-dontwarn uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper
+-dontnote
+
+-keep class * extends android.app.Service
+-keep class * extends android.app.Activity
+-keep class * extends android.app.Application
+-keep class * extends android.app.Service
+-keep class * extends android.content.BroadcastReceiver
+-keep class * extends android.content.ContentProvider
+-keep class * extends android.os.AsyncTask
+
+-keep class org.apache.commons.codec.binary.**
+-keep interface org.apache.commons.codec.binary.**
+-keep enum org.apache.commons.codec.binary.**
+-keep class org.apache.http.** { *; }
+
+-keep class javax.inject.* { *; }
+-keep class sun.misc.Unsafe { *; }
+
+-keep class com.adobe.creativesdk.aviary.AdobeImageIntent
+-keep class com.adobe.creativesdk.aviary.AdobeImageIntent$Builder
+-keep class com.adobe.creativesdk.aviary.AdobeImageEditorVersion
+-keep class com.adobe.creativesdk.aviary.AdobeImageIntent$SourceType
+-keep class com.adobe.creativesdk.aviary.internal.account.Constants
+-keep class com.adobe.creativesdk.aviary.internal.headless.AdobeImageEffect
+-keep class com.adobe.creativesdk.aviary.internal.headless.filters.NativeFilterProxy
+
+-keep class com.adobe.creativesdk.aviary.internal.headless.moa.Moa { *; }
+-keep class com.adobe.creativesdk.aviary.internal.headless.moa.Moa$MoaJniIO { *; }
+-keep class com.adobe.creativesdk.aviary.internal.headless.moa.Moa$MoaStreamsIO { *; }
+-keep class com.adobe.creativesdk.aviary.internal.headless.moa.Moa$MoaActionlistTextAttributes { *; }
+-keep class com.adobe.creativesdk.aviary.internal.headless.moa.MoaHistory { *; }
+-keep class com.adobe.creativesdk.aviary.internal.headless.moa.MoaFontProxy { *; }
+-keep class com.adobe.creativesdk.aviary.internal.headless.moa.MoaFontProxy$MoaFont { *; }
+-keep enum com.adobe.creativesdk.aviary.internal.headless.moa.Moa$** { *; }
+
+# keep anything annotated with @Keep
+-keepclassmembers class * {
+    @android.support.annotation.Keep *;
+}
+# Also keep classes that @Expose everything
+-keep @android.support.annotation.Keep class *
+
+
+-keep class com.adobe.creativesdk.aviary.internal.headless.utils.CameraUtils
+-keep class com.adobe.creativesdk.aviary.internal.tracking.AbstractTracker
+-keep class com.adobe.creativesdk.aviary.internal.tracking.AdobeImageAnalyticsTracker
+-keep class com.adobe.creativesdk.aviary.internal.tracking.TrackerFactory
+-keep class com.adobe.creativesdk.aviary.log.LoggerFactory
+-keep class com.adobe.creativesdk.aviary.utils.AdobeImageEditorIntentConfigurationValidator
+-keep class com.adobe.creativesdk.aviary.AdobeImageBillingService
+-keep interface com.adobe.creativesdk.aviary.internal.graphics.drawable.FeatherDrawable
+
+-keep class * extends com.adobe.creativesdk.aviary.widget.PackDetailLayout
+-keep class * extends com.adobe.creativesdk.aviary.internal.tracking.AbstractTracker
+
+-keep class com.android.vending.licensing.ILicensingService
+-keep public class com.android.vending.billing.IInAppBillingService
+
+-keep public class com.adobe.creativesdk.aviary.transition.** { *; }
+
+-keepclassmembers interface com.adobe.creativesdk.aviary.internal.graphics.drawable.FeatherDrawable {
+    <fields>;
+    <methods>;
+}
+
+-keepclassmembers class * extends com.adobe.creativesdk.aviary.internal.graphics.drawable.FeatherDrawable {
+    float getScaleX();
+    void setScaleX(float);
+}
+
+-keepclassmembers class com.adobe.creativesdk.aviary.AdobeImageIntent {*;}
+-keepclassmembers class com.adobe.creativesdk.aviary.AdobeImageIntent$Builder {*;}
+-keepclassmembers class com.adobe.creativesdk.aviary.AdobeImageIntent$SourceType {*;}
+
+-keepclassmembers class com.adobe.creativesdk.aviary.AdobeImageEditorVersion {
+    <fields>;
+}
+
+-keepclassmembers class com.adobe.creativesdk.aviary.utils.AdobeImageEditorIntentConfigurationValidator {
+    <methods>;
+}
+
+#-keepclassmembers class com.adobe.creativesdk.aviary.internal.graphics.drawable.FeatherDrawable {*;}
+-keepclassmembers class com.adobe.creativesdk.aviary.internal.utils.SDKUtils {*;}
+-keepclassmembers class com.adobe.creativesdk.aviary.internal.utils.SDKUtils$ApiKeyReader {*;}
+
+## keep everything for native methods/fields
+
+-keepclassmembers class com.aviary.android.feather.sdk.BuildConfig {*;}
+
+-keepclassmembers class com.adobe.creativesdk.aviary.AdobeImageBillingService {*;}
+
+-keepclassmembers class * implements android.os.Parcelable {
+    static ** CREATOR;
+}
+
+-keepclassmembers class * {
+   private native <methods>;
+   public native <methods>;
+   protected native <methods>;
+   public static native <methods>;
+   private static native <methods>;
+   static native <methods>;
+   native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>( com.adobe.creativesdk.aviary.internal.AdobeImageEditorController );
+}
+
+# EventBus
+-keepclassmembers class ** {
+    public void onEvent(**);
+    public void onEventMainThread(**);
+}
+
+-keepnames class * implements java.io.Serializable
+
+-keepclassmembers class * implements java.io.Serializable {
+    static final long serialVersionUID;
+    private static final java.io.ObjectStreamField[] serialPersistentFields;
+    private void writeObject(java.io.ObjectOutputStream);
+    private void readObject(java.io.ObjectInputStream);
+    java.lang.Object writeReplace();
+    java.lang.Object readResolve();
+    !static !transient <fields>;
+}
+
+# RxJava 1.0.14
+-keep class rx.internal.util.unsafe.** { *; }
+
+-keepclassmembers class rx.internal.util.unsafe.*ArrayQueue*Field* {
+   long producerIndex;
+   long consumerIndex;
+}
+
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
+   long producerNode;
+   long consumerNode;
+}
+
+-dontwarn sun.misc.**
+
+

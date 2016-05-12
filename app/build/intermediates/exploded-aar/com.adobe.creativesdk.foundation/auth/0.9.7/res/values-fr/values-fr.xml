@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_auth_required">Identification requise</string>
+    <string name="adobe_csdk_auth_sign_in_close">Fermer</string>
+    <string name="adobe_csdk_cancelLogIn">ANNULER</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Aucune connexion Internet</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Une erreur est survenue lors de l’authentification.\nRéessayez ultérieurement.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Message concernant l’impossibilité de visualisation de la vidéo par l’utilisateur."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Accès complet au compte Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Seul un Adobe ID est pris en charge</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">CONNEXION</string>
+    <string name="adobe_csdk_proxy_passwd_label">MOT DE PASSE</string>
+    <string name="adobe_csdk_proxy_username_label">NOM D’UTILISATEUR</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">Le serveur http://%s nécessite un nom d’utilisateur et un mot de passe. Le serveur indique : %s</string>
+</resources>

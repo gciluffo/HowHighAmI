@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Prejsť na plochu"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Prejsť hore"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Ďalšie možnosti"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Hotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobraziť všetko"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Zvoľte aplikáciu"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"VYP."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ZAP."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Vyhľadať…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Vymazať dopyt"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Vyhľadávací dopyt"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Hľadať"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Odoslať dopyt"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hlasové vyhľadávanie"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Zdieľať pomocou"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Zdieľať pomocou %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Zbaliť"</string>
+    <string name="adobe_aviary_client_id_required">Je nutné zadať ID klienta</string>
+    <string name="adobe_aviary_client_secret_required">Je nutné zadať tajný kľúč klienta</string>
+    <string name="adobe_aviary_device_id_required">Je nutné zadať ID zariadenia</string>
+    <string name="adobe_aviary_invalid_argument">Neplatný argument</string>
+    <string name="adobe_aviary_module_not_initialized">Modul nebol inicializovaný</string>
+    <string name="adobe_aviary_unknown_error">Neznáma chyba</string>
+    <string name="adobe_aviary_user_cancelled">Používateľ bol zrušený</string>
+    <string name="adobe_aviary_user_interaction_required">Je nutný zásah používateľa</string>
+    <string name="adobe_aviary_username_password_required">Je nutné zadať používateľské meno a heslo</string>
+    <string name="com_adobe_image_recent">Nedávne</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> vyžaduje minimálne jednu službu Google Play, ktorá v súčasnosti nie je k dispozícii. Kontaktujte príslušného vývojára a požiadajte ho o pomoc."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Povoliť služby Google Play"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> bude fungovať až po povolení služieb Google Play."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Povoliť služby Google Play"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Inštalovať služby Google Play"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"Na spustenie aplikácie <ns1:g id="APP_NAME">%1$s</ns1:g> sa vyžadujú služby Google Play, ktoré na telefóne nemáte."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"Na spustenie aplikácie <ns1:g id="APP_NAME">%1$s</ns1:g> sa vyžadujú služby Google Play, ktoré na tablete nemáte."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Inštalovať služby Google Play"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"Zadaný účet v tomto zariadení neexistuje. Vyberte iný účet."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Neplatný účet"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"Pripojenie k službám Google Play vyžaduje dátové pripojenie."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Chyba siete"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Chyba služieb Google Play"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"Prístup k účtom z obmedzeného profilu nie je podporovaný."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Obmedzený profil"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Pri prihlasovaní do určeného účtu sa vyskytla chyba. Zvoľte iný účet."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Prihlásenie zlyhalo"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> má problémy so službami Google Play. Ak problém pretrváva, kontaktujte vývojára a požiadajte ho o pomoc."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"Aplikácia <ns1:g id="APP_NAME">%1$s</ns1:g> potrebuje služby Google Play, ktoré vaše zariadenie nepodporuje. Kontaktujte príslušného výrobcu a požiadajte ho o pomoc."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Služby Google Play"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Aktualizovať"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"Aplikáciu <ns1:g id="APP_NAME">%1$s</ns1:g> bude možné spustiť až po aktualizácii služieb Google Play."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Aktualizácia služieb Google Play"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"Na spustenie aplikácie <ns1:g id="APP_NAME">%1$s</ns1:g> sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Služby Google Play sa aktualizujú"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Otvoriť v telefóne"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Prihlásiť sa"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Prihlásiť sa do účtu Google"</string>
+    <string name="feather_acc_a_sticker">Samolepka</string>
+    <string name="feather_acc_color">Farba</string>
+    <string name="feather_acc_flip_h">Prevrátiť horizontálne</string>
+    <string name="feather_acc_flip_v">Prevrátiť vertikálne</string>
+    <string name="feather_acc_lens_toggle">Prepnúť lupu</string>
+    <string name="feather_acc_rotate_ccw">Otočiť doľava</string>
+    <string name="feather_acc_rotate_cw">Otočiť doprava</string>
+    <string name="feather_acc_size">Veľkosť</string>
+    <string name="feather_activate">Aktivovať</string>
+    <string name="feather_activity_not_found">Ľutujeme, ale vo vašom zariadení nie je aplikácia, ktorá vie danú akciu vykonať. Chcete ju teraz stiahnuť z obchodu?</string>
+    <string name="feather_adjust">Orientácia</string>
+    <string name="feather_an_error_occurred">Vyskytla sa chyba</string>
+    <string name="feather_apply">Použiť</string>
+    <string name="feather_applying_actions">Vykonávam akcie...</string>
+    <string name="feather_ask_to_login_before_restore">Ak ste sa už prihlásili pomocou svojho Adobe ID, môžete opätovným prihlásením obnoviť synchronizované súčasti</string>
+    <string name="feather_attention">Pozor</string>
+    <string name="feather_blemish">Odstránenie defektov</string>
+    <string name="feather_blemish_tool_tip">Len ťuknite</string>
+    <string name="feather_blur">Rozmazanie</string>
+    <string name="feather_borders">Rámiky</string>
+    <string name="feather_borders_dialog_first_time">Začnite nainštalovaním bezplatného balíka prekrásnych rámikov vo vysokom rozlíšení od Aviary.</string>
+    <string name="feather_brightness">Jas</string>
+    <string name="feather_cant_undo_anymore">Nie je možné zrušiť ďalšie zmeny</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Kruh</string>
+    <string name="feather_close">Zavrieť</string>
+    <string name="feather_colorfix">Oprava farieb</string>
+    <string name="feather_colorsplash_eraser">Guma</string>
+    <string name="feather_colorsplash_free">Ľubovoľná farba</string>
+    <string name="feather_colorsplash_smart">Inteligentná farba</string>
+    <string name="feather_contrast">Kontrast</string>
+    <string name="feather_crop">Orez</string>
+    <string name="feather_custom">Vlastný</string>
+    <string name="feather_delete">Vymazať</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Detaily</string>
+    <string name="feather_discard">Zrušiť</string>
+    <string name="feather_discard_edits">Zrušiť úpravy?</string>
+    <string name="feather_download">Stiahnuť</string>
+    <string name="feather_download_start_failed">Sťahovanie sa nepodarilo spustiť. Skúste to znova neskôr.</string>
+    <string name="feather_draw">Kresliť</string>
+    <string name="feather_edit_bottom_text">Upraviť spodný text</string>
+    <string name="feather_edit_top_text">Upraviť vrchný text</string>
+    <string name="feather_edit_your_photo">Editor fotografií</string>
+    <string name="feather_effect_intensity_tooltip">Intenzitu upravte potiahnutím prsta nahor alebo nadol</string>
+    <string name="feather_effect_loading_message">Aplikujú sa efekty</string>
+    <string name="feather_effects">Efekty</string>
+    <string name="feather_email_email_invalid">Neplatná e-mailová adresa</string>
+    <string name="feather_email_feedback_empty">Pole so spätnou väzbou nemôže byť prázdne</string>
+    <string name="feather_email_hint">E-mail (pre komunikáciu v rámci podpory)</string>
+    <string name="feather_enhance">Vylepšiť</string>
+    <string name="feather_enhance_effect_food">Jedlo</string>
+    <string name="feather_enhance_effect_night">Noc</string>
+    <string name="feather_enhance_effect_portrait">Portrét</string>
+    <string name="feather_enhance_effect_scenery">Scenéria</string>
+    <string name="feather_enter_text_here">Sem vložte text</string>
+    <string name="feather_error_download_image_message">Došlo k chybe pri sťahovaní obrázka. Skúste to znova neskôr.</string>
+    <string name="feather_error_saving_image">Ajaj, došlo k chybe pri ukladaní obrázka.</string>
+    <string name="feather_error_validating_adobe_id">Máme ťažkosti s overením vášho Adobe ID. Skúste sa odhlásiť a znovu prihlásiť. Pokiaľ problém pretrváva, obráťte sa e-mailom na adresu support@aviary.com.</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Vybrané</string>
+    <string name="feather_featured_effects">Vybrané efekty</string>
+    <string name="feather_featured_frames">Vybrané rámiky</string>
+    <string name="feather_featured_overlays">Vybrané prekrytia</string>
+    <string name="feather_featured_stickers">Vybrané samolepky</string>
+    <string name="feather_feedback">Spätná väzba</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Máte návrh, ako vylepšiť editor fotografií? Dajte nám vedieť.</string>
+    <string name="feather_feedback_dislike">Napíšte nám, čo sa vám nepáči</string>
+    <string name="feather_feedback_hint">Napíšte svoju spätnú väzbu</string>
+    <string name="feather_feedback_love">Napíšte nám, čo sa vám páči</string>
+    <string name="feather_feedback_posted_failure">Nebolo možné odoslať spätnú väzbu</string>
+    <string name="feather_feedback_posted_success">Spätná väzba bola odoslaná</string>
+    <string name="feather_feedback_title">Spätná väzba</string>
+    <string name="feather_filters">Filtre</string>
+    <string name="feather_flip">Prevrátiť</string>
+    <string name="feather_free">Zdarma</string>
+    <string name="feather_generic_error_title">Chyba</string>
+    <string name="feather_get_more">Súčasti</string>
+    <string name="feather_got_it">Rozumiem!</string>
+    <string name="feather_have_an_adobe_id">Už máte svoj Adobe ID?</string>
+    <string name="feather_hidef">Vys. rozlíšenie</string>
+    <string name="feather_iap_download">Zdarma</string>
+    <string name="feather_iap_download_failed">Sťahovanie zlyhalo</string>
+    <string name="feather_iap_failed_download_informations">Sťahovanie požadovaných informácií bolo neúspešné</string>
+    <string name="feather_iap_install">Inštalovať</string>
+    <string name="feather_iap_installing">Inštaluje sa</string>
+    <string name="feather_iap_notification_installed_summary">Doplnok sa úspešne nainštaloval</string>
+    <string name="feather_iap_owned">Nainštalované</string>
+    <string name="feather_iap_pack_installed">Nainštalované</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Obnoviť</string>
+    <string name="feather_iap_restore_all">Obnoviť všetky</string>
+    <string name="feather_iap_restore_all_failed">Obnoviť všetky neúspešné</string>
+    <string name="feather_iap_restore_all_in_progress">Obnoviť všetky prebiehajúce</string>
+    <string name="feather_iap_retry">Opakovať</string>
+    <string name="feather_iap_unavailable">Nedostupné</string>
+    <string name="feather_iap_uninstall">Odinštalovať</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Prežiariť</string>
+    <string name="feather_item_does_not_exists">Požadovaná položka neexistuje</string>
+    <string name="feather_item_not_found">Položka sa nenašla</string>
+    <string name="feather_learn_more">Zistiť viac</string>
+    <string name="feather_linear">Lineárne</string>
+    <string name="feather_loading_image">Načítava sa obrázok...</string>
+    <string name="feather_loading_title">Načítava sa...</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_message_button_no">Nie, ďakujem.</string>
+    <string name="feather_message_button_yes">Iste!</string>
+    <string name="feather_my_account">Konto</string>
+    <string name="feather_no_thanks">Nie, ďakujem.</string>
+    <string name="feather_notification_n_items_cant_be_restored">Položku/y %1$s nie je možné obnoviť</string>
+    <string name="feather_notification_no_items_to_restore">Nie je potrebné obnoviť žiadne položky</string>
+    <string name="feather_notification_plugins_installed_count">Nainštalovaných doplnkov: %1$d</string>
+    <string name="feather_notification_plus_more">%1$d viac</string>
+    <string name="feather_notification_restore_all_completed">Obnoviť všetky dokončené</string>
+    <string name="feather_notification_some_items_cant_be_restored">Niektoré položky nie je možné obnoviť</string>
+    <string name="feather_ops_error_download_image">Máme problémy s pripojením :(</string>
+    <string name="feather_original">Pôvodný</string>
+    <string name="feather_overlay_blemish_close_text">Pozrite si nový nástroj &lt;b>Rozmazanie&lt;/b>!</string>
+    <string name="feather_overlay_blemish_tap_text">Nedokonalosti odstráňte ťuknutím.</string>
+    <string name="feather_overlay_stickers_text">Začnite inštaláciou tohto bezplatného balíka.</string>
+    <string name="feather_overlay_tap_title">Ťuknite</string>
+    <string name="feather_overlay_undo_title">Potiahnutím prstom zrušte alebo prerobte úpravy</string>
+    <string name="feather_overlay_zoom_text">Lupu môžete použiť aj stiahnutím prstov!</string>
+    <string name="feather_overlay_zoom_title">Lupa</string>
+    <string name="feather_overlays">Prekrytia</string>
+    <string name="feather_owned">Už vlastníte</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">Lupu použite stiahnutím prstov!</string>
+    <string name="feather_please_try_again_later">Skúste to znova neskôr</string>
+    <string name="feather_powered_by_aviary">Powered by Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Viac než 1000 &lt;b>efektov, samolepiek, prekrytí a rámčekov&lt;/b> pre vylepšenie vašich fotografií</string>
+    <string name="feather_premium_days_left">%d dní prístupu k edícii Premium</string>
+    <string name="feather_premium_description">30dňový prístup k našej neustále rastúcej kolekcii prostriedkov pre úpravu fotografií iba za %s</string>
+    <string name="feather_premium_error_no_internet">Overte pripojenie k internetu a aktivujte svoj prístup k edícii Premium</string>
+    <string name="feather_premium_expired_message">Vaše oprávnenie pre prístup k produktu Aviary Premium vypršalo. Prajete si ho znovu aktivovať na ďalších 30 dní za %s?</string>
+    <string name="feather_premium_expired_title">Oprávnenie pre prístup vypršalo</string>
+    <string name="feather_premium_get_price_error">Naviazanie komunikácie so službou Google Play zlyhalo. Skúste to znova neskôr.</string>
+    <string name="feather_premium_sign_in">&lt;u>Už máte svoj Adobe ID? Prihlásiť&lt;/u></string>
+    <string name="feather_premium_subscribe">Aktivovať</string>
+    <string name="feather_premium_sync">Vaše prostriedky budú v rámci vášho Adobe ID navždy automaticky zálohované</string>
+    <string name="feather_premium_text1">• 30-denný prístup ku VŠETKÝM efektom, rámčekom, samolepkám a prekrytiam produktu Aviary len za
+		 %1$s.&lt;br />&lt;br />•Vaše prostriedky sa automaticky synchronizujú s vaším Adobe ID a budú dostupné kdekoľvek a z akéhokoľvek zariadenia.</string>
+    <string name="feather_premium_thank_you_message">Teraz získavate prístup k úplnej kolekcii prostriedkov Aviary pre úpravu fotografií na dobu 30 dní.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• Získajte &lt;b>ZDARMA&lt;/b>&lt;br />&lt;br /> &lt;b>Aviary Essentials&lt;/b> – 16 z našich najpopulárnejších súčastí úpravy fotografií
+• Synchronizácia a obnovenie súčastí pomocou služby Creative Cloud&lt;br />&lt;br />
+• Exkluzívny prístup k budúcim funkciám</string>
+    <string name="feather_promo_title1">Ďakujem!</string>
+    <string name="feather_promo_title2">Aviary Essentials zahŕňa celkovo 16 balíkov efektov, rámikov, samolepiek a prekrytí. Hľadajte znak Adobe a hneď teraz si ich v obchode stiahnite!</string>
+    <string name="feather_promo_title_with_promo">Získajte prístup k Aviary Essentials
+vďaka Adobe ID</string>
+    <string name="feather_radial">Okrúhly</string>
+    <string name="feather_rectangle">Obdĺžnik</string>
+    <string name="feather_red_eye">Červené oči</string>
+    <string name="feather_redo">Prerobiť</string>
+    <string name="feather_refresh">Obnoviť</string>
+    <string name="feather_report_bug">Nahlásiť chybu</string>
+    <string name="feather_report_bug_message">Týmto sa zozbierajú informácie o stave súčasného zariadenia, ktoré sa odošlú ako e-mailová správa. Vytvorenie správy o chybách a jej príprava na odoslanie chvíľu trvá. Buďte trpezliví.</string>
+    <string name="feather_restore_all_request_sent">Požiadavka odoslaná. Ďalšie informácie si pozrite v oblasti upozornení svojho zariadenia.</string>
+    <string name="feather_rotate">Otočiť</string>
+    <string name="feather_saturation">Saturácia</string>
+    <string name="feather_save">Hotovo</string>
+    <string name="feather_save_progress">Ukladá sa...</string>
+    <string name="feather_see_more">Zobraziť viac</string>
+    <string name="feather_send">Odoslať</string>
+    <string name="feather_send_feedback">Odoslať spätnú väzbu</string>
+    <string name="feather_settings_join_beta_description">Získajte včasný prístup k novým funkciám a pomôžte ešte viac vylepšiť Aviary!</string>
+    <string name="feather_settings_join_beta_title">Pripojiť sa k beta testu Aviary</string>
+    <string name="feather_sharpen">Ostrosť</string>
+    <string name="feather_signin">Prihlásiť sa</string>
+    <string name="feather_signup">Zaregistrovať sa</string>
+    <string name="feather_square">Štvorec</string>
+    <string name="feather_sticker_flip_tooltip">Ťuknutím túto samolepku prevráťte</string>
+    <string name="feather_stickers">Samolepky</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Ide o bezplatný balík z limitovanej edície. Ak ho odinštalujete, už ho možno v budúcnosti nebudete môcť získať späť.</string>
+    <string name="feather_store_checking_additional_packs">Vyhľadávajú sa ďalšie balíky...</string>
+    <string name="feather_store_connection_problem">Počas pripájania k obchodu Google Play sa vyskytol problém. Skúste to znova.</string>
+    <string name="feather_store_monthly">Mesačne</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Moje súčasti</string>
+    <string name="feather_store_passport_banner_text">Vďaka pasu Aviary Passport získate za jednu nízku cenu tento balík a hromadu ďalších efektov služby Aviary. Kliknutím sem získate ďalšie informácie.</string>
+    <string name="feather_store_passport_cancelled">Zrušené</string>
+    <string name="feather_store_passport_unknown">Neznáme</string>
+    <string name="feather_store_purchase_date">Dátum nákupu</string>
+    <string name="feather_store_title">Obchod so súčasťami Aviary</string>
+    <string name="feather_take_survey">Je dostupný nový dotazník!</string>
+    <string name="feather_tell_us_what_you_think">Napíšte nám, čo si myslíte</string>
+    <string name="feather_text">Text</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Nástroj</string>
+    <string name="feather_tool_color">Farba</string>
+    <string name="feather_tool_colorsplash">Náter</string>
+    <string name="feather_tool_consolidation_adjust">Upraviť</string>
+    <string name="feather_tool_exposure">Expozícia</string>
+    <string name="feather_tool_fade">Zoslabiť</string>
+    <string name="feather_tool_highlight">Zvýraznenia</string>
+    <string name="feather_tool_lighting">Osvetlenie</string>
+    <string name="feather_tool_shadow">Tiene</string>
+    <string name="feather_tool_temperature">Teplota farieb</string>
+    <string name="feather_tool_tiltshift">Zaostrenie</string>
+    <string name="feather_tool_tint">Tón</string>
+    <string name="feather_tool_vibrance">Živosť</string>
+    <string name="feather_tooltip_adjust_intro">Jas, kontrast, teplota farieb a saturácia sú odteraz tu!</string>
+    <string name="feather_try_again">Skúsiť znova</string>
+    <string name="feather_try_again_connected">Pripojte sa a skúste to znovu</string>
+    <string name="feather_undo">Späť</string>
+    <string name="feather_vignette">Vinetácia</string>
+    <string name="feather_want_it_free">Chcete to zadarmo?</string>
+    <string name="feather_warning">Upozornenie</string>
+    <string name="feather_welcome_to_frames">Vitajte v časti Rámiky!</string>
+    <string name="feather_welcome_to_stickers">Vitajte v časti Samolepky!</string>
+    <string name="feather_whiten">Vybieliť</string>
+    <string name="feather_zoom_mode">Režim lupy</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Vymazať vyhľadávanie"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Vyhľadávajte"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

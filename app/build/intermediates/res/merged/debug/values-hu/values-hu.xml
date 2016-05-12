@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <dimen name="com_adobe_image_store_list_buy_button_width">116dip</dimen>
+    <dimen name="com_adobe_image_text_size_buy_button">12sp</dimen>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Felfelé mozgatás"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Összes megtekintése"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Válasszon ki egy alkalmazást"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KI"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BE"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Megosztás a következővel: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="adobe_aviary_client_id_required">A kliens azonosítóját meg kell adni</string>
+    <string name="adobe_aviary_client_secret_required">A kliens jelszavát meg kell adni</string>
+    <string name="adobe_aviary_device_id_required">Az eszköz azonosítóját meg kell adni</string>
+    <string name="adobe_aviary_invalid_argument">Érvénytelen argumentum</string>
+    <string name="adobe_aviary_module_not_initialized">A modul nincs inicializálva</string>
+    <string name="adobe_aviary_unknown_error">Ismeretlen hiba</string>
+    <string name="adobe_aviary_user_cancelled">Felhasználó törölve</string>
+    <string name="adobe_aviary_user_interaction_required">Felhasználói műveletre van szükség</string>
+    <string name="adobe_aviary_username_password_required">Adja meg a felhasználónevet és a jelszót</string>
+    <string name="com_adobe_image_recent">Korábbi</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazásnak legalább egy olyan Google Play-szolgáltatásra van szüksége, amely jelenleg nem érhető el. További segítségért vegye fel a kapcsolatot a fejlesztővel."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Google Play-szolgáltatások engedélyezése"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Google Play-szolgáltatások engedélyezése"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"A Google Play-szolgáltatások beszerzése"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a telefonról."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak a táblagépről."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"A Google Play-szolgáltatások beszerzése"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"A megadott fiók nem létezik ezen az eszközön. Válasszon másik fiókot."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Érvénytelen fiók"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"A Google Play-szolgáltatásokhoz történő kapcsolódáshoz adatkapcsolat szükséges."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Hálózati hiba"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Google Play-szolgáltatások – hiba"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"Korlátozott jogokkal rendelkező profilból nem lehetséges a fiókelérés."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Korlátozott jogokkal rendelkező profil"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Hiba a megadott fiókba való bejelentkezéskor. Kérjük, válasszon másik fiókot."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Sikertelen bejelentkezés"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás problémába ütközött a Google Play szolgáltatásainak használata során. Ha a probléma továbbra is fennáll, vegye fel a kapcsolatot a fejlesztővel."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> használatához olyan Google Play-szolgáltatásokra van szükség, amelyeket eszköze nem támogat. Ha segítségre van szüksége, lépjen kapcsolatba a gyártóval."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Google Play-szolgáltatások"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Frissítés"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"A Google Play-szolgáltatások frissítése"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"A Google Play-szolgáltatások frissülnek"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Megnyitás a telefonon"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Bejelentkezés"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Bejelentkezés Google-fiókkal"</string>
+    <string name="feather_acc_a_sticker">Egy matrica</string>
+    <string name="feather_acc_color">Szín</string>
+    <string name="feather_acc_flip_h">Vízszintes tükrözés</string>
+    <string name="feather_acc_flip_v">Függőleges tükrözés</string>
+    <string name="feather_acc_lens_toggle">Zoom átkapcsolása</string>
+    <string name="feather_acc_rotate_ccw">Forgatás az óra járásával ellentétes irányban</string>
+    <string name="feather_acc_rotate_cw">Forgatás az óra járásával megegyező irányban</string>
+    <string name="feather_acc_size">Méret</string>
+    <string name="feather_activate">Aktiválás</string>
+    <string name="feather_activity_not_found">Sajnos nincs olyan alkalmazás az eszközödön, ami kezelné ezt a műveletet. Szeretnél letölteni egyet a boltból?</string>
+    <string name="feather_adjust">Tájolás</string>
+    <string name="feather_an_error_occurred">Hiba történt</string>
+    <string name="feather_apply">Alkalmaz</string>
+    <string name="feather_applying_actions">Műveletek alkalmazása folyamatban...</string>
+    <string name="feather_ask_to_login_before_restore">Ha korábban Adobe ID segítségével jelentkeztél be, jelentkezz be a szinkronizált készlet visszaállításához</string>
+    <string name="feather_attention">Figyelem</string>
+    <string name="feather_blemish">Javító ecset</string>
+    <string name="feather_blemish_tool_tip">Csak érintsd meg</string>
+    <string name="feather_blur">Életlenítés</string>
+    <string name="feather_borders">Keretek</string>
+    <string name="feather_borders_dialog_first_time">Kezdésként telepítsd fel az Aviary ingyenes, nagyfelbontású kereteit.</string>
+    <string name="feather_brightness">Fényerő</string>
+    <string name="feather_cant_undo_anymore">További művelet nem vonható vissza</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Kör</string>
+    <string name="feather_close">Bezárás</string>
+    <string name="feather_colorfix">Színkorrekció</string>
+    <string name="feather_colorsplash_eraser">Radír</string>
+    <string name="feather_colorsplash_free">Szabad színezés</string>
+    <string name="feather_colorsplash_smart">Okos színezés</string>
+    <string name="feather_contrast">Kontraszt</string>
+    <string name="feather_crop">Levágás</string>
+    <string name="feather_custom">Egyedi</string>
+    <string name="feather_delete">Törlés</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Részletek</string>
+    <string name="feather_discard">Elvetés</string>
+    <string name="feather_discard_edits">Módosítás elvetése?</string>
+    <string name="feather_download">Letöltés</string>
+    <string name="feather_download_start_failed">Nem sikerült elindítani a letöltést. Kérjük, próbáld újra később.</string>
+    <string name="feather_draw">Rajzolás</string>
+    <string name="feather_edit_bottom_text">Lábléc szerkesztése</string>
+    <string name="feather_edit_top_text">Fejléc szerkesztése</string>
+    <string name="feather_edit_your_photo">Fényképszerkesztő</string>
+    <string name="feather_effect_intensity_tooltip">Az intenzitás beállításához csúsztass fel vagy le</string>
+    <string name="feather_effect_loading_message">Effektek alkalmazása</string>
+    <string name="feather_effects">Effektek</string>
+    <string name="feather_email_email_invalid">Érvénytelen e-mail cím</string>
+    <string name="feather_email_feedback_empty">A visszajelzés részt nem hagyhatja üresen</string>
+    <string name="feather_email_hint">E-mail (a támogatási kommunikációhoz)</string>
+    <string name="feather_enhance">Javítás</string>
+    <string name="feather_enhance_effect_food">Étel</string>
+    <string name="feather_enhance_effect_night">Éjszaka</string>
+    <string name="feather_enhance_effect_portrait">Álló</string>
+    <string name="feather_enhance_effect_scenery">Látvány</string>
+    <string name="feather_enter_text_here">Írd be a szöveget</string>
+    <string name="feather_error_download_image_message">Hiba történt a kép letöltése közben, próbáld meg később.</string>
+    <string name="feather_error_saving_image">Hoppá, hiba történt a kép mentése közben.</string>
+    <string name="feather_error_validating_adobe_id">Az Adobe ID érvényesítése közben probléma merült fel. Kérjük, jelentkezz ki, majd jelentkezz be újra. Amennyiben a probléma továbbra is fennáll, küldj e-mailt a support@aviary.com címre</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Kiemelt</string>
+    <string name="feather_featured_effects">Kiemelt effektek</string>
+    <string name="feather_featured_frames">Kiemelt keretek</string>
+    <string name="feather_featured_overlays">Kiemelt átfedések</string>
+    <string name="feather_featured_stickers">Kiemelt matricák</string>
+    <string name="feather_feedback">Visszajelzés</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Van ötleted, hogyan fejleszthetnénk szerkesztőfelületünket? Mondd el nekünk.</string>
+    <string name="feather_feedback_dislike">Mondja el, mit nem tetszett</string>
+    <string name="feather_feedback_hint">Írjon visszajelzést</string>
+    <string name="feather_feedback_love">Mondja el, mi tetszett</string>
+    <string name="feather_feedback_posted_failure">A visszajelzés nem küldhető el</string>
+    <string name="feather_feedback_posted_success">Visszajelzés elküldve.</string>
+    <string name="feather_feedback_title">Visszajelzés</string>
+    <string name="feather_filters">Szűrők</string>
+    <string name="feather_flip">Megfordítás</string>
+    <string name="feather_free">Ingyenes</string>
+    <string name="feather_generic_error_title">Hiba</string>
+    <string name="feather_get_more">Készlet</string>
+    <string name="feather_got_it">Megvan!</string>
+    <string name="feather_have_an_adobe_id">Van Adobe ID azonosítód?</string>
+    <string name="feather_hidef">Nagyfelbontású</string>
+    <string name="feather_iap_download">Ingyenes</string>
+    <string name="feather_iap_download_failed">A letöltés nem sikerült</string>
+    <string name="feather_iap_failed_download_informations">Nem sikerült letölteni a szükséges információkat</string>
+    <string name="feather_iap_install">Telepítés</string>
+    <string name="feather_iap_installing">Telepítés folyamatban</string>
+    <string name="feather_iap_notification_installed_summary">A bővítőmodul telepítése sikerült</string>
+    <string name="feather_iap_owned">Telepített</string>
+    <string name="feather_iap_pack_installed">Telepített</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Visszaállítás</string>
+    <string name="feather_iap_restore_all">Összes visszaállítása</string>
+    <string name="feather_iap_restore_all_failed">Az Összes visszaállítása művelet sikertelen</string>
+    <string name="feather_iap_restore_all_in_progress">Összes visszaállítása folyamatban</string>
+    <string name="feather_iap_retry">Újra</string>
+    <string name="feather_iap_unavailable">Nem érhető el</string>
+    <string name="feather_iap_uninstall">Eltávolítás</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Megvilágítás</string>
+    <string name="feather_item_does_not_exists">A kért elem nem létezik</string>
+    <string name="feather_item_not_found">Az elem nem található</string>
+    <string name="feather_learn_more">További részletek</string>
+    <string name="feather_linear">Lineáris</string>
+    <string name="feather_loading_image">Kép betöltése...</string>
+    <string name="feather_loading_title">Betöltés...</string>
+    <string name="feather_meme">Mém</string>
+    <string name="feather_message_button_no">Nem, köszönöm.</string>
+    <string name="feather_message_button_yes">Naná!</string>
+    <string name="feather_my_account">Fiók</string>
+    <string name="feather_no_thanks">Nem, köszönöm</string>
+    <string name="feather_notification_n_items_cant_be_restored">%1$s elemet nem sikerült visszaállítani</string>
+    <string name="feather_notification_no_items_to_restore">Nincs szükség elemek visszaállítására</string>
+    <string name="feather_notification_plugins_installed_count">%1$d bővítőmodul telepítve</string>
+    <string name="feather_notification_plus_more">Még %1$d</string>
+    <string name="feather_notification_restore_all_completed">Az Összes visszaállítása művelet kész</string>
+    <string name="feather_notification_some_items_cant_be_restored">Nem sikerült minden elemet visszaállítani</string>
+    <string name="feather_ops_error_download_image">Probléma van a kapcsolattal :(</string>
+    <string name="feather_original">Eredeti</string>
+    <string name="feather_overlay_blemish_close_text">Nézd meg az új &lt;b>Életlenítés&lt;/b> eszközt!</string>
+    <string name="feather_overlay_blemish_tap_text">Érintsd meg a tökéletlenségek eltávolításához.</string>
+    <string name="feather_overlay_stickers_text">A kezdéshez telepítsd ezt az ingyenes csomagot!</string>
+    <string name="feather_overlay_tap_title">Érintés</string>
+    <string name="feather_overlay_undo_title">Csúsztass a visszavonáshoz vagy a szerkesztések újbóli végrehajtásához</string>
+    <string name="feather_overlay_zoom_text">Vagy fogd meg a nagyításhoz!</string>
+    <string name="feather_overlay_zoom_title">Zoom</string>
+    <string name="feather_overlays">Átfedések</string>
+    <string name="feather_owned">Saját</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">Fogd meg a nagyításhoz!</string>
+    <string name="feather_please_try_again_later">Kérjük, próbáld újra</string>
+    <string name="feather_powered_by_aviary">Az Aviary.com technológiájával</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Több mint 1000 &lt;b>effekt, matrica, átfedés és képkeret&lt;/b> a fényképek feljavításához</string>
+    <string name="feather_premium_days_left">%d nap maradt a Premium használatából</string>
+    <string name="feather_premium_description">30 napos hozzáférés a fényképszerkesztő tartozékok folyamatosan növekvő gyűjteményéhez mindössze %s áron</string>
+    <string name="feather_premium_error_no_internet">Kérjük, ellenőrizd az internetkapcsolatot, ha aktiválni szeretnéd hozzáférésedet a Premiumhoz</string>
+    <string name="feather_premium_expired_message">Hozzáférésed az Aviary Premiumhoz lejárt. Szeretnéd azt 30 napra aktiválni %s áron?</string>
+    <string name="feather_premium_expired_title">A hozzáférés lejárt</string>
+    <string name="feather_premium_get_price_error">Nem sikerült csatlakozni a Google Play áruházhoz. Kérjük, próbáld újra később.</string>
+    <string name="feather_premium_sign_in">&lt;u>Már van Adobe ID azonosítója? Bejelentkezés&lt;/u></string>
+    <string name="feather_premium_subscribe">Aktiválás</string>
+    <string name="feather_premium_sync">Az Adobe ID azonosító a tartozékokat örökre elmenti Önnek</string>
+    <string name="feather_premium_text1">• 30 napos hozzáférés az Aviary ÖSSZES effektjéhez, keretéhez, matricájához és átfedéseihez csupán
+		%1$s áron.&lt;br />&lt;br />•  A készletek szinkronizálása az Adobe ID azonosítóval automatikusan történik, és bármilyen készülékről, bármikor visszaállíthatók.</string>
+    <string name="feather_premium_thank_you_message">Most 30 napig teljes hozzáférésed van az Aviary összes képszerkesztő készletéhez.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• A 16 legnépszerűbb képszerkesztő készletet tartalmazó &lt;b>Aviary Essentials&lt;/b> készlet beszerzése &lt;b>INGYENESEN&lt;/b>&lt;br />&lt;br />
+• A készletek szinkronizálása és visszaállítása a Creative Cloud segítségével&lt;br />&lt;br />
+• Exkluzív hozzáférés a nemsokára megjelenő funkciókhoz</string>
+    <string name="feather_promo_title1">Köszönjük!</string>
+    <string name="feather_promo_title2">Az Aviary Essentials 16 effekt-, keret-, matrica- és átfedéscsomagot tartalmaz. Keresd meg az Adobe jelvényt, és töltsd le őket még ma a boltból!</string>
+    <string name="feather_promo_title_with_promo">Az Adobe ID azonosítóval hozzáférhetsz az
+Aviary Essentials készlethez</string>
+    <string name="feather_radial">Körkörös</string>
+    <string name="feather_rectangle">Téglalap</string>
+    <string name="feather_red_eye">Vörös szem</string>
+    <string name="feather_redo">Újra</string>
+    <string name="feather_refresh">Frissítés</string>
+    <string name="feather_report_bug">Hiba bejelentése</string>
+    <string name="feather_report_bug_message">Ezzel elindít egy folyamatot, amely információt fog gyűjteni az aktuális eszközállapotáról, és azt e-mailként elküldi majd. El fog tartani egy kis ideig, amíg a hibajelentés elkészül. Legyen türelemmel.</string>
+    <string name="feather_restore_all_request_sent">Kérés elküldve. A készüléked értesítési területén további információkat találsz</string>
+    <string name="feather_rotate">Forgatás</string>
+    <string name="feather_saturation">Telítettség</string>
+    <string name="feather_save">Kész</string>
+    <string name="feather_save_progress">Mentés...</string>
+    <string name="feather_see_more">Bővebben</string>
+    <string name="feather_send">Küldés</string>
+    <string name="feather_send_feedback">Visszajelzés küldése</string>
+    <string name="feather_settings_join_beta_description">Szerezz korai hozzáférést az új funkciókhoz, és segíts, hogy az Aviary még jobb legyen!</string>
+    <string name="feather_settings_join_beta_title">Csatlakozz az Aviary Betához</string>
+    <string name="feather_sharpen">Élesség</string>
+    <string name="feather_signin">Bejelentkezés</string>
+    <string name="feather_signup">Regisztráció</string>
+    <string name="feather_square">Négyzet</string>
+    <string name="feather_sticker_flip_tooltip">A matrica tükrözéséhez érintsd meg</string>
+    <string name="feather_stickers">Matricák</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Ez egy szabadon felhasználható, korlátozott szerkesztőcsomag. Ha eltávolítod, akkor előfordulhat, hogy a jövőben nem lehet majd visszaállítani.</string>
+    <string name="feather_store_checking_additional_packs">További csomagok keresése...</string>
+    <string name="feather_store_connection_problem">Nem sikerült kapcsolódni a Google Play áruházhoz. Kérjük, próbáld újra.</string>
+    <string name="feather_store_monthly">Havi</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Saját készlet</string>
+    <string name="feather_store_passport_banner_text">Az Aviary Passporttal ezt a csomagot és számtalan egyéb Aviary-effektet alacsony áron kaphatod meg! További információért kattints ide!</string>
+    <string name="feather_store_passport_cancelled">Törölve</string>
+    <string name="feather_store_passport_unknown">Ismeretlen</string>
+    <string name="feather_store_purchase_date">A vásárlás dátuma</string>
+    <string name="feather_store_title">Aviary ellátóbolt</string>
+    <string name="feather_take_survey">Új felmérés érhető el!</string>
+    <string name="feather_tell_us_what_you_think">Mondja el, mit gondol</string>
+    <string name="feather_text">Szöveg</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Eszköz</string>
+    <string name="feather_tool_color">Szín</string>
+    <string name="feather_tool_colorsplash">Kitöltés</string>
+    <string name="feather_tool_consolidation_adjust">Igazítás</string>
+    <string name="feather_tool_exposure">Expozíció</string>
+    <string name="feather_tool_fade">Halványítás</string>
+    <string name="feather_tool_highlight">Kiemelés</string>
+    <string name="feather_tool_lighting">Megvilágítás</string>
+    <string name="feather_tool_shadow">Árnyékok</string>
+    <string name="feather_tool_temperature">Melegség</string>
+    <string name="feather_tool_tiltshift">Fókusz</string>
+    <string name="feather_tool_tint">Színárnyalat</string>
+    <string name="feather_tool_vibrance">Élénkség</string>
+    <string name="feather_tooltip_adjust_intro">A fényerő, a kontraszt, a melegség és a telítettség már mind elérhető!</string>
+    <string name="feather_try_again">Próbáld újra</string>
+    <string name="feather_try_again_connected">Próbálkozzon újra, ha már csatlakozott</string>
+    <string name="feather_undo">Visszavonás</string>
+    <string name="feather_vignette">Vignetta</string>
+    <string name="feather_want_it_free">Ingyenesen szeretnéd?</string>
+    <string name="feather_warning">Figyelmeztetés</string>
+    <string name="feather_welcome_to_frames">Íme, a Keretek!</string>
+    <string name="feather_welcome_to_stickers">Íme, a Matricák!</string>
+    <string name="feather_whiten">Fehérítés</string>
+    <string name="feather_zoom_mode">Zoomolás módja</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Keresés törlése"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Keresés"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s، %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s، %2$s، %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"‏مشاركة مع %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="adobe_aviary_client_id_required">معرف العميل مطلوب</string>
+    <string name="adobe_aviary_client_secret_required">سر العميل مطلوب</string>
+    <string name="adobe_aviary_device_id_required">معرف الجهاز مطلوب</string>
+    <string name="adobe_aviary_invalid_argument">معامل غير صحيح</string>
+    <string name="adobe_aviary_module_not_initialized">لم يتم بدء تشغيل الوحدة</string>
+    <string name="adobe_aviary_unknown_error">خطأ غير معروف</string>
+    <string name="adobe_aviary_user_cancelled">تم إلغاء المستخدم</string>
+    <string name="adobe_aviary_user_interaction_required">تفاعل المستخدم مطلوب</string>
+    <string name="adobe_aviary_username_password_required">اسم المستخدم وكلمة المرور مطلوبين</string>
+    <string name="com_adobe_image_recent">الأخير</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"‏يتطلب <ns1:g id="APP_NAME">%1$s</ns1:g> خدمة أو أكثر من خدمات Google Play والتي لا تتوفر حاليًا. يُرجى الاتصال بمطوّر البرامج للحصول على المساعدة."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"‏تمكين خدمات Google Play"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تمكين خدمات Google Play."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"‏تمكين خدمات Google Play"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على هاتفك."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك اللوحي."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"الحساب الذي تم تحديده غير موجود على الجهاز. الرجاء اختيار حساب آخر."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"حساب غير صالح"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"‏يتطلب الاتصال بخدمات Google Play وجود اتصال بيانات."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"حدث خطأ في الشبكة"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"‏حدث خطأ في خدمات Google Play"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"لا تتوفر إمكانية الوصول إلى الحسابات من ملف شخصي مقيَّد."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"ملف شخصي مقيَّد"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"حدث خطأ أثناء تسجيل الدخول إلى الحساب المحدد. الرجاء اختيار حساب مختلف."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"أخفق تسجيل الدخول"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"‏تواجه <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. إذا ظلت المشكلة قائمة، فيُرجى الاتصال بمطوِّر البرامج للحصول على مساعدة."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"‏يعتمد <ns1:g id="APP_NAME">%1$s</ns1:g> على خدمات Google Play والتي لا تتوافق مع جهازك. يمكنك الاتصال بجهة التصنيع للحصول على مساعدة."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"‏خدمات Google Play"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"‏يتم الآن تحديث خدمات Google Play."</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="feather_acc_a_sticker">ملصق</string>
+    <string name="feather_acc_color">اللون</string>
+    <string name="feather_acc_flip_h">قلب أفقي</string>
+    <string name="feather_acc_flip_v">قلب عمودي</string>
+    <string name="feather_acc_lens_toggle">تبديل التكبير/التصغير</string>
+    <string name="feather_acc_rotate_ccw">التدوير في عكس اتجاه عقارب الساعة</string>
+    <string name="feather_acc_rotate_cw">التدوير في اتجاه عقارب الساعة</string>
+    <string name="feather_acc_size">الحجم</string>
+    <string name="feather_activate">تنشيط</string>
+    <string name="feather_activity_not_found">عذرا، لا يوجد تطبيق على جهازك للتعامل مع هذا الإجراء. هل تريد تنزيله الآن من السوق؟</string>
+    <string name="feather_adjust">الاتجاه</string>
+    <string name="feather_an_error_occurred">حدث خطأ</string>
+    <string name="feather_apply">تطبيق</string>
+    <string name="feather_applying_actions">يتم تطبيق الإجراءات…</string>
+    <string name="feather_ask_to_login_before_restore">إذا قمت بتسجيل الدخول في السابق من خلال Adobe ID، فقم بتسجيل الدخول لاستعادة الأدوات التي تمت مزامنتها</string>
+    <string name="feather_attention">انتباه</string>
+    <string name="feather_blemish">خلل</string>
+    <string name="feather_blemish_tool_tip">فقط المس</string>
+    <string name="feather_blur">ضبابية</string>
+    <string name="feather_borders">إطارات</string>
+    <string name="feather_borders_dialog_first_time">قم بتثبيت حزمة Aviary المجانية من الملصقات ذات الإطارات عالية الدقة الجميلة للبدء.</string>
+    <string name="feather_brightness">السطوع</string>
+    <string name="feather_cant_undo_anymore">يتعذر التراجع أكثر</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">دائرة</string>
+    <string name="feather_close">غلق</string>
+    <string name="feather_colorfix">تثبيت اللون</string>
+    <string name="feather_colorsplash_eraser">ممحاة</string>
+    <string name="feather_colorsplash_free">لون مجاني</string>
+    <string name="feather_colorsplash_smart">لون ذكي</string>
+    <string name="feather_contrast">التباين</string>
+    <string name="feather_crop">قص</string>
+    <string name="feather_custom">مخصص</string>
+    <string name="feather_delete">حذف</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">التفاصيل</string>
+    <string name="feather_discard">تجاهل</string>
+    <string name="feather_discard_edits">هل تريد تجاهل التحرير؟</string>
+    <string name="feather_download">تنزيل</string>
+    <string name="feather_download_start_failed">فشل بدء التنزيل. يرجى المحاولة مرة أخرى في وقت لاحق</string>
+    <string name="feather_draw">رسم</string>
+    <string name="feather_edit_bottom_text">تحرير النص السفلي</string>
+    <string name="feather_edit_top_text">تحرير النص العلوي</string>
+    <string name="feather_edit_your_photo">محرر الصور</string>
+    <string name="feather_effect_intensity_tooltip">مرر لأعلى أو لأسفل لضبط الكثافة</string>
+    <string name="feather_effect_loading_message">يتم تطبيق المؤثرات</string>
+    <string name="feather_effects">مؤثرات</string>
+    <string name="feather_email_email_invalid">عنوان البريد الإلكتروني غير صالح</string>
+    <string name="feather_email_feedback_empty">يتعذر ترك الملاحظات فارغة</string>
+    <string name="feather_email_hint">البريد الإلكتروني (للتواصل بغرض الدعم)</string>
+    <string name="feather_enhance">تحسين</string>
+    <string name="feather_enhance_effect_food">طعام</string>
+    <string name="feather_enhance_effect_night">الليل</string>
+    <string name="feather_enhance_effect_portrait">عمودي</string>
+    <string name="feather_enhance_effect_scenery">مشهد</string>
+    <string name="feather_enter_text_here">إدخال نص هنا</string>
+    <string name="feather_error_download_image_message">حدث خطأ أثناء تنزيل الصورة، يرجى المحاولة مرة أخرى في وقت لاحق.</string>
+    <string name="feather_error_saving_image">عذرا، حدث خطأ أثناء حفظ الصورة.</string>
+    <string name="feather_error_validating_adobe_id">نواجه مشكلةً في التحقق من صحة Adobe ID الخاص بك. يرجى تسجيل الخروج ومعاودة تسجيل الدخول. وفي حالة استمرار المشكلة، يرجى إرسال بريد إلكتروني إلى support@aviary.com</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">متميز</string>
+    <string name="feather_featured_effects">المؤثرات المتميزة</string>
+    <string name="feather_featured_frames">الإطارات المميزة</string>
+    <string name="feather_featured_overlays">التداخلات المميزة</string>
+    <string name="feather_featured_stickers">الملصقات المتميزة</string>
+    <string name="feather_feedback">تعليقات</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">هل لديك اقتراح لتطوير محرر الصور؟ أخبرنا به.</string>
+    <string name="feather_feedback_dislike">أخبرنا عن ما لا يعجبك</string>
+    <string name="feather_feedback_hint">كتابة اسم حساب Facebook الخاص بك</string>
+    <string name="feather_feedback_love">أخبرنا عن ما تحبه فيه</string>
+    <string name="feather_feedback_posted_failure">تعذر النشر على Feedback</string>
+    <string name="feather_feedback_posted_success">تم النشر على Feedback!</string>
+    <string name="feather_feedback_title">تعليقات</string>
+    <string name="feather_filters">مرشحات</string>
+    <string name="feather_flip">قلب</string>
+    <string name="feather_free">مجاني</string>
+    <string name="feather_generic_error_title">خطأ</string>
+    <string name="feather_get_more">الأدوات</string>
+    <string name="feather_got_it">فهمت!</string>
+    <string name="feather_have_an_adobe_id">هل لديك Adobe ID؟</string>
+    <string name="feather_hidef">عالي الدقة</string>
+    <string name="feather_iap_download">مجاني</string>
+    <string name="feather_iap_download_failed">فشل التنزيل</string>
+    <string name="feather_iap_failed_download_informations">فشل تنزيل المعلومات المطلوبة</string>
+    <string name="feather_iap_install">تثبيت</string>
+    <string name="feather_iap_installing">جارِ التثبيت</string>
+    <string name="feather_iap_notification_installed_summary">تم تثبيت المكون الإضافي بنجاح</string>
+    <string name="feather_iap_owned">تم التثبيت</string>
+    <string name="feather_iap_pack_installed">تم التثبيت</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">استعادة</string>
+    <string name="feather_iap_restore_all">استعادة الكل</string>
+    <string name="feather_iap_restore_all_failed">فشلت استعادة الكل</string>
+    <string name="feather_iap_restore_all_in_progress">استعادة الكل قيد التقدم</string>
+    <string name="feather_iap_retry">إعادة المحاولة</string>
+    <string name="feather_iap_unavailable">غير متاح</string>
+    <string name="feather_iap_uninstall">إلغاء التثبيت</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">التوهج</string>
+    <string name="feather_item_does_not_exists">العنصر المطلوب غير موجود</string>
+    <string name="feather_item_not_found">لم يتم العثور على العنصر</string>
+    <string name="feather_learn_more">معرفة المزيد</string>
+    <string name="feather_linear">خطي</string>
+    <string name="feather_loading_image">جارِ تحميل الصورة...</string>
+    <string name="feather_loading_title">جارِ التحميل...</string>
+    <string name="feather_meme">مشاركة المحتوى عبر الإنترنت</string>
+    <string name="feather_message_button_no">لا، شكرا.</string>
+    <string name="feather_message_button_yes">متأكد!</string>
+    <string name="feather_my_account">الحساب</string>
+    <string name="feather_no_thanks">لا، شكرا</string>
+    <string name="feather_notification_n_items_cant_be_restored">تعذر استعادة عنصر (عناصر) %1$s</string>
+    <string name="feather_notification_no_items_to_restore">لا توجد عناصر بحاجة إلى استعادتها</string>
+    <string name="feather_notification_plugins_installed_count">تم تثبت مكونات %1$d الإضافية</string>
+    <string name="feather_notification_plus_more">%1$d إضافي</string>
+    <string name="feather_notification_restore_all_completed">اكتملت استعادة الكل</string>
+    <string name="feather_notification_some_items_cant_be_restored">تعذرت استعادة بعض العناصر</string>
+    <string name="feather_ops_error_download_image">نعاني من مشكلات في الاتصال :(</string>
+    <string name="feather_original">أصلي</string>
+    <string name="feather_overlay_blemish_close_text">تعرف على أداة &lt;b>التمويه&lt;/b> الجديدة!</string>
+    <string name="feather_overlay_blemish_tap_text">المس الأخطاء لإزالتها.</string>
+    <string name="feather_overlay_stickers_text">قم بتثبيت هذه الحزمة المجانية للبدء!</string>
+    <string name="feather_overlay_tap_title">المس</string>
+    <string name="feather_overlay_undo_title">قم بالتمرير للتراجع عن عمليات التحرير أو إعادة القيام بها</string>
+    <string name="feather_overlay_zoom_text">بإمكانك أيضا التقليص للتكبير!</string>
+    <string name="feather_overlay_zoom_title">تكبير/تصغير</string>
+    <string name="feather_overlays">التراكبات</string>
+    <string name="feather_owned">مملوك</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">قم بالتقليص للتكبير!</string>
+    <string name="feather_please_try_again_later">يُرجى إعادة المحاولة لاحقًا</string>
+    <string name="feather_powered_by_aviary">مشغل بواسطة Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">أكثر من 1000 &lt;b>من المؤثرات والملصقات والتداخلات والإطارات&lt;/b> لتحسين صورك</string>
+    <string name="feather_premium_days_left">%d أيام متبقية في Premium</string>
+    <string name="feather_premium_description">30 يومًا من الوصول إلى مجموعتنا المتزايدة بشكل مستمر من أدوات تحرير الصور مقابل %s فقط</string>
+    <string name="feather_premium_error_no_internet">يرجى التحقق من اتصالك بالإنترنت لتنشيط وصولك إلى Premium.</string>
+    <string name="feather_premium_expired_message">انتهت مدة صلاحية وصولك إلى Aviary Premium. هل تريد التنشيط لمدة 30 يومًا مقابل %s؟</string>
+    <string name="feather_premium_expired_title">انتهت مدة صلاحية الوصول</string>
+    <string name="feather_premium_get_price_error">فشل الاتصال بـ Google Play. يرجى المحاولة مرة أخرى لاحقا</string>
+    <string name="feather_premium_sign_in">&lt;u>هل لديك Adobe ID؟ سجّل الدخول&lt;/u></string>
+    <string name="feather_premium_subscribe">تنشيط</string>
+    <string name="feather_premium_sync">يتم عمل نسخ احتياطية لأدواتك تلقائيًا بشكل دائم من خلال Adobe ID</string>
+    <string name="feather_premium_text1">• 30 يومًا من نجاح جميع مؤثرات Aviary والإطارات والملصقات والتداخلات مقابل %1$s فقط.&lt;br />&lt;br />• تتم مزامنة أدواتك تلقائيًا إلى Adobe ID الخاص بك، ويمكن استعادتها في أي وقت من على أي جهاز.</string>
+    <string name="feather_premium_thank_you_message">لديك الآن وصول إلى مجموعة أدوات Aviary كاملة من أدوات تحرير الصور لمدة 30 يومًا.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• احصل على &lt;b>Aviary Essentials&lt;/b>، 16 من بين أفضل أدوات تحرير الصور الشائعة الخاصة بنا لـ &lt;b>FREE&lt;/b>&lt;br />&lt;br />
+• مزامنة الأدوات واستعادتها من خلال Creative Cloud&lt;br />&lt;br />
+• وصول حصري إلى الميزات المستقبلية</string>
+    <string name="feather_promo_title1">شكراً!</string>
+    <string name="feather_promo_title2">يشتمل Aviary Essentials على 16 مؤثر إجمالي، وإطار، وملصق، وحزم تراكب. ابحث عن شارة Adobe وقم بتحميلهم من المتجر الآن!</string>
+    <string name="feather_promo_title_with_promo">تعرف على أساسيات Aviary بواسطة Adobe ID</string>
+    <string name="feather_radial">قطري</string>
+    <string name="feather_rectangle">مستطيل</string>
+    <string name="feather_red_eye">العين الحمراء</string>
+    <string name="feather_redo">إعادة</string>
+    <string name="feather_refresh">تحديث</string>
+    <string name="feather_report_bug">الإبلاغ عن خطأ</string>
+    <string name="feather_report_bug_message">سيقوم ذلك بجمع معلومات حول حالة جهازك الحالي لإرسالها في رسالة بريد إلكتروني. وسيستغرق الأمر قليلا من الوقت من بداية تقرير الأخطاء حتى تكون جاهزة للإرسال. يرجى التحلي بالصبر.</string>
+    <string name="feather_restore_all_request_sent">تم إرسال الطلب. يرجى التحقق من منطقة الإشعار في جهازك للحصول على مزيد من المعلومات</string>
+    <string name="feather_rotate">تدوير</string>
+    <string name="feather_saturation">التشبع</string>
+    <string name="feather_save">تم</string>
+    <string name="feather_save_progress">جار الحفظ...</string>
+    <string name="feather_see_more">مشاهدة المزيد</string>
+    <string name="feather_send">أرسل</string>
+    <string name="feather_send_feedback">إرسال تعليقات</string>
+    <string name="feather_settings_join_beta_description">احصل على وصول مبكر إلى الميزات الجديدة وساعد في إنشاء Aviary أفضل!</string>
+    <string name="feather_settings_join_beta_title">الانضمام إلى الإصدار التجريبي من Aviary</string>
+    <string name="feather_sharpen">الحدة</string>
+    <string name="feather_signin">تسجيل الدخول</string>
+    <string name="feather_signup">التسجيل</string>
+    <string name="feather_square">مربع</string>
+    <string name="feather_sticker_flip_tooltip">المس لقلب هذا الملصق</string>
+    <string name="feather_stickers">ملصقات</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">هذه حزمة إصدار مجاني وغير محدود. وفي حالة إلغاء تثبيتها، قد تكون غير قادر على استعادتها مرة أخرى في المستقبل.</string>
+    <string name="feather_store_checking_additional_packs">جارِ التحقق بحثا عن حزم إضافية...</string>
+    <string name="feather_store_connection_problem">حدث خطأ أثناء الاتصال بمتجر Google Play. يرجى المحاولة مرة أخرى.</string>
+    <string name="feather_store_monthly">شهريًا</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">أدواتي</string>
+    <string name="feather_store_passport_banner_text">احصل على هذه الحزمة والآلاف من مؤثرات Aviary بسعر واحد منخفض من خلال Aviary Passport! انقر هنا للحصول على مزيد من المعلومات!</string>
+    <string name="feather_store_passport_cancelled">ملغى</string>
+    <string name="feather_store_passport_unknown">غير معروف</string>
+    <string name="feather_store_purchase_date">تاريخ الشراء</string>
+    <string name="feather_store_title">متجر أدوات Aviary</string>
+    <string name="feather_take_survey">يتوفر استطلاع جديد!</string>
+    <string name="feather_tell_us_what_you_think">أخبرنا عن ما تفكر فيه</string>
+    <string name="feather_text">نص</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">أداة</string>
+    <string name="feather_tool_color">اللون</string>
+    <string name="feather_tool_colorsplash">رش</string>
+    <string name="feather_tool_consolidation_adjust">تعديل</string>
+    <string name="feather_tool_exposure">تعرض</string>
+    <string name="feather_tool_fade">تضاؤل</string>
+    <string name="feather_tool_highlight">أمور هامة</string>
+    <string name="feather_tool_lighting">الإضاءة</string>
+    <string name="feather_tool_shadow">ظلال</string>
+    <string name="feather_tool_temperature">السخونة</string>
+    <string name="feather_tool_tiltshift">تقريب</string>
+    <string name="feather_tool_tint">الصبغة</string>
+    <string name="feather_tool_vibrance">تذبذب</string>
+    <string name="feather_tooltip_adjust_intro">التباين والسطوع والسخونة والتشبع متاحة الآن هنا!</string>
+    <string name="feather_try_again">المحاولة مرة أخرى</string>
+    <string name="feather_try_again_connected">حاول مرة أخرى عندما تكون متصلا</string>
+    <string name="feather_undo">تراجع</string>
+    <string name="feather_vignette">تدرج الإضاءة</string>
+    <string name="feather_want_it_free">هل تريد الحصول عليه مجانا؟</string>
+    <string name="feather_warning">تحذير</string>
+    <string name="feather_welcome_to_frames">مرحبا بك في عالم الإطارات!</string>
+    <string name="feather_welcome_to_stickers">مرحبا بك في عالم الملصقات!</string>
+    <string name="feather_whiten">تبييض</string>
+    <string name="feather_zoom_mode">وضع التكبير/التصغير</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"مسح البحث"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"البحث"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+</resources>

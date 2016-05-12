@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Lisää"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"POIS KÄYTÖSTÄ"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"KÄYTÖSSÄ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Haku…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Hakulauseke"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Jakaminen:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Jakaminen: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Kutista"</string>
+    <string name="adobe_aviary_client_id_required">Asiakastunnus on annettava.</string>
+    <string name="adobe_aviary_client_secret_required">Asiakassalaisuus on annettava.</string>
+    <string name="adobe_aviary_device_id_required">Laitetunnus on annettava.</string>
+    <string name="adobe_aviary_invalid_argument">Virheellinen argumentti</string>
+    <string name="adobe_aviary_module_not_initialized">Moduulia ei ole alustettu.</string>
+    <string name="adobe_aviary_unknown_error">Tuntematon virhe</string>
+    <string name="adobe_aviary_user_cancelled">Käyttäjä peruutti toiminnon.</string>
+    <string name="adobe_aviary_user_interaction_required">Vaatii käyttäjän toimia.</string>
+    <string name="adobe_aviary_username_password_required">Käyttäjänimi ja salasana on annettava.</string>
+    <string name="adobe_csdk_auth_required">Todennus vaaditaan</string>
+    <string name="adobe_csdk_auth_sign_in_close">Sulje</string>
+    <string name="adobe_csdk_cancelLogIn">PERUUTA</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Ei Internet-yhteyttä</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Todennuksessa tapahtui virhe.\nYritä myöhemmin uudelleen.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Viesti siitä, että käyttäjällä ei ole oikeutta esikatsella videota."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Adobe ID -tilin täysi käyttöoikeus</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Vain yhtä Adobe ID -tunnusta tuetaan</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">KIRJAUDU SISÄÄN</string>
+    <string name="adobe_csdk_proxy_passwd_label">SALASANA</string>
+    <string name="adobe_csdk_proxy_username_label">KÄYTTÄJÄNIMI</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">Palvelin http://%s edellyttää käyttäjänimeä ja salasanaa. Palvelimen ilmoitus: %s</string>
+    <string name="com_adobe_image_recent">Viimeisimmät</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> tarvitsee yhtä tai useampaa Google Play Palvelua, jotka eivät ole tällä hetkellä käytettävissä. Ota yhteyttä kehittäjään."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Ota Google Play Palvelut käyttöön"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet ota Google Play Palveluita käyttöön."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Ota Google Play Palvelut käyttöön"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Asenna Google Play Palvelut"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, jotka puuttuvat puhelimestasi."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, jotka puuttuvat tabletistasi."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Asenna Google Play Palvelut"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"Määritettyä tiliä ei ole tällä laitteella. Valitse toinen tili."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Tili on virheellinen"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"Google Play Palveluiden käyttöön tarvitaan verkkoyhteys."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Verkkovirhe"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Google Play Palveluiden virhe"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"Tilien käyttöä rajoitetulla profiililla ei tueta."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Rajoitettu profiili"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Määritetylle tilille kirjauduttaessa tapahtui virhe. Valitse toinen tili."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Kirjautuminen epäonnistui."</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"Sovelluksella <ns1:g id="APP_NAME">%1$s</ns1:g> on ongelmia Google Play Palveluiden kanssa. Jos ongelma ei poistu, ota yhteyttä sovelluksen kehittäjään."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> käyttää Google Play Palveluita, joita laitteesi ei tue. Ota yhteyttä laitteen valmistajaan."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Google Play Palvelut"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Päivitä"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet päivitä Google Play Palveluita."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Päivitä Google Play Palvelut"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Google Play Palveluita päivitetään"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Avaa puhelimessa"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Kirjaudu sisään"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Kirjaudu Google-tilille"</string>
+    <string name="feather_acc_a_sticker">Tarra</string>
+    <string name="feather_acc_color">Väri</string>
+    <string name="feather_acc_flip_h">Vaakapeilikuva</string>
+    <string name="feather_acc_flip_v">Pystypeilikuva</string>
+    <string name="feather_acc_lens_toggle">Vaihda zoomausta</string>
+    <string name="feather_acc_rotate_ccw">Kierrä vastapäivään</string>
+    <string name="feather_acc_rotate_cw">Kierrä myötäpäivään</string>
+    <string name="feather_acc_size">Koko</string>
+    <string name="feather_activate">Aktivoi</string>
+    <string name="feather_activity_not_found">Laitteessasi ei valitettavasti ole sovellusta, joka pystyisi suorittamaan tämän tehtävän. Haluatko ladata sen sovelluskaupasta nyt?</string>
+    <string name="feather_adjust">Suunta</string>
+    <string name="feather_an_error_occurred">Tapahtui virhe</string>
+    <string name="feather_apply">Käytä</string>
+    <string name="feather_applying_actions">Suoritetaan toimintoja…</string>
+    <string name="feather_ask_to_login_before_restore">Jos olet aikaisemmin kirjautunut Adobe ID:llä, kirjaudu synkronoitujen tarvikkeiden palauttamista varten.</string>
+    <string name="feather_attention">Huomio</string>
+    <string name="feather_blemish">Häivytä</string>
+    <string name="feather_blemish_tool_tip">Napauta</string>
+    <string name="feather_blur">Sumenna</string>
+    <string name="feather_borders">Kehykset</string>
+    <string name="feather_borders_dialog_first_time">Aloita asentamalla Aviaryn kauniiden korkearesoluutioisten kehysten maksuton paketti.</string>
+    <string name="feather_brightness">Kirkkaus</string>
+    <string name="feather_cant_undo_anymore">Ei voi kumota enempää</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Ympyrä</string>
+    <string name="feather_close">Sulje</string>
+    <string name="feather_colorfix">Korjaa värit</string>
+    <string name="feather_colorsplash_eraser">Pyyhekumi</string>
+    <string name="feather_colorsplash_free">Vapaa väri</string>
+    <string name="feather_colorsplash_smart">Älykäs väri</string>
+    <string name="feather_contrast">Kontrasti</string>
+    <string name="feather_crop">Rajaa</string>
+    <string name="feather_custom">Mukautettu</string>
+    <string name="feather_delete">Poista</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Tiedot</string>
+    <string name="feather_discard">Hylkää</string>
+    <string name="feather_discard_edits">Hylätäänkö muokkaus?</string>
+    <string name="feather_download">Lataa</string>
+    <string name="feather_download_start_failed">Lataamisen käynnistäminen epäonnistui. Yritä myöhemmin uudelleen.</string>
+    <string name="feather_draw">Piirrä</string>
+    <string name="feather_edit_bottom_text">Muunna alatekstiä</string>
+    <string name="feather_edit_top_text">Muokkaa ylätekstiä</string>
+    <string name="feather_edit_your_photo">Valokuvaeditori</string>
+    <string name="feather_effect_intensity_tooltip">Säädä voimakkuutta pyyhkäisemällä ylös- tai alaspäin</string>
+    <string name="feather_effect_loading_message">Tehosteet otetaan käyttöön</string>
+    <string name="feather_effects">Tehosteet</string>
+    <string name="feather_email_email_invalid">Virheellinen sähköpostiosoite</string>
+    <string name="feather_email_feedback_empty">Palaute ei voi olla tyhjä.</string>
+    <string name="feather_email_hint">Sähköposti (tukiviestintää varten)</string>
+    <string name="feather_enhance">Paranna</string>
+    <string name="feather_enhance_effect_food">Ruoka</string>
+    <string name="feather_enhance_effect_night">Yö</string>
+    <string name="feather_enhance_effect_portrait">Muotokuva</string>
+    <string name="feather_enhance_effect_scenery">Maisema</string>
+    <string name="feather_enter_text_here">Syötä teksti tähän</string>
+    <string name="feather_error_download_image_message">Kuvaa ladattaessa tapahtui virhe. Yritä myöhemmin uudelleen.</string>
+    <string name="feather_error_saving_image">Oho, kuvaa tallentaessa tapahtui virhe.</string>
+    <string name="feather_error_validating_adobe_id">Adobe ID:si tarkistamisessa ilmeni ongelma. Kirjaudu ulos ja sitten uudelleen sisään. Jos ongelma jatkuu, lähetä sähköpostia osoitteeseen support@aviary.com.</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Esittelyssä</string>
+    <string name="feather_featured_effects">Esiteltävät tehosteet</string>
+    <string name="feather_featured_frames">Esiteltävät kehykset</string>
+    <string name="feather_featured_overlays">Esiteltävät peittokuvat</string>
+    <string name="feather_featured_stickers">Esiteltävät tarrat</string>
+    <string name="feather_feedback">Palaute</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Onko sinulla ehdotuksia tämän valokuvaeditorin parantamiseksi? Kerro meille.</string>
+    <string name="feather_feedback_dislike">Kerro, mistä et pidä</string>
+    <string name="feather_feedback_hint">Anna palautetta</string>
+    <string name="feather_feedback_love">Kerro, mistä pidät</string>
+    <string name="feather_feedback_posted_failure">Palautteen lähettäminen epäonnistui.</string>
+    <string name="feather_feedback_posted_success">Palaute lähetetty!</string>
+    <string name="feather_feedback_title">Palaute</string>
+    <string name="feather_filters">Suotimet</string>
+    <string name="feather_flip">Peilaa</string>
+    <string name="feather_free">Maksuton</string>
+    <string name="feather_generic_error_title">Virhe</string>
+    <string name="feather_get_more">Tarvikkeet</string>
+    <string name="feather_got_it">Selvä!</string>
+    <string name="feather_have_an_adobe_id">Onko sinulla Adobe ID?</string>
+    <string name="feather_hidef">Terävyys</string>
+    <string name="feather_iap_download">Maksuton</string>
+    <string name="feather_iap_download_failed">Lataus epäonnistui</string>
+    <string name="feather_iap_failed_download_informations">Tarvittavien tietojen lataaminen epäonnistui.</string>
+    <string name="feather_iap_install">Asenna</string>
+    <string name="feather_iap_installing">Asennetaan</string>
+    <string name="feather_iap_notification_installed_summary">Laajennuksen asentaminen onnistui.</string>
+    <string name="feather_iap_owned">Asennettu</string>
+    <string name="feather_iap_pack_installed">Asennettu</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Palauta</string>
+    <string name="feather_iap_restore_all">Palauta kaikki</string>
+    <string name="feather_iap_restore_all_failed">Palauta kaikki epäonnistuneet</string>
+    <string name="feather_iap_restore_all_in_progress">Palauta kaikki käynnissä olevat</string>
+    <string name="feather_iap_retry">Yritä uudelleen</string>
+    <string name="feather_iap_unavailable">Ei käytettävissä</string>
+    <string name="feather_iap_uninstall">Poista asennus</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Valaistus</string>
+    <string name="feather_item_does_not_exists">Pyydettyä kohdetta ei ole olemassa.</string>
+    <string name="feather_item_not_found">Kohdetta ei löydy</string>
+    <string name="feather_learn_more">Lue lisää</string>
+    <string name="feather_linear">Lineaarinen</string>
+    <string name="feather_loading_image">Ladataan kuvaa…</string>
+    <string name="feather_loading_title">Ladataan...</string>
+    <string name="feather_meme">Meemi</string>
+    <string name="feather_message_button_no">Ei, kiitos.</string>
+    <string name="feather_message_button_yes">Totta kai!</string>
+    <string name="feather_my_account">Tili</string>
+    <string name="feather_no_thanks">Ei, kiitos</string>
+    <string name="feather_notification_n_items_cant_be_restored">%1$s kohdetta ei voi palauttaa.</string>
+    <string name="feather_notification_no_items_to_restore">Palautettavia kohteita ei ole.</string>
+    <string name="feather_notification_plugins_installed_count">%1$d laajennusta asennettu</string>
+    <string name="feather_notification_plus_more">%1$d lisää</string>
+    <string name="feather_notification_restore_all_completed">Palauta kaikki valmiit</string>
+    <string name="feather_notification_some_items_cant_be_restored">Joitakin kohteita ei voi palauttaa.</string>
+    <string name="feather_ops_error_download_image">Meillä on yhteysongelmia :(</string>
+    <string name="feather_original">Alkuperäinen</string>
+    <string name="feather_overlay_blemish_close_text">Tutustu uuteen &lt;b>Sumennus&lt;/b>-työkaluun!</string>
+    <string name="feather_overlay_blemish_tap_text">Napauta poistettavia virheitä.</string>
+    <string name="feather_overlay_stickers_text">Aloita asentamalla tämä maksuton paketti!</string>
+    <string name="feather_overlay_tap_title">Napauta</string>
+    <string name="feather_overlay_undo_title">Kumoa muokkaukset tai tee ne uudelleen pyyhkäisemällä</string>
+    <string name="feather_overlay_zoom_text">Voi myös zoomata nipistämällä!</string>
+    <string name="feather_overlay_zoom_title">Zoomaa</string>
+    <string name="feather_overlays">Peittokuvat</string>
+    <string name="feather_owned">Omistettu</string>
+    <string name="feather_passport">Aviary-passi</string>
+    <string name="feather_pinch_to_zoom">Zoomaa nipistämällä!</string>
+    <string name="feather_please_try_again_later">Yritä myöhemmin uudelleen.</string>
+    <string name="feather_powered_by_aviary">Palvelun tarjoaa Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Yli tuhat &lt;b>tehostetta, tarraa, peittokuvaa ja kehystä&lt;/b> valokuvien paranteluun</string>
+    <string name="feather_premium_days_left">Premiumista jäljellä %d päivää</string>
+    <string name="feather_premium_description">Valokuvien muokkaustarvikkeiden jatkuvasti kasvavan kokoelman 30 päivän käyttöoikeus vain %s</string>
+    <string name="feather_premium_error_no_internet">Tarkista Internet-yhteys Premiumin käyttöoikeuksien aktivointia varten.</string>
+    <string name="feather_premium_expired_message">Oikeutesi Aviary Premiumin käyttöön ovat vanhentuneet. Haluatko aktivoida tilauksesi 30 päiväksi hintaan %s?</string>
+    <string name="feather_premium_expired_title">Käyttöoikeudet vanhentuneet</string>
+    <string name="feather_premium_get_price_error">Yhteyden muodostaminen Google Playhin epäonnistui. Yritä myöhemmin uudelleen.</string>
+    <string name="feather_premium_sign_in">&lt;u>Onko sinulla Adobe ID? Kirjaudu sisään&lt;/u></string>
+    <string name="feather_premium_subscribe">Aktivoi</string>
+    <string name="feather_premium_sync">Adobe ID:llä voit varmuuskopioida tarvikkeet automaattisesti ja pysyvästi.</string>
+    <string name="feather_premium_text1">• Oikeudet Aviaryn KAIKKIEN tehosteiden, kehysten, tarrojen ja peittokuvien käyttöön 30 päiväksi
+		vain %1$s.&lt;br />&lt;br />• Tarvikkeesi synkronoidaan automaattisesti Adobe ID:seen, minkä jälkeen ne voidaan palauttaa mistä tahansa laitteesta.</string>
+    <string name="feather_premium_thank_you_message">Sinulla on nyt oikeudet Aviaryn valokuvien muokkaustarvikkeiden koko kokoelman käyttöön 30 päivän ajan.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• Hanki &lt;b>Aviary Essentials&lt;/b>, 16 suosituinta valokuvien muokkaustoimintoa sisältävä ratkaisumme, &lt;b>ILMAISEKSI&lt;/b>&lt;br />&lt;br />
+• Synkronoi ja palauta tarvikkeet Creative Cloudilla&lt;br />&lt;br />
+• Tulevien toimintojen yksilöllinen käyttöoikeus</string>
+    <string name="feather_promo_title1">Kiitos!</string>
+    <string name="feather_promo_title2">Aviary Essentials sisältää 16 tehoste-, kehys-, tarra- ja peittokuvapakettia. Etsi Adoben merkki ja lataa ne kaupasta nyt!</string>
+    <string name="feather_promo_title_with_promo">Poista Aviary Essentialsin
+lukitus Adobe ID:llä</string>
+    <string name="feather_radial">Säteittäinen</string>
+    <string name="feather_rectangle">Suorakulmio</string>
+    <string name="feather_red_eye">Punasilmä</string>
+    <string name="feather_redo">Tee uudelleen</string>
+    <string name="feather_refresh">Päivitä</string>
+    <string name="feather_report_bug">Ilmoita viasta</string>
+    <string name="feather_report_bug_message">Tämä toiminto kerää tietoja laitteen nykyisestä tilasta sähköpostiviestinä lähettämistä varten. Kestää vähän aikaa, ennen kuin virheraportti on valmiina lähetettäväksi. Ole kärsivällinen.</string>
+    <string name="feather_restore_all_request_sent">Pyyntö lähetetty. Lisätietoja saat laitteen ilmoitusalueelta.</string>
+    <string name="feather_rotate">Kierrä</string>
+    <string name="feather_saturation">Kylläisyys</string>
+    <string name="feather_save">Valmis</string>
+    <string name="feather_save_progress">Tallennetaan…</string>
+    <string name="feather_see_more">Näytä lisää</string>
+    <string name="feather_send">Lähetä</string>
+    <string name="feather_send_feedback">Lähetä palautetta</string>
+    <string name="feather_settings_join_beta_description">Käytä uusia toimintoja jo aikaisessa vaiheessa ja auta kehittämään Aviarya!</string>
+    <string name="feather_settings_join_beta_title">Kokeile Aviary Betaa</string>
+    <string name="feather_sharpen">Terävyys</string>
+    <string name="feather_signin">Kirjaudu sisään</string>
+    <string name="feather_signup">Rekisteröidy</string>
+    <string name="feather_square">Neliö</string>
+    <string name="feather_sticker_flip_tooltip">Peilaa tämä tarra napauttamalla</string>
+    <string name="feather_stickers">Tarrat</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Tämä on maksuton, rajoitetusti saatavilla oleva paketti. Jos poistat sen asennuksen, et ehkä pysty palauttamaan sitä myöhemmin.</string>
+    <string name="feather_store_checking_additional_packs">Haetaan lisää paketteja...</string>
+    <string name="feather_store_connection_problem">Google Play -kauppaan yhteyttä muodostettaessa ilmeni ongelma. Yritä uudelleen.</string>
+    <string name="feather_store_monthly">Kuukausittain</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Omat tarvikkeet</string>
+    <string name="feather_store_passport_banner_text">Hanki tämä paketti ja muita Aviaryn tehosteita edullisesti Aviary-passilla. Lisätietoja saat napsauttamalla tätä.</string>
+    <string name="feather_store_passport_cancelled">Peruutettu</string>
+    <string name="feather_store_passport_unknown">Tuntematon</string>
+    <string name="feather_store_purchase_date">Ostopäivä</string>
+    <string name="feather_store_title">Aviaryn tarvikekauppa</string>
+    <string name="feather_take_survey">Uusi kysely saatavilla!</string>
+    <string name="feather_tell_us_what_you_think">Kerro mielipiteesi</string>
+    <string name="feather_text">Teksti</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Työkalu</string>
+    <string name="feather_tool_color">Väri</string>
+    <string name="feather_tool_colorsplash">Väritä</string>
+    <string name="feather_tool_consolidation_adjust">Säädä</string>
+    <string name="feather_tool_exposure">Valotus</string>
+    <string name="feather_tool_fade">Häivytys</string>
+    <string name="feather_tool_highlight">Vaaleat</string>
+    <string name="feather_tool_lighting">Valaistus</string>
+    <string name="feather_tool_shadow">Varjot</string>
+    <string name="feather_tool_temperature">Värilämpö</string>
+    <string name="feather_tool_tiltshift">Tarkennus</string>
+    <string name="feather_tool_tint">Sävy</string>
+    <string name="feather_tool_vibrance">Värikirkkaus</string>
+    <string name="feather_tooltip_adjust_intro">Kirkkaus, kontrasti, värilämpö ja kylläisyys ovat nyt käytettävissä!</string>
+    <string name="feather_try_again">Yritä uudelleen</string>
+    <string name="feather_try_again_connected">Yritä yhteyden muodostamisen jälkeen uudelleen.</string>
+    <string name="feather_undo">Kumoa</string>
+    <string name="feather_vignette">Vinjetti</string>
+    <string name="feather_want_it_free">Haluatko sen ilmaiseksi?</string>
+    <string name="feather_warning">Varoitus</string>
+    <string name="feather_welcome_to_frames">Tervetuloa käyttämään kehyksiä!</string>
+    <string name="feather_welcome_to_stickers">Tervetuloa käyttämään tarroja!</string>
+    <string name="feather_whiten">Valkaise</string>
+    <string name="feather_zoom_mode">Zoomaustila</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Tyhjennä haku."</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Haku"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

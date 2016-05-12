@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewFlipper android:id="@+id/ViewFlipper01"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoStart="false"
+        android:inAnimation="@anim/abc_fade_in"
+        android:outAnimation="@anim/abc_fade_out">
+
+        <!-- loader -->
+        <include
+            android:id="@+id/loader"
+            layout="@layout/com_adobe_image_progress_small_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <!-- packs list view -->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="always"
+            android:paddingBottom="0dip"
+            android:paddingTop="0dip"
+            android:theme="@style/AdobeImageWidget.EdgeOverlayDark" />
+
+        <!-- stickers list view -->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="always"
+            android:paddingBottom="0dip"
+            android:paddingTop="0dip"
+            android:theme="@style/AdobeImageWidget.EdgeOverlayDark" />
+
+        <!-- sticker opacity view -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageButton
+                android:id="@+id/ImageButton03"
+                style="@style/AdobeImageWidget.FlatButton.DGray.Transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/com_adobe_image_cancel_mark" />
+
+            <include
+                layout="@layout/com_adobe_image_seekbar"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_marginRight="6dip"
+                android:layout_weight="@integer/com_adobe_image_sticker_opactiy_slider_weight" />
+
+            <ImageButton
+                android:id="@+id/ImageButton04"
+                style="@style/AdobeImageWidget.FlatButton.DGray.Transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/com_adobe_image_ok_mark" />
+
+        </LinearLayout>
+
+    </ViewFlipper>
+
+    <!-- disabled status -->
+    <include layout="@layout/com_adobe_image_bottombar_disabled_status_layout" />
+</FrameLayout>

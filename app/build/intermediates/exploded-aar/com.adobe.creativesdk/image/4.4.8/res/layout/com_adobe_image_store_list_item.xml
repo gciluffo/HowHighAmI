@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!--android:background="@drawable/com_adobe_image_store_list_item_background"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/com_adobe_image_store_list_icon_size"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="6dip"
+    android:paddingLeft="0dip"
+    android:paddingRight="6dip"
+    android:paddingStart="0dip">
+
+    <com.adobe.android.ui.view.SquareImageView
+        android:id="@+id/SquareImageView01"
+        android:layout_width="@dimen/com_adobe_image_store_list_icon_size"
+        android:layout_height="@dimen/com_adobe_image_store_list_icon_size"
+        android:layout_weight="0"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:src="@android:color/white"
+        android:transitionName="image"
+        tools:ignore="UnusedAttribute" />
+
+    <com.adobe.android.ui.view.AdobeTextView
+        android:id="@+id/AdobeTextView10"
+        style="@style/AdobeImageWidget.TextAppearance.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dip"
+        android:layout_marginEnd="5dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginStart="16dip"
+        android:layout_weight="1"
+        android:textColor="?attr/colorPrimary"
+        android:transitionName="title"
+        app:adobe_fontFamily="?attr/com_adobe_font_regular"
+        tools:ignore="UnusedAttribute" />
+
+    <com.adobe.creativesdk.aviary.widget.IAPBuyButton
+        android:id="@+id/com_adobe_image_buy_button"
+        android:layout_width="@dimen/com_adobe_image_store_list_buy_button_width"
+        android:layout_height="wrap_content"
+        app:adobe_buttonStyle="?attr/com_adobe_image_buyButtonTransparentStyle"
+        app:adobe_progressStyle="?android:attr/progressBarStyleSmallInverse" />
+
+</LinearLayout>

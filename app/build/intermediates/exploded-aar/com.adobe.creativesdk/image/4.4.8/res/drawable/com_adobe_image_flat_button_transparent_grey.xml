@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedResources">
+    <!-- default state -->
+    <!--<item-->
+    <!--android:state_enabled="true"-->
+    <!--android:drawable="@drawable/com_adobe_image_flat_button_blue_transparent_shape_enabled" />-->
+
+    <!-- pressed state -->
+    <item android:drawable="@drawable/com_adobe_image_flat_button_blue_transparent_shape_pressed" android:state_pressed="true" />
+
+    <!-- disabled state -->
+    <item android:drawable="@drawable/com_adobe_image_flat_button_blue_transparent_shape_disabled" android:state_enabled="false" />
+</selector>

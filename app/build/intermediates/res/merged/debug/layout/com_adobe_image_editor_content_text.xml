@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:alpha="0"
+        android:id="@+id/EditText03"
+        android:layout_gravity="center_horizontal"
+        style="@style/AdobeImageWidget.TextHiddenTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true" />
+
+    <com.adobe.creativesdk.aviary.widget.ImageViewDrawableOverlay
+        android:id="@+id/ImageViewDrawableOverlay03"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="matrix"
+        app:adobe_highlightStyle="?attr/com_adobe_image_editor_text_highlight_style" />
+
+
+</FrameLayout>

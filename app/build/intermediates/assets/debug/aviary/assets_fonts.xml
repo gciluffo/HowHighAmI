@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<familyset>
+    <family>
+        <nameset>
+            <name>league gothic</name>
+        </nameset>
+        <fileset>
+            <file>aviary/meme/LeagueGothic-Regular.otf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>helvetica</name>
+            <name>roboto</name>
+        </nameset>
+        <fileset>
+            <file>adobe/image/fonts/Roboto-Regular.ttf</file>
+            <file>adobe/image/fonts/Roboto-Light.ttf</file>
+            <file>adobe/image/fonts/Roboto-Bold.ttf</file>
+        </fileset>
+    </family>
+</familyset>
+

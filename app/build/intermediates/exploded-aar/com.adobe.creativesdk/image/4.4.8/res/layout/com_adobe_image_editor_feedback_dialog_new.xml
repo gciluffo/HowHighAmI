@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".AdobeImageEditorActivity">
+
+    <ViewAnimator
+        android:id="@+id/ViewAnimator01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:inAnimation="@anim/com_adobe_image_slide_in_right"
+        android:outAnimation="@anim/com_adobe_image_slide_out_left">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <!-- Main feedback view -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/com_adobe_image_color_dark_gray2"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/com_adobe_image_editor_feedback_main" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <com.adobe.android.ui.view.AdobeTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/feather_feedback_title"
+                        android:textAppearance="@style/AdobeImageWidget.TextAppearance.Large"
+                        app:adobe_fontFamily="?attr/com_adobe_font_regular" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/AppCompatButton04"
+                        style="@style/AdobeImageWidget.FlatButton.Dark.Feedback"
+                        android:drawableLeft="@drawable/com_adobe_image_editor_ic_heart"
+                        android:text="@string/feather_feedback_love" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/AppCompatButton05"
+                        style="@style/AdobeImageWidget.FlatButton.Dark.Feedback"
+                        android:drawableLeft="@drawable/com_adobe_image_editor_ic_sad_face"
+                        android:text="@string/feather_feedback_dislike" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/AppCompatButton06"
+                        style="@style/AdobeImageWidget.FlatButton.Dark.Feedback"
+                        android:drawableLeft="@drawable/com_adobe_image_editor_ic_bug"
+                        android:text="@string/feather_report_bug" />
+
+                    <ViewAnimator
+                        android:id="@+id/ViewAnimator02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:animateFirstView="true"
+                        android:inAnimation="@android:anim/slide_in_left"
+                        android:outAnimation="@android:anim/slide_out_right">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <android.support.v7.widget.AppCompatButton
+                            android:id="@+id/AppCompatButton07"
+                            style="@style/AdobeImageWidget.FlatButton.Dark.Feedback"
+                            android:drawableLeft="@drawable/com_adobe_image_editor_ic_survey"
+                            android:text="@string/feather_take_survey" />
+
+                    </ViewAnimator>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- Report a bug -->
+        <include layout="@layout/com_adobe_image_editor_feedback_dialog_report_bug" />
+
+        <!-- Tell us what you think... -->
+        <include layout="@layout/com_adobe_image_editor_feedback_dialog_dislike" />
+
+    </ViewAnimator>
+
+    <ImageView
+        android:id="@+id/ImageViewBackButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_arrow_back_white_24dp" />
+
+</RelativeLayout>

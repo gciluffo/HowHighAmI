@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="com_adobe_image_action_bar_default_height">64dp</dimen>
+    <dimen name="com_adobe_image_action_bar_progress_height">48dp</dimen>
+    <item format="float" name="com_adobe_image_bottombar_flat_toggle_button_scale_x" type="dimen">1.0</item>
+    <dimen name="com_adobe_image_bottombar_height">130dip</dimen>
+    <dimen name="com_adobe_image_bottombar_tool_item_min_width">88dip</dimen>
+    <dimen name="com_adobe_image_bottombar_tool_item_text_margin">13dip</dimen>
+    <dimen name="com_adobe_image_circle_button_margin_right">13dip</dimen>
+    <dimen name="com_adobe_image_circle_button_maxWidth">97dip</dimen>
+    <dimen name="com_adobe_image_circle_button_padding">11dip</dimen>
+    <dimen name="com_adobe_image_circle_button_text_margin_top">7dip</dimen>
+    <dimen name="com_adobe_image_editor_bottomBar_flat_toggle_button_textSize">@dimen/abc_text_size_small_material</dimen>
+    <item format="dimension" name="com_adobe_image_editor_bottombar_meme_text_width" type="dimen">480dip</item>
+    <dimen name="com_adobe_image_editor_button_textSize">@dimen/abc_text_size_subhead_material</dimen>
+    <dimen name="com_adobe_image_editor_buy_button_textSize">@dimen/abc_text_size_button_material</dimen>
+    <dimen name="com_adobe_image_editor_content_item_image_width">79dip</dimen>
+    <dimen name="com_adobe_image_editor_content_item_width">92dip</dimen>
+    <dimen name="com_adobe_image_editor_image_intensity_tooltip_size">90dip</dimen>
+    <dimen name="com_adobe_image_editor_image_intensity_tooltip_stroke_size">9dip</dimen>
+    <dimen name="com_adobe_image_first_keyline">24dp</dimen>
+    <dimen name="com_adobe_image_message_dialog_text_padding_horizontal">16dip</dimen>
+    <dimen name="com_adobe_image_message_dialog_text_padding_top">32dip</dimen>
+    <dimen name="com_adobe_image_second_keyline">80dp</dimen>
+    <dimen name="com_adobe_image_store_list_icon_size">100dip</dimen>
+    <dimen name="com_adobe_image_toolbar_horizontal_padding">12dp</dimen>
+    <item format="fraction" name="com_adobe_image_editor_store_container_height" type="fraction">65%p</item>
+    <integer name="com_adobe_image_enhance_buttons_weight">8</integer>
+    <style name="AdobeImageWidget.TextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/abc_text_size_small_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Inverse" parent="TextAppearance.AppCompat.Inverse">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Large.Inverse" parent="TextAppearance.AppCompat.Large.Inverse">
+        <item name="android:textSize">@dimen/abc_text_size_headline_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Medium.Inverse" parent="TextAppearance.AppCompat.Medium.Inverse">
+        <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Small" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Small.Inverse" parent="TextAppearance.AppCompat.Small.Inverse">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Subhead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">@dimen/abc_text_size_medium_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Subhead.Inverse" parent="TextAppearance.AppCompat.Subhead.Inverse">
+        <item name="android:textSize">@dimen/abc_text_size_medium_material</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/abc_text_size_large_material</item>
+    </style>
+</resources>

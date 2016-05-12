@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.IntensitySliderView
+    android:id="@+id/IntensitySliderView01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:showIn="@layout/com_adobe_image_bottombar_panel_adjust">
+
+    <com.adobe.android.ui.view.AdobeTextView
+        android:id="@+id/AdobeTextView16"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/AdobeImageWidget.TextAppearance.AdjustTooltip"
+        android:visibility="visible"
+        app:adobe_fontFamily="?attr/com_adobe_font_bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:weightSum="100">
+
+        <ImageButton
+            android:id="@+id/ImageButton05"
+            style="@style/AdobeImageWidget.FlatButton.RippleOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/com_adobe_image_bottombar_x" />
+
+        <include
+            layout="@layout/com_adobe_image_seekbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="@integer/com_adobe_image_seekbar_weight"
+            android:progress="0" />
+
+        <ImageButton
+            android:id="@+id/ImageButton06"
+            style="@style/AdobeImageWidget.FlatButton.RippleOnly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/com_adobe_image_bottombar_check" />
+    </LinearLayout>
+</com.adobe.creativesdk.aviary.widget.IntensitySliderView>

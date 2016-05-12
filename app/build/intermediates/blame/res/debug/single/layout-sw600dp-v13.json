@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout-sw600dp\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\adobe_csdk_ux_auth_activity_container_view.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout-sw600dp-v13\\adobe_csdk_ux_auth_activity_container_view.xml"
+    }
+]

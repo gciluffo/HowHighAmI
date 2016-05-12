@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    android:color="?attr/colorControlHighlight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+            <!-- selected -->
+            <item
+                android:state_selected="true"
+                android:state_pressed="false"
+                android:drawable="@drawable/com_adobe_image_resize_knob" />
+
+            <!-- selected and pressed -->
+            <item
+                android:state_selected="true"
+                android:state_pressed="true"
+                android:drawable="@drawable/com_adobe_image_resize_knob_pressed" />
+
+            <!-- selected and focused -->
+            <item
+                android:state_focused="true"
+                android:drawable="@drawable/com_adobe_image_resize_knob" />
+
+            <!-- default -->
+            <item android:drawable="@drawable/com_adobe_image_resize_knob" />
+        </selector>
+    </item>
+</ripple>

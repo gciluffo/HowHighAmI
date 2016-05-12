@@ -1,0 +1,292 @@
+[
+    {
+        "outputFile": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\values-da-rDK\\values-da-rDK.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 75,
+                    "endOffset": 126
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 75,
+                        "endOffset": 126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 131,
+                    "endColumn": 61,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 131,
+                        "endColumn": 61,
+                        "endOffset": 188
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 59,
+                    "endOffset": 248
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endColumn": 59,
+                        "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 253,
+                    "endColumn": 105,
+                    "endOffset": 354
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endColumn": 105,
+                        "endOffset": 354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 359,
+                    "endColumn": 143,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 359,
+                        "endColumn": 143,
+                        "endOffset": 498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 503,
+                    "endColumn": 68,
+                    "endOffset": 567
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endColumn": 68,
+                        "endOffset": 567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 572,
+                    "endColumn": 64,
+                    "endOffset": 632
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 572,
+                        "endColumn": 64,
+                        "endOffset": 632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 637,
+                    "endColumn": 130,
+                    "endOffset": 763
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 637,
+                        "endColumn": 130,
+                        "endOffset": 763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 768,
+                    "endColumn": 98,
+                    "endOffset": 862
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 768,
+                        "endColumn": 98,
+                        "endOffset": 862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 867,
+                    "endColumn": 114,
+                    "endOffset": 977
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 867,
+                        "endColumn": 114,
+                        "endOffset": 977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 982,
+                    "endColumn": 76,
+                    "endOffset": 1054
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 982,
+                        "endColumn": 76,
+                        "endOffset": 1054
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1059,
+                    "endColumn": 51,
+                    "endOffset": 1106
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1059,
+                        "endColumn": 51,
+                        "endOffset": 1106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1111,
+                    "endColumn": 69,
+                    "endOffset": 1176
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1111,
+                        "endColumn": 69,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1181,
+                    "endColumn": 70,
+                    "endOffset": 1247
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 70,
+                        "endOffset": 1247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1252,
+                    "endColumn": 140,
+                    "endOffset": 1388
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-da-rDK\\values-da-rDK.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1252,
+                        "endColumn": 140,
+                        "endOffset": 1388
+                    }
+                }
+            }
+        ]
+    }
+]

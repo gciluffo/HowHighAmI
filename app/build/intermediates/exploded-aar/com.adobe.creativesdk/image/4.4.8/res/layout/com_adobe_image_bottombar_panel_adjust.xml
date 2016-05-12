@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper
+    android:id="@+id/ViewFlipper02"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateFirstView="true"
+    android:autoStart="false"
+    android:inAnimation="@anim/com_adobe_image_adjust_slide_in_bottom"
+    android:outAnimation="@anim/com_adobe_image_adjust_scale_out">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView07"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawSelectorOnTop="true"
+        android:overScrollMode="always"
+        android:paddingBottom="0dip"
+        android:paddingTop="0dip"
+        android:theme="@style/AdobeImageWidget.EdgeOverlayDark" />
+
+    <include layout="@layout/com_adobe_image_bottombar_slider_tooltip" />
+
+</ViewFlipper>

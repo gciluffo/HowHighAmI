@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.PackDetailPreviews
+    android:id="@+id/PackDetailPreviews01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- list -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RecyclerView06"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:overScrollMode="always" />
+
+    <!-- progress -->
+    <com.adobe.android.ui.widget.AdobeContentLoadingProgressBar
+        android:id="@+id/AdobeContentLoadingProgressBar01"
+        style="?android:attr/progressBarStyleLargeInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:visibility="invisible" />
+
+    <!-- error -->
+    <ImageView
+        android:id="@+id/ImageView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dip"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/com_adobe_image_ic_reload"
+        android:visibility="invisible" />
+</com.adobe.creativesdk.aviary.widget.PackDetailPreviews>

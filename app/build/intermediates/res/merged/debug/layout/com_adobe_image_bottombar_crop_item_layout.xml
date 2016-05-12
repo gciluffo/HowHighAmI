@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="?attr/com_adobe_image_editor_bottombar_gallery_item_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/com_adobe_image_bottombar_crop_gallery_item_width"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+        android:id="@+id/AdobeImageHighlightImageButton01"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="70"
+        app:adobe_toggleable="true"
+        app:adobe_untoggleable="false" />
+
+    <com.adobe.android.ui.view.AdobeTextView
+        android:id="@+id/AdobeTextView03"
+        style="?attr/com_adobe_image_editor_bottombar_circle_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center" />
+</LinearLayout>

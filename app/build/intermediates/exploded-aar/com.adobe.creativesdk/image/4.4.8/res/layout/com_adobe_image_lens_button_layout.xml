@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lens"
+    android:src="@drawable/com_adobe_image_lens_button_selector"
+    android:background="@drawable/com_adobe_image_lens_button_background_selector"
+    android:contentDescription="@string/feather_acc_lens_toggle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="16dip"
+    android:layout_marginBottom="16dip" />

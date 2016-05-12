@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_lens_button_background_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_lens_button_background_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_scrubber_progress_horizontal.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_scrubber_progress_horizontal.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_dgray_transparent_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_dgray_transparent_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_blue_transparent_shape_pressed.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_blue_transparent_shape_pressed.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_content_items_background_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_content_items_background_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_dgray_toggle_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_dgray_toggle_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_content_packs_background_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_content_packs_background_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_blue_transparent_invert_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_blue_transparent_invert_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_editor_resize_knob_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_editor_resize_knob_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_effect_intensity_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_effect_intensity_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_blue_transparent_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_blue_transparent_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_bottombar_tool_button_background.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_bottombar_tool_button_background.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_blue_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_blue_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_bottombar_tool_item_background.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_bottombar_tool_item_background.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_item_background_dark.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_item_background_dark.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_card_background_light_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_card_background_light_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_dark_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_dark_selector.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_feedback.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_feedback.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\com_adobe_image_flat_button_light_gray_selector.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\drawable-v21\\com_adobe_image_flat_button_light_gray_selector.xml"
+    }
+]

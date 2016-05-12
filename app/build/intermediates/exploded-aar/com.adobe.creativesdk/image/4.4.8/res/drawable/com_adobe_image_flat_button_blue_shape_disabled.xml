@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="6dip"
+        android:bottom="6dip"
+        android:left="4dip"
+        android:right="4dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/com_adobe_image_flat_button_radius"/>
+            <solid android:color="@android:color/white"/>
+            <stroke
+                android:color="@color/com_adobe_image_color_blue_disabled"
+                android:width="1dip"/>
+        </shape>
+    </item>
+</layer-list>

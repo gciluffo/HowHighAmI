@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:duration="@integer/abc_config_activityDefaultDur"
+    android:transitionOrdering="together"
+    tools:ignore="UnusedAttribute">
+    <transitionSet android:transitionOrdering="together">
+        <transition class="com.adobe.creativesdk.aviary.transition.EditorTransition">
+            <targets>
+                <target android:targetId="@id/toolbar" />
+                <target android:targetId="@id/recyclerView" />
+            </targets>
+        </transition>
+        <fade>
+            <targets>
+                <target android:targetId="@+id/image" />
+            </targets>
+        </fade>
+    </transitionSet>
+</transitionSet>

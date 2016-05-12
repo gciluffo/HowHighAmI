@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/com_adobe_image_bottombar_default_panel_padding"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <!-- Radial -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+        android:orientation="vertical">
+
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+            android:id="@+id/AdobeImageHighlightImageButton10"
+            style="?attr/com_adobe_image_editor_bottombar_circle_button_nontoggle"
+            android:contentDescription="@string/feather_circle"
+            app:adobe_checked="true"
+            android:src="@drawable/com_adobe_image_ic_focus_radial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            style="?attr/com_adobe_image_editor_bottombar_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_radial" />
+    </LinearLayout>
+
+    <!-- Linear -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+        android:orientation="vertical">
+
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+            android:id="@+id/AdobeImageHighlightImageButton11"
+            style="?attr/com_adobe_image_editor_bottombar_circle_button_nontoggle"
+            android:contentDescription="@string/feather_rectangle"
+            app:adobe_checked="false"
+            android:src="@drawable/com_adobe_image_ic_focus_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            style="?attr/com_adobe_image_editor_bottombar_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_linear" />
+    </LinearLayout>
+
+
+</LinearLayout>

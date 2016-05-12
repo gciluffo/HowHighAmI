@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.CropImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CropImageView01"
+    app:adobe_minCropSize="@dimen/com_adobe_image_editor_crop_min_size"
+    app:adobe_highlightStyle="?attr/com_adobe_image_editor_crop_highlight_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" />

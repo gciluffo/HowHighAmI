@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/com_adobe_image_editor_store_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/com_adobe_image_listview_layout"
+        android:layout_above="@+id/RelativeLayout04"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:layout_above="@+id/RelativeLayout04"
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:background="@drawable/com_adobe_image_bottombar_shadow" />
+
+    <RelativeLayout
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:id="@+id/RelativeLayout04"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.adobe.android.ui.view.AdobeButton
+            android:id="@+id/restore_all"
+            style="@style/AdobeImageWidget.FlatButton.Blue.Transparent"
+            app:adobe_fontFamily="?attr/com_adobe_font_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_iap_restore_all" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

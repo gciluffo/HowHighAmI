@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <integer-array name="com_adobe_image_editor_blemish_brush_sizes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </integer-array>
+    <string-array name="com_adobe_image_editor_crop_labels">
+        <item>@string/feather_original</item>
+        <item>@string/feather_square</item>
+        <item>@string/feather_custom</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>2.35:1</item>
+    </string-array>
+    <string-array name="com_adobe_image_editor_crop_values">
+        <item>-1:-1</item>
+        <item>1:1</item>
+        <item>0:0</item>
+        <item>3:2</item>
+        <item>4:3</item>
+        <item>5:3</item>
+        <item>5:4</item>
+        <item>6:4</item>
+        <item>6:5</item>
+        <item>7:5</item>
+        <item>14:11</item>
+        <item>16:9</item>
+        <item>16:10</item>
+        <item>235:100</item>
+    </string-array>
+    <integer-array name="com_adobe_image_editor_draw_brush_sizes">
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="com_adobe_image_editor_draw_fill_colors">
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+    </integer-array>
+    <integer-array name="com_adobe_image_editor_spot_brush_sizes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="com_adobe_image_editor_text_colors">
+        <item>0xff000000</item>
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffff5500</item>
+        <item>0xffffa300</item>
+        <item>0xffffff00</item>
+        <item>0xff65ce00</item>
+        <item>0xff008903</item>
+        <item>0xff007c53</item>
+        <item>0xff00c3ff</item>
+        <item>0xff0049ff</item>
+        <item>0xff001b8c</item>
+        <item>0xff8900a5</item>
+        <item>0xffd30060</item>
+        <item>0xff693300</item>
+        <item>0xff7a6946</item>
+        <item>0xff486d7c</item>
+        <item>0xffffb8cb</item>
+        <item>0xff545454</item>
+        <item>0xffa8a8a8</item>
+    </integer-array>
+    <attr name="adobe_glowMode">
+        <flag name="pressed" value="0x02"/>
+        <flag name="checked" value="0x04"/>
+        <flag name="selected" value="0x08"/>
+    </attr>
+    <attr name="adobe_highlightMode">
+        <flag name="pressed" value="0x02"/>
+        <flag name="checked" value="0x04"/>
+        <flag name="selected" value="0x08"/>
+    </attr>
+    <attr name="adobe_resizeEdgeMode">
+        <flag name="edge_none" value="0"/>
+        <flag name="edge_left" value="0x02"/>
+        <flag name="edge_right" value="0x04"/>
+        <flag name="edge_top" value="0x08"/>
+        <flag name="edge_bottom" value="0x10"/>
+    </attr>
+    <attr format="string" name="com_adobe_font_bold"/>
+    <attr format="string" name="com_adobe_font_light"/>
+    <attr format="string" name="com_adobe_font_regular"/>
+    <attr format="color|reference" name="com_adobe_image_bottombarColorPrimary"/>
+    <attr format="color|reference" name="com_adobe_image_bottombarColorSecondary"/>
+    <attr format="reference" name="com_adobe_image_buyButtonStyle"/>
+    <attr format="reference" name="com_adobe_image_buyButtonTransparentStyle"/>
+    <attr format="color|reference" name="com_adobe_image_cardBackground"/>
+    <attr format="color|reference" name="com_adobe_image_colorAccentDisabled"/>
+    <attr format="color|reference" name="com_adobe_image_colorControlHighLight"/>
+    <attr format="color|reference" name="com_adobe_image_colorControlHighLightDark"/>
+    <attr format="color|reference" name="com_adobe_image_colorControlNormal"/>
+    <attr format="color|reference" name="com_adobe_image_colorPrimaryDark2"/>
+    <attr format="color|reference" name="com_adobe_image_contentControlNormal"/>
+    <attr format="reference" name="com_adobe_image_editor_blemish_overlay_style"/>
+    <attr format="reference" name="com_adobe_image_editor_bottombar_circle_button"/>
+    <attr format="reference" name="com_adobe_image_editor_bottombar_circle_button_nontoggle"/>
+    <attr format="reference" name="com_adobe_image_editor_bottombar_circle_text"/>
+    <attr format="color" name="com_adobe_image_editor_bottombar_content_header_color"/>
+    <attr format="color|reference" name="com_adobe_image_editor_bottombar_disabled_color"/>
+    <attr format="reference" name="com_adobe_image_editor_bottombar_gallery_item_style"/>
+    <attr format="reference" name="com_adobe_image_editor_bottombar_meme_button"/>
+    <attr format="reference" name="com_adobe_image_editor_bottombar_meme_clear_button"/>
+    <attr format="reference" name="com_adobe_image_editor_bottombar_panel_toggle_rectangle_button"/>
+    <attr format="reference" name="com_adobe_image_editor_crop_highlight_style"/>
+    <attr format="reference" name="com_adobe_image_editor_focus_content_style"/>
+    <attr format="reference" name="com_adobe_image_editor_frames_overlay_style"/>
+    <attr format="color|reference" name="com_adobe_image_editor_gallery_backgroundLight"/>
+    <attr format="reference" name="com_adobe_image_editor_orientation_content_style"/>
+    <attr format="reference" name="com_adobe_image_editor_overlay_overlay_style"/>
+    <attr format="reference" name="com_adobe_image_editor_sticker_highlight_style"/>
+    <attr format="reference" name="com_adobe_image_editor_text_highlight_style"/>
+    <attr format="reference" name="com_adobe_image_editor_undo_redo_overlay_style"/>
+    <attr format="reference" name="com_adobe_image_editor_vignette_content_style"/>
+    <attr format="color|reference" name="com_adobe_image_flatTransparentBackgroundSelector"/>
+    <attr format="color|reference" name="com_adobe_image_listSelectorDark"/>
+    <attr format="color" name="com_adobe_image_storePreviewTextColor"/>
+    <attr format="reference|color" name="com_adobe_image_textColorBlue"/>
+    <attr format="color" name="com_adobe_image_textColorPrimaryDark"/>
+    <attr format="color" name="com_adobe_image_textColorPrimaryLight"/>
+    <attr format="dimension" name="com_adobe_image_toolbar_progress_size"/>
+    <item format="boolean" name="com_adobe_image_editor_crop_invert_policy" type="bool">true</item>
+    <item format="boolean" name="com_adobe_image_editor_draw_has_eraser" type="bool">true</item>
+    <item format="boolean" name="com_adobe_image_editor_draw_panels_use_palette" type="bool">true</item>
+    <item format="boolean" name="com_adobe_image_editor_meme_stroke_enabled" type="bool">true</item>
+    <item format="boolean" name="com_adobe_image_editor_orientation_free_rotate" type="bool">true</item>
+    <item format="boolean" name="com_adobe_image_editor_orientation_use_3d" type="bool">false</item>
+    <item format="boolean" name="com_adobe_image_editori_text_stroke_enabled" type="bool">false</item>
+    <bool name="com_adobe_image_is_tablet">false</bool>
+    <color name="com_adobe_image_black_semi_transparent">#DD000000</color>
+    <color name="com_adobe_image_black_semi_transparent2">#77000000</color>
+    <color name="com_adobe_image_color_blue">#ff03a9f4</color>
+    <color name="com_adobe_image_color_blue_dark">#ff006699</color>
+    <color name="com_adobe_image_color_blue_disabled">#3303a9f4</color>
+    <color name="com_adobe_image_color_controlHighLight" ns1:ignore="UnusedResources">#ffcbcdce</color>
+    <color name="com_adobe_image_color_controlNormal" ns1:ignore="UnusedResources">#27ffffff</color>
+    <color name="com_adobe_image_color_dark_gray1">#ff263238</color>
+    <color name="com_adobe_image_color_dark_gray1_disabled">#7f263238</color>
+    <color name="com_adobe_image_color_dark_gray2">#ff1e272c</color>
+    <color name="com_adobe_image_color_dark_gray2_disabled">#7f1e272c</color>
+    <color name="com_adobe_image_color_dark_gray3">#ff161d21</color>
+    <color name="com_adobe_image_color_light_gray1">#ffcbcdce</color>
+    <color name="com_adobe_image_color_light_gray2">#ffeceff1</color>
+    <color name="com_adobe_image_color_light_gray4">#ff37474f</color>
+    <color name="com_adobe_image_color_light_gray41">#ff36464e</color>
+    <color name="com_adobe_image_color_light_gray5">#ff455a64</color>
+    <color name="com_adobe_image_color_light_gray5_disabled">#7f455a64</color>
+    <color name="com_adobe_image_color_light_gray6">#ffc7c7c7</color>
+    <color name="com_adobe_image_color_light_gray7">#ffa7a7a7</color>
+    <color name="com_adobe_image_color_light_gray_semi_transparent0">#19ffffff</color>
+    <color name="com_adobe_image_color_light_gray_semi_transparent1">#27ffffff</color>
+    <color name="com_adobe_image_color_light_gray_semi_transparent2">#7fffffff</color>
+    <color name="com_adobe_image_color_light_gray_semi_transparent3">#4cffffff</color>
+    <color name="com_adobe_image_color_white">#ffffffff</color>
+    <color name="com_adobe_image_color_white_pressed">#c0ffffff</color>
+    <color name="com_adobe_image_content_panel_supply_item_image_background">#ff3f51b5</color>
+    <color name="com_adobe_image_content_panel_supply_item_text_background">#ff1a237e</color>
+    <item format="color" name="com_adobe_image_editor_meme_stroke_color" type="color">#ff000000</item>
+    <item format="color" name="com_adobe_image_editor_meme_text_color" type="color">#ffffffff</item>
+    <color name="com_adobe_image_pack_disabled_color">#99000000</color>
+    <color name="com_adobe_image_pack_item_effect_intensity_background">#99000000</color>
+    <color name="com_adobe_image_store_card_background_light">@android:color/white</color>
+    <color name="com_adobe_image_store_card_background_pressed_light">#ffcdcdcd</color>
+    <color name="com_adobe_image_store_preview_default_background">#ffcfd8dc</color>
+    <color name="com_adobe_image_tooltip_background">#c8252525</color>
+    <color name="com_adobe_image_white_semi_transparent">#27ffffff</color>
+    <declare-styleable name="AdobeGalleryView"><attr name="android:animationDuration"/></declare-styleable>
+    <declare-styleable name="AdobeImageBuyButton"><attr format="reference" name="adobe_buttonStyle"/><attr format="reference" name="adobe_progressStyle"/></declare-styleable>
+    <declare-styleable name="AdobeImageCropHighlightView"><attr name="adobe_strokeSize"/><attr name="adobe_strokeColor"/><attr format="color" name="adobe_strokeColorPressed"/><attr format="color" name="adobe_color1"/><attr format="color" name="adobe_color2"/><attr name="adobe_strokeColorInternal"/><attr name="adobe_strokeSizeInternal"/><attr name="android:src"/></declare-styleable>
+    <declare-styleable name="AdobeImageCropImageView"><attr format="dimension" name="adobe_minCropSize"/><attr format="reference" name="adobe_highlightStyle"/></declare-styleable>
+    <declare-styleable name="AdobeImageDrawableHighlightView"><attr format="reference" name="adobe_rotateDrawable"/><attr format="reference" name="adobe_deleteDrawable"/><attr format="reference" name="adobe_opacityDrawable"/><attr format="reference" name="adobe_flipDrawable"/><attr format="dimension" name="adobe_minSize"/><attr format="integer" name="adobe_moveEnabled"/><attr format="integer" name="adobe_rotateEnabled"/><attr format="integer" name="adobe_resizeEnabled"/><attr name="adobe_resizeEdgeMode"/><attr name="android:padding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="AdobeImageHighlightImageButton"><attr format="string" name="adobe_blendMode"/><attr format="color|reference" name="adobe_highlightColorPressed"/><attr format="color|reference" name="adobe_highlightColorChecked"/><attr format="color|reference" name="adobe_highlightColorSelected"/><attr format="boolean" name="adobe_toggleable"/><attr name="adobe_glowMode"/><attr name="adobe_highlightMode"/><attr format="integer" name="adobe_glowSize"/><attr format="boolean" name="adobe_checked"/><attr format="boolean" name="adobe_untoggleable"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="AdobeImageOrientationImageView"><attr format="reference" name="adobe_handle"/><attr name="adobe_strokeColor"/><attr format="color" name="adobe_strokeColorInternal"/><attr name="adobe_strokeSize"/><attr format="dimension" name="adobe_strokeSizeInternal"/><attr name="adobe_color1"/><attr name="android:animationDuration"/><attr format="boolean" name="adobe_enable3d"/><attr format="boolean" name="adobe_freeRotate"/><attr name="android:padding"/></declare-styleable>
+    <declare-styleable name="AdobeImagePreviewCropDrawable"><attr name="adobe_strokeSize"/><attr name="adobe_strokeColor"/><attr name="adobe_strokeColorSelected"/><attr name="adobe_radius"/><attr name="android:src"/><attr name="android:padding"/></declare-styleable>
+    <declare-styleable name="AdobeImagePreviewSpotDrawable"><attr format="dimension" name="adobe_strokeSize"/><attr format="color|reference" name="adobe_strokeColor"/><attr format="color|reference" name="adobe_strokeColorSelected"/><attr format="color|reference" name="adobe_backgroundColor"/><attr format="color|reference" name="adobe_backgroundColorSelected"/><attr format="float" name="adobe_radius"/><attr name="android:padding"/></declare-styleable>
+    <declare-styleable name="AdobeImageTiltShiftImageView"><attr name="adobe_strokeColor"/><attr name="adobe_strokeSize"/><attr format="integer" name="adobe_shape_minSize"/><attr format="integer" name="adobe_shape_maxSize"/><attr format="fraction" name="adobe_shape_defaultSize"/><attr format="integer" name="adobe_timeout"/><attr name="android:animationDuration"/><attr format="reference" name="adobe_wave_pointDrawable"/><attr format="integer" name="adobe_wave_animationDuration"/><attr format="integer" name="adobe_wave_animationDelay"/></declare-styleable>
+    <declare-styleable name="AdobeImageViewDrawableOverlay"><attr name="adobe_highlightStyle"/></declare-styleable>
+    <declare-styleable name="AdobeImageViewIntensity"><attr format="dimension" name="adobe_tooltipSize"/><attr name="adobe_strokeSize"/><attr name="adobe_strokeColor"/><attr name="android:textColor"/><attr format="integer" name="adobe_demo_duration"/><attr format="integer" name="adobe_demo_delay"/></declare-styleable>
+    <declare-styleable name="AdobeImageVignette"><attr format="dimension" name="adobe_vignette_strokeSize"/><attr format="color" name="adobe_vignette_strokeColor1"/><attr format="color" name="adobe_vignette_strokeColor2"/><attr format="integer" name="adobe_vignette_fadeout_time"/><attr format="dimension" name="adobe_vignette_controlPointSize"/><attr format="dimension" name="adobe_vignette_feather"/><attr format="integer" name="adobe_vignette_intensity"/><attr format="reference" name="adobe_vignette_wave_pointDrawable"/><attr format="integer" name="adobe_vignette_rippleAnimationDuration"/><attr format="integer" name="adobe_vignette_animationDelay"/></declare-styleable>
+    <declare-styleable name="ContentSectionHeaderDrawable"><attr name="android:textColor"/><attr name="adobe_strokeColor"/><attr name="adobe_strokeSize"/><attr format="float" name="adobe_textPerc"/><attr name="adobe_fontFamily"/></declare-styleable>
+    <declare-styleable name="ScrimInsetsView"><attr format="reference|color" name="scrim_insetForeground"/></declare-styleable>
+    <dimen name="com_adobe_image_action_bar_default_height">56dip</dimen>
+    <dimen name="com_adobe_image_action_bar_elevation">3dip</dimen>
+    <dimen name="com_adobe_image_action_bar_progress_height">40dip</dimen>
+    <dimen name="com_adobe_image_bottombar_crop_gallery_item_width">70dip</dimen>
+    <dimen name="com_adobe_image_bottombar_default_panel_padding">12dip</dimen>
+    <item format="float" name="com_adobe_image_bottombar_flat_toggle_button_scale_x" type="dimen">0.9</item>
+    <dimen name="com_adobe_image_bottombar_gallery_item_bg_padding">2.5dip</dimen>
+    <dimen name="com_adobe_image_bottombar_gallery_item_stroke_width">3dip</dimen>
+    <dimen name="com_adobe_image_bottombar_gallery_item_width">60dip</dimen>
+    <dimen name="com_adobe_image_bottombar_half_panel_padding">6dip</dimen>
+    <dimen name="com_adobe_image_bottombar_height">107dip</dimen>
+    <dimen name="com_adobe_image_bottombar_tool_item_margin">10dip</dimen>
+    <dimen name="com_adobe_image_bottombar_tool_item_min_width">66dip</dimen>
+    <dimen name="com_adobe_image_bottombar_tool_item_text_margin">10dip</dimen>
+    <dimen name="com_adobe_image_buy_button_padding_h">12dip</dimen>
+    <dimen name="com_adobe_image_buy_button_padding_v">16dip</dimen>
+    <dimen name="com_adobe_image_circle_button_margin_right">6dip</dimen>
+    <dimen name="com_adobe_image_circle_button_maxWidth">70dip</dimen>
+    <dimen name="com_adobe_image_circle_button_padding">6dip</dimen>
+    <dimen name="com_adobe_image_circle_button_text_margin_top">5dip</dimen>
+    <dimen name="com_adobe_image_content_content_items_margin">2dip</dimen>
+    <dimen name="com_adobe_image_content_content_items_pack_margin">2dip</dimen>
+    <dimen name="com_adobe_image_content_content_stickers_items_margin">4dip</dimen>
+    <dimen name="com_adobe_image_content_sticker_overlay_minsize">20dip</dimen>
+    <dimen name="com_adobe_image_content_sticker_overlay_padding">20dip</dimen>
+    <dimen name="com_adobe_image_editor_bottomBar_flat_toggle_button_textSize">@dimen/abc_text_size_caption_material</dimen>
+    <item format="integer" name="com_adobe_image_editor_bottombar_meme_text_width" type="dimen">-2</item>
+    <dimen name="com_adobe_image_editor_button_textSize">@dimen/abc_text_size_button_material</dimen>
+    <dimen name="com_adobe_image_editor_buy_button_textSize">@dimen/abc_text_size_caption_material</dimen>
+    <item format="dimension" name="com_adobe_image_editor_color_splash_brush_size" type="dimen">10dip</item>
+    <dimen name="com_adobe_image_editor_content_item_header_width">35dip</dimen>
+    <dimen name="com_adobe_image_editor_content_item_image_width">66dip</dimen>
+    <dimen name="com_adobe_image_editor_content_item_width">76dip</dimen>
+    <item format="dimension" name="com_adobe_image_editor_crop_min_size" type="dimen">50dip</item>
+    <dimen name="com_adobe_image_editor_crop_stroke_width">2.5dip</dimen>
+    <dimen name="com_adobe_image_editor_image_intensity_tooltip_size">60dip</dimen>
+    <dimen name="com_adobe_image_editor_image_intensity_tooltip_stroke_size">7dip</dimen>
+    <dimen name="com_adobe_image_editor_orientation_stroke_size">2.5dip</dimen>
+    <dimen name="com_adobe_image_editor_orientation_stroke_size_internal">0.5dip</dimen>
+    <item format="dimension" name="com_adobe_image_editor_text_default_size" type="dimen">26sp</item>
+    <dimen name="com_adobe_image_editor_text_overlay_corners">5dip</dimen>
+    <item format="dimension" name="com_adobe_image_editor_text_overlay_min_size" type="dimen">12sp</item>
+    <dimen name="com_adobe_image_editor_text_overlay_padding">14dip</dimen>
+    <dimen name="com_adobe_image_editor_text_overlay_stroke_size">2dip</dimen>
+    <item format="dimension" name="com_adobe_image_editor_vignette_controlPointSize" type="dimen">10dip</item>
+    <item format="float" name="com_adobe_image_editor_vignette_feather" type="dimen">0.5</item>
+    <dimen name="com_adobe_image_first_keyline">16dp</dimen>
+    <dimen name="com_adobe_image_flat_button_consolidate_padding_h">12dip</dimen>
+    <dimen name="com_adobe_image_flat_button_padding_h">16dip</dimen>
+    <dimen name="com_adobe_image_flat_button_padding_v">16dip</dimen>
+    <dimen name="com_adobe_image_flat_button_radius">2dip</dimen>
+    <dimen name="com_adobe_image_flat_button_shape_margin_h">4dip</dimen>
+    <dimen name="com_adobe_image_flat_button_shape_margin_v">6dip</dimen>
+    <dimen name="com_adobe_image_message_dialog_text_padding_horizontal">8dip</dimen>
+    <dimen name="com_adobe_image_message_dialog_text_padding_top">8dip</dimen>
+    <dimen name="com_adobe_image_notification_large_icon_size">40dip</dimen>
+    <dimen name="com_adobe_image_overlay_close_button_margins">30dip</dimen>
+    <dimen name="com_adobe_image_premium_dialog_content_grid">300dp</dimen>
+    <dimen name="com_adobe_image_promo_content_padding">10dip</dimen>
+    <dimen name="com_adobe_image_store_card_elevation">1.5dip</dimen>
+    <dimen name="com_adobe_image_store_card_radius">1dip</dimen>
+    <dimen name="com_adobe_image_store_detail_icon_size">109dip</dimen>
+    <dimen name="com_adobe_image_store_list_buy_button_width">106dip</dimen>
+    <dimen name="com_adobe_image_store_list_icon_size">80dip</dimen>
+    <dimen name="com_adobe_image_store_preview_padding">8.2dip</dimen>
+    <dimen name="com_adobe_image_text_size_buy_button" ns1:ignore="UnusedResources">12sp</dimen>
+    <dimen name="com_adobe_image_toolbar_horizontal_padding">4dp</dimen>
+    <dimen name="com_adobe_image_vignette_control_shape_width">2.5dip</dimen>
+    <dimen name="com_adobe_image_vignette_outer_radius_addition">35dip</dimen>
+    <fraction name="com_adobe_image_editor_overlay_blemish_text1_width">35%p</fraction>
+    <fraction name="com_adobe_image_editor_overlay_blemish_text2_width">35%p</fraction>
+    <fraction name="com_adobe_image_editor_overlay_overlay_text_width">60%p</fraction>
+    <fraction name="com_adobe_image_editor_overlay_stickers_text_width">40%p</fraction>
+    <item format="fraction" name="com_adobe_image_editor_sticker_drag_scaleFactor" type="fraction">2.5%</item>
+    <item name="ListViewList" type="id"/>
+    <item name="ListViewListContainer" type="id"/>
+    <item name="ListViewProgressContainer" type="id"/>
+    <item name="ProgressBar" type="id"/>
+    <item name="empty" type="id"/>
+    <item name="toolbar" type="id"/>
+    <integer name="com_adobe_image_bottombar_animTime">200</integer>
+    <item format="integer" name="com_adobe_image_editor_blemish_brush_size_selected" type="integer">2</item>
+    <item format="integer" name="com_adobe_image_editor_crop_selected" type="integer">2</item>
+    <item format="integer" name="com_adobe_image_editor_draw_brush_size_selected" type="integer">2</item>
+    <integer name="com_adobe_image_editor_draw_fill_color_selected">0</integer>
+    <item format="integer" name="com_adobe_image_editor_gallery_drawable_max_size" type="integer">55</item>
+    <item format="integer" name="com_adobe_image_editor_gallery_drawable_min_size" type="integer">10</item>
+    <item format="integer" name="com_adobe_image_editor_meme_max_length" type="integer">64</item>
+    <integer name="com_adobe_image_editor_meme_spacer_weight">0</integer>
+    <integer name="com_adobe_image_editor_meme_text_weight">50</integer>
+    <item format="integer" name="com_adobe_image_editor_spot_brush_size_selected" type="integer">2</item>
+    <integer name="com_adobe_image_editor_store_detail_animation_delay">300</integer>
+    <item format="integer" name="com_adobe_image_editor_text_color_selected" type="integer">0</item>
+    <item format="integer" name="com_adobe_image_editor_text_max_length" type="integer">100</item>
+    <item format="integer" name="com_adobe_image_editor_vignette_intensity" type="integer">70</item>
+    <integer name="com_adobe_image_enhance_buttons_weight">5</integer>
+    <integer name="com_adobe_image_seekbar_weight">95</integer>
+    <integer name="com_adobe_image_sticker_opactiy_slider_weight">90</integer>
+    <integer name="com_adobe_image_store_preview_columns_effects">3</integer>
+    <integer name="com_adobe_image_store_preview_columns_frames">3</integer>
+    <integer name="com_adobe_image_store_preview_columns_stickers">4</integer>
+    <integer name="com_adobe_image_toolbar_animTime">200</integer>
+    <string name="adobe_aviary_client_id_required">Client Id required</string>
+    <string name="adobe_aviary_client_secret_required">Client Secret required</string>
+    <string name="adobe_aviary_device_id_required">Device Id required</string>
+    <string name="adobe_aviary_invalid_argument">Invalid argument</string>
+    <string name="adobe_aviary_module_not_initialized">Module not initialized</string>
+    <string name="adobe_aviary_unknown_error">Unknown Error</string>
+    <string name="adobe_aviary_user_cancelled">User cancelled</string>
+    <string name="adobe_aviary_user_interaction_required">User interaction required</string>
+    <string name="adobe_aviary_username_password_required">Username and password required</string>
+    <string name="com_adobe_image_editor_overlay_blemish_text1_position">center</string>
+    <string name="com_adobe_image_editor_overlay_blemish_text2_position">left</string>
+    <string name="com_adobe_image_editor_overlay_default_text_align">ALIGN_CENTER</string>
+    <string name="com_adobe_image_editor_overlay_stickers_text_position">center</string>
+    <string name="com_adobe_image_recent">Recent</string>
+    <string name="feather_acc_a_sticker">A sticker</string>
+    <string name="feather_acc_color">Color</string>
+    <string name="feather_acc_flip_h">Flip horizontal</string>
+    <string name="feather_acc_flip_v">Flip vertical</string>
+    <string name="feather_acc_lens_toggle">Toggle zoom</string>
+    <string name="feather_acc_rotate_ccw">Rotate counter clockwise</string>
+    <string name="feather_acc_rotate_cw">Rotate clockwise</string>
+    <string name="feather_acc_size">Size</string>
+    <string name="feather_activate">Activate</string>
+    <string name="feather_activity_not_found">Sorry, there\'s no application on your device to handle this action. Do you want to download it now from the market?</string>
+    <string name="feather_adjust">Orientation</string>
+    <string name="feather_an_error_occurred">An error occurred</string>
+    <string name="feather_apply">Apply</string>
+    <string name="feather_applying_actions">Applying actions…</string>
+    <string name="feather_ask_to_login_before_restore">If you have previously logged in with an Adobe ID, sign in to restore synced supplies</string>
+    <string name="feather_attention">Attention</string>
+    <string name="feather_blemish">Blemish</string>
+    <string name="feather_blemish_tool_tip">Just tap</string>
+    <string name="feather_blur">Blur</string>
+    <string name="feather_borders">Frames</string>
+    <string name="feather_borders_dialog_first_time">Install Aviary\'s free pack of beautiful high resolution frames to get started.</string>
+    <string name="feather_brightness">Brightness</string>
+    <string name="feather_cant_undo_anymore">Can’t undo any more</string>
+    <string name="feather_capture">Capture</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Circle</string>
+    <string name="feather_close">Close</string>
+    <string name="feather_color">Color</string>
+    <string name="feather_colorfix">Color Fix</string>
+    <string name="feather_colorsplash_eraser">Eraser</string>
+    <string name="feather_colorsplash_free">Free Color</string>
+    <string name="feather_colorsplash_smart">Smart Color</string>
+    <string name="feather_contrast">Contrast</string>
+    <string name="feather_create_custom_stickers_with_adobe_capture">Create Custom Stickers with Adobe Capture</string>
+    <string name="feather_crop">Crop</string>
+    <string name="feather_custom">Custom</string>
+    <string name="feather_delete">Delete</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Details</string>
+    <string name="feather_discard">Discard</string>
+    <string name="feather_discard_edits">Discard Edit?</string>
+    <string name="feather_download">Download</string>
+    <string name="feather_download_start_failed">Failed to start download. Please try again later</string>
+    <string name="feather_draw">Draw</string>
+    <string name="feather_edit_bottom_text">Edit Bottom Text</string>
+    <string name="feather_edit_top_text">Edit Top Text</string>
+    <string name="feather_edit_your_photo">Photo Editor</string>
+    <string name="feather_effect_intensity_tooltip">Swipe up or down to adjust the intensity</string>
+    <string name="feather_effect_loading_message">Applying effects</string>
+    <string name="feather_effects">Effects</string>
+    <string name="feather_email_email_invalid">Invalid email address</string>
+    <string name="feather_email_feedback_empty">Feedback cannot be empty</string>
+    <string name="feather_email_hint">Email (for support communication)</string>
+    <string name="feather_enhance">Enhance</string>
+    <string name="feather_enhance_effect_food">Food</string>
+    <string name="feather_enhance_effect_night">Night</string>
+    <string name="feather_enhance_effect_portrait">Portrait</string>
+    <string name="feather_enhance_effect_scenery">Scenery</string>
+    <string name="feather_enter_text_here">Enter text here</string>
+    <string name="feather_error_download_image_message">There was an error downloading the image, please try again later.</string>
+    <string name="feather_error_saving_image">Oops, there was an error while saving the image.</string>
+    <string name="feather_error_validating_adobe_id">We are having trouble validating your Adobe ID.  Please sign out and sign in again.  If the problem continues, email support@aviary.com</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Featured</string>
+    <string name="feather_featured_effects">Featured Effects</string>
+    <string name="feather_featured_frames">Featured Frames</string>
+    <string name="feather_featured_overlays">Featured Overlays</string>
+    <string name="feather_featured_stickers">Featured Stickers</string>
+    <string name="feather_feedback">Feedback</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Have a suggestion to improve this photo editor? Let us know.</string>
+    <string name="feather_feedback_dislike">Tell us what you dislike</string>
+    <string name="feather_feedback_hint">Write your feedback</string>
+    <string name="feather_feedback_love">Tell us what you love</string>
+    <string name="feather_feedback_posted_failure">Could not post feedback</string>
+    <string name="feather_feedback_posted_success">Feedback posted!</string>
+    <string name="feather_feedback_title">Feedback</string>
+    <string name="feather_filters">Filters</string>
+    <string name="feather_flip">Flip</string>
+    <string name="feather_free">Free</string>
+    <string name="feather_generic_error_title">Error</string>
+    <string name="feather_get_more">Supplies</string>
+    <string name="feather_got_it">Got it!</string>
+    <string name="feather_have_an_adobe_id">Have an Adobe ID?</string>
+    <string name="feather_hidef">Hi-Def</string>
+    <string name="feather_iap_download">Free</string>
+    <string name="feather_iap_download_failed">Download failed</string>
+    <string name="feather_iap_failed_download_informations">Failed to download the required informations</string>
+    <string name="feather_iap_install">Install</string>
+    <string name="feather_iap_installing">Installing</string>
+    <string name="feather_iap_notification_installed_summary">Plugin successfully installed</string>
+    <string name="feather_iap_owned">Installed</string>
+    <string name="feather_iap_pack_installed">Installed</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Restore</string>
+    <string name="feather_iap_restore_all">Restore All</string>
+    <string name="feather_iap_restore_all_failed">Restore All Failed</string>
+    <string name="feather_iap_restore_all_in_progress">Restore All in Progress</string>
+    <string name="feather_iap_retry">Retry</string>
+    <string name="feather_iap_unavailable">Unavailable</string>
+    <string name="feather_iap_uninstall">Uninstall</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Illuminate</string>
+    <string name="feather_install_capture_dialog_text">&amp;#8226; Install Adobe Capture CC&lt;br />&lt;br />&amp;#8226; Return to
+		Aviary to get started</string>
+    <string name="feather_install_capture_dialog_title">Create Custom Stickers</string>
+    <string name="feather_item_does_not_exists">The requested item doesn\'t exist</string>
+    <string name="feather_item_not_found">Item not found</string>
+    <string name="feather_learn_more">Learn more</string>
+    <string name="feather_linear">Linear</string>
+    <string name="feather_loading_image">Loading Image...</string>
+    <string name="feather_loading_title">Loading...</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_message_button_no">No, thanks.</string>
+    <string name="feather_message_button_yes">Sure!</string>
+    <string name="feather_my_account">Account</string>
+    <string name="feather_no_thanks">No Thanks</string>
+    <string name="feather_notification_n_items_cant_be_restored">%1$s item(s) could not be restored</string>
+    <string name="feather_notification_no_items_to_restore">No item needs to be restored</string>
+    <string name="feather_notification_plugins_installed_count">%1$d Plugins Installed</string>
+    <string name="feather_notification_plus_more">%1$d more</string>
+    <string name="feather_notification_restore_all_completed">Restore All Completed</string>
+    <string name="feather_notification_some_items_cant_be_restored">Some items could not be restored</string>
+    <string name="feather_ops_error_download_image">We\'re having connection problems :(</string>
+    <string name="feather_original">Original</string>
+    <string name="feather_overlay_blemish_close_text">Check out the new &lt;b>Blur&lt;/b> tool!</string>
+    <string name="feather_overlay_blemish_tap_text">Tap imperfections to remove.</string>
+    <string name="feather_overlay_stickers_text">Install this free pack to get started!</string>
+    <string name="feather_overlay_tap_title">Tap</string>
+    <string name="feather_overlay_undo_title">Swipe to undo or redo edits</string>
+    <string name="feather_overlay_zoom_text">You can also pinch to zoom!</string>
+    <string name="feather_overlay_zoom_title">Zoom</string>
+    <string name="feather_overlays">Overlays</string>
+    <string name="feather_owned">Owned</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">Pinch to zoom!</string>
+    <string name="feather_please_try_again_later">Please try again later</string>
+    <string name="feather_powered_by_aviary">Powered by Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Over 1000 &lt;b>Effects, Stickers, Overlays and Frames&lt;/b> for enhancing your photos</string>
+    <string name="feather_premium_days_left">%d days left in Premium</string>
+    <string name="feather_premium_description">30-day access to our constantly growing collection of Photo Editing Supplies for just %s</string>
+    <string name="feather_premium_error_no_internet">Please check your internet connectivity to activate your Premium access</string>
+    <string name="feather_premium_expired_message">Your access to Aviary Premium has expired, Would you like to activate for 30 days for %s?</string>
+    <string name="feather_premium_expired_title">Access Expired</string>
+    <string name="feather_premium_get_price_error">Failed to contact Google Play. Please try again later</string>
+    <string name="feather_premium_sign_in"><u>Have an Adobe ID? Sign in</u></string>
+    <string name="feather_premium_subscribe">Activate</string>
+    <string name="feather_premium_sync">Your Supplies will automatically be backed up forever with your Adobe ID</string>
+    <string name="feather_premium_text1">&amp;#8226; 30 day access to ALL of Aviary’s Effects, Frames, Stickers and Overlays for
+		only %1$s.&lt;br />&lt;br />&amp;#8226; Your supplies automatically sync to your Adobe ID, restore anytime from any device.</string>
+    <string name="feather_premium_thank_you_message">You now have access to Aviary\'s complete collection of photo editing supplies for 30 days.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">&amp;#8226; Get &lt;b>Aviary Essentials&lt;/b>, 16 of our most popular photo editing supplies for &lt;b>FREE&lt;/b>&lt;br />&lt;br />
+&amp;#8226; Sync and restore supplies with Creative Cloud&lt;br />&lt;br />
+&amp;#8226; Exclusive access to upcoming features</string>
+    <string name="feather_promo_title1">Thanks!</string>
+    <string name="feather_promo_title2">Aviary Essentials includes 16 total Effects, Frames, Stickers, and Overlay packs. Look out for an Adobe badge and download them now in the shop!</string>
+    <string name="feather_promo_title_with_promo">Unlock Aviary Essentials\nwith Adobe ID</string>
+    <string name="feather_radial">Radial</string>
+    <string name="feather_rectangle">Rectangle</string>
+    <string name="feather_red_eye">Redeye</string>
+    <string name="feather_redo">Redo</string>
+    <string name="feather_refresh">Refresh</string>
+    <string name="feather_report_bug">Report a bug</string>
+    <string name="feather_report_bug_message">This will collect information about your current device state to send as an email message. It will take a little time from starting the bug report until it\'s ready to be sent. Please be patient.</string>
+    <string name="feather_restore_all_request_sent">Request sent. Please check the notification area of your device for more info</string>
+    <string name="feather_rotate">Rotate</string>
+    <string name="feather_saturation">Saturation</string>
+    <string name="feather_save">Done</string>
+    <string name="feather_save_progress">Saving...</string>
+    <string name="feather_see_more">See More</string>
+    <string name="feather_send">Send</string>
+    <string name="feather_send_feedback">Send Feedback</string>
+    <string name="feather_settings_join_beta_description">Get early access to new features and help create an even better Aviary!</string>
+    <string name="feather_settings_join_beta_title">Join the Aviary Beta</string>
+    <string name="feather_sharpen">Sharpness</string>
+    <string name="feather_signin">Sign In</string>
+    <string name="feather_signup">Sign Up</string>
+    <string name="feather_square">Square</string>
+    <string name="feather_sticker_flip_tooltip">Tap to flip this sticker</string>
+    <string name="feather_stickers">Stickers</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">This is a free, limited edition pack. If you uninstall it, you may not be able to restore it again in the future.</string>
+    <string name="feather_store_checking_additional_packs">Checking for additional packs...</string>
+    <string name="feather_store_connection_problem">There was a problem connecting to the Google Play store. Please try again.</string>
+    <string name="feather_store_monthly">Monthly</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">My Supplies</string>
+    <string name="feather_store_passport_banner_text">Get this pack and tons of other Aviary effects for one low price with Aviary Passport! Click here for more information!</string>
+    <string name="feather_store_passport_cancelled">Cancelled</string>
+    <string name="feather_store_passport_unknown">Unknown</string>
+    <string name="feather_store_purchase_date">Purchase Date</string>
+    <string name="feather_store_title">Aviary Supply Shop</string>
+    <string name="feather_take_survey">New survey available!</string>
+    <string name="feather_tell_us_what_you_think">Tell us what you think</string>
+    <string name="feather_text">Text</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Tool</string>
+    <string name="feather_tool_color">Color</string>
+    <string name="feather_tool_colorsplash">Splash</string>
+    <string name="feather_tool_consolidation_adjust">Adjust</string>
+    <string name="feather_tool_exposure">Exposure</string>
+    <string name="feather_tool_fade">Fade</string>
+    <string name="feather_tool_highlight">Highlights</string>
+    <string name="feather_tool_lighting">Lighting</string>
+    <string name="feather_tool_shadow">Shadows</string>
+    <string name="feather_tool_temperature">Warmth</string>
+    <string name="feather_tool_tiltshift">Focus</string>
+    <string name="feather_tool_tint">Tint</string>
+    <string name="feather_tool_vibrance">Vibrance</string>
+    <string name="feather_tooltip_adjust_intro">Brightness, Contrast, Warmth and Saturation are now here!</string>
+    <string name="feather_try_again">Try Again</string>
+    <string name="feather_try_again_connected">Try again when you are connected</string>
+    <string name="feather_undo">Undo</string>
+    <string name="feather_vignette">Vignette</string>
+    <string name="feather_want_it_free">Want it free?</string>
+    <string name="feather_warning">Warning</string>
+    <string name="feather_welcome_to_frames">Welcome to Frames!</string>
+    <string name="feather_welcome_to_stickers">Welcome to Stickers!</string>
+    <string name="feather_whiten">Whiten</string>
+    <string name="feather_zoom_mode">Zoom Mode</string>
+    <style name="AdobeBaseTheme.Feedback" parent="Theme.AppCompat.DialogWhenLarge">
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/AdobeImageWidget.FeedbackAnimations</item>
+    </style>
+    <style name="AdobeBaseTheme.Feedback.Impl" parent="AdobeBaseTheme.Feedback.WithStatusBarColor"/>
+    <style name="AdobeBaseTheme.Feedback.WithStatusBarColor">
+        <item name="android:statusBarColor">@color/com_adobe_image_color_blue_dark</item>
+    </style>
+    <style name="AdobeCSDKTheme.DialogWhenLarge.Impl" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="AdobeImageBaseTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/com_adobe_image_color_dark_gray1</item>
+        <item name="colorPrimaryDark">@color/com_adobe_image_color_dark_gray2</item>
+        <item name="colorAccent">@color/com_adobe_image_color_blue</item>
+        <item name="com_adobe_font_bold">adobe/image/fonts/Roboto-Bold.ttf</item>
+        <item name="com_adobe_font_regular">adobe/image/fonts/Roboto-Regular.ttf</item>
+        <item name="com_adobe_font_light">adobe/image/fonts/Roboto-Light.ttf</item>
+        <item name="toolbarStyle">@style/AdobeImageWidget.ToolBar</item>
+        <item name="toolbarNavigationButtonStyle">@style/AdobeImageWidget.Toolbar.Button.Navigation</item>
+        <item name="actionOverflowButtonStyle">@style/AdobeImageWidget.ActionButton.Overflow</item>
+        <item name="actionModeStyle">@style/AdobeImageWidget.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/AdobeImageWidget.ActionButton.CloseMode</item>
+        <item name="com_adobe_image_textColorBlue">@color/com_adobe_image_text_color_blue</item>
+        <item name="com_adobe_image_colorPrimaryDark2">@color/com_adobe_image_color_dark_gray3</item>
+        <item name="com_adobe_image_colorAccentDisabled">@color/com_adobe_image_color_blue_disabled</item>
+        <item name="com_adobe_image_flatTransparentBackgroundSelector">
+            @drawable/com_adobe_image_flat_button_blue_transparent_selector
+        </item>
+        <item name="com_adobe_image_listSelectorDark">@drawable/com_adobe_image_item_background_dark</item>
+        <item name="com_adobe_image_cardBackground">@drawable/com_adobe_image_card_background_light_selector</item>
+        <item name="com_adobe_image_buyButtonStyle">@style/AdobeImageWidget.BuyButton.Light</item>
+        <item name="com_adobe_image_buyButtonTransparentStyle">@style/AdobeImageWidget.BuyButton.Transparent</item>
+        <item name="com_adobe_image_colorControlHighLightDark">@color/com_adobe_image_color_light_gray7</item>
+        <item name="com_adobe_image_colorControlHighLight">@color/com_adobe_image_color_light_gray1</item>
+        <item name="com_adobe_image_colorControlNormal">@color/com_adobe_image_color_light_gray_semi_transparent1</item>
+        <item name="com_adobe_image_contentControlNormal">@color/com_adobe_image_color_light_gray_semi_transparent2</item>
+        <item name="com_adobe_image_storePreviewTextColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="com_adobe_image_textColorPrimaryDark">?android:attr/textColorPrimaryInverse</item>
+        <item name="com_adobe_image_textColorPrimaryLight">?android:attr/textColorPrimary</item>
+        <item name="com_adobe_image_toolbar_progress_size">@dimen/com_adobe_image_action_bar_progress_height</item>
+        <item name="actionBarSize">@dimen/com_adobe_image_action_bar_default_height</item>
+    </style>
+    <style name="AdobeImageBaseTheme.DialogWhenLarge" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:windowContentTransitions" ns1:ignore="NewApi">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="toolbarStyle">@style/AdobeImageWidget.ToolBar.WithElevation</item>
+        <item name="colorPrimaryDark">@color/com_adobe_image_color_dark_gray3</item>
+        <item name="android:windowBackground">@color/com_adobe_image_color_dark_gray3</item>
+        <item name="com_adobe_image_editor_gallery_backgroundLight">@color/com_adobe_image_color_light_gray4</item>
+        <item name="com_adobe_image_editor_bottombar_panel_toggle_rectangle_button">
+            @style/AdobeImageWidget.BottomBarFlatToggleButton
+        </item>
+        <item name="com_adobe_image_editor_bottombar_meme_clear_button">@style/AdobeImageWidget.MemeClearButtonStyle</item>
+        <item name="com_adobe_image_editor_bottombar_meme_button">@style/AdobeImageWidget.Meme</item>
+        <item name="com_adobe_image_editor_bottombar_circle_button_nontoggle">@style/AdobeImageWidget.CircleImageButton.NonToggle
+        </item>
+        <item name="com_adobe_image_editor_bottombar_circle_text">@style/AdobeImageWidget.CircleButtonText</item>
+        <item name="com_adobe_image_editor_bottombar_circle_button">@style/AdobeImageWidget.CircleImageButton</item>
+        <item name="com_adobe_image_editor_bottombar_disabled_color">@color/com_adobe_image_color_dark_gray1_disabled</item>
+        <item name="com_adobe_image_editor_bottombar_gallery_item_style">@style/AdobeImageWidget.GalleryItemStyle</item>
+        <item name="com_adobe_image_editor_crop_highlight_style">@style/AdobeImageWidget.CropHighlightView</item>
+        <item name="com_adobe_image_editor_sticker_highlight_style">@style/AdobeImageWidget.StickerHighlightView</item>
+        <item name="com_adobe_image_editor_vignette_content_style">@style/AdobeImageWidget.VignetteStyle</item>
+        <item name="com_adobe_image_editor_focus_content_style">@style/AdobeImageWidget.TiltShiftView</item>
+        <item name="com_adobe_image_editor_orientation_content_style">@style/AdobeImageWidget.OrientationImageView</item>
+        <item name="com_adobe_image_editor_text_highlight_style">@style/AdobeImageWidget.TextHighlightView</item>
+        <item name="com_adobe_image_editor_blemish_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.Blemish</item>
+        <item name="com_adobe_image_editor_undo_redo_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.UndoRedo</item>
+        <item name="com_adobe_image_editor_frames_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.Frames</item>
+        <item name="com_adobe_image_editor_overlay_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.Overlay</item>
+        <item name="com_adobe_image_editor_bottombar_content_header_color">@color/com_adobe_image_color_light_gray5</item>
+        <item name="com_adobe_image_flatTransparentBackgroundSelector">
+            @drawable/com_adobe_image_flat_button_blue_transparent_invert_selector
+        </item>
+        <item name="com_adobe_image_bottombarColorPrimary">@color/com_adobe_image_color_dark_gray1</item>
+        <item name="com_adobe_image_bottombarColorSecondary">@color/com_adobe_image_color_light_gray41</item>
+    </style>
+    <style name="AdobeImageBaseTheme.Editor" parent="AdobeImageBaseTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowEnterTransition" ns1:ignore="NewApi">@transition/com_adobe_image_editor_enter</item>
+        <item name="android:windowContentTransitions" ns1:ignore="NewApi">true</item>
+        <item name="android:windowActivityTransitions" ns1:ignore="NewApi">true</item>
+
+        <item name="toolbarStyle">@style/AdobeImageWidget.ToolBar.WithElevation</item>
+        <item name="colorPrimaryDark">@color/com_adobe_image_color_dark_gray3</item>
+        <item name="android:windowBackground">?attr/com_adobe_image_colorPrimaryDark2</item>
+        <item name="com_adobe_image_editor_gallery_backgroundLight">@color/com_adobe_image_color_light_gray4</item>
+        <item name="com_adobe_image_editor_bottombar_panel_toggle_rectangle_button">
+            @style/AdobeImageWidget.BottomBarFlatToggleButton
+        </item>
+        <item name="com_adobe_image_editor_bottombar_meme_clear_button">@style/AdobeImageWidget.MemeClearButtonStyle</item>
+        <item name="com_adobe_image_editor_bottombar_meme_button">@style/AdobeImageWidget.Meme</item>
+        <item name="com_adobe_image_editor_bottombar_circle_button_nontoggle">@style/AdobeImageWidget.CircleImageButton.NonToggle
+        </item>
+        <item name="com_adobe_image_editor_bottombar_circle_text">@style/AdobeImageWidget.CircleButtonText</item>
+        <item name="com_adobe_image_editor_bottombar_circle_button">@style/AdobeImageWidget.CircleImageButton</item>
+        <item name="com_adobe_image_editor_bottombar_disabled_color">@color/com_adobe_image_color_dark_gray1_disabled</item>
+        <item name="com_adobe_image_editor_bottombar_gallery_item_style">@style/AdobeImageWidget.GalleryItemStyle</item>
+        <item name="com_adobe_image_editor_crop_highlight_style">@style/AdobeImageWidget.CropHighlightView</item>
+        <item name="com_adobe_image_editor_sticker_highlight_style">@style/AdobeImageWidget.StickerHighlightView</item>
+        <item name="com_adobe_image_editor_vignette_content_style">@style/AdobeImageWidget.VignetteStyle</item>
+        <item name="com_adobe_image_editor_focus_content_style">@style/AdobeImageWidget.TiltShiftView</item>
+        <item name="com_adobe_image_editor_orientation_content_style">@style/AdobeImageWidget.OrientationImageView</item>
+        <item name="com_adobe_image_editor_text_highlight_style">@style/AdobeImageWidget.TextHighlightView</item>
+        <item name="com_adobe_image_editor_blemish_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.Blemish</item>
+        <item name="com_adobe_image_editor_undo_redo_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.UndoRedo</item>
+        <item name="com_adobe_image_editor_frames_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.Frames</item>
+        <item name="com_adobe_image_editor_overlay_overlay_style">@style/AdobeImageWidget.TutorialOverlayBase.Overlay</item>
+        <item name="com_adobe_image_editor_bottombar_content_header_color">@color/com_adobe_image_color_light_gray5</item>
+        <item name="com_adobe_image_flatTransparentBackgroundSelector">
+            @drawable/com_adobe_image_flat_button_blue_transparent_invert_selector
+        </item>
+        <item name="com_adobe_image_bottombarColorPrimary">@color/com_adobe_image_color_dark_gray1</item>
+        <item name="com_adobe_image_bottombarColorSecondary">@color/com_adobe_image_color_light_gray41</item>
+    </style>
+    <style name="AdobeImageBaseTheme.Light.Dialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/com_adobe_image_color_dark_gray1</item>
+        <item name="colorPrimaryDark">@color/com_adobe_image_color_dark_gray2</item>
+        <item name="colorAccent">@color/com_adobe_image_color_blue</item>
+        <item name="com_adobe_font_bold">adobe/image/fonts/Roboto-Bold.ttf</item>
+        <item name="com_adobe_font_regular">adobe/image/fonts/Roboto-Regular.ttf</item>
+        <item name="com_adobe_font_light">adobe/image/fonts/Roboto-Light.ttf</item>
+        <item name="toolbarStyle">@style/AdobeImageWidget.ToolBar</item>
+        <item name="toolbarNavigationButtonStyle">@style/AdobeImageWidget.Toolbar.Button.Navigation</item>
+        <item name="actionOverflowButtonStyle">@style/AdobeImageWidget.ActionButton.Overflow</item>
+        <item name="actionModeStyle">@style/AdobeImageWidget.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/AdobeImageWidget.ActionButton.CloseMode</item>
+        <item name="com_adobe_image_textColorBlue">@color/com_adobe_image_text_color_blue</item>
+        <item name="com_adobe_image_colorPrimaryDark2">@color/com_adobe_image_color_dark_gray3</item>
+        <item name="com_adobe_image_colorAccentDisabled">@color/com_adobe_image_color_blue_disabled</item>
+        <item name="com_adobe_image_flatTransparentBackgroundSelector">
+            @drawable/com_adobe_image_flat_button_blue_transparent_selector
+        </item>
+        <item name="com_adobe_image_listSelectorDark">@drawable/com_adobe_image_item_background_dark</item>
+        <item name="com_adobe_image_cardBackground">@drawable/com_adobe_image_card_background_light_selector</item>
+        <item name="com_adobe_image_buyButtonStyle">@style/AdobeImageWidget.BuyButton.Light</item>
+        <item name="com_adobe_image_buyButtonTransparentStyle">@style/AdobeImageWidget.BuyButton.Transparent</item>
+        <item name="com_adobe_image_colorControlHighLightDark">@color/com_adobe_image_color_light_gray7</item>
+        <item name="com_adobe_image_colorControlHighLight">@color/com_adobe_image_color_light_gray1</item>
+        <item name="com_adobe_image_colorControlNormal">@color/com_adobe_image_color_light_gray_semi_transparent1</item>
+        <item name="com_adobe_image_contentControlNormal">@color/com_adobe_image_color_light_gray_semi_transparent2</item>
+        <item name="com_adobe_image_textColorPrimaryDark">?android:attr/textColorPrimary</item>
+        <item name="com_adobe_image_textColorPrimaryLight">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="AdobeImageBaseTheme.ModalProgress" parent="AdobeImageBaseTheme.Promo">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="AdobeImageBaseTheme.OpaqueStatus"/>
+    <style name="AdobeImageBaseTheme.PremiumDialog" parent="Theme.AppCompat.Light.DialogWhenLarge">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:statusBarColor">#ff81d4fa</item>
+    </style>
+    <style name="AdobeImageBaseTheme.Promo" parent="@style/AdobeImageBaseTheme.Light.Dialog">
+        <item name="windowFixedWidthMajor">@dimen/abc_dialog_fixed_width_major</item>
+        <item name="windowFixedWidthMinor">@dimen/abc_dialog_fixed_width_minor</item>
+        <item name="windowFixedHeightMajor">@dimen/abc_dialog_fixed_height_major</item>
+        <item name="windowFixedHeightMinor">@dimen/abc_dialog_fixed_height_minor</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/AdobeImageWidget.DialogAnimation.PromoDialog</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AdobeImageBaseTheme.Promo.InstagramMessage">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <style name="AdobeImageBaseTheme.TranslucentNavigation"/>
+    <style name="AdobeImageBaseTheme.TranslucentStatus"/>
+    <style name="AdobeImageBaseTheme.TranslucentStatusAndNavigation"/>
+    <style name="AdobeImageWidget"/>
+    <style name="AdobeImageWidget.ActionButton.CloseMode" parent="Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+    <style name="AdobeImageWidget.ActionButton.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+    </style>
+    <style name="AdobeImageWidget.ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="background">?attr/colorAccent</item>
+        <item name="backgroundSplit">?attr/colorAccent</item>
+        <item name="android:paddingLeft">@dimen/com_adobe_image_toolbar_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/com_adobe_image_toolbar_horizontal_padding</item>
+    </style>
+    <style name="AdobeImageWidget.AdjustPanelTooltip" parent="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_strokeColor">#00000000</item>
+        <item name="ttlm_backgroundColor">#00000000</item>
+        <item name="ttlm_elevation">0dp</item>
+        <item name="android:textAppearance">@style/AdobeImageWidget.TextAppearance.AdjustTooltip</item>
+    </style>
+    <style name="AdobeImageWidget.AdobeIdButton" parent="AdobeImageWidget.FlatButton.Dark">
+        <item name="android:background">@drawable/com_adobe_image_flat_button_dark_selector</item>
+        <item name="android:drawableLeft">@drawable/com_adobe_image_free_logo_button</item>
+        <item name="android:drawableRight">@drawable/com_adobe_image_free_logo_button_invisible</item>
+        <item name="android:drawablePadding">0dip</item>
+        <item name="android:textSize">@dimen/abc_text_size_caption_material</item>
+        <item name="adobe_fontFamily">?attr/com_adobe_font_bold</item>
+    </style>
+    <style name="AdobeImageWidget.AdobeIdButton.Inverse">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="AdobeImageWidget.BaseButton">
+        <item name="adobe_fontFamily">?attr/com_adobe_font_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Button</item>
+        <item name="android:textSize">@dimen/com_adobe_image_editor_button_textSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:stateListAnimator">@anim/com_adobe_image_button_animation</item>
+    </style>
+    <style name="AdobeImageWidget.BottomBarFlatToggleButton" parent="AdobeImageWidget.FlatButton">
+        <item name="android:background">@drawable/com_adobe_image_flat_button_dgray_toggle_selector</item>
+        <item name="android:textSize">@dimen/com_adobe_image_editor_bottomBar_flat_toggle_button_textSize</item>
+        <item name="android:paddingLeft">@dimen/com_adobe_image_flat_button_consolidate_padding_h</item>
+        <item name="android:paddingRight">@dimen/com_adobe_image_flat_button_consolidate_padding_h</item>
+        <item name="adobe_fontFamily">?attr/com_adobe_font_regular</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textScaleX">@dimen/com_adobe_image_bottombar_flat_toggle_button_scale_x</item>
+    </style>
+    <style name="AdobeImageWidget.BuyButton" parent="AdobeImageWidget.FlatButton.Dark">
+        <item name="android:drawableRight">@drawable/com_adobe_image_free_logo_button_invisible</item>
+        <item name="android:drawableLeft">@drawable/com_adobe_image_free_logo_button</item>
+        <item name="android:drawablePadding">0dip</item>
+        <item name="android:textSize">@dimen/com_adobe_image_editor_buy_button_textSize</item>
+        <item name="adobe_fontFamily">?attr/com_adobe_font_bold</item>
+    </style>
+    <style name="AdobeImageWidget.BuyButton.Light">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="AdobeImageWidget.BuyButton.Transparent" parent="AdobeImageWidget.FlatButton.Blue.Transparent">
+        <item name="android:textAllCaps">true</item>
+        <item name="adobe_fontFamily">?attr/com_adobe_font_bold</item>
+        <item name="android:maxWidth">@dimen/com_adobe_image_store_list_buy_button_width</item>
+        <item name="android:minWidth">@dimen/com_adobe_image_store_list_buy_button_width</item>
+        <item name="android:paddingBottom">@dimen/com_adobe_image_buy_button_padding_v</item>
+        <item name="android:paddingTop">@dimen/com_adobe_image_buy_button_padding_v</item>
+        <item name="android:paddingLeft">@dimen/com_adobe_image_buy_button_padding_h</item>
+        <item name="android:paddingRight">@dimen/com_adobe_image_buy_button_padding_h</item>
+        <!--<item name="android:textSize">@dimen/com_adobe_image_text_size_buy_button</item>-->
+    </style>
+    <style name="AdobeImageWidget.CircleButtonText" parent="AdobeImageWidget.TextAppearance.Caption">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/com_adobe_image_circle_button_text_margin_top</item>
+        <item name="android:maxWidth">@dimen/com_adobe_image_circle_button_maxWidth</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AdobeImageWidget.CircleImageButton">
+        <item name="android:background">@drawable/com_adobe_image_bottombar_tool_button_background</item>
+        <item name="android:padding">@dimen/com_adobe_image_circle_button_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="adobe_highlightColorPressed">?attr/com_adobe_image_colorControlHighLight</item>
+        <item name="adobe_blendMode">MULTIPLY</item>
+        <item name="adobe_highlightMode">pressed|checked|selected</item>
+        <item name="adobe_untoggleable">true</item>
+        <item name="adobe_toggleable">true</item>
+    </style>
+    <style name="AdobeImageWidget.CircleImageButton.NonToggle">
+        <item name="adobe_untoggleable">false</item>
+    </style>
+    <style name="AdobeImageWidget.ConsolidatedAdjustButtons">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="AdobeImageWidget.ContentPanelsTooltip" parent="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_padding">@dimen/ttlm_default_padding</item>
+        <item name="ttlm_strokeColor">#00000000</item>
+        <item name="ttlm_backgroundColor">@color/com_adobe_image_black_semi_transparent</item>
+        <item name="ttlm_strokeWeight">0dip</item>
+        <item name="ttlm_cornerRadius">6dip</item>
+        <item name="ttlm_arrowRatio">1.4</item>
+        <item name="ttlm_elevation">0dp</item>
+    </style>
+    <style name="AdobeImageWidget.ContentSectionHeaderText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="adobe_strokeSize">0dip</item>
+        <item name="adobe_textPerc">0.35</item>
+        <item name="adobe_fontFamily">?attr/com_adobe_font_regular</item>
+    </style>
+    <style name="AdobeImageWidget.CropHighlightView">
+        <item name="adobe_strokeSize">@dimen/com_adobe_image_editor_crop_stroke_width</item>
+        <item name="adobe_strokeColor">@color/com_adobe_image_color_white</item>
+        <item name="adobe_strokeColorPressed">@color/com_adobe_image_color_light_gray2</item>
+        <item name="adobe_color1">@color/com_adobe_image_black_semi_transparent2</item>
+        <item name="adobe_color2">@color/com_adobe_image_black_semi_transparent2</item>
+        <item name="android:src">@drawable/com_adobe_image_editor_crop_knob_selector</item>
+        <item name="adobe_strokeColorInternal">@color/com_adobe_image_color_light_gray_semi_transparent2</item>
+        <item name="adobe_strokeSizeInternal">@dimen/com_adobe_image_editor_orientation_stroke_size_internal</item>
+    </style>
+    <style name="AdobeImageWidget.CropItemDrawableStyle">
+        <item name="adobe_strokeColor">?attr/com_adobe_image_colorControlNormal</item>
+        <item name="adobe_strokeColorSelected">?attr/colorAccent</item>
+        <item name="adobe_strokeSize">2dip</item>
+        <item name="adobe_radius">0</item>
+        <item name="android:padding">6dip</item>
+        <item name="android:src">@drawable/com_adobe_image_crop_item_invert_selector</item>
+    </style>
+    <style name="AdobeImageWidget.DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/com_adobe_image_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/com_adobe_image_slide_out_bottom</item>
+    </style>
+    <style name="AdobeImageWidget.DialogAnimation.Fade">
+        <item name="android:windowEnterAnimation">@anim/abc_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/abc_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="AdobeImageWidget.DialogAnimation.PromoDialog">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/abc_popup_exit</item>
+    </style>
+    <style name="AdobeImageWidget.EdgeOverlayDark">
+        <item name="android:colorEdgeEffect">?attr/com_adobe_image_colorControlNormal</item>
+    </style>
+    <style name="AdobeImageWidget.FeedbackAnimations">
+        <item name="android:windowEnterAnimation">@anim/com_adobe_image_slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/com_adobe_image_slide_out_bottom</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton" parent="AdobeImageWidget.BaseButton">
+        <item name="android:background">@drawable/com_adobe_image_flat_button_blue_selector</item>
+        <item name="android:paddingLeft">@dimen/com_adobe_image_flat_button_padding_h</item>
+        <item name="android:paddingRight">@dimen/com_adobe_image_flat_button_padding_h</item>
+        <item name="android:paddingTop">@dimen/com_adobe_image_flat_button_padding_v</item>
+        <item name="android:paddingBottom">@dimen/com_adobe_image_flat_button_padding_v</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.Blue">
+        <item name="android:textColor">?attr/com_adobe_image_textColorPrimaryLight</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.Blue.Transparent" parent="AdobeImageWidget.FlatButton">
+        <item name="android:background">?attr/com_adobe_image_flatTransparentBackgroundSelector</item>
+        <item name="android:textColor">?attr/com_adobe_image_textColorBlue</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.DGray.Transparent" parent="AdobeImageWidget.FlatButton">
+        <item name="android:background">@drawable/com_adobe_image_flat_button_dgray_transparent_selector</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.Dark" parent="AdobeImageWidget.FlatButton.Blue">
+        <item name="android:background">@drawable/com_adobe_image_flat_button_dark_selector</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.Dark.Feedback" parent="AdobeImageWidget.FlatButton.Dark">
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:background">@drawable/com_adobe_image_flat_button_feedback</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/AdobeImageWidget.TextAppearance</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">@dimen/abc_text_size_menu_material</item>
+        <item name="android:fontFamily">?attr/com_adobe_font_light</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.LightGray" parent="AdobeImageWidget.FlatButton.Blue">
+        <item name="android:background">@drawable/com_adobe_image_flat_button_light_gray_selector</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.LightGray.Transparent" parent="AdobeImageWidget.FlatButton">
+        <item name="android:textColor">@color/com_adobe_image_textcolor_light_gray_selector</item>
+        <item name="android:background">?attr/com_adobe_image_flatTransparentBackgroundSelector</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.RippleOnly" parent="AdobeImageWidget.FlatButton">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="AdobeImageWidget.GalleryItemStyle">
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="AdobeImageWidget.GridCard">
+        <item name="android:background">?attr/com_adobe_image_cardBackground</item>
+    </style>
+    <style name="AdobeImageWidget.GridCard.WithElevation"/>
+    <style name="AdobeImageWidget.ImageViewIntensity">
+        <item name="adobe_tooltipSize">@dimen/com_adobe_image_editor_image_intensity_tooltip_size</item>
+        <item name="adobe_strokeSize">@dimen/com_adobe_image_editor_image_intensity_tooltip_stroke_size</item>
+        <item name="adobe_demo_duration">2000</item>
+        <item name="adobe_demo_delay">300</item>
+        <item name="adobe_strokeColor">@color/com_adobe_image_black_semi_transparent2</item>
+        <item name="android:textColor">@color/com_adobe_image_color_white_pressed</item>
+    </style>
+    <style name="AdobeImageWidget.Meme" parent="AdobeImageWidget.TextAppearance.Caption">
+        <item name="android:background">@drawable/com_adobe_image_meme_text_background</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingBottom">12dip</item>
+        <item name="android:paddingRight">26dip</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AdobeImageWidget.MemeClearButtonStyle">
+        <item name="android:src">@drawable/com_adobe_image_meme_clear_button_selector</item>
+        <item name="android:background">@null</item>
+        <item name="android:clickable">true</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="AdobeImageWidget.MemeHiddenTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/com_adobe_image_editor_hidden_text_background_selector</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:editable">true</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:maxHeight">1sp</item>
+        <item name="android:textSize">1sp</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:inputType">textNoSuggestions|textAutoComplete|textAutoCorrect</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">@integer/com_adobe_image_editor_meme_max_length</item>
+    </style>
+    <style name="AdobeImageWidget.OrientationImageView">
+        <item name="android:padding">18dip</item>
+        <item name="android:animationDuration">@android:integer/config_mediumAnimTime</item>
+        <item name="adobe_handle">@drawable/com_adobe_image_orientation_knob_selector</item>
+        <item name="adobe_strokeColor">@color/com_adobe_image_color_white</item>
+        <item name="adobe_strokeColorInternal">@color/com_adobe_image_color_light_gray_semi_transparent2</item>
+        <item name="adobe_strokeSize">@dimen/com_adobe_image_editor_orientation_stroke_size</item>
+        <item name="adobe_strokeSizeInternal">@dimen/com_adobe_image_editor_orientation_stroke_size_internal</item>
+        <item name="adobe_color1">@color/com_adobe_image_black_semi_transparent2</item>
+        <item name="adobe_enable3d">@bool/com_adobe_image_editor_orientation_use_3d</item>
+        <item name="adobe_freeRotate">@bool/com_adobe_image_editor_orientation_free_rotate</item>
+    </style>
+    <style name="AdobeImageWidget.PremiumDialogText">
+        <item name="android:paddingRight">26dp</item>
+        <item name="android:paddingLeft">26dp</item>
+    </style>
+    <style name="AdobeImageWidget.SeekBar" parent="@android:style/Widget.Holo.SeekBar"/>
+    <style name="AdobeImageWidget.StickerHighlightView">
+        <item name="adobe_resizeEdgeMode">edge_none</item>
+        <item name="adobe_rotateDrawable">@drawable/com_adobe_image_editor_resize_knob_selector</item>
+        <item name="adobe_deleteDrawable">@drawable/com_adobe_image_editor_delete_knob_selector</item>
+        <item name="adobe_opacityDrawable">@drawable/com_adobe_image_editor_opacity_knob_selector</item>
+        <item name="adobe_flipDrawable">@drawable/com_adobe_image_editor_flip_knob_selector</item>
+        <item name="adobe_minSize">@dimen/com_adobe_image_content_sticker_overlay_minsize</item>
+        <item name="adobe_moveEnabled">1</item>
+        <item name="adobe_rotateEnabled">1</item>
+        <item name="adobe_resizeEnabled">1</item>
+        <item name="android:background">@drawable/com_adobe_image_editor_text_overlay_background_selector</item>
+        <item name="android:padding">@dimen/com_adobe_image_content_sticker_overlay_padding</item>
+    </style>
+    <style name="AdobeImageWidget.StrokePreviewSpotStyle">
+        <item name="adobe_strokeSize">@dimen/com_adobe_image_bottombar_gallery_item_stroke_width</item>
+        <item name="adobe_strokeColor">?attr/com_adobe_image_colorControlHighLight</item>
+        <item name="adobe_strokeColorSelected">?attr/colorAccent</item>
+        <item name="adobe_backgroundColor">@android:color/transparent</item>
+        <item name="adobe_backgroundColorSelected">?attr/com_adobe_image_colorControlNormal</item>
+        <item name="adobe_radius">0.5</item>
+        <item name="android:padding">@dimen/com_adobe_image_bottombar_gallery_item_bg_padding</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance" parent="TextAppearance.AppCompat"/>
+    <style name="AdobeImageWidget.TextAppearance.AdjustTooltip" parent="AdobeImageWidget.TextAppearance.Small">
+        <item name="android:textColor">?attr/com_adobe_image_textColorBlue</item>
+    </style>
+    <style name="AdobeImageWidget.TextAppearance.Body1" parent="TextAppearance.AppCompat.Body1"/>
+    <style name="AdobeImageWidget.TextAppearance.Button" parent="TextAppearance.AppCompat.Button"/>
+    <style name="AdobeImageWidget.TextAppearance.Caption" parent="TextAppearance.AppCompat.Caption"/>
+    <style name="AdobeImageWidget.TextAppearance.Inverse" parent="TextAppearance.AppCompat.Inverse"/>
+    <style name="AdobeImageWidget.TextAppearance.Large" parent="TextAppearance.AppCompat.Large"/>
+    <style name="AdobeImageWidget.TextAppearance.Large.Inverse" parent="TextAppearance.AppCompat.Large.Inverse"/>
+    <style name="AdobeImageWidget.TextAppearance.Medium" parent="TextAppearance.AppCompat.Medium"/>
+    <style name="AdobeImageWidget.TextAppearance.Medium.Inverse" parent="TextAppearance.AppCompat.Medium.Inverse"/>
+    <style name="AdobeImageWidget.TextAppearance.Small" parent="TextAppearance.AppCompat.Small"/>
+    <style name="AdobeImageWidget.TextAppearance.Small.Inverse" parent="TextAppearance.AppCompat.Small.Inverse"/>
+    <style name="AdobeImageWidget.TextAppearance.Subhead" parent="TextAppearance.AppCompat.Subhead"/>
+    <style name="AdobeImageWidget.TextAppearance.Subhead.Inverse" parent="TextAppearance.AppCompat.Subhead.Inverse"/>
+    <style name="AdobeImageWidget.TextAppearance.Title" parent="TextAppearance.AppCompat.Title"/>
+    <style name="AdobeImageWidget.TextAppearance.Title.Inverse" parent="TextAppearance.AppCompat.Title.Inverse"/>
+    <style name="AdobeImageWidget.TextHiddenTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:hint">@string/feather_enter_text_here</item>
+        <item name="android:background">@drawable/com_adobe_image_editor_hidden_text_background_selector</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:editable">true</item>
+        <item name="android:imeOptions">actionNone</item>
+        <item name="android:maxHeight">1sp</item>
+        <item name="android:textSize">1sp</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:inputType">textNoSuggestions|textAutoComplete|textAutoCorrect</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:maxLength">@integer/com_adobe_image_editor_text_max_length</item>
+    </style>
+    <style name="AdobeImageWidget.TextHighlightView">
+        <item name="adobe_rotateDrawable">@drawable/com_adobe_image_editor_resize_knob_selector</item>
+        <item name="adobe_deleteDrawable">@drawable/com_adobe_image_editor_delete_knob_selector</item>
+        <item name="adobe_minSize">@dimen/com_adobe_image_editor_text_overlay_min_size</item>
+        <item name="adobe_moveEnabled">1</item>
+        <item name="adobe_rotateEnabled">1</item>
+        <item name="adobe_resizeEnabled">1</item>
+        <item name="adobe_resizeEdgeMode">edge_none</item>
+        <item name="android:background">@drawable/com_adobe_image_editor_text_overlay_background_selector</item>
+        <item name="android:padding">@dimen/com_adobe_image_editor_text_overlay_padding</item>
+    </style>
+    <style name="AdobeImageWidget.TextTutorialOverlay" parent="AdobeImageWidget.TextAppearance.Small">
+        <item name="adobe_fontFamily">?attr/com_adobe_font_light</item>
+    </style>
+    <style name="AdobeImageWidget.TiltShiftView">
+        <item name="adobe_strokeColor">@color/com_adobe_image_color_white</item>
+        <item name="adobe_strokeSize">@dimen/com_adobe_image_editor_crop_stroke_width</item>
+        <item name="adobe_shape_minSize">10</item>
+        <item name="adobe_shape_maxSize">95</item>
+        <item name="adobe_shape_defaultSize">30%p</item>
+        <item name="adobe_timeout">2500</item>
+        <item name="android:animationDuration">200</item>
+        <item name="adobe_wave_pointDrawable">@drawable/com_adobe_image_wave_dot</item>
+        <item name="adobe_wave_animationDuration">@android:integer/config_longAnimTime</item>
+        <item name="adobe_wave_animationDelay">10</item>
+    </style>
+    <style name="AdobeImageWidget.TitleTutorialOverlay" parent="AdobeImageWidget.TextAppearance.Large">
+        <item name="adobe_fontFamily">?attr/com_adobe_font_regular</item>
+    </style>
+    <style name="AdobeImageWidget.ToolBar" parent="Widget.AppCompat.Toolbar">
+        <item name="maxButtonHeight">48dp</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/com_adobe_image_toolbar_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/com_adobe_image_toolbar_horizontal_padding</item>
+        <item name="contentInsetStart">@dimen/com_adobe_image_first_keyline</item>
+    </style>
+    <style name="AdobeImageWidget.ToolBar.WithElevation"/>
+    <style name="AdobeImageWidget.Toolbar.Button.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">48dp</item>
+    </style>
+    <style name="AdobeImageWidget.TutorialOverlayBase">
+        <item name="adobe_titleStyle">@style/AdobeImageWidget.TitleTutorialOverlay</item>
+        <item name="adobe_textStyle">@style/AdobeImageWidget.TextTutorialOverlay</item>
+        <item name="android:background">@color/com_adobe_image_black_semi_transparent</item>
+        <item name="adobe_ripple">@drawable/com_adobe_image_editor_tutorial_ripple</item>
+        <item name="adobe_closeButtonMargins">@dimen/com_adobe_image_overlay_close_button_margins</item>
+        <item name="adobe_closeButtonLayout">@layout/com_adobe_image_editor_tutoria_overlay_close_button</item>
+        <item name="android:animationDuration">300</item>
+    </style>
+    <style name="AdobeImageWidget.TutorialOverlayBase.Blemish">
+        <item name="android:animationDuration">@android:integer/config_shortAnimTime</item>
+    </style>
+    <style name="AdobeImageWidget.TutorialOverlayBase.Frames"/>
+    <style name="AdobeImageWidget.TutorialOverlayBase.Overlay"/>
+    <style name="AdobeImageWidget.TutorialOverlayBase.Stickers"/>
+    <style name="AdobeImageWidget.TutorialOverlayBase.UndoRedo">
+        <item name="android:animationDuration">@android:integer/config_shortAnimTime</item>
+        <item name="adobe_textMargins">30dip</item>
+        <item name="adobe_activationDelay">0</item>
+    </style>
+    <style name="AdobeImageWidget.VignetteStyle">
+        <item name="adobe_vignette_strokeSize">@dimen/com_adobe_image_vignette_control_shape_width</item>
+        <item name="adobe_vignette_strokeColor1">?attr/com_adobe_image_contentControlNormal</item>
+        <item name="adobe_vignette_strokeColor2">@android:color/transparent</item>
+        <item name="adobe_vignette_controlPointSize">@dimen/com_adobe_image_editor_vignette_controlPointSize</item>
+        <item name="adobe_vignette_feather">@dimen/com_adobe_image_editor_vignette_feather</item>
+        <item name="adobe_vignette_intensity">@integer/com_adobe_image_editor_vignette_intensity</item>
+        <item name="adobe_vignette_wave_pointDrawable">@drawable/com_adobe_image_wave_dot</item>
+        <item name="adobe_vignette_fadeout_time">1800</item>
+        <item name="adobe_vignette_rippleAnimationDuration">@android:integer/config_longAnimTime</item>
+        <item name="adobe_vignette_animationDelay">400</item>
+    </style>
+</resources>

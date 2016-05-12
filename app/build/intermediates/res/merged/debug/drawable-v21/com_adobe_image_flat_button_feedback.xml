@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <!-- pressed state -->
+            <item
+                android:state_enabled="true"
+                android:state_pressed="true"
+                android:drawable="@drawable/com_adobe_image_flat_button_dark_shape_pressed" />
+        </selector>
+    </item>
+</ripple>

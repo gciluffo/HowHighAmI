@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="com_adobe_image_action_bar_default_height">64dp</dimen>
+    <item format="fraction" name="com_adobe_image_editor_store_container_height" type="fraction">90%p</item>
+    <integer name="adobe_csdk_auth_view_height">80</integer>
+    <integer name="com_adobe_image_enhance_buttons_weight">8</integer>
+    <integer name="com_adobe_image_seekbar_weight">70</integer>
+</resources>

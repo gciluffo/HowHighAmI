@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <!-- default state -->
+            <item
+                android:state_enabled="true"
+                android:drawable="@drawable/com_adobe_image_flat_button_blue_shape_enabled" />
+
+            <!-- pressed state -->
+            <item
+                android:state_enabled="true"
+                android:state_pressed="true"
+                android:drawable="@drawable/com_adobe_image_flat_button_blue_shape_pressed" />
+
+            <!-- disabled state -->
+            <item
+                android:state_enabled="false"
+                android:drawable="@drawable/com_adobe_image_flat_button_blue_shape_disabled"/>
+        </selector>
+    </item>
+</ripple>

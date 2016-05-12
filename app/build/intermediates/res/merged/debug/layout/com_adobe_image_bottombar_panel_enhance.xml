@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="@dimen/com_adobe_image_bottombar_default_panel_padding"
+    android:weightSum="@integer/com_adobe_image_enhance_buttons_weight"
+    tools:context="com.adobe.creativesdk.aviary.AdobeImageEditorActivity">
+
+    <!-- Hi-DEF -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded">
+
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+            android:id="@+id/AdobeImageHighlightImageButton05"
+            style="?attr/com_adobe_image_editor_bottombar_circle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_hidef"
+            android:src="@drawable/com_adobe_image_ic_enhance_hidef"
+            android:tag="MoaActionlistEnhanceTypeHiDef" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:id="@+id/AdobeTextView05"
+            style="?attr/com_adobe_image_editor_bottombar_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_hidef" />
+    </LinearLayout>
+
+    <!-- scenery -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+            android:id="@+id/AdobeImageHighlightImageButton06"
+            style="?attr/com_adobe_image_editor_bottombar_circle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_enhance_effect_scenery"
+            android:src="@drawable/com_adobe_image_ic_enhance_scenery"
+            android:tag="MoaActionlistEnhanceTypeScenery" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:id="@+id/AdobeTextView06"
+            style="?attr/com_adobe_image_editor_bottombar_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_enhance_effect_scenery" />
+    </LinearLayout>
+
+    <!-- food -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+            android:id="@+id/AdobeImageHighlightImageButton07"
+            style="?attr/com_adobe_image_editor_bottombar_circle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_enhance_effect_food"
+            android:src="@drawable/com_adobe_image_ic_enhance_food"
+            android:tag="MoaActionlistEnhanceTypeFood" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:id="@+id/AdobeTextView07"
+            style="?attr/com_adobe_image_editor_bottombar_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_enhance_effect_food" />
+    </LinearLayout>
+
+    <!-- portrait -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+            android:id="@+id/AdobeImageHighlightImageButton08"
+            style="?attr/com_adobe_image_editor_bottombar_circle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_enhance_effect_portrait"
+            android:src="@drawable/com_adobe_image_ic_enhance_portrait"
+            android:tag="MoaActionlistEnhanceTypePortrait" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:id="@+id/AdobeTextView08"
+            style="?attr/com_adobe_image_editor_bottombar_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_enhance_effect_portrait" />
+    </LinearLayout>
+
+    <!-- night -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+            android:id="@+id/AdobeImageHighlightImageButton09"
+            style="?attr/com_adobe_image_editor_bottombar_circle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/feather_enhance_effect_night"
+            android:src="@drawable/com_adobe_image_ic_enhance_night"
+            android:tag="MoaActionlistEnhanceTypeNight" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:id="@+id/AdobeTextView09"
+            style="?attr/com_adobe_image_editor_bottombar_circle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_enhance_effect_night" />
+    </LinearLayout>
+</LinearLayout>

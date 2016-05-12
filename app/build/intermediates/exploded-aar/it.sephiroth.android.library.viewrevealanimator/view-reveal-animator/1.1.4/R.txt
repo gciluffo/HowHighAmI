@@ -1,0 +1,9 @@
+int attr vra_hideBeforeReveal 0x7f010000
+int[] styleable ViewRelealAnimator { 0x0101010a, 0x01010112, 0x01010141, 0x01010177, 0x01010178, 0x010102d5, 0x7f010000 }
+int styleable ViewRelealAnimator_android_animateFirstView 5
+int styleable ViewRelealAnimator_android_animationDuration 1
+int styleable ViewRelealAnimator_android_inAnimation 3
+int styleable ViewRelealAnimator_android_interpolator 2
+int styleable ViewRelealAnimator_android_measureAllChildren 0
+int styleable ViewRelealAnimator_android_outAnimation 4
+int styleable ViewRelealAnimator_vra_hideBeforeReveal 6

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Editor bottombar feedback tool layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_adobe_image_bottombar_tool_item_background"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <View android:layout_width="2dip"
+        android:layout_height="match_parent"
+        android:background="@color/com_adobe_image_white_semi_transparent" />
+
+    <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton android:id="@android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/com_adobe_image_bottombar_tool_item_margin"
+        android:paddingRight="@dimen/com_adobe_image_bottombar_tool_item_margin"
+        android:src="@drawable/com_adobe_image_bottombar_branding"
+        app:adobe_highlightColorPressed="?attr/colorControlHighlight" />
+
+</LinearLayout>

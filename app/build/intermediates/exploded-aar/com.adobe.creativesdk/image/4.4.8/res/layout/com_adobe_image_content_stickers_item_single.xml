@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/com_adobe_image_editor_content_item_width"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/com_adobe_image_content_content_stickers_items_margin"
+    android:layout_marginRight="@dimen/com_adobe_image_content_content_stickers_items_margin"
+    android:background="@drawable/com_adobe_image_content_items_background_selector">
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="false"
+        android:padding="1.5dip"
+        android:scaleType="centerInside"
+        android:visibility="visible" />
+</RelativeLayout>

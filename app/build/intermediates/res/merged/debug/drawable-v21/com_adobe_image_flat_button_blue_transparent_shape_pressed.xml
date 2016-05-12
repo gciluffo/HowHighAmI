@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:top="@dimen/com_adobe_image_flat_button_shape_margin_v"
+        android:bottom="@dimen/com_adobe_image_flat_button_shape_margin_v"
+        android:left="@dimen/com_adobe_image_flat_button_shape_margin_h"
+        android:right="@dimen/com_adobe_image_flat_button_shape_margin_h">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/com_adobe_image_flat_button_radius"/>
+            <solid android:color="@color/com_adobe_image_color_light_gray1"/>
+        </shape>
+    </item>
+</layer-list>

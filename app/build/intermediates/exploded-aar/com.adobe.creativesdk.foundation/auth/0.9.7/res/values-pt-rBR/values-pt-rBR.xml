@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_auth_required">Autenticação obrigatória</string>
+    <string name="adobe_csdk_auth_sign_in_close">Fechar</string>
+    <string name="adobe_csdk_cancelLogIn">CANCELAR</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Sem conexão com a Internet</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Ocorreu um erro durante a autenticação.\nTente novamente mais tarde.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Mensagem indicando que o usuário não está autorizado a visualizar o vídeo."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Acesso completo à conta Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Só é suportada uma Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">LOGON</string>
+    <string name="adobe_csdk_proxy_passwd_label">SENHA</string>
+    <string name="adobe_csdk_proxy_username_label">NOME DE USUÁRIO</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">O servidor http://%s requer nome de usuário e senha. O servidor diz: %s</string>
+</resources>

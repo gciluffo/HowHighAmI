@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple
+    android:color="?attr/colorControlHighlight"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@android:color/white" />
+
+    <item>
+        <selector>
+            <item
+                android:state_pressed="true"
+                android:drawable="@color/com_adobe_image_color_controlNormal" />
+
+        </selector>
+    </item>
+
+</ripple>

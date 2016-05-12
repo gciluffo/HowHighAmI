@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_auth_required">Verificatie vereist</string>
+    <string name="adobe_csdk_auth_sign_in_close">Sluiten</string>
+    <string name="adobe_csdk_cancelLogIn">ANNULEREN</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Geen internetverbinding</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Fout opgetreden tijdens verifiëren.\nProbeer het later opnieuw.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Bericht over de gebruiker die geen recht heeft om de voorvertoning van de video te zien."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Volledige toegang tot Adobe ID-account</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Slechts één Adobe ID wordt ondersteund</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">AANMELDEN</string>
+    <string name="adobe_csdk_proxy_passwd_label">WACHTWOORD</string>
+    <string name="adobe_csdk_proxy_username_label">GEBRUIKERSNAAM</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">De server http://%s vereist een gebruikersnaam en wachtwoord. De server meldt: %s</string>
+</resources>

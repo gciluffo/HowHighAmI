@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- progress loader shown in the main content view while loading the initial image -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/image_loading_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@drawable/com_adobe_image_main_loader_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="invisible"
+    android:padding="15dp">
+
+    <ProgressBar
+        android:id="@+id/main_image_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:indeterminateOnly="true" />
+
+    <com.adobe.android.ui.view.AdobeTextView
+        android:layout_toRightOf="@+id/main_image_progress"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        style="@style/AdobeImageWidget.TextAppearance.Small"
+        app:adobe_fontFamily="?attr/com_adobe_font_light"
+        android:text="@string/feather_loading_title" />
+</RelativeLayout>

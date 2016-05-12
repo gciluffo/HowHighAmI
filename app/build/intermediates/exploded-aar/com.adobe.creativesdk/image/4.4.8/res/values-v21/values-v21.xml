@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AdobeImageBaseTheme.OpaqueStatus">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="AdobeImageBaseTheme.TranslucentStatus">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AdobeImageBaseTheme.TranslucentStatusAndNavigation">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AdobeImageWidget.FlatButton.RippleOnly" parent="AdobeImageWidget.FlatButton">
+        <item name="android:background">@drawable/com_adobe_image_flat_button_dgray_transparent_selector</item>
+    </style>
+    <style name="AdobeImageWidget.GridCard.WithElevation">
+        <item name="android:stateListAnimator">@anim/com_adobe_image_card_animation</item>
+        <item name="android:translationZ">@dimen/com_adobe_image_store_card_elevation</item>
+    </style>
+    <style name="AdobeImageWidget.SeekBar" parent="@android:style/Widget.Material.SeekBar">
+        <item name="android:progressDrawable">@drawable/com_adobe_image_scrubber_progress_horizontal</item>
+    </style>
+    <style name="AdobeImageWidget.ToolBar.WithElevation">
+        <item name="android:elevation">@dimen/com_adobe_image_action_bar_elevation</item>
+    </style>
+</resources>

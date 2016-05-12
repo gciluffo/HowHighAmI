@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bottom Line -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/adobe_csdk_actionbar_border" />
+        </shape>
+    </item>
+    <!--<item>-->
+
+        <!--<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">-->
+            <!--<gradient-->
+                <!--android:startColor="@color/adobe_csdk_actionbar_border"-->
+                <!--android:endColor="@color/adobe_csdk_actionbar_border"-->
+                <!--android:angle="90"/>-->
+        <!--</shape>-->
+    <!--</item>-->
+
+    <!-- Color of your action bar -->
+    <item android:bottom="@dimen/adobe_csdk_actionBar_bottom_border_size">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/adobe_csdk_actionbar_background" />
+        </shape>
+    </item>
+</layer-list>

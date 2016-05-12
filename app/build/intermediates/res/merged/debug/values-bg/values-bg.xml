@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Придвижване към „Начало“"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"„%1$s“ – %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"„%1$s“, „%2$s“ – %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Придвижване нагоре"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Още опции"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Вижте всички"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Изберете приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ИЗКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Търсете…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Изчистване на заявката"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Заявка за търсене"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Търсене"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Изпращане на заявката"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Гласово търсене"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Споделяне със:"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Споделяне със: %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свиване"</string>
+    <string name="adobe_aviary_client_id_required">Изисква се Id на клиент</string>
+    <string name="adobe_aviary_client_secret_required">Изисква се тайна на клиент</string>
+    <string name="adobe_aviary_device_id_required">Изисква се Id на устройство</string>
+    <string name="adobe_aviary_invalid_argument">Невалиден аргумент</string>
+    <string name="adobe_aviary_module_not_initialized">Модулът не е стартиран</string>
+    <string name="adobe_aviary_unknown_error">Непозната грешка</string>
+    <string name="adobe_aviary_user_cancelled">Отказано от потребителя</string>
+    <string name="adobe_aviary_user_interaction_required">Изисква се взаимодействие с потребителя</string>
+    <string name="adobe_aviary_username_password_required">Изисква се потребителско име и парола</string>
+    <string name="com_adobe_image_recent">Скорошни</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> изисква една или повече услуги за Google Play, които понастоящем не са налице. Моля, свържете се с програмиста за съдействие."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Активиране на услугите за Google Play"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да работи, освен ако не активирате услугите за Google Play."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Активиране на услугите за Google Play"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Изтегляне на услугите за Google Play"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на телефона ви."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на таблета ви."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Изтегляне на услугите за Google Play"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"Посоченият профил не съществува на това устройство. Моля, изберете друг."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Невалиден профил"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"За свързване с услугите за Google Play се изисква връзка за данни."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Грешка в мрежата"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Грешка в услугите за Google Play"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"Осъществяването на достъп до профили от ограничен потребителски профил не се поддържа."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Ограничен потребителски профил"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"При влизането в посочения профил възникна грешка. Моля, изберете друг."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Влизането в профила не бе успешно"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> има проблем с услугите за Google Play. Ако той не се отстрани, моля, свържете се с програмиста за съдействие."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> разчита на услугите за Google Play, които не се поддържат от устройството ви. Свържете се с производителя за съдействие."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Услуги за Google Play"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Актуализиране"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява, освен ако не актуализирате услугите за Google Play."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Актуализиране на услугите за Google Play"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Услугите за Google Play се актуализират"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Отваряне на телефона"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Вход"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Вход с Google"</string>
+    <string name="feather_acc_a_sticker">Стикер</string>
+    <string name="feather_acc_color">Цвят</string>
+    <string name="feather_acc_flip_h">Хоризонтално обръщане</string>
+    <string name="feather_acc_flip_v">Завърти вертикално</string>
+    <string name="feather_acc_lens_toggle">Лупа</string>
+    <string name="feather_acc_rotate_ccw">Завърти обратно на часовн. стрелка</string>
+    <string name="feather_acc_rotate_cw">Завърти по часовн. стрелка</string>
+    <string name="feather_acc_size">Размер</string>
+    <string name="feather_activate">Активиране</string>
+    <string name="feather_activity_not_found">Съжаляваме, няма приложение на вашето устройство, което да извърши това действие. Искате ли да го изтеглите от магазина?</string>
+    <string name="feather_adjust">Ориентация</string>
+    <string name="feather_an_error_occurred">Възникна грешка</string>
+    <string name="feather_apply">Приложи</string>
+    <string name="feather_applying_actions">Прилагане на действия...</string>
+    <string name="feather_ask_to_login_before_restore">Ако преди сте влезли с Adobe ID, влезте отново, за да възстановите синхронизираните екстри</string>
+    <string name="feather_attention">Внимание</string>
+    <string name="feather_blemish">Недостатъци</string>
+    <string name="feather_blemish_tool_tip">Само докосни</string>
+    <string name="feather_blur">Замъгл.</string>
+    <string name="feather_borders">Рамки</string>
+    <string name="feather_borders_dialog_first_time">Инсталирайте безплатния пакет от рамки с висока резолюция на Aviary, за да започнете.</string>
+    <string name="feather_brightness">Яркост</string>
+    <string name="feather_cant_undo_anymore">Не можете да отменяте повече</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Кръгово</string>
+    <string name="feather_close">Затвори</string>
+    <string name="feather_colorfix">Поправка цвят</string>
+    <string name="feather_colorsplash_eraser">Гума</string>
+    <string name="feather_colorsplash_free">Свободен цвят</string>
+    <string name="feather_colorsplash_smart">Интелиг. цвят</string>
+    <string name="feather_contrast">Контраст</string>
+    <string name="feather_crop">Отрежи</string>
+    <string name="feather_custom">По избор</string>
+    <string name="feather_delete">Изтрий</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Детайли</string>
+    <string name="feather_discard">Отказване</string>
+    <string name="feather_discard_edits">Отказване на редакцията?</string>
+    <string name="feather_download">Изтегляне</string>
+    <string name="feather_download_start_failed">Неуспешен старт на изтеглянето. Моля, опитайте пак по-късно</string>
+    <string name="feather_draw">Рисувай</string>
+    <string name="feather_edit_bottom_text">Редактирай долния текст</string>
+    <string name="feather_edit_top_text">Редактирай горния текст</string>
+    <string name="feather_edit_your_photo">Редактор на снимки</string>
+    <string name="feather_effect_intensity_tooltip">Плъзнете нагоре или надолу за регулиране на наситеността</string>
+    <string name="feather_effect_loading_message">Прилагане на ефекти</string>
+    <string name="feather_effects">Ефекти</string>
+    <string name="feather_email_email_invalid">Невалиден имейл адрес</string>
+    <string name="feather_email_feedback_empty">Отзивът не може да бъде празен</string>
+    <string name="feather_email_hint">Имейл (за кореспонденция относно поддръжка)</string>
+    <string name="feather_enhance">Подобри</string>
+    <string name="feather_enhance_effect_food">Храна</string>
+    <string name="feather_enhance_effect_night">Нощ</string>
+    <string name="feather_enhance_effect_portrait">Портрет</string>
+    <string name="feather_enhance_effect_scenery">Природа</string>
+    <string name="feather_enter_text_here">Въведете текст тук</string>
+    <string name="feather_error_download_image_message">Възникна грешка при изтеглянето на изображението. Моля, опитайте пак по-късно.</string>
+    <string name="feather_error_saving_image">Възникна грешка при записа на изображението.</string>
+    <string name="feather_error_validating_adobe_id">Възникна проблем при потвърждаване на вашето Adobe ID. Моля, излезте и после влезте отново. Ако проблемът все още е налице, пишете ни на support@aviary.com.</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Избрани</string>
+    <string name="feather_featured_effects">Избрани ефекти</string>
+    <string name="feather_featured_frames">Избрани рамки</string>
+    <string name="feather_featured_overlays">Избрани припокривания</string>
+    <string name="feather_featured_stickers">Избрани стикери</string>
+    <string name="feather_feedback">Отзив</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Имате предложение как да подобрим този редактор на изображения? Споделете го с нас.</string>
+    <string name="feather_feedback_dislike">Кажете ни какво не харесвате</string>
+    <string name="feather_feedback_hint">Напишете своя отзив</string>
+    <string name="feather_feedback_love">Кажете ни какво харесвате</string>
+    <string name="feather_feedback_posted_failure">Отзивът не беше публикуван</string>
+    <string name="feather_feedback_posted_success">Отзивът е публикуван!</string>
+    <string name="feather_feedback_title">Отзив</string>
+    <string name="feather_filters">Филтри</string>
+    <string name="feather_flip">Обърни</string>
+    <string name="feather_free">Безплатно</string>
+    <string name="feather_generic_error_title">Грешка</string>
+    <string name="feather_get_more">Екстри</string>
+    <string name="feather_got_it">Разбрах!</string>
+    <string name="feather_have_an_adobe_id">Имате Adobe ID?</string>
+    <string name="feather_hidef">Hi-Def</string>
+    <string name="feather_iap_download">Безплатно</string>
+    <string name="feather_iap_download_failed">Неуспешно изтегляне</string>
+    <string name="feather_iap_failed_download_informations">Неуспешно изтегляне на необходимата информация</string>
+    <string name="feather_iap_install">Инсталирай</string>
+    <string name="feather_iap_installing">Инсталиране</string>
+    <string name="feather_iap_notification_installed_summary">Добавката е инсталирана успешно</string>
+    <string name="feather_iap_owned">Инсталирани</string>
+    <string name="feather_iap_pack_installed">Инсталирани</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Възстанови</string>
+    <string name="feather_iap_restore_all">Възстанови всички</string>
+    <string name="feather_iap_restore_all_failed">Възстанови всички неуспешни</string>
+    <string name="feather_iap_restore_all_in_progress">Възстановяване на всички в ход</string>
+    <string name="feather_iap_retry">Повтори</string>
+    <string name="feather_iap_unavailable">Недостъпно</string>
+    <string name="feather_iap_uninstall">Деинсталиране</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Освети</string>
+    <string name="feather_item_does_not_exists">Заявеният елемент не съществува</string>
+    <string name="feather_item_not_found">Елементът не е открит</string>
+    <string name="feather_learn_more">Научи повече</string>
+    <string name="feather_linear">Линейно</string>
+    <string name="feather_loading_image">Зареждане на изображение...</string>
+    <string name="feather_loading_title">Зареждане...</string>
+    <string name="feather_meme">Мийм</string>
+    <string name="feather_message_button_no">Не, благодаря.</string>
+    <string name="feather_message_button_yes">Разбира се!</string>
+    <string name="feather_my_account">Профил</string>
+    <string name="feather_no_thanks">Не, благодаря</string>
+    <string name="feather_notification_n_items_cant_be_restored">%1$s елемент(а) не могат да бъдат възстановени</string>
+    <string name="feather_notification_no_items_to_restore">Няма елементи за възстановяване</string>
+    <string name="feather_notification_plugins_installed_count">%1$d добавки са инсталирани</string>
+    <string name="feather_notification_plus_more">%1$d други</string>
+    <string name="feather_notification_restore_all_completed">Възстанови всички завършени</string>
+    <string name="feather_notification_some_items_cant_be_restored">Някои елементи не могат да бъдат възстановени</string>
+    <string name="feather_ops_error_download_image">Имаме проблеми с връзката :(</string>
+    <string name="feather_original">Оригинал</string>
+    <string name="feather_overlay_blemish_close_text">Изпробвайте новия инструмент &lt;b>Замъгляване&lt;/b>!</string>
+    <string name="feather_overlay_blemish_tap_text">Докоснете несъвършенствата, за да ги премахнете.</string>
+    <string name="feather_overlay_stickers_text">Инсталирайте безплатния пакет, за да започнете!</string>
+    <string name="feather_overlay_tap_title">Докосни</string>
+    <string name="feather_overlay_undo_title">Плъзнете за отменяне или връщане на редакциите</string>
+    <string name="feather_overlay_zoom_text">Също така можете да щипнете за увеличаване!</string>
+    <string name="feather_overlay_zoom_title">Увеличи</string>
+    <string name="feather_overlays">Припокривания</string>
+    <string name="feather_owned">Собственост</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">Щипнете за увеличаване!</string>
+    <string name="feather_please_try_again_later">Моля, опитайте пак по-късно</string>
+    <string name="feather_powered_by_aviary">Поддържано от Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Над 1000 &lt;b>ефекти, стикери, припокривания и рамки&lt;/b> за подобряване на вашите снимки</string>
+    <string name="feather_premium_days_left">Остават ви %d дни в Premium</string>
+    <string name="feather_premium_description">30-дневен достъп до нашата непрекъснато нарастваща колекция от екстри за редактиране на снимки само за %s</string>
+    <string name="feather_premium_error_no_internet">Моля, проверете връзката си с интернет, за да активирате достъпа си до Premium</string>
+    <string name="feather_premium_expired_message">Достъпът ви до Aviary Premium е изтекъл, Искате ли да го активирате за 30 дни за %s?</string>
+    <string name="feather_premium_expired_title">Достъпът е изтекъл</string>
+    <string name="feather_premium_get_price_error">Неуспешно свързване с Google Play. Моля, опитайте по-късно</string>
+    <string name="feather_premium_sign_in">&lt;u>Имате Adobe ID? Влизане&lt;/u></string>
+    <string name="feather_premium_subscribe">Активиране</string>
+    <string name="feather_premium_sync">Вашите екстри ще бъдат автоматично архивирани завинаги с вашия Adobe ID</string>
+    <string name="feather_premium_text1">• 30-дневен достъп до ВСИЧКИ „Ефекти“, „Рамки“, „Стикери“ и „Припокриване“ на Aviary само
+		за %1$s.&lt;br />&lt;br />• Екстрите ви автоматично ще се синхронизират с вашето Adobe ID, възстановете ги по всяко време от което и да е устройство.</string>
+    <string name="feather_premium_thank_you_message">Вече имате достъп до пълната колекция от екстри за редактиране на снимки за 30 дни.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• Изтеглете &lt;b>Aviary Essentials&lt;/b> – 16 от най-популярните ни екстри за редактиране на снимки – &lt;b>БЕЗПЛАТНО&lt;/b>&lt;br />&lt;br />
+• Синхронизирайте и възстановявайте екстри с Creative Cloud&lt;br />&lt;br />
+• Ексклузивен достъп до предстоящи функции</string>
+    <string name="feather_promo_title1">Благодаря!</string>
+    <string name="feather_promo_title2">Aviary Essentials включват общо 16 пакета „Ефекти“, „Рамки“, „Стикери“ и „Припокриване“. Търсете значката Adobe и ги изтеглете от магазина сега!</string>
+    <string name="feather_promo_title_with_promo">Отключете Aviary Essentials
+с Adobe ID</string>
+    <string name="feather_radial">Радиално</string>
+    <string name="feather_rectangle">Правоъгълно</string>
+    <string name="feather_red_eye">Черв. очи</string>
+    <string name="feather_redo">Върни</string>
+    <string name="feather_refresh">Обнови</string>
+    <string name="feather_report_bug">Докладване на грешка</string>
+    <string name="feather_report_bug_message">Ще бъде събрана информация за текущото състояние на вашето устройството, която ще бъде изпратена под формата на имейл. Ще отнеме известно време, докато докладът за грешки е готов за изпращане. Моля, имайте търпение.</string>
+    <string name="feather_restore_all_request_sent">Изпратена заявка. Моля, проверете зоната с уведомления на устройството си за повече информация</string>
+    <string name="feather_rotate">Завъртане</string>
+    <string name="feather_saturation">Наситеност</string>
+    <string name="feather_save">Готово</string>
+    <string name="feather_save_progress">Записвам...</string>
+    <string name="feather_see_more">Виж още</string>
+    <string name="feather_send">Изпращане</string>
+    <string name="feather_send_feedback">Изпрати отзив</string>
+    <string name="feather_settings_join_beta_description">Получете ранен достъп до нови функции и помогнете за създаването на дори по-добро Aviary!</string>
+    <string name="feather_settings_join_beta_title">Включете се в Aviary Beta</string>
+    <string name="feather_sharpen">Острота</string>
+    <string name="feather_signin">Влизане</string>
+    <string name="feather_signup">Регистрация</string>
+    <string name="feather_square">Квадратен</string>
+    <string name="feather_sticker_flip_tooltip">Докоснете за обръщ. на стикера</string>
+    <string name="feather_stickers">Стикери</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Това е безплатен пакет в ограничена серия. Ако го деинсталирате, възможно е да не можете да го възстановите в бъдеще.</string>
+    <string name="feather_store_checking_additional_packs">Проверка за допълнителни пакети...</string>
+    <string name="feather_store_connection_problem">Възникна проблем при свързването с магазина Google Play. Моля, опитайте пак.</string>
+    <string name="feather_store_monthly">Месечно</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Моите екстри</string>
+    <string name="feather_store_passport_banner_text">Изтеглете този пакет и хиляди други ефекти на Aviary на ниска цена с Aviary Passport! Щракнете тук за повече информация!</string>
+    <string name="feather_store_passport_cancelled">Отказано</string>
+    <string name="feather_store_passport_unknown">Непознат</string>
+    <string name="feather_store_purchase_date">Дата на покупка</string>
+    <string name="feather_store_title">Магазин за екстри на Aviary</string>
+    <string name="feather_take_survey">Налично е ново проучване!</string>
+    <string name="feather_tell_us_what_you_think">Кажете ни какво мислите</string>
+    <string name="feather_text">Текст</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Инструмент</string>
+    <string name="feather_tool_color">Цвят</string>
+    <string name="feather_tool_colorsplash">Украса</string>
+    <string name="feather_tool_consolidation_adjust">Регулиране</string>
+    <string name="feather_tool_exposure">Експонация</string>
+    <string name="feather_tool_fade">Затихв.</string>
+    <string name="feather_tool_highlight">Отблясъци</string>
+    <string name="feather_tool_lighting">Осветление</string>
+    <string name="feather_tool_shadow">Сенки</string>
+    <string name="feather_tool_temperature">Топлина</string>
+    <string name="feather_tool_tiltshift">Фокус</string>
+    <string name="feather_tool_tint">Оттенък</string>
+    <string name="feather_tool_vibrance">Интензивност</string>
+    <string name="feather_tooltip_adjust_intro">Яркост, Контраст, Топлина и Наситеност вече са тук!</string>
+    <string name="feather_try_again">Опитай пак</string>
+    <string name="feather_try_again_connected">Опитайте отново, когато имате връзка с интернет</string>
+    <string name="feather_undo">Отмени</string>
+    <string name="feather_vignette">Винетиране</string>
+    <string name="feather_want_it_free">Искате го безплатно?</string>
+    <string name="feather_warning">Предупреждение</string>
+    <string name="feather_welcome_to_frames">Добре дошли в „Рамки“!</string>
+    <string name="feather_welcome_to_stickers">Добре дошли в „Стикери“!</string>
+    <string name="feather_whiten">Избледняване</string>
+    <string name="feather_zoom_mode">Режим на увеличение</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Изчистване на търсенето"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Търсете"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

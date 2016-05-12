@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingMode="stack">
+
+    <item android:id="@+id/background">
+        <color android:color="@color/com_adobe_image_pack_item_effect_intensity_background" />
+    </item>
+
+    <item android:id="@+id/foreground">
+        <bitmap android:src="@drawable/com_adobe_image_effects_intensity" />
+    </item>
+
+</layer-list>

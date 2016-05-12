@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- tutorial close button -->
+<com.adobe.android.ui.view.AdobeButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/AdobeImageWidget.FlatButton.Blue"
+    android:text="@string/feather_close" />

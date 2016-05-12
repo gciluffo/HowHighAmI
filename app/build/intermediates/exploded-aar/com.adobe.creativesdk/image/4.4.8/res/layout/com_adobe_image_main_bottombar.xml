@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.AdobeImageBottomBarAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="true"
+    android:animateFirstView="true"
+    android:persistentDrawingCache="animation"
+    android:inAnimation="@anim/com_adobe_image_bottombar_in"
+    android:outAnimation="@anim/com_adobe_image_bottombar_out"
+    android:animationDuration="@android:integer/config_longAnimTime"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    app:vra_hideBeforeReveal="false">
+
+    <!-- 1st level tools -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:background="?attr/com_adobe_image_bottombarColorPrimary"
+        android:drawSelectorOnTop="true"
+        android:paddingTop="0dip"
+        android:paddingBottom="0dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/AdobeImageWidget.EdgeOverlayDark" />
+
+    <!-- options panel container -->
+    <FrameLayout
+        android:background="?attr/com_adobe_image_bottombarColorSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dip" />
+
+</com.adobe.creativesdk.aviary.widget.AdobeImageBottomBarAnimator>

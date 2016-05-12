@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:top="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+                android:bottom="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+                android:left="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+                android:right="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding">
+                <shape android:shape="oval">
+                    <solid android:color="@color/com_adobe_image_color_light_gray_semi_transparent1" />
+
+                    <size android:width="@dimen/com_adobe_image_bottombar_gallery_item_width"
+                        android:height="@dimen/com_adobe_image_bottombar_gallery_item_width" />
+                </shape>
+            </item>
+
+            <item android:top="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+                android:bottom="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+                android:left="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+                android:right="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+                android:drawable="@drawable/com_adobe_image_gallery_eraser" />
+
+        </layer-list>
+    </item>
+
+    <item android:top="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+        android:bottom="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+        android:left="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+        android:right="@dimen/com_adobe_image_bottombar_gallery_item_bg_padding"
+        android:drawable="@drawable/com_adobe_image_gallery_eraser" />
+
+</selector>

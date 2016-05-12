@@ -1,0 +1,795 @@
+[
+    {
+        "outputFile": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 72,
+                    "endOffset": 123
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 72,
+                        "endOffset": 123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 128,
+                    "endColumn": 73,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 128,
+                        "endColumn": 73,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 108,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 202,
+                        "endColumn": 108,
+                        "endOffset": 306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 311,
+                    "endColumn": 65,
+                    "endOffset": 372
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 311,
+                        "endColumn": 65,
+                        "endOffset": 372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 377,
+                    "endColumn": 77,
+                    "endOffset": 450
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 377,
+                        "endColumn": 77,
+                        "endOffset": 450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 455,
+                    "endColumn": 79,
+                    "endOffset": 530
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 455,
+                        "endColumn": 79,
+                        "endOffset": 530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 535,
+                    "endColumn": 74,
+                    "endOffset": 605
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 535,
+                        "endColumn": 74,
+                        "endOffset": 605
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 610,
+                    "endColumn": 70,
+                    "endOffset": 676
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 610,
+                        "endColumn": 70,
+                        "endOffset": 676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 681,
+                    "endColumn": 69,
+                    "endOffset": 746
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 681,
+                        "endColumn": 69,
+                        "endOffset": 746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 751,
+                    "endColumn": 76,
+                    "endOffset": 823
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 751,
+                        "endColumn": 76,
+                        "endOffset": 823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 828,
+                    "endColumn": 122,
+                    "endOffset": 946
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 828,
+                        "endColumn": 122,
+                        "endOffset": 946
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 951,
+                    "endColumn": 111,
+                    "endOffset": 1058
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 951,
+                        "endColumn": 111,
+                        "endOffset": 1058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1063,
+                    "endColumn": 102,
+                    "endOffset": 1161
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1063,
+                        "endColumn": 102,
+                        "endOffset": 1161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1166,
+                    "endColumn": 105,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1166,
+                        "endColumn": 105,
+                        "endOffset": 1267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 79,
+                    "endOffset": 1347
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1272,
+                        "endColumn": 79,
+                        "endOffset": 1347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1352,
+                    "endColumn": 73,
+                    "endOffset": 1421
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1352,
+                        "endColumn": 73,
+                        "endOffset": 1421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1426,
+                    "endColumn": 83,
+                    "endOffset": 1505
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1426,
+                        "endColumn": 83,
+                        "endOffset": 1505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1510,
+                    "endColumn": 89,
+                    "endOffset": 1595
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1510,
+                        "endColumn": 89,
+                        "endOffset": 1595
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1600,
+                    "endColumn": 60,
+                    "endOffset": 1656
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1600,
+                        "endColumn": 60,
+                        "endOffset": 1656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1661,
+                    "endColumn": 86,
+                    "endOffset": 1743
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1661,
+                        "endColumn": 86,
+                        "endOffset": 1743
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1748,
+                    "endColumn": 79,
+                    "endOffset": 1823
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1748,
+                        "endColumn": 79,
+                        "endOffset": 1823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1828,
+                    "endColumn": 61,
+                    "endOffset": 1885
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1828,
+                        "endColumn": 61,
+                        "endOffset": 1885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1890,
+                    "endColumn": 69,
+                    "endOffset": 1955
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1890,
+                        "endColumn": 69,
+                        "endOffset": 1955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1960,
+                    "endColumn": 73,
+                    "endOffset": 2029
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1960,
+                        "endColumn": 73,
+                        "endOffset": 2029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2034,
+                    "endColumn": 108,
+                    "endOffset": 2138
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 2034,
+                        "endColumn": 108,
+                        "endOffset": 2138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2143,
+                    "endColumn": 70,
+                    "endOffset": 2209
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 2143,
+                        "endColumn": 70,
+                        "endOffset": 2209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2214,
+                    "endLine": 30,
+                    "endColumn": 12,
+                    "endOffset": 2390
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2214,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 2390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2395,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 2583
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2395,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 2583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2588,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 2778
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2588,
+                        "endLine": 36,
+                        "endColumn": 12,
+                        "endOffset": 2778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2783,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 2973
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 2783,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 2973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2978,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 3170
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2978,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 3170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3175,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 3363
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 3175,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 3363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3368,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3573
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3368,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 3573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3578,
+                    "endLine": 51,
+                    "endColumn": 12,
+                    "endOffset": 3766
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3578,
+                        "endLine": 51,
+                        "endColumn": 12,
+                        "endOffset": 3766
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3771,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 3975
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3771,
+                        "endLine": 54,
+                        "endColumn": 12,
+                        "endOffset": 3975
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3980,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 4168
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3980,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 4168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4173,
+                    "endLine": 60,
+                    "endColumn": 12,
+                    "endOffset": 4377
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4173,
+                        "endLine": 60,
+                        "endColumn": 12,
+                        "endOffset": 4377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 4382,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 4573
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 4382,
+                        "endLine": 63,
+                        "endColumn": 12,
+                        "endOffset": 4573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 4578,
+                    "endLine": 66,
+                    "endColumn": 12,
+                    "endOffset": 4785
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 4578,
+                        "endLine": 66,
+                        "endColumn": 12,
+                        "endOffset": 4785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 4790,
+                    "endLine": 69,
+                    "endColumn": 12,
+                    "endOffset": 4976
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 4790,
+                        "endLine": 69,
+                        "endColumn": 12,
+                        "endOffset": 4976
+                    }
+                }
+            }
+        ]
+    }
+]

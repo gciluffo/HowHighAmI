@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+
+    <!-- ripple mask -->
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/com_adobe_image_flat_button_dgray_transparent_shape_pressed" />
+
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item
+                android:state_checked="false"
+                android:drawable="@android:color/transparent" />
+
+            <item
+                android:state_checked="true"
+                android:drawable="@drawable/com_adobe_image_flat_button_dgray_toggle_shape_checked" />
+
+
+        </selector>
+    </item>
+</ripple>

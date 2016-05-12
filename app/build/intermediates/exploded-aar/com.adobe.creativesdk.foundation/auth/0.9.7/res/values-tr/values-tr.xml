@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_auth_required">Kimlik Doğrulaması Gerekli</string>
+    <string name="adobe_csdk_auth_sign_in_close">Kapat</string>
+    <string name="adobe_csdk_cancelLogIn">İPTAL</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">İnternet Bağlantısı Yok</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Kimlik doğrulanırken hata oluştu.\nDaha sonra tekrar deneyin.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Kullanıcının, videoyu önizleme yetkisi olmadığını gösteren mesaj."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Adobe ID hesabına tam erişim</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Yalnızca bir Adobe ID desteklenir</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">OTURUM AÇ</string>
+    <string name="adobe_csdk_proxy_passwd_label">PAROLA</string>
+    <string name="adobe_csdk_proxy_username_label">KULLANICI ADI</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">http://%s sunucusu, kullanıcı adı ve parola gerektiriyor. Sunucu mesajı: %s</string>
+</resources>

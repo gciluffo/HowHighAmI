@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/white"
+    tools:context="com.adobe.creativesdk.aviary.dialogs.MessagePromoDialogFragment"
+    tools:ignore="Overdraw">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:orientation="vertical"
+        android:paddingBottom="10dip"
+        android:paddingLeft="@dimen/com_adobe_image_message_dialog_text_padding_horizontal"
+        android:paddingRight="@dimen/com_adobe_image_message_dialog_text_padding_horizontal"
+        android:paddingTop="@dimen/com_adobe_image_message_dialog_text_padding_top">
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="@style/AdobeImageWidget.TextAppearance.Medium.Inverse"
+            app:adobe_fontFamily="?attr/com_adobe_font_regular">
+
+            <requestFocus />
+        </com.adobe.android.ui.view.AdobeTextView>
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:textAppearance="@style/AdobeImageWidget.TextAppearance.Small.Inverse"
+            app:adobe_fontFamily="?attr/com_adobe_font_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_container"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dip"
+        android:paddingLeft="@dimen/com_adobe_image_message_dialog_text_padding_horizontal"
+        android:paddingRight="@dimen/com_adobe_image_message_dialog_text_padding_horizontal"
+        android:paddingTop="8dip"
+        android:weightSum="20">
+
+        <com.adobe.android.ui.view.AdobeButton
+            android:id="@+id/button6"
+            style="@style/AdobeImageWidget.FlatButton.Blue"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/feather_message_button_no" />
+
+
+        <com.adobe.android.ui.view.AdobeButton
+            android:id="@+id/button7"
+            style="@style/AdobeImageWidget.FlatButton.Dark"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="@string/feather_message_button_yes" />
+    </LinearLayout>
+</RelativeLayout>

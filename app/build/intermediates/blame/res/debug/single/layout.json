@@ -1,0 +1,562 @@
+[
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adp_select_dialog_singlechoice_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.github.fengdai\\alertdialogpro-theme-material\\0.2.6\\res\\layout\\adp_select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_main_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_main_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_list_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_list_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_stickers.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_stickers.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_content_frames.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_content_frames.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_modal_progress_view.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_modal_progress_view.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip_textview.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\it.sephiroth.android.library.targettooltip\\target-tooltip-library\\1.3.11\\res\\layout\\tooltip_textview.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_login_dialog.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_login_dialog.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_orientation.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_orientation.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_feedback_item_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_feedback_item_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_feedback_dialog_dislike.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_feedback_dialog_dislike.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_adjust.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_adjust.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_blemish.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_blemish.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_gallery_item_view.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_gallery_item_view.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_spot_draw.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_spot_draw.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_detail_preview_effect.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_detail_preview_effect.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_disabled_status_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_disabled_status_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adp_progress_dialog_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.github.fengdai\\alertdialogpro-theme-material\\0.2.6\\res\\layout\\adp_progress_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_main_view_loader.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_main_view_loader.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adobe_csdk_ux_auth_dialog_proxy_credentials.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout\\adobe_csdk_ux_auth_dialog_proxy_credentials.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_detail_preview_sticker.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_detail_preview_sticker.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_detail_banner.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_detail_banner.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_focus.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_focus.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_frames_item_supplies.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_frames_item_supplies.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_spot.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_spot.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_detail_layout_previews.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_detail_layout_previews.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_frames.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_frames.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adp_progress_dialog_horizontal_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.github.fengdai\\alertdialogpro-theme-material\\0.2.6\\res\\layout\\adp_progress_dialog_horizontal_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_progress_small_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_progress_small_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_gallery.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_main_toolbar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_main_toolbar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_detail_fragment.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_detail_fragment.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_panel_colorsplash.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_panel_colorsplash.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_crop.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_crop.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adobe_csdk_common_popup_bannerview.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout\\adobe_csdk_common_popup_bannerview.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adobe_csdk_ux_auth_activity_container_view.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout\\adobe_csdk_ux_auth_activity_container_view.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_meme.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_meme.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_tooltip_textview.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\custom_tooltip_textview.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_toolbar_title_textview.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_toolbar_title_textview.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_orientation.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_orientation.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_frames_item_header_pack.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_frames_item_header_pack.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_frames_item_content_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_frames_item_content_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adobe_csdk_common_errorview.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout\\adobe_csdk_common_errorview.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_modal_progress_dialog.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_modal_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adobe_csdk_ux_auth_fragment_view.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout\\adobe_csdk_ux_auth_fragment_view.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_lens_button_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_lens_button_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_enhance.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_enhance.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_frames_item_external_pack.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_frames_item_external_pack.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_promo_message_dialog.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_promo_message_dialog.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_stickers_item_single.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_stickers_item_single.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_meme.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_meme.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adp_select_dialog_multichoice_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.github.fengdai\\alertdialogpro-theme-material\\0.2.6\\res\\layout\\adp_select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_listview_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_listview_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_vignette.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_vignette.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_recyclerfragment.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_recyclerfragment.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_tutoria_overlay_close_button.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_tutoria_overlay_close_button.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_seekbar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_seekbar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_container_fragment.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_container_fragment.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_frames_item_recent_pack.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_frames_item_recent_pack.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adobe_csdk_ux_auth_dialog_proxy_title.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout\\adobe_csdk_ux_auth_dialog_proxy_title.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_store_listview.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_store_listview.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_effects_item_content_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_effects_item_content_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adp_select_dialog_item_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.github.fengdai\\alertdialogpro-theme-material\\0.2.6\\res\\layout\\adp_select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_feedback_dialog_report_bug.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_feedback_dialog_report_bug.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_overlays.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_overlays.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\src\\main\\res\\layout\\activity_fragment.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adp_select_dialog_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.github.fengdai\\alertdialogpro-theme-material\\0.2.6\\res\\layout\\adp_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adobe_csdk_common_dialog_fragment.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\layout\\adobe_csdk_common_dialog_fragment.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_slider_tooltip.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_slider_tooltip.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_tool_item_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_tool_item_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_feedback_dialog_new.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_feedback_dialog_new.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_crop_item_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_crop_item_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gallery_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\src\\main\\res\\layout\\gallery_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_adjustement_slider_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_adjustement_slider_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_item_adjust.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_item_adjust.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_main_bottombar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_main_bottombar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_text.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_text.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_text.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_text.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_seekbar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_seekbar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_content_stickers_item_internal_pack.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_content_stickers_item_internal_pack.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_editor_content_focus.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_editor_content_focus.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\photo_edit.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\src\\main\\res\\layout\\photo_edit.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_thank_you_dialog.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_thank_you_dialog.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adp_alert_dialog_material.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.github.fengdai\\alertdialogpro-theme-material\\0.2.6\\res\\layout\\adp_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_draw.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_draw.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_adobe_image_bottombar_panel_stickers.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\layout\\com_adobe_image_bottombar_panel_stickers.xml"
+    }
+]

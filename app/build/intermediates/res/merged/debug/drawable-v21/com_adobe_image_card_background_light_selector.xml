@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?attr/colorControlHighlight">
+    <!--<item android:drawable="@color/com_adobe_image_store_card_background_light" />-->
+
+    <!-- default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="@dimen/com_adobe_image_store_card_radius"
+                android:bottomRightRadius="@dimen/com_adobe_image_store_card_radius"
+                android:topLeftRadius="0dip"
+                android:topRightRadius="0dip" />
+            <solid android:color="@color/com_adobe_image_store_card_background_light" />
+        </shape>
+    </item>
+</ripple>

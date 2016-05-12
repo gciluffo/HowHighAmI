@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="com_adobe_image_is_tablet">true</bool>
+    <dimen name="com_adobe_image_action_bar_default_height">64dp</dimen>
+    <dimen name="com_adobe_image_action_bar_progress_height">48dp</dimen>
+    <item format="float" name="com_adobe_image_bottombar_flat_toggle_button_scale_x" type="dimen">1.0</item>
+    <dimen name="com_adobe_image_first_keyline">24dp</dimen>
+    <dimen name="com_adobe_image_premium_dialog_content_grid">450dp</dimen>
+    <dimen name="com_adobe_image_store_list_icon_size">100dip</dimen>
+    <dimen name="com_adobe_image_toolbar_horizontal_padding">12dp</dimen>
+    <item format="fraction" name="com_adobe_image_editor_store_container_height" type="fraction">75%p</item>
+    <integer name="com_adobe_image_enhance_buttons_weight">6</integer>
+    <integer name="com_adobe_image_seekbar_weight">75</integer>
+    <style name="AdobeBaseTheme.Feedback.Impl" parent="AdobeBaseTheme.Feedback"/>
+    <style name="AdobeImageWidget.ConsolidatedAdjustButtons">
+        <item name="android:layout_width">500dip</item>
+    </style>
+</resources>

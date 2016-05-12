@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdobeAdaptiveFrameLayout"><attr format="enum" name="adobe_layout_dimension"><enum name="none" value="-1"/><enum name="width" value="0"/><enum name="height" value="1"/></attr><attr format="fraction" name="adobe_layout_dimension_value"/></declare-styleable>
+    <declare-styleable name="AdobeGalleryView"><attr name="android:animationDuration"/></declare-styleable>
+    <declare-styleable name="AdobeTextViewCustomFont"><attr format="reference|string" name="adobe_fontFamily"/><attr name="android:focusable"/><attr name="android:clickable"/></declare-styleable>
+    <declare-styleable name="AdobeTutorialOverlay"><attr format="reference" name="adobe_titleStyle"/><attr format="reference" name="adobe_textStyle"/><attr format="reference" name="adobe_arrow"/><attr format="reference" name="adobe_ripple"/><attr format="dimension" name="adobe_titleMargins"/><attr format="dimension" name="adobe_textMargins"/><attr format="dimension" name="adobe_closeButtonMargins"/><attr format="reference" name="adobe_closeButtonLayout"/><attr format="integer" name="adobe_activationDelay"/><attr name="android:background"/><attr name="android:animationDuration"/></declare-styleable>
+    <style name="AdobeToast">
+        <item name="android:windowExitAnimation">@anim/abc_fade_out</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+
+    <!-- ripple mask -->
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@drawable/com_adobe_image_flat_button_blue_transparent_shape_disabled" />
+
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <!-- default state -->
+            <item
+                android:drawable="@android:color/transparent"
+                android:state_enabled="true" />
+
+            <!-- pressed state -->
+            <item
+                android:drawable="@drawable/com_adobe_image_flat_button_blue_transparent_shape_pressed"
+                android:state_enabled="true"
+                android:state_pressed="true" />
+
+            <!-- disabled state -->
+            <item
+                android:drawable="@color/com_adobe_image_color_light_gray2"
+                android:state_enabled="false" />
+        </selector>
+    </item>
+</ripple>

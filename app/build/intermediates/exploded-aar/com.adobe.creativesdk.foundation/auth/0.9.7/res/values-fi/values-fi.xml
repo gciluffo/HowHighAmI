@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_auth_required">Todennus vaaditaan</string>
+    <string name="adobe_csdk_auth_sign_in_close">Sulje</string>
+    <string name="adobe_csdk_cancelLogIn">PERUUTA</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Ei Internet-yhteyttä</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Todennuksessa tapahtui virhe.\nYritä myöhemmin uudelleen.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Viesti siitä, että käyttäjällä ei ole oikeutta esikatsella videota."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Adobe ID -tilin täysi käyttöoikeus</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Vain yhtä Adobe ID -tunnusta tuetaan</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">KIRJAUDU SISÄÄN</string>
+    <string name="adobe_csdk_proxy_passwd_label">SALASANA</string>
+    <string name="adobe_csdk_proxy_username_label">KÄYTTÄJÄNIMI</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">Palvelin http://%s edellyttää käyttäjänimeä ja salasanaa. Palvelimen ilmoitus: %s</string>
+</resources>

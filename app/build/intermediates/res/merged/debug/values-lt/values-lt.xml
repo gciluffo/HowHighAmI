@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Eiti į pagrindinį puslapį"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Eiti į viršų"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Daugiau parinkčių"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Atlikta"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Peržiūrėti viską"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Pasirinkti programą"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"IŠJUNGTI"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ĮJUNGTI"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ieškoti..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Išvalyti užklausą"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Paieškos užklausa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Paieška"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Pateikti užklausą"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Paieška balsu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Bendrinti naudojant"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Bendrinti naudojant „%s“"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sutraukti"</string>
+    <string name="adobe_aviary_client_id_required">Reikia kliento ID</string>
+    <string name="adobe_aviary_client_secret_required">Reikia kliento slaptojo rakto</string>
+    <string name="adobe_aviary_device_id_required">Reikia įrenginio ID</string>
+    <string name="adobe_aviary_invalid_argument">Negaliojantis argumentas</string>
+    <string name="adobe_aviary_module_not_initialized">Modulis neinicijuotas</string>
+    <string name="adobe_aviary_unknown_error">Nežinoma klaida</string>
+    <string name="adobe_aviary_user_cancelled">Naudotojas atšauktas</string>
+    <string name="adobe_aviary_user_interaction_required">Reikia naudotojo veiksmų</string>
+    <string name="adobe_aviary_username_password_required">Reikia naudotojo vardo ir slaptažodžio</string>
+    <string name="com_adobe_image_recent">Naujausi</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"Norint naudoti „<ns1:g id="APP_NAME">%1$s</ns1:g>“ reikalinga viena ar kelios „Google Play“ paslaugos, kurios šiuo metu nepasiekiamos. Susisiekite su kūrėju, kad gautumėte pagalbos."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Įgalinti „Google Play“ paslaugas"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"„<ns1:g id="APP_NAME">%1$s</ns1:g>“ neveiks, jei neįgalinsite „Google Play“ paslaugų."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Įgalinkite „Google Play“ paslaugas"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Gauti „Google Play“ paslaugas"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"„<ns1:g id="APP_NAME">%1$s</ns1:g>“ nebus paleidžiama be „Google Play“ paslaugų, kurių nėra telefone."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"„<ns1:g id="APP_NAME">%1$s</ns1:g>“ nebus paleidžiama be „Google Play“ paslaugų, kurių nėra planšetiniame kompiuteryje."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Gaukite „Google Play“ paslaugas"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"Nurodytos paskyros šiame įrenginyje nėra. Pasirinkite kitą paskyrą."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Netinkama paskyra"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"Kad būtų galima prisijungti prie „Google Play“ paslaugų, reikalingas duomenų ryšys."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Tinklo klaida"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"„Google Play“ paslaugų klaida"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"Prieiga prie paskyrų naudojant ribotą profilį nepalaikoma."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Ribotas profilis"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Klaida prisijungiant prie nurodytos paskyros. Pasirinkite kitą paskyrą."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Nepavyko prisijungti"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"Naudojant programą „<ns1:g id="APP_NAME">%1$s</ns1:g>“ kyla problemų dėl „Google Play“ paslaugų. Jei problema išlieka, susisiekite su kūrėju, kad jums būtų suteikta pagalba."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"Norint naudoti „<ns1:g id="APP_NAME">%1$s</ns1:g>“ reikalingos „Google Play“ paslaugos, kurios nepalaikomos jūsų įrenginyje. Susisiekite su gamintoju, kad gautumėte pagalbos."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"„Google Play“ paslaugos"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Atnaujinti"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"„<ns1:g id="APP_NAME">%1$s</ns1:g>“ nebus paleidžiama, jei neatnaujinsite „Google Play“ paslaugų."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Atnaujinkite „Google Play“ paslaugas"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"„<ns1:g id="APP_NAME">%1$s</ns1:g>“ nebus paleidžiama be „Google Play“ paslaugų, kurios šiuo metu atnaujinamos."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"„Google Play“ paslaugos atnaujinamos"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Reikia naujos versijos „Google Play“ paslaugų. Jos netrukus bus atnaujintos."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Atidaryti telefone"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Prisijungti"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Prisijungti naudojant „Google“"</string>
+    <string name="feather_acc_a_sticker">Lipdukas</string>
+    <string name="feather_acc_color">Spalva</string>
+    <string name="feather_acc_flip_h">Apversti horizontaliai</string>
+    <string name="feather_acc_flip_v">Apversti vertikaliai</string>
+    <string name="feather_acc_lens_toggle">Perjungti mastelį</string>
+    <string name="feather_acc_rotate_ccw">Sukti prieš laikrodžio rodyklę</string>
+    <string name="feather_acc_rotate_cw">Sukti pagal laikrodžio rodyklę</string>
+    <string name="feather_acc_size">Dydis</string>
+    <string name="feather_activate">Aktyvinti</string>
+    <string name="feather_activity_not_found">Deja, įrenginyje nėra programų, kuriomis būtų galima atlikti šį veiksmą. Ar norite atsisiųsti programą iš parduotuvės?</string>
+    <string name="feather_adjust">Padėtis</string>
+    <string name="feather_an_error_occurred">Įvyko klaida</string>
+    <string name="feather_apply">Pritaikyti</string>
+    <string name="feather_applying_actions">Taikomi veiksmai...</string>
+    <string name="feather_ask_to_login_before_restore">Jei anksčiau buvote prisijungę naudodami „Adobe“ ID, prisijunkite, kad būtų atkurtos sinchronizuotos priemonės.</string>
+    <string name="feather_attention">Dėmesio</string>
+    <string name="feather_blemish">Defektų šalinimo įrankis</string>
+    <string name="feather_blemish_tool_tip">Tiesiog palieskite</string>
+    <string name="feather_blur">Sulieti</string>
+    <string name="feather_borders">Rėmeliai</string>
+    <string name="feather_borders_dialog_first_time">Norėdami pradėti, įdiekite nemokamą „Aviary“ dailių didelės raiškos rėmelių paketą.</string>
+    <string name="feather_brightness">Ryškumas</string>
+    <string name="feather_cant_undo_anymore">Negalima atšaukti daugiau pakeitimų</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Apskritimas</string>
+    <string name="feather_close">Uždaryti</string>
+    <string name="feather_colorfix">Spalvų taisymas</string>
+    <string name="feather_colorsplash_eraser">Trintukas</string>
+    <string name="feather_colorsplash_free">Nemokamos spalvos</string>
+    <string name="feather_colorsplash_smart">Išmaniosios spalvos</string>
+    <string name="feather_contrast">Kontrastas</string>
+    <string name="feather_crop">Iškirpti</string>
+    <string name="feather_custom">Individualus</string>
+    <string name="feather_delete">Ištrinti</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Detalės</string>
+    <string name="feather_discard">Panaikinti</string>
+    <string name="feather_discard_edits">Panaikinti pakeitimą?</string>
+    <string name="feather_download">Atsisiųsti</string>
+    <string name="feather_download_start_failed">Nepavyko pradėti atsisiųsti. Bandykite dar kartą vėliau.</string>
+    <string name="feather_draw">Piešti</string>
+    <string name="feather_edit_bottom_text">Redaguoti apatinį tekstą</string>
+    <string name="feather_edit_top_text">Redaguoti viršutinį tekstą</string>
+    <string name="feather_edit_your_photo">Nuotraukų redagavimo priemonė</string>
+    <string name="feather_effect_intensity_tooltip">Braukite aukštyn arba žemyn, kad sureguliuotumėte intensyvumą</string>
+    <string name="feather_effect_loading_message">Taikomi efektai</string>
+    <string name="feather_effects">Efektai</string>
+    <string name="feather_email_email_invalid">Negaliojantis el. pašto adresas</string>
+    <string name="feather_email_feedback_empty">Atsiliepimas negali būti tuščias</string>
+    <string name="feather_email_hint">El. paštas (ryšiui palaikyti)</string>
+    <string name="feather_enhance">Sustiprinti</string>
+    <string name="feather_enhance_effect_food">Maistas</string>
+    <string name="feather_enhance_effect_night">Naktis</string>
+    <string name="feather_enhance_effect_portrait">Portretas</string>
+    <string name="feather_enhance_effect_scenery">Peizažas</string>
+    <string name="feather_enter_text_here">Įveskite tekstą čia</string>
+    <string name="feather_error_download_image_message">Bandant atsisiųsti vaizdą įvyko klaida. Bandykite dar kartą vėliau.</string>
+    <string name="feather_error_saving_image">Oi! Bandant įrašyti vaizdą įvyko klaida.</string>
+    <string name="feather_error_validating_adobe_id">Iškilo problemų patvirtinant jūsų „Adobe“ ID. Išsiregistruokite ir prisijunkite iš naujo. Jei problemos išspręsti nepavyktų, rašykite el. paštu support@aviary.com</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Pavydžiai</string>
+    <string name="feather_featured_effects">Efektų pavydžiai</string>
+    <string name="feather_featured_frames">Rėmelių pavydžiai</string>
+    <string name="feather_featured_overlays">Perdangų pavydžiai</string>
+    <string name="feather_featured_stickers">Lipdukų pavydžiai</string>
+    <string name="feather_feedback">Atsiliepimas</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Turite pasiūlymų, kaip patobulinti šią nuotraukų redagavimo priemonę? Praneškite mums.</string>
+    <string name="feather_feedback_dislike">Praneškite mums, kas jums nepatinka</string>
+    <string name="feather_feedback_hint">Parašykite atsiliepimą</string>
+    <string name="feather_feedback_love">Praneškite mums, kas jums patinka</string>
+    <string name="feather_feedback_posted_failure">Nepavyko paskelbti atsiliepimo</string>
+    <string name="feather_feedback_posted_success">Atsiliepimas paskelbtas!</string>
+    <string name="feather_feedback_title">Atsiliepimas</string>
+    <string name="feather_filters">Filtrai</string>
+    <string name="feather_flip">Apversti</string>
+    <string name="feather_free">Nemokamai</string>
+    <string name="feather_generic_error_title">Klaida</string>
+    <string name="feather_get_more">Priemonės</string>
+    <string name="feather_got_it">Supratau!</string>
+    <string name="feather_have_an_adobe_id">Turite „Adobe“ ID?</string>
+    <string name="feather_hidef">Didelė raiška</string>
+    <string name="feather_iap_download">Nemokamai</string>
+    <string name="feather_iap_download_failed">Nepavyko atsisiųsti</string>
+    <string name="feather_iap_failed_download_informations">Nepavyko atsisiųsti reikiamos informacijos</string>
+    <string name="feather_iap_install">Įdiegti</string>
+    <string name="feather_iap_installing">Diegiama</string>
+    <string name="feather_iap_notification_installed_summary">Papildinys sėkmingai įdiegtas</string>
+    <string name="feather_iap_owned">Įdiegta</string>
+    <string name="feather_iap_pack_installed">Įdiegta</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Atkurti</string>
+    <string name="feather_iap_restore_all">Atkurti visus</string>
+    <string name="feather_iap_restore_all_failed">Nepavyko atkurti visų elementų</string>
+    <string name="feather_iap_restore_all_in_progress">Atkuriami visi elementai</string>
+    <string name="feather_iap_retry">Bandyti dar kartą</string>
+    <string name="feather_iap_unavailable">Nepasiekiama</string>
+    <string name="feather_iap_uninstall">Pašalinti</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Apšviesti</string>
+    <string name="feather_item_does_not_exists">Prašomo elemento nėra</string>
+    <string name="feather_item_not_found">Elementas nerastas</string>
+    <string name="feather_learn_more">Sužinokite daugiau</string>
+    <string name="feather_linear">Linijinis</string>
+    <string name="feather_loading_image">Įkeliamas vaizdas...</string>
+    <string name="feather_loading_title">Įkeliama...</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_message_button_no">Ačiū, ne.</string>
+    <string name="feather_message_button_yes">Žinoma!</string>
+    <string name="feather_my_account">Paskyra</string>
+    <string name="feather_no_thanks">Ačiū, ne.</string>
+    <string name="feather_notification_n_items_cant_be_restored">Nepavyko atkurti tiek elementų: %1$s</string>
+    <string name="feather_notification_no_items_to_restore">Nėra elementų, kuriuos reikėtų atkurti</string>
+    <string name="feather_notification_plugins_installed_count">Įdiegta papildinių: %1$d</string>
+    <string name="feather_notification_plus_more">dar %1$d</string>
+    <string name="feather_notification_restore_all_completed">Nepavyko atkurti visų užbaigtų elementų</string>
+    <string name="feather_notification_some_items_cant_be_restored">Nepavyko atkurti kai kurių elementų</string>
+    <string name="feather_ops_error_download_image">Kilo ryšio problemų.</string>
+    <string name="feather_original">Originalas</string>
+    <string name="feather_overlay_blemish_close_text">Išbandykite naują &lt;b>suliejimo&lt;/b> įrankį!</string>
+    <string name="feather_overlay_blemish_tap_text">Palieskite defektus, kad juos pašalintumėte.</string>
+    <string name="feather_overlay_stickers_text">Norėdami pradėti, įdiekite šį nemokamą paketą.</string>
+    <string name="feather_overlay_tap_title">Palieskite</string>
+    <string name="feather_overlay_undo_title">Perbraukite, kad atšauktumėte arba grąžintumėte pakeitimus</string>
+    <string name="feather_overlay_zoom_text">Taip pat galite suimti, kad priartintumėte.</string>
+    <string name="feather_overlay_zoom_title">Priartinti</string>
+    <string name="feather_overlays">Perdangos</string>
+    <string name="feather_owned">Įsigyta</string>
+    <string name="feather_passport">„Aviary“ pasas</string>
+    <string name="feather_pinch_to_zoom">Suimkite, kad priartintumėte.</string>
+    <string name="feather_please_try_again_later">Bandykite dar kartą vėliau.</string>
+    <string name="feather_powered_by_aviary">Sukurta naudojant Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Daugiau kaip 1000 &lt;b>efektų, lipdukų, perdangų ir rėmelių&lt;/b> jūsų nuotraukoms pagerinti.</string>
+    <string name="feather_premium_days_left">„Premium“ galios dar %d d.</string>
+    <string name="feather_premium_description">30 d. prieiga prie mūsų nuolat augančios nuotraukų redagavimo priemonių kolekcijos tik už %s.</string>
+    <string name="feather_premium_error_no_internet">Patikrinkite, ar veikia interneto ryšys, kad galėtumėte suaktyvinti prieigą prie „Premium“</string>
+    <string name="feather_premium_expired_message">Baigėsi prieigos prie „Aviary Premium“ galiojimo laikas. Ar norėtumėte ją aktyvinti dar 30 d. už %s?</string>
+    <string name="feather_premium_expired_title">Baigėsi prieigos galiojimo laikas</string>
+    <string name="feather_premium_get_price_error">Nepavyko užmegzti ryšio su „Google Play“. Vėliau bandykite dar kartą.</string>
+    <string name="feather_premium_sign_in">&lt;u>Turite „Adobe“ ID? Prisijunkite.&lt;/u></string>
+    <string name="feather_premium_subscribe">Aktyvinti</string>
+    <string name="feather_premium_sync">Naudojant jūsų „Adobe“ ID, automatiškai visam laikui bus sukurta jūsų priemonių atsarginė kopija.</string>
+    <string name="feather_premium_text1">• 30 d. prieiga prie VISŲ „Aviary“ efektų, rėmelių, lipdukų ir perdangų vos už
+		%1 $.&lt;br />&lt;br />• Jūsų priemonės automatiškai sinchronizuojamos su jūsų „Adobe“ ID, todėl galite jas pasiekti naudodami bet kokį įrenginį.</string>
+    <string name="feather_premium_thank_you_message">Dabar turite 30 d. prieigą prie visos „Aviary“ nuotraukų redagavimo priemonių kolekcijos.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• &lt;b>NEMOKAMAI&lt;/b> gaukite &lt;b>Aviary Essentials&lt;/b> – 16 populiariausių nuotraukų redagavimo priemonių&lt;br />&lt;br />
+• Sinchronizuokite ir atkurkite priemones naudodami „Creative Cloud“&lt;br />&lt;br />
+• Pasinaudokite išskirtine galimybe išbandyti naujas funkcijas</string>
+    <string name="feather_promo_title1">Ačiū!</string>
+    <string name="feather_promo_title2">„Aviary Essentials“ iš viso apima 16 efektų, rėmelių, lipdukų ir perdangų paketų. Ieškokite „Adobe“ ženklelio ir atsisiųskite efektų iš parduotuvės dabar!</string>
+    <string name="feather_promo_title_with_promo">Gaukite „Aviary Essentials“
+naudodami „Adobe“ ID</string>
+    <string name="feather_radial">Spindulys</string>
+    <string name="feather_rectangle">Stačiakampis</string>
+    <string name="feather_red_eye">Akių raudonumas</string>
+    <string name="feather_redo">Grąžinti</string>
+    <string name="feather_refresh">Atnaujinti</string>
+    <string name="feather_report_bug">Pranešti apie riktą</string>
+    <string name="feather_report_bug_message">Bus surinkta esamos įrenginio būsenos informacija, ji bus išsiųsta el. paštu. Gali užtrukti, kol riktų ataskaita bus parengta siųsti. Būkite kantrūs.</string>
+    <string name="feather_restore_all_request_sent">Užklausa išsiųsta. Daugiau informacijos galite matyti įrenginio pranešimų srityje.</string>
+    <string name="feather_rotate">Pasukti</string>
+    <string name="feather_saturation">Grynis</string>
+    <string name="feather_save">Atlikta</string>
+    <string name="feather_save_progress">Įrašoma...</string>
+    <string name="feather_see_more">Žr. daugiau</string>
+    <string name="feather_send">Siųsti</string>
+    <string name="feather_send_feedback">Siųsti atsiliepimą</string>
+    <string name="feather_settings_join_beta_description">Iš anksto išbandykite naujas funkcijas ir padėkite patobulinti „Aviary“!</string>
+    <string name="feather_settings_join_beta_title">Išbandykite beta versijos „Aviary“</string>
+    <string name="feather_sharpen">Griežtumas</string>
+    <string name="feather_signin">Prisijungti</string>
+    <string name="feather_signup">Prisiregistruoti</string>
+    <string name="feather_square">Kvadratas</string>
+    <string name="feather_sticker_flip_tooltip">Palieskite, kad apverstumėte šį lipduką</string>
+    <string name="feather_stickers">Lipdukai</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Tai yra nemokamas riboto leidimo paketas. Jei jį pašalinsite, ateityje gali nepavykti jo atkurti.</string>
+    <string name="feather_store_checking_additional_packs">Ieškoma papildomų paketų...</string>
+    <string name="feather_store_connection_problem">Bandant prisijungti prie „Google Play“ parduotuvės kilo problema. Bandykite dar kartą.</string>
+    <string name="feather_store_monthly">Kas mėnesį</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Mano priemonės</string>
+    <string name="feather_store_passport_banner_text">„Aviary“ pasas suteikia galimybę už nedidelę kainą įsigyti šį paketą ir daugybę kitų „Aviary“ efektų. Spustelėkite čia ir gaukite daugiau informacijos.</string>
+    <string name="feather_store_passport_cancelled">Atšaukta</string>
+    <string name="feather_store_passport_unknown">Nežinoma</string>
+    <string name="feather_store_purchase_date">Įsigijimo data</string>
+    <string name="feather_store_title">„Aviary“ priemonių parduotuvė</string>
+    <string name="feather_take_survey">Parengta nauja apklausa!</string>
+    <string name="feather_tell_us_what_you_think">Praneškite mums, ką manote</string>
+    <string name="feather_text">Tekstas</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Įrankis</string>
+    <string name="feather_tool_color">Spalva</string>
+    <string name="feather_tool_colorsplash">Dėmė</string>
+    <string name="feather_tool_consolidation_adjust">Reguliuoti</string>
+    <string name="feather_tool_exposure">Demonstravimas</string>
+    <string name="feather_tool_fade">Išnykti</string>
+    <string name="feather_tool_highlight">Svarbiausi</string>
+    <string name="feather_tool_lighting">Apšvietimas</string>
+    <string name="feather_tool_shadow">Šešėliai</string>
+    <string name="feather_tool_temperature">Šiluma</string>
+    <string name="feather_tool_tiltshift">Židinys</string>
+    <string name="feather_tool_tint">Atspalvis</string>
+    <string name="feather_tool_vibrance">Spalvingumas</string>
+    <string name="feather_tooltip_adjust_intro">Jau galite nustatyti ryškumą, kontrastą, šilumą ir grynį.</string>
+    <string name="feather_try_again">Bandykite dar kartą</string>
+    <string name="feather_try_again_connected">Pabandykite dar kartą, kai būsite prisijungę</string>
+    <string name="feather_undo">Atšaukti pakeitimą</string>
+    <string name="feather_vignette">Vinjetė</string>
+    <string name="feather_want_it_free">Norite gauti nemokamai?</string>
+    <string name="feather_warning">Įspėjimas</string>
+    <string name="feather_welcome_to_frames">Sveiki! Peržiūrėkite rėmelius.</string>
+    <string name="feather_welcome_to_stickers">Sveiki! Peržiūrėkite lipdukus.</string>
+    <string name="feather_whiten">Šviesinti</string>
+    <string name="feather_zoom_mode">Mastelio keitimo režimas</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Išvalyti paiešką"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Paieška"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

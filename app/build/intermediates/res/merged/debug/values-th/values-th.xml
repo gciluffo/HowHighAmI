@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"นำทางขึ้น"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"เสร็จสิ้น"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ปิด"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"เปิด"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ล้างข้อความค้นหา"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ข้อความค้นหา"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ส่งข้อความค้นหา"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"แชร์กับ %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="adobe_aviary_client_id_required">ต้องระบุ Id ไคลเอ็นต์</string>
+    <string name="adobe_aviary_client_secret_required">ต้องระบุรหัสลับของไคลเอ็นต์</string>
+    <string name="adobe_aviary_device_id_required">ต้องระบุ Id อุปกรณ์</string>
+    <string name="adobe_aviary_invalid_argument">อาร์กิวเมนต์ไม่ถูกต้อง</string>
+    <string name="adobe_aviary_module_not_initialized">โมดูลไม่เริ่มทำงาน</string>
+    <string name="adobe_aviary_unknown_error">เกิดข้อผิดพลาดโดยไม่ทราบสาเหตุ</string>
+    <string name="adobe_aviary_user_cancelled">ผู้ใช้ยกเลิก</string>
+    <string name="adobe_aviary_user_interaction_required">ผู้ใช้จำเป็นต้องโต้ตอบ</string>
+    <string name="adobe_aviary_username_password_required">ต้องระบุชื่อผู้ใช้และรหัสผ่าน</string>
+    <string name="com_adobe_image_recent">ล่าสุด</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ต้องใช้บริการ Google Play อย่างน้อย 1 บริการ ซึ่งไม่พร้อมใช้งานในปัจจุบัน โปรดติดต่อนักพัฒนาซอฟต์แวร์เพื่อขอความช่วยเหลือ"</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"เปิดใช้บริการ Google Play"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play"</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"เปิดใช้บริการ Google Play"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"ติดตั้งบริการ Google Play"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งไม่มีในโทรศัพท์ของคุณ"</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซี่งไม่มีในแท็บเล็ตของคุณ"</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"ติดตั้งบริการ Google Play"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"บัญชีที่ระบุไม่มีอยู่บนอุปกรณ์นี้ โปรดเลือกบัญชีอื่น"</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"บัญชีไม่ถูกต้อง"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"ต้องมีการเชื่อมต่อข้อมูลเพื่อเชื่อมต่อกับบริการ Google Play"</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"ข้อผิดพลาดของเครือข่าย"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"ข้อผิดพลาดของบริการ Google Play"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"ไม่สนับสนุนการเข้าถึงบัญชีจากโปรไฟล์ที่ถูกจำกัด"</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"โปรไฟล์ที่ถูกจำกัด"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"เกิดข้อผิดพลาดในการลงชื่อเข้าใช้บัญชีที่ระบุ โปรดเลือกบัญชีอื่น"</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"การลงชื่อเข้าใช้ล้มเหลว"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> มีปัญหาเกี่ยวกับบริการของ Google Play หากยังคงมีปัญหาอยู่ โปรดติดต่อนักพัฒนาซอฟต์แวร์เพื่อขอความช่วยเหลือ"</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ต้องอาศัยบริการ Google Play ซึ่งอุปกรณ์ของคุณไม่รองรับ โปรดติดต่อผู้ผลิตเพื่อขอความช่วยเหลือ"</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"บริการ Google Play"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"อัปเดต"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะอัปเดตบริการ Google Play"</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"อัปเดตบริการ Google Play"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานหากไม่มีบริการ Google Play ซึ่งกำลังอัปเดตอยู่ในขณะนี้"</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"กำลังอัปเดตบริการ Google Play"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"จำเป็นต้องใช้บริการ Google Play เวอร์ชันใหม่ ซึ่งจะอัปเดตอัตโนมัติในอีกไม่ช้า"</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"เปิดบนโทรศัพท์"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"ลงชื่อเข้าใช้"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"ลงชื่อเข้าใช้ด้วย Google"</string>
+    <string name="feather_acc_a_sticker">สติกเกอร์</string>
+    <string name="feather_acc_color">สี</string>
+    <string name="feather_acc_flip_h">พลิกเป็นแนวนอน</string>
+    <string name="feather_acc_flip_v">พลิกเป็นแนวตั้ง</string>
+    <string name="feather_acc_lens_toggle">เปิดปิดการซูม</string>
+    <string name="feather_acc_rotate_ccw">หมุนภาพตามเข็มนาฬิกา</string>
+    <string name="feather_acc_rotate_cw">หมุนภาพทวนเข็มนาฬิกา</string>
+    <string name="feather_acc_size">ขนาด</string>
+    <string name="feather_activate">เปิดใช้งาน</string>
+    <string name="feather_activity_not_found">ขออภัย ไม่มีแอพพลิเคชั่นในเครื่องสำหรับจัดการเรื่องนี้ คุณต้องการดาวน์โหลดเลยหรือไม่</string>
+    <string name="feather_adjust">หมุนภาพ</string>
+    <string name="feather_an_error_occurred">เกิดข้อผิดพลาด</string>
+    <string name="feather_apply">ใช้</string>
+    <string name="feather_applying_actions">กำลังใช้แอ็คชั่น...</string>
+    <string name="feather_ask_to_login_before_restore">หากคุณเคยล็อกอินด้วย Adobe ID ก่อนหน้านี้ ให้ลงชื่อเข้าใช้เพื่อเรียกชุดอุปกรณ์แต่งภาพที่ซิงค์ไว้กลับมา</string>
+    <string name="feather_attention">โปรดทราบ</string>
+    <string name="feather_blemish">ลบตำหนิ</string>
+    <string name="feather_blemish_tool_tip">แค่แตะ</string>
+    <string name="feather_blur">เบลอ</string>
+    <string name="feather_borders">กรอบรูป</string>
+    <string name="feather_borders_dialog_first_time">ติดตั้งแพ็คกรอบรูปความละเอียดสูงที่สวยงามแพ็คนี้จาก Aviary ฟรีแล้วเริ่มใช้งานได้เลย</string>
+    <string name="feather_brightness">ความสว่าง</string>
+    <string name="feather_cant_undo_anymore">ไม่สามารถเปลี่ยนกลับได้อีก</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">วงกลม</string>
+    <string name="feather_close">ปิด</string>
+    <string name="feather_colorfix">แก้ไขสี</string>
+    <string name="feather_colorsplash_eraser">ยางลบ</string>
+    <string name="feather_colorsplash_free">ทาสีอิสระ</string>
+    <string name="feather_colorsplash_smart">ทาสีอัจฉริยะ</string>
+    <string name="feather_contrast">คอนทราสต์</string>
+    <string name="feather_crop">ครอบตัด</string>
+    <string name="feather_custom">ปรับเอง</string>
+    <string name="feather_delete">ลบ</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">รายละเอียด</string>
+    <string name="feather_discard">ทิ้ง</string>
+    <string name="feather_discard_edits">ทิ้งที่ปรับแต่งไว้หรือไม่</string>
+    <string name="feather_download">ดาวน์โหลด</string>
+    <string name="feather_download_start_failed">ไม่สามารถเริ่มดาวน์โหลดได้ โปรดลองใหม่ในภายหลัง</string>
+    <string name="feather_draw">วาด</string>
+    <string name="feather_edit_bottom_text">แก้ไขข้อความด้านล่าง</string>
+    <string name="feather_edit_top_text">แก้ไขข้อความด้านบน</string>
+    <string name="feather_edit_your_photo">เครื่องมือปรับแต่งภาพ</string>
+    <string name="feather_effect_intensity_tooltip">ปัดขึ้นหรือลงเพื่อปรับความเข้มข้น</string>
+    <string name="feather_effect_loading_message">กำลังใช้เอฟเฟ็กต์</string>
+    <string name="feather_effects">เอฟเฟ็กต์</string>
+    <string name="feather_email_email_invalid">ที่อยู่อีเมลไม่ถูกต้อง</string>
+    <string name="feather_email_feedback_empty">ต้องระบุความคิดเห็น</string>
+    <string name="feather_email_hint">อีเมล (สำหรับการติดต่อเพื่อให้ความช่วยเหลือ)</string>
+    <string name="feather_enhance">ปรับให้สวย</string>
+    <string name="feather_enhance_effect_food">อาหาร</string>
+    <string name="feather_enhance_effect_night">กลางคืน</string>
+    <string name="feather_enhance_effect_portrait">บุคคล</string>
+    <string name="feather_enhance_effect_scenery">ทิวทัศน์</string>
+    <string name="feather_enter_text_here">ใส่ข้อความที่นี่</string>
+    <string name="feather_error_download_image_message">เกิดข้อผิดพลาดขณะดาวน์โหลดภาพ โปรดลองใหม่ในภายหลัง</string>
+    <string name="feather_error_saving_image">ขออภัย เกิดข้อผิดพลาดขณะจัดเก็บภาพ</string>
+    <string name="feather_error_validating_adobe_id">เราพบปัญหาในการตรวจสอบความถูกต้อง Adobe ID ของคุณ โปรดลงชื่อออกแล้วลงชื่อเข้าใช้อีกครั้ง หากปัญหายังคงอยู่ โปรดส่งอีเมลถึง support@aviary.com</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">ขอนำเสนอ</string>
+    <string name="feather_featured_effects">เอฟเฟ็กต์ที่แนะนำ</string>
+    <string name="feather_featured_frames">กรอบรูปแนะนำ</string>
+    <string name="feather_featured_overlays">ภาพวางซ้อนที่แนะนำ</string>
+    <string name="feather_featured_stickers">สติกเกอร์ที่แนะนำ</string>
+    <string name="feather_feedback">ความคิดเห็น</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">หากมีข้อเสนอแนะที่จะช่วยให้แอพแต่งภาพตัวนี้ดีขึ้น บอกเราได้เลย</string>
+    <string name="feather_feedback_dislike">บอกสิ่งที่คุณไม่ชอบให้เราทราบ</string>
+    <string name="feather_feedback_hint">แสดงความคิดเห็นของคุณ</string>
+    <string name="feather_feedback_love">บอกสิ่งที่คุณชอบให้เราทราบ</string>
+    <string name="feather_feedback_posted_failure">โพสต์ความคิดเห็นไม่ได้</string>
+    <string name="feather_feedback_posted_success">โพสต์ความคิดเห็นแล้ว</string>
+    <string name="feather_feedback_title">ความคิดเห็น</string>
+    <string name="feather_filters">ฟิลเตอร์</string>
+    <string name="feather_flip">พลิก</string>
+    <string name="feather_free">ฟรี</string>
+    <string name="feather_generic_error_title">ข้อผิดพลาด</string>
+    <string name="feather_get_more">อุปกรณ์แต่งภาพ</string>
+    <string name="feather_got_it">เข้าใจแล้ว</string>
+    <string name="feather_have_an_adobe_id">มี Adobe ID ไหม</string>
+    <string name="feather_hidef">ความละเอียดสูง</string>
+    <string name="feather_iap_download">ฟรี</string>
+    <string name="feather_iap_download_failed">ดาวน์โหลดไม่สำเร็จ</string>
+    <string name="feather_iap_failed_download_informations">ดาวน์โหลดข้อมูลที่ต้องการไม่สำเร็จ</string>
+    <string name="feather_iap_install">ติดตั้ง</string>
+    <string name="feather_iap_installing">กำลังติดตั้ง</string>
+    <string name="feather_iap_notification_installed_summary">ติดตั้งปลั๊กอินสำเร็จแล้ว</string>
+    <string name="feather_iap_owned">ติดตั้งแล้ว</string>
+    <string name="feather_iap_pack_installed">ติดตั้งแล้ว</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">เรียกคืน</string>
+    <string name="feather_iap_restore_all">เรียกคืนทั้งหมด</string>
+    <string name="feather_iap_restore_all_failed">เรียกคืนไม่สำเร็จ</string>
+    <string name="feather_iap_restore_all_in_progress">กำลังเรียกคืนทั้งหมด</string>
+    <string name="feather_iap_retry">ลองใหม่</string>
+    <string name="feather_iap_unavailable">ไม่พร้อมใช้</string>
+    <string name="feather_iap_uninstall">ถอนการติดตั้ง</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">เพิ่มแสงไฟ</string>
+    <string name="feather_item_does_not_exists">ไม่มีรายการที่ร้องขอ</string>
+    <string name="feather_item_not_found">ไม่พบสิ่งที่ต้องการ</string>
+    <string name="feather_learn_more">อ่านต่อ</string>
+    <string name="feather_linear">เส้นตรง</string>
+    <string name="feather_loading_image">กำลังโหลดภาพ...</string>
+    <string name="feather_loading_title">กำลังโหลด...</string>
+    <string name="feather_meme">มีม</string>
+    <string name="feather_message_button_no">ไม่ล่ะ ขอบคุณ</string>
+    <string name="feather_message_button_yes">แน่นอน</string>
+    <string name="feather_my_account">บัญชี</string>
+    <string name="feather_no_thanks">ไม่ล่ะ ขอบคุณ</string>
+    <string name="feather_notification_n_items_cant_be_restored">ไม่สามารถเรียกคืน %1$s รายการ</string>
+    <string name="feather_notification_no_items_to_restore">ไม่มีรายการที่ต้องเรียกคืน</string>
+    <string name="feather_notification_plugins_installed_count">ติดตั้งแล้ว %1$d ปลั๊กอิน</string>
+    <string name="feather_notification_plus_more">อีก %1$d</string>
+    <string name="feather_notification_restore_all_completed">เรียกคืนทั้งหมดแล้ว</string>
+    <string name="feather_notification_some_items_cant_be_restored">ไม่สามารถเรียกคืนบางรายการ</string>
+    <string name="feather_ops_error_download_image">เกิดปัญหาในการเชื่อมต่อ :(</string>
+    <string name="feather_original">ต้นฉบับ</string>
+    <string name="feather_overlay_blemish_close_text">ลองใช้เครื่องมือ&lt;b>เบลอ&lt;/b>ตัวใหม่</string>
+    <string name="feather_overlay_blemish_tap_text">แตะริ้วรอยเพื่อลบออก</string>
+    <string name="feather_overlay_stickers_text">ติดตั้งแพ็คฟรีนี้แล้วเริ่มใช้งานได้เลย</string>
+    <string name="feather_overlay_tap_title">แตะ</string>
+    <string name="feather_overlay_undo_title">ปัดเพื่อเปลี่ยนกลับหรือทำซ้ำอีกครั้ง</string>
+    <string name="feather_overlay_zoom_text">สามารถหนีบหรือกางนิ้วเพื่อซูมได้</string>
+    <string name="feather_overlay_zoom_title">ซูม</string>
+    <string name="feather_overlays">ภาพวางซ้อน</string>
+    <string name="feather_owned">เป็นเจ้าของแล้ว</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">หนีบหรือกางนิ้วเพื่อซูม</string>
+    <string name="feather_please_try_again_later">โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="feather_powered_by_aviary">ขับเคลื่อนด้วย Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">&lt;b>เอฟเฟ็กต์ สติกเกอร์ ภาพวางซ้อน และกรอบรูป&lt;/b>กว่า 1000 แบบสำหรับแต่งรูป</string>
+    <string name="feather_premium_days_left">สิทธิ์การใช้งานแบบ Premium เหลือ %d วัน</string>
+    <string name="feather_premium_description">ใช้อุปกรณ์แต่งภาพมากมายที่เพิ่มเข้ามาใหม่เรื่อยๆ เป็นเวลา 30 วัน เพียง %s</string>
+    <string name="feather_premium_error_no_internet">โปรดตรวจสอบการเชื่อมต่ออินเตอร์เน็ตเพื่อเปิดใช้สิทธิ์การใช้งานแบบ Premium ของคุณ</string>
+    <string name="feather_premium_expired_message">สิทธิ์การใช้งาน Aviary Premium ของคุณหมดอายุแล้ว ต้องการเปิดใช้งานต่ออีก 30 วันในราคา %s หรือไม่</string>
+    <string name="feather_premium_expired_title">สิทธิ์การใช้งานหมดอายุ</string>
+    <string name="feather_premium_get_price_error">ไม่สามารถติดต่อ Google Play ได้ โปรดลองใหม่ในภายหลัง</string>
+    <string name="feather_premium_sign_in">&lt;u>ถ้ามี Adobe ID อยู่แล้ว ลงชื่อเข้าใช้ได้เลย&lt;/u></string>
+    <string name="feather_premium_subscribe">เปิดใช้งาน</string>
+    <string name="feather_premium_sync">อุปกรณ์แต่งภาพจะได้รับการสำรองข้อมูลไว้โดยอัตโนมัติกับ Adobe ID ของคุณและเรียกมาใช้เมื่อไหร่ก็ได้</string>
+    <string name="feather_premium_text1">• ใช้เอฟเฟ็กต์ กรอบรูป สติกเกอร์ และภาพวางซ้อนทั้งหมดของ Aviary ได้ 30 วัน
+		เพียง %1$s&lt;br />&lt;br />• อุปกรณ์แต่งภาพของคุณจะซิงค์กับ Adobe ID โดยอัตโนมัติ และสามารถเรียกกลับมาใช้ได้ตลอดเวลาจากทุกเครื่อง</string>
+    <string name="feather_premium_thank_you_message">ตอนนี้คุณก็สามารถใช้อุปกรณ์แต่งภาพทั้งหมดของ Aviary เป็นเวลา 30 วัน</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• รับชุด &lt;b>Aviary Essentials&lt;/b> ซึ่งมีอุปกรณ์แต่งภาพยอดนิยม 16 ตัวของเราไปใช้&lt;b>ฟรี&lt;/b>&lt;br />&lt;br />
+• ซิงค์และเรียกคืนอุปกรณ์แต่งภาพด้วย Creative Cloud&lt;br />&lt;br />
+• รับสิทธิพิเศษในการลองใช้ฟีเจอร์ใหม่ๆ ก่อนใคร</string>
+    <string name="feather_promo_title1">ขอบคุณ</string>
+    <string name="feather_promo_title2">Aviary Essentials ประกอบด้วยเอฟเฟ็กต์ กรอบรูป สติกเกอร์ และภาพวางซ้อน 16 แพ็ค มองหาป้าย Adobe และดาวน์โหลดในร้านฟรี</string>
+    <string name="feather_promo_title_with_promo">ปลดล็อค Aviary Essentials
+ด้วย Adobe ID</string>
+    <string name="feather_radial">รัศมี</string>
+    <string name="feather_rectangle">สี่เหลี่ยมผืนผ้า</string>
+    <string name="feather_red_eye">ตาแดง</string>
+    <string name="feather_redo">ทำอีกครั้ง</string>
+    <string name="feather_refresh">รีเฟรช</string>
+    <string name="feather_report_bug">รายงานข้อผิดพลาด</string>
+    <string name="feather_report_bug_message">ขั้นตอนนี้จะมีการเก็บข้อมูลเกี่ยวกับสถานะปัจจุบันของเครื่องเพื่อส่งในรูปแบบอีเมล ซึ่งการสร้างรายงานข้อผิดพลาดนั้นอาจต้องใช้เวลาเล็กน้อย ขอบคุณที่สละเวลารอ</string>
+    <string name="feather_restore_all_request_sent">ส่งคำขอแล้ว โปรดตรวจสอบหน้าการแจ้งเตือนในเครื่องของคุณเพื่อดูข้อมูลเพิ่มเติม</string>
+    <string name="feather_rotate">หมุน</string>
+    <string name="feather_saturation">ความอิ่มตัวของสี</string>
+    <string name="feather_save">เสร็จ</string>
+    <string name="feather_save_progress">กำลังจัดเก็บ...</string>
+    <string name="feather_see_more">ดูเพิ่ม</string>
+    <string name="feather_send">ส่ง</string>
+    <string name="feather_send_feedback">ส่งความคิดเห็น</string>
+    <string name="feather_settings_join_beta_description">ทดลองใช้ฟีเจอร์ใหม่ๆ ก่อนใครแล้วช่วยเราปรับปรุง Aviary ให้ดียิ่งขึ้น</string>
+    <string name="feather_settings_join_beta_title">ร่วมทดสอบ Aviary เบต้า</string>
+    <string name="feather_sharpen">ความคมชัด</string>
+    <string name="feather_signin">ลงชื่อเข้าใช้</string>
+    <string name="feather_signup">สมัคร</string>
+    <string name="feather_square">จัตุรัส</string>
+    <string name="feather_sticker_flip_tooltip">แตะเพื่อพลิกสติกเกอร์นี้</string>
+    <string name="feather_stickers">สติกเกอร์</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">นี่เป็นแพ็คฟรีแบบ Limited Edition หากถอนการติดตั้ง คุณอาจไม่สามารถเรียกคืนกลับมาได้อีกในอนาคต</string>
+    <string name="feather_store_checking_additional_packs">กำลังตรวจสอบว่ามีแพ็คอื่นๆ เพิ่มหรือไม่...</string>
+    <string name="feather_store_connection_problem">เกิดปัญหาในการเชื่อมต่อกับ Google Play Store โปรดลองอีกครั้ง</string>
+    <string name="feather_store_monthly">รายเดือน</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">อุปกรณ์แต่งภาพของฉัน</string>
+    <string name="feather_store_passport_banner_text">รับแพ็คนี้และเอฟเฟ็กต์อีกมากมายจาก Aviary แบบถูกสุดๆ เพียงแค่มี Aviary Passport คลิกที่นี่เพื่อดูข้อมูลเพิ่มเติม</string>
+    <string name="feather_store_passport_cancelled">ถูกยกเลิก</string>
+    <string name="feather_store_passport_unknown">ไม่ทราบ</string>
+    <string name="feather_store_purchase_date">วันที่ซื้อ</string>
+    <string name="feather_store_title">ร้านอุปกรณ์แต่งภาพ Aviary</string>
+    <string name="feather_take_survey">มีแบบสำรวจใหม่</string>
+    <string name="feather_tell_us_what_you_think">บอกสิ่งที่คุณคิดให้เราทราบ</string>
+    <string name="feather_text">ข้อความ</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">เครื่องมือ</string>
+    <string name="feather_tool_color">สี</string>
+    <string name="feather_tool_colorsplash">สาดสี</string>
+    <string name="feather_tool_consolidation_adjust">ปรับ</string>
+    <string name="feather_tool_exposure">ค่าการเปิดรับแสง</string>
+    <string name="feather_tool_fade">จาง</string>
+    <string name="feather_tool_highlight">ไฮไลท์</string>
+    <string name="feather_tool_lighting">แสง</string>
+    <string name="feather_tool_shadow">เงา</string>
+    <string name="feather_tool_temperature">ความอุ่น</string>
+    <string name="feather_tool_tiltshift">โฟกัส</string>
+    <string name="feather_tool_tint">เฉดสี</string>
+    <string name="feather_tool_vibrance">ความสดใส</string>
+    <string name="feather_tooltip_adjust_intro">ปรับความสว่าง คอนทราสต์ ความอุ่น และความอิ่มตัวของสีได้แล้ว</string>
+    <string name="feather_try_again">ลองอีกครั้ง</string>
+    <string name="feather_try_again_connected">ลองอีกครั้งเมื่อเชื่อมต่อเรียบร้อยแล้ว</string>
+    <string name="feather_undo">เปลี่ยนกลับ</string>
+    <string name="feather_vignette">ขอบมืด</string>
+    <string name="feather_want_it_free">ถ้าอยากได้ฟรี</string>
+    <string name="feather_warning">คำเตือน</string>
+    <string name="feather_welcome_to_frames">ยินดีต้อนรับสู่กรอบรูป</string>
+    <string name="feather_welcome_to_stickers">ยินดีต้อนรับสู่สติกเกอร์</string>
+    <string name="feather_whiten">เพิ่มความขาว</string>
+    <string name="feather_zoom_mode">โหมดซูม</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"ล้างการค้นหา"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"ค้นหา"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

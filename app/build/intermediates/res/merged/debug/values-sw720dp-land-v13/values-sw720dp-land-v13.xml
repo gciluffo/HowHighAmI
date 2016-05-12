@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aviary_store_featured_image_landscape">300dip</dimen>
+    <item format="fraction" name="com_adobe_image_editor_store_container_height" type="fraction">90%p</item>
+    <integer name="com_adobe_image_enhance_buttons_weight">10</integer>
+    <item format="integer" name="com_adobe_image_store_dialog_container_height" type="integer">8</item>
+</resources>

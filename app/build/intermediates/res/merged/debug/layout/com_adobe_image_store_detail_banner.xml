@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- store detail page header image animator -->
+<com.adobe.creativesdk.aviary.widget.PackDetailBannerView android:id="@+id/switcher"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateFirstView="true"
+    android:inAnimation="@anim/com_adobe_image_fade_in_long"
+    android:layerType="hardware"
+    android:measureAllChildren="true"
+    android:outAnimation="@anim/com_adobe_image_fade_out_long">
+
+    <!-- icon view - 0 -->
+    <com.adobe.android.ui.view.SquareImageView
+        android:id="@+id/image1"
+        android:layout_width="@dimen/com_adobe_image_store_detail_icon_size"
+        android:layout_height="@dimen/com_adobe_image_store_detail_icon_size"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        tools:ignore="UnusedAttribute" />
+
+    <!-- detail view - 1 -->
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+</com.adobe.creativesdk.aviary.widget.PackDetailBannerView>

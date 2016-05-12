@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/disabled_status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/com_adobe_image_editor_bottombar_disabled_color"
+    android:orientation="horizontal"
+    android:visibility="invisible"
+    tools:ignore="Overdraw"
+    tools:showIn="@layout/com_adobe_image_bottombar_panel_spot" />

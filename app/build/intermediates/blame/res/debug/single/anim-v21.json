@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\com_adobe_image_button_animation.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\anim-v21\\com_adobe_image_button_animation.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\com_adobe_image_effect_intensty_animator.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\anim-v21\\com_adobe_image_effect_intensty_animator.xml"
+    },
+    {
+        "merged": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\com_adobe_image_card_animation.xml",
+        "source": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk\\image\\4.4.8\\res\\anim-v21\\com_adobe_image_card_animation.xml"
+    }
+]

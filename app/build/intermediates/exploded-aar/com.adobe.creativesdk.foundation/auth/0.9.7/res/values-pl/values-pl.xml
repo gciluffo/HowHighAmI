@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_auth_required">Wymagane uwierzytelnienie</string>
+    <string name="adobe_csdk_auth_sign_in_close">Zamknij</string>
+    <string name="adobe_csdk_cancelLogIn">ANULUJ</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Brak połączenia z Internetem</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Podczas próby uwierzytelnienia wystąpił błąd.\nSpróbuj ponownie później.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Wiadomość dotycząca braku uprawnienia dla użytkownika do wyświetlenia podglądu wideo."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Pełny dostęp do konta Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Obsługiwany jest tylko 1 identyfikator Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">ZALOGUJ SIĘ</string>
+    <string name="adobe_csdk_proxy_passwd_label">HASŁO</string>
+    <string name="adobe_csdk_proxy_username_label">NAZWA UŻYTKOWNIKA</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">Serwer http://%s wymaga podania nazwy użytkownika i hasła. Komunikat serwera: %s.</string>
+</resources>

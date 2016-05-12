@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.adobe.android.ui.widget.AdobeGalleryView
+        android:id="@+id/AdobeGalleryView03"
+        android:overScrollMode="always"
+        android:animationDuration="200"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="true"
+        android:clipToPadding="true" />
+
+    <!-- disabled status -->
+    <include layout="@layout/com_adobe_image_bottombar_disabled_status_layout" />
+
+</RelativeLayout>

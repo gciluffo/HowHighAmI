@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- disabled -->
+    <item android:state_enabled="false">
+        <nine-patch android:src="@drawable/com_adobe_image_scrubber_track_mtrl_alpha" android:tint="?attr/colorControlNormal" />
+    </item>
+
+    <item>
+        <layer-list>
+
+            <!-- background -->
+            <item android:id="@android:id/background">
+                <nine-patch android:src="@drawable/com_adobe_image_scrubber_primary_mtrl_alpha" android:tint="?attr/com_adobe_image_colorControlNormal" />
+            </item>
+
+            <!-- secondaryProgress -->
+            <item android:id="@android:id/secondaryProgress">
+                <scale android:scaleWidth="100%">
+                    <nine-patch android:src="@drawable/com_adobe_image_scrubber_primary_mtrl_alpha" android:tint="?attr/colorControlNormal" />
+                </scale>
+            </item>
+
+            <!-- progress -->
+            <item android:id="@android:id/progress">
+                <scale android:scaleWidth="100%">
+                    <nine-patch android:src="@drawable/com_adobe_image_scrubber_primary_mtrl_alpha" android:tint="?attr/colorControlActivated" />
+                </scale>
+            </item>
+        </layer-list>
+    </item>
+</selector>

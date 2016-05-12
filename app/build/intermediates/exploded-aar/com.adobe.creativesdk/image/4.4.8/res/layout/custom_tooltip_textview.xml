@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="40dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:padding="8dp">
+
+    <com.adobe.android.ui.view.AdobeTextView
+        android:id="@android:id/text1"
+        android:layout_width="40dp"
+        android:maxWidth="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:autoLink="all"
+        android:clipToPadding="false"
+        android:gravity="center"
+        app:adobe_fontFamily="?attr/com_adobe_font_regular" />
+</FrameLayout>

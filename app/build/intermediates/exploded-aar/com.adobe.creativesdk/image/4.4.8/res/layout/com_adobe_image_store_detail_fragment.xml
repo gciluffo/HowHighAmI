@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adobe.creativesdk.aviary.widget.StoreDetailLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/com_adobe_image_editor_store_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- header -->
+        <com.adobe.android.ui.view.AdaptiveFrameLayout
+            android:id="@+id/AdaptiveFrameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            app:adobe_layout_dimension="width"
+            app:adobe_layout_dimension_value="59%p">
+
+            <include layout="@layout/com_adobe_image_store_detail_banner" />
+        </com.adobe.android.ui.view.AdaptiveFrameLayout>
+        <!-- end header -->
+
+        <!-- content (title, text, author, buttons) -->
+        <RelativeLayout
+            android:id="@+id/RelativeLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AdaptiveFrameLayout"
+            android:background="?attr/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingBottom="40dip"
+            android:paddingLeft="16dip"
+            android:paddingRight="16dip"
+            android:paddingTop="16dip">
+
+            <com.adobe.android.ui.view.AdobeTextView
+                android:id="@+id/AdobeTextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/AdobeImageWidget.TextAppearance.Large"
+                app:adobe_fontFamily="?attr/com_adobe_font_regular" />
+
+            <com.adobe.android.ui.view.AdobeTextView
+                android:id="@+id/AdobeTextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/AdobeTextView13"
+                android:autoLink="email|web"
+                android:linksClickable="true"
+                android:textAppearance="@style/AdobeImageWidget.TextAppearance.Small"
+                android:textColor="?android:attr/textColorPrimary"
+                app:adobe_fontFamily="?attr/com_adobe_font_light" />
+
+            <com.adobe.android.ui.view.AdobeTextView
+                android:id="@+id/AdobeTextView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/AdobeTextView12"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:ellipsize="none"
+                android:lines="4"
+                android:singleLine="false"
+                android:textAppearance="@style/AdobeImageWidget.TextAppearance"
+                app:adobe_fontFamily="?attr/com_adobe_font_light" />
+
+        </RelativeLayout>
+        <!-- end content -->
+
+        <!-- previews -->
+        <include
+            layout="@layout/com_adobe_image_store_detail_layout_previews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- end previews -->
+
+        <!-- content (title, text, author, buttons) -->
+        <RelativeLayout
+            android:id="@+id/RelativeLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/RelativeLayout02"
+            android:paddingBottom="0dip"
+            android:paddingLeft="0dip"
+            android:paddingRight="8dip"
+            android:paddingTop="8dip"
+            android:visibility="visible">
+
+            <!-- google play buy button -->
+            <com.adobe.creativesdk.aviary.widget.IAPBuyButton
+                android:id="@+id/com_adobe_image_buy_button"
+                android:layout_width="@dimen/com_adobe_image_store_list_buy_button_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                app:adobe_buttonStyle="?attr/com_adobe_image_buyButtonStyle"
+                app:adobe_progressStyle="?android:attr/progressBarStyleSmallInverse" />
+
+        </RelativeLayout>
+        <!-- end content -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_an_error_occurred"
+            android:textAppearance="@style/AdobeImageWidget.TextAppearance"
+            android:textColor="?attr/com_adobe_image_textColorPrimaryDark"
+            app:adobe_fontFamily="?attr/com_adobe_font_bold" />
+
+        <com.adobe.android.ui.view.AdobeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feather_item_does_not_exists"
+            android:textAppearance="@style/AdobeImageWidget.TextAppearance"
+            android:textColor="?attr/com_adobe_image_textColorPrimaryDark" />
+    </LinearLayout>
+
+
+</com.adobe.creativesdk.aviary.widget.StoreDetailLayout>

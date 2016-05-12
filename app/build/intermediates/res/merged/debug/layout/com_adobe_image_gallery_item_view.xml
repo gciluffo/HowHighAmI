@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- bottombar gallery item default view -->
+<ImageView style="?attr/com_adobe_image_editor_bottombar_gallery_item_style"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/com_adobe_image_bottombar_gallery_item_width"
+    android:layout_height="match_parent" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:startOffset="100"
+    android:shareInterpolator="true">
+
+    <translate
+        android:duration="@integer/com_adobe_image_toolbar_animTime"
+        android:fromYDelta="0"
+        android:toYDelta="-100%p" />
+
+    <alpha
+        android:duration="@integer/com_adobe_image_toolbar_animTime"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0" />
+
+</set>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aviary.android.feather.sdk"
+    android:versionCode="493"
+    android:versionName="4.4.8" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+<!--     The Aviary SDK doesn't support small screens -->
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <!-- mandatory -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- billing permission -->
+    <!-- mandatory for PCN partners -->
+    <!-- <uses-permission android:name="com.android.vending.BILLING" /> -->
+    <!-- optional permissions -->
+    <!-- <uses-permission android:name="android.permission.VIBRATE" /> -->
+    <application>
+        <activity
+            android:name="com.adobe.creativesdk.aviary.AdobeImageEditorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:finishOnTaskLaunch="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AdobeImageBaseTheme.Editor" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="aviary.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="https" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="aviary.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        Cds Service is in charge of sync all the available
+        online DLC contents within the android application.
+        It's required by the Aviary SDK and it will run in a
+        separated process 'aviarycds'
+        -->
+        <service
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsService"
+            android:exported="false"
+            android:process=":cds" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.CDS_VERIFY_SUBSCRIPTIONS" />
+                <action android:name="aviary.intent.action.CDS_DOWNLOAD_START" />
+                <action android:name="aviary.intent.action.CDS_RESTORE_USER_ITEMS" />
+                <action android:name="aviary.intent.action.CDS_RESTORE_OWNED_PACKS" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsAssetsDownloaderService"
+            android:exported="false"
+            android:process=":cds" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.CDS_DOWNLOAD_EXTRA_ASSETS" />
+            </intent-filter>
+        </service>
+
+        <!--
+        The CdsReceiver handles the downloaded contents (throught the
+        android DownloadManager)
+        -->
+        <receiver
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsReceiver"
+            android:exported="true"
+            android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"
+            android:process=":cds" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="aviary.android.cds.intent.action.ACTION_NOTIFICATION_DISMISS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.adobe.creativesdk.aviary.AdobeImageBillingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="aviary.intent.action.AVIARY_CONTENT_MANAGER" />
+            </intent-filter>
+        </service>
+
+        <!--
+        CDS Content Provider.
+        This manages the internal DLC database
+        Manadatory for the Aviary-SDK.
+        -->
+
+        <provider
+            android:name="com.adobe.creativesdk.aviary.internal.cds.CdsProvider"
+            android:authorities="${applicationId}.CdsProvider"
+            android:exported="false" />
+
+        <!--
+            Aviary SDK API KEY
+            Required
+        -->
+        <!-- <meta-data android:name="com.aviary.android.feather.v1.API_KEY" android:value="xxx" /> -->
+
+
+        <!-- Adobe CreativeSDK sign-in activity -->
+        <activity
+            android:name="com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity="" />
+
+        <!-- TODO: -->
+        <!--
+            android:theme="@style/AdobeCSDKTheme.DialogWhenLarge.Impl"
+            tools:replace="android:theme"
+        -->
+
+    </application>
+
+</manifest>

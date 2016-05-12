@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/com_adobe_image_store_card_radius"
+                android:bottomRightRadius="@dimen/com_adobe_image_store_card_radius" android:topLeftRadius="0dip"
+                android:topRightRadius="0dip" />
+            <solid android:color="@color/com_adobe_image_store_card_background_pressed_light" />
+        </shape>
+    </item>
+
+    <!-- default state -->
+    <item android:drawable="@drawable/com_adobe_image_store_card_background_enabled_light">
+
+    </item>
+</selector>

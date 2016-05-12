@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <dimen name="com_adobe_image_store_list_buy_button_width">106dip</dimen>
+    <dimen name="com_adobe_image_text_size_buy_button">12sp</dimen>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на головний"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вгору"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Інші опції"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Переглянути всі"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Вибрати програму"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ВИМК."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"УВІМК."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Пошук…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Очистити запит"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Пошуковий запит"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Надіслати запит"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовий пошук"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Надіслати через"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Надіслати через %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Згорнути"</string>
+    <string name="adobe_aviary_client_id_required">Потрібен ідентифікатор клієнта</string>
+    <string name="adobe_aviary_client_secret_required">Потрібен ключ клієнта</string>
+    <string name="adobe_aviary_device_id_required">Потрібен ідентифікатор пристрою</string>
+    <string name="adobe_aviary_invalid_argument">Неприпустимий аргумент</string>
+    <string name="adobe_aviary_module_not_initialized">Модуль не ініціалізовано</string>
+    <string name="adobe_aviary_unknown_error">Невідома помилка</string>
+    <string name="adobe_aviary_user_cancelled">Скасовано користувачем</string>
+    <string name="adobe_aviary_user_interaction_required">Потрібна дія користувача</string>
+    <string name="adobe_aviary_username_password_required">Потрібні ім’я користувача й пароль</string>
+    <string name="com_adobe_image_recent">Останні</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"Для роботи додатка <ns1:g id="APP_NAME">%1$s</ns1:g> потрібні один або декілька сервісів Google Play, які зараз недоступні. Зверніться по допомогу до розробника."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Увімкнути сервіси Google Play"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме, якщо не ввімкнути сервіси Google Play."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Увімкнути сервіси Google Play"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Установити сервіси Google Play"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, яких немає на вашому телефоні."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, яких немає на вашому планшеті."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Установити сервіси Google Play"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"Указаного облікового запису немає на цьому пристрої. Виберіть інший."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Недійсний обліковий запис"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"Щоб під’єднатися до сервісів Google Play, потрібен мобільний Інтернет."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Помилка мережі"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Помилка сервісів Google Play"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"З профілю, який має обмеження, не можна входити в облікові записи."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Профіль з обмеженнями"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Не вдалося ввійти в указаний обліковий запис. Виберіть інший."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Помилка під час входу"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"У додатка <ns1:g id="APP_NAME">%1$s</ns1:g> виникла проблема із сервісами Google Play. Якщо проблема не зникне, зверніться по допомогу до розробника."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> працює завдяки сервісам Google Play, які не підтримуються на вашому пристрої. Зверніться по допомогу до виробника."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Сервіси Google Play"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Оновити"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме, якщо не оновити сервіси Google Play."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Оновіть сервіси Google Play"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"Додаток <ns1:g id="APP_NAME">%1$s</ns1:g> не працюватиме без сервісів Google Play, які зараз оновлюються."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Сервіси Google Play оновлюються"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Відкрити на телефоні"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Увійти"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Увійти в облік. запис Google"</string>
+    <string name="feather_acc_a_sticker">Стикер</string>
+    <string name="feather_acc_color">Колір</string>
+    <string name="feather_acc_flip_h">Обернути по горизонталі</string>
+    <string name="feather_acc_flip_v">Обернути по вертикалі</string>
+    <string name="feather_acc_lens_toggle">Змінити масштаб</string>
+    <string name="feather_acc_rotate_ccw">Обернути проти годинникової стрілки</string>
+    <string name="feather_acc_rotate_cw">Обернути за годинниковою стрілкою</string>
+    <string name="feather_acc_size">Розмір</string>
+    <string name="feather_activate">Активувати</string>
+    <string name="feather_activity_not_found">На жаль, на вашому пристрої не встановлено програму для виконання цієї операції. Завантажити зараз із магазину?</string>
+    <string name="feather_adjust">Орієнтація</string>
+    <string name="feather_an_error_occurred">Сталася помилка</string>
+    <string name="feather_apply">Застосувати</string>
+    <string name="feather_applying_actions">Застосовуються дії…</string>
+    <string name="feather_ask_to_login_before_restore">Якщо ви раніше виконували вхід з Adobe ID, увійдіть зараз, щоб відновити синхронізовані ресурси</string>
+    <string name="feather_attention">Увага</string>
+    <string name="feather_blemish">Дефект</string>
+    <string name="feather_blemish_tool_tip">Просто натисніть</string>
+    <string name="feather_blur">Розмиття</string>
+    <string name="feather_borders">Рамки</string>
+    <string name="feather_borders_dialog_first_time">Щоб розпочати, установіть безкоштовний набір чудових рамок у високій роздільній здатності від Aviary.</string>
+    <string name="feather_brightness">Яскравість</string>
+    <string name="feather_cant_undo_anymore">Інші дії скасувати неможливо</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Коло</string>
+    <string name="feather_close">Закрити</string>
+    <string name="feather_colorfix">Виправлення кольору</string>
+    <string name="feather_colorsplash_eraser">Ластик</string>
+    <string name="feather_colorsplash_free">Вільний колір</string>
+    <string name="feather_colorsplash_smart">Випадковий колір</string>
+    <string name="feather_contrast">Контрастність</string>
+    <string name="feather_crop">Кадрування</string>
+    <string name="feather_custom">Власне</string>
+    <string name="feather_delete">Видалити</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Деталі</string>
+    <string name="feather_discard">Відмовитися</string>
+    <string name="feather_discard_edits">Відкинути правку?</string>
+    <string name="feather_download">Завантажити</string>
+    <string name="feather_download_start_failed">Не вдалося почати завантаження. Повторіть спробу пізніше</string>
+    <string name="feather_draw">Рисунок</string>
+    <string name="feather_edit_bottom_text">Змінити текст унизу</string>
+    <string name="feather_edit_top_text">Змінити текст угорі</string>
+    <string name="feather_edit_your_photo">Фоторедактор</string>
+    <string name="feather_effect_intensity_tooltip">Проведіть пальцем по екрану вгору або вниз, щоб настроїти інтенсивність</string>
+    <string name="feather_effect_loading_message">Застосовуються ефекти</string>
+    <string name="feather_effects">Ефекти</string>
+    <string name="feather_email_email_invalid">Неприпустима адреса електронної пошти</string>
+    <string name="feather_email_feedback_empty">Поле відгуку не може бути пустим</string>
+    <string name="feather_email_hint">Електронна пошта (для зв’язку зі службою підтримки)</string>
+    <string name="feather_enhance">Покращення</string>
+    <string name="feather_enhance_effect_food">Їжа</string>
+    <string name="feather_enhance_effect_night">Ніч</string>
+    <string name="feather_enhance_effect_portrait">Портрет</string>
+    <string name="feather_enhance_effect_scenery">Пейзаж</string>
+    <string name="feather_enter_text_here">Введіть текст тут</string>
+    <string name="feather_error_download_image_message">Сталася помилка під час завантаження зображення. Повторіть спробу пізніше.</string>
+    <string name="feather_error_saving_image">Сталася помилка під час збереження зображення.</string>
+    <string name="feather_error_validating_adobe_id">Виникла проблема з підтвердженням Adobe ID. Вийдіть і знову виконайте вхід. Якщо проблема не зникне, пишіть за адресою support@aviary.com.</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Вибране</string>
+    <string name="feather_featured_effects">Вибрані ефекти</string>
+    <string name="feather_featured_frames">Вибрані рамки</string>
+    <string name="feather_featured_overlays">Вибрані перекриття</string>
+    <string name="feather_featured_stickers">Вибрані стикери</string>
+    <string name="feather_feedback">Відгук</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Маєте рекомендації щодо поліпшення фоторедактора? Напишіть нам.</string>
+    <string name="feather_feedback_dislike">Розкажіть нам, що вам не сподобалось</string>
+    <string name="feather_feedback_hint">Напишіть відгук</string>
+    <string name="feather_feedback_love">Розкажіть нам, що вам сподобалось</string>
+    <string name="feather_feedback_posted_failure">Не вдалося опублікувати відгук</string>
+    <string name="feather_feedback_posted_success">Відгук опубліковано!</string>
+    <string name="feather_feedback_title">Відгук</string>
+    <string name="feather_filters">Фільтри</string>
+    <string name="feather_flip">Обернути</string>
+    <string name="feather_free">Безкоштовно</string>
+    <string name="feather_generic_error_title">Помилка</string>
+    <string name="feather_get_more">Ресурси</string>
+    <string name="feather_got_it">Гаразд!</string>
+    <string name="feather_have_an_adobe_id">Маєте Adobe ID?</string>
+    <string name="feather_hidef">Висока чіткість</string>
+    <string name="feather_iap_download">Безкоштовно</string>
+    <string name="feather_iap_download_failed">Помилка завантаження</string>
+    <string name="feather_iap_failed_download_informations">Не вдалося завантажити потрібну інформацію</string>
+    <string name="feather_iap_install">Установити</string>
+    <string name="feather_iap_installing">Установлення</string>
+    <string name="feather_iap_notification_installed_summary">Плагін успішно встановлено</string>
+    <string name="feather_iap_owned">Установлено</string>
+    <string name="feather_iap_pack_installed">Установлено</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Відновити</string>
+    <string name="feather_iap_restore_all">Відновити все</string>
+    <string name="feather_iap_restore_all_failed">Не вдалося відновити все</string>
+    <string name="feather_iap_restore_all_in_progress">Триває відновлення всіх</string>
+    <string name="feather_iap_retry">Повторити</string>
+    <string name="feather_iap_unavailable">Немає доступу</string>
+    <string name="feather_iap_uninstall">Видалити</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Освітити</string>
+    <string name="feather_item_does_not_exists">Зазначений елемент не існує</string>
+    <string name="feather_item_not_found">Об\'єкт не знайдено</string>
+    <string name="feather_learn_more">Докладніше</string>
+    <string name="feather_linear">Лінійний</string>
+    <string name="feather_loading_image">Завантаження зображення…</string>
+    <string name="feather_loading_title">Завантаження…</string>
+    <string name="feather_meme">Мем</string>
+    <string name="feather_message_button_no">Ні, дякую.</string>
+    <string name="feather_message_button_yes">Звичайно!</string>
+    <string name="feather_my_account">Обліковий запис</string>
+    <string name="feather_no_thanks">Ні, дякую</string>
+    <string name="feather_notification_n_items_cant_be_restored">Не вдалося відновити об\'єкти: %1$s</string>
+    <string name="feather_notification_no_items_to_restore">Немає об\'єктів для відновлення</string>
+    <string name="feather_notification_plugins_installed_count">Установлені плагіни: %1$d</string>
+    <string name="feather_notification_plus_more">Ще %1$d</string>
+    <string name="feather_notification_restore_all_completed">Відновлення всіх завершено</string>
+    <string name="feather_notification_some_items_cant_be_restored">Деякі об\'єкти відновити неможливо</string>
+    <string name="feather_ops_error_download_image">На жаль, у нас виникли проблеми з підключенням</string>
+    <string name="feather_original">Оригінал</string>
+    <string name="feather_overlay_blemish_close_text">Зверніть увагу на новий інструмент &lt;b>розмиття&lt;/b>!</string>
+    <string name="feather_overlay_blemish_tap_text">Натисніть на дефекти, щоб видалити їх.</string>
+    <string name="feather_overlay_stickers_text">Щоб почати, установіть цей безкоштовний набір!</string>
+    <string name="feather_overlay_tap_title">Натиснути</string>
+    <string name="feather_overlay_undo_title">Проведіть пальцем по екрану, щоб скасувати або повторити редагування</string>
+    <string name="feather_overlay_zoom_text">Щоб збільшити зображення, розведіть пальці до країв екрана!</string>
+    <string name="feather_overlay_zoom_title">Масштабування</string>
+    <string name="feather_overlays">Перекриття</string>
+    <string name="feather_owned">Власник</string>
+    <string name="feather_passport">Паспорт Aviary</string>
+    <string name="feather_pinch_to_zoom">Для збільшення зображення розведіть пальці!</string>
+    <string name="feather_please_try_again_later">Повторіть спробу пізніше</string>
+    <string name="feather_powered_by_aviary">Працює на Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Понад 1000 &lt;b>ефектів, стикерів, перекриттів і рамок&lt;/b> для вдосконалення фотографій</string>
+    <string name="feather_premium_days_left">Залишилося днів доступу Premium: %d</string>
+    <string name="feather_premium_description">30-денний доступ до нашої зростаючої колекції ресурсів для редагування фотографій вартістю всього %s</string>
+    <string name="feather_premium_error_no_internet">Для активації доступу Premium потрібне підключення до Інтернету</string>
+    <string name="feather_premium_expired_message">Термін дії доступу до Aviary Premium завершився. Бажаєте активувати доступ на 30 днів за %s?</string>
+    <string name="feather_premium_expired_title">Термін дії доступу сплив</string>
+    <string name="feather_premium_get_price_error">Не вдалося зв\'язатися з Google Play. Повторіть спробу пізніше</string>
+    <string name="feather_premium_sign_in">&lt;u>Маєте Adobe ID? Виконайте вхід.&lt;/u></string>
+    <string name="feather_premium_subscribe">Активувати</string>
+    <string name="feather_premium_sync">Для ваших ресурсів автоматично створюватиметься резервна копія за допомогою вашого Adobe ID</string>
+    <string name="feather_premium_text1">• 30-денний доступ до ВСІХ наборів ефектів, рамок, стикерів і перекриттів від Aviary
+		лише за %1$s.&lt;br />&lt;br />• Ваші ресурси автоматично синхронізуються з вашим Adobe ID. Відновлюйте їх будь-коли з будь-якого пристрою.</string>
+    <string name="feather_premium_thank_you_message">Тепер у вас є 30-денний доступ до повної колекції ресурсів Aviary для редагування фотографій.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• Отримайте &lt;b>Aviary Essentials&lt;/b> (16 наших найпопулярніших ресурсів для редагування фотографій) &lt;b>БЕЗКОШТОВНО&lt;/b>&lt;br />&lt;br />
+• Синхронізація та відновлення ресурсів у Creative Cloud&lt;br />&lt;br />
+• Ексклюзивний доступ до майбутніх функцій</string>
+    <string name="feather_promo_title1">Дякуємо!</string>
+    <string name="feather_promo_title2">У пакет Aviary Essentials входять 16 повних наборів ефектів, рамок, стикерів і перекриттів. Шукайте значок Adobe та завантажуйте їх у магазині!</string>
+    <string name="feather_promo_title_with_promo">Розблокуйте Aviary Essentials
+за допомогою Adobe ID</string>
+    <string name="feather_radial">Радіальний</string>
+    <string name="feather_rectangle">Прямокутник</string>
+    <string name="feather_red_eye">Червоні очі</string>
+    <string name="feather_redo">Повторити</string>
+    <string name="feather_refresh">Оновити</string>
+    <string name="feather_report_bug">Повідомити про помилку</string>
+    <string name="feather_report_bug_message">Буде зібрано інформацію про поточний стан вашого пристрою, яку пізніше буде надіслано електронною поштою. Увесь процес, від запуску звіту про помилки й до його повного завершення, забере небагато часу. Будь ласка, зачекайте.</string>
+    <string name="feather_restore_all_request_sent">Запит надіслано. Будь ласка, перевірте зону сповіщень свого пристрою, щоб отримати більше інформації.</string>
+    <string name="feather_rotate">Повернути</string>
+    <string name="feather_saturation">Насиченість</string>
+    <string name="feather_save">Зроблено</string>
+    <string name="feather_save_progress">Збереження…</string>
+    <string name="feather_see_more">Подивитися ще</string>
+    <string name="feather_send">Надіслати</string>
+    <string name="feather_send_feedback">Надіслати відгук</string>
+    <string name="feather_settings_join_beta_description">Отримайте доступ до нових функцій і допомагайте поліпшити Aviary!</string>
+    <string name="feather_settings_join_beta_title">Приєднатися до Aviary Beta</string>
+    <string name="feather_sharpen">Різкість</string>
+    <string name="feather_signin">Вхід</string>
+    <string name="feather_signup">Реєстрація</string>
+    <string name="feather_square">Квадрат</string>
+    <string name="feather_sticker_flip_tooltip">Натисніть, щоб обернути стикер</string>
+    <string name="feather_stickers">Стикери</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Це безкоштовний, обмежений набір. Якщо видалити цей набір, ви не зможете його відновити в майбутньому.</string>
+    <string name="feather_store_checking_additional_packs">Пошук додаткових наборів...</string>
+    <string name="feather_store_connection_problem">Не вдалося підключитися до магазину Google Play. Повторіть спробу.</string>
+    <string name="feather_store_monthly">Щомісяця</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Мої ресурси</string>
+    <string name="feather_store_passport_banner_text">Отримайте цей набір і багато інших ефектів за низьку ціну з паспортом Aviary! Додаткова інформація тут!</string>
+    <string name="feather_store_passport_cancelled">Скасовано</string>
+    <string name="feather_store_passport_unknown">Невідомо</string>
+    <string name="feather_store_purchase_date">Дата купівлі</string>
+    <string name="feather_store_title">Магазин ресурсів Aviary</string>
+    <string name="feather_take_survey">Доступно нове опитування!</string>
+    <string name="feather_tell_us_what_you_think">Розкажіть нам, що ви думаєте</string>
+    <string name="feather_text">Текст</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Інструмент</string>
+    <string name="feather_tool_color">Колір</string>
+    <string name="feather_tool_colorsplash">Кольорова пляма</string>
+    <string name="feather_tool_consolidation_adjust">Настроїти</string>
+    <string name="feather_tool_exposure">Експозиція</string>
+    <string name="feather_tool_fade">Затухання</string>
+    <string name="feather_tool_highlight">Світлі тони</string>
+    <string name="feather_tool_lighting">Освітлення</string>
+    <string name="feather_tool_shadow">Тіні</string>
+    <string name="feather_tool_temperature">Колорит</string>
+    <string name="feather_tool_tiltshift">Фокус</string>
+    <string name="feather_tool_tint">Відтінок</string>
+    <string name="feather_tool_vibrance">Коливання</string>
+    <string name="feather_tooltip_adjust_intro">Відтепер тут є яскравість, контрастність, колорит і насиченість.</string>
+    <string name="feather_try_again">Повторити спробу</string>
+    <string name="feather_try_again_connected">Спробуйте ще раз, коли буде встановлено підключення до мережі</string>
+    <string name="feather_undo">Скасувати</string>
+    <string name="feather_vignette">Віньєтка</string>
+    <string name="feather_want_it_free">Бажаєте отримати безкоштовно?</string>
+    <string name="feather_warning">Попередження</string>
+    <string name="feather_welcome_to_frames">Ваші рамки!</string>
+    <string name="feather_welcome_to_stickers">Ваші стикери!</string>
+    <string name="feather_whiten">Вибілювання</string>
+    <string name="feather_zoom_mode">Режим масштабування</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Очистити поле пошуку"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Пошук"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <dimen name="com_adobe_image_store_list_buy_button_width">106dip</dimen>
+    <dimen name="com_adobe_image_text_size_buy_button">12sp</dimen>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="adobe_aviary_client_id_required">Necessário ID do cliente</string>
+    <string name="adobe_aviary_client_secret_required">Necessário segredo do cliente</string>
+    <string name="adobe_aviary_device_id_required">Necessário ID do dispositivo</string>
+    <string name="adobe_aviary_invalid_argument">Argumento inválido</string>
+    <string name="adobe_aviary_module_not_initialized">Módulo não inicializado</string>
+    <string name="adobe_aviary_unknown_error">Erro desconhecido</string>
+    <string name="adobe_aviary_user_cancelled">Usuário cancelado</string>
+    <string name="adobe_aviary_user_interaction_required">Necessário interação do usuário</string>
+    <string name="adobe_aviary_username_password_required">Necessários nome de usuário e senha</string>
+    <string name="adobe_csdk_auth_required">Autenticação obrigatória</string>
+    <string name="adobe_csdk_auth_sign_in_close">Fechar</string>
+    <string name="adobe_csdk_cancelLogIn">CANCELAR</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Sem conexão com a Internet</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Ocorreu um erro durante a autenticação.\nTente novamente mais tarde.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Mensagem indicando que o usuário não está autorizado a visualizar o vídeo."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Acesso completo à conta Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Só é suportada uma Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_logIn">LOGON</string>
+    <string name="adobe_csdk_proxy_passwd_label">SENHA</string>
+    <string name="adobe_csdk_proxy_username_label">NOME DE USUÁRIO</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">O servidor http://%s requer nome de usuário e senha. O servidor diz: %s</string>
+    <string name="com_adobe_image_recent">Recente</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> exige um ou mais serviços do Google Play que não estão disponíveis no momento. Entre em contato com o desenvolvedor para receber ajuda."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Ativar o Google Play Services"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com o Google Play Services ativado."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Ativar o Google Play Services"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Instalar o Google Play Services"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu smartphone."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual não está instalado no seu tablet."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Instalar o Google Play Services"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"A conta especificada não existe no dispositivo. Escolha outra conta."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Conta inválida"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"É necessária uma conexão de dados para conectar ao Google Play Services."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Erro na rede"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Erro do Google Play Services"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"O acesso a contas a partir de um perfil restrito não é compatível."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Perfil restrito"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"Erro ao fazer login na conta especificada. Escolha outra conta."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Falha de login"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> está tendo problemas com os serviços do Google Play. Se o problema persistir, entre em contato com o desenvolvedor para receber ajuda."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> depende do Google Play Services, o qual não é compatível com seu dispositivo. Entre em contato com o fabricante para receber ajuda."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> só funciona com uma versão atualizada do Google Play Services."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Atualizar o Google Play Services"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> não funciona sem o Google Play Services, o qual está sendo atualizado no momento."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Google Play Services em atualização"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"É necessária uma nova versão do Google Play Services. Ele será atualizado em breve."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Abrir no smartphone"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Fazer login"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Fazer login com o Google"</string>
+    <string name="feather_acc_a_sticker">Um adesivo</string>
+    <string name="feather_acc_color">Cor</string>
+    <string name="feather_acc_flip_h">Inverter horizontalmente</string>
+    <string name="feather_acc_flip_v">Inverter verticalmente</string>
+    <string name="feather_acc_lens_toggle">Alternar zoom</string>
+    <string name="feather_acc_rotate_ccw">Girar no sentido anti-horário</string>
+    <string name="feather_acc_rotate_cw">Girar no sentido horário</string>
+    <string name="feather_acc_size">Tamanho</string>
+    <string name="feather_activate">Ativar</string>
+    <string name="feather_activity_not_found">Lamentamos. Não há um aplicativo no seu dispositivo para realizar esta ação. Você deseja baixá-lo da loja?</string>
+    <string name="feather_adjust">Orientação</string>
+    <string name="feather_an_error_occurred">Erro</string>
+    <string name="feather_apply">Aplicar</string>
+    <string name="feather_applying_actions">Aplicando ações…</string>
+    <string name="feather_ask_to_login_before_restore">Caso você já tenha se conectado com uma Adobe ID, faça logon para restaurar produtos sincronizados</string>
+    <string name="feather_attention">Atenção</string>
+    <string name="feather_blemish">Deformidade</string>
+    <string name="feather_blemish_tool_tip">Basta tocar</string>
+    <string name="feather_blur">Desfoque</string>
+    <string name="feather_borders">Molduras</string>
+    <string name="feather_borders_dialog_first_time">Instale o pacote gratuito do Aviary com lindas molduras em alta resolução e saia usando.</string>
+    <string name="feather_brightness">Brilho</string>
+    <string name="feather_cant_undo_anymore">Não é possível desfazer</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Círculo</string>
+    <string name="feather_close">Fechar</string>
+    <string name="feather_colorfix">Correção de cores</string>
+    <string name="feather_colorsplash_eraser">Borracha</string>
+    <string name="feather_colorsplash_free">Cor livre</string>
+    <string name="feather_colorsplash_smart">Cor inteligente</string>
+    <string name="feather_contrast">Contraste</string>
+    <string name="feather_crop">Cortar</string>
+    <string name="feather_custom">Personalizar</string>
+    <string name="feather_delete">Excluir</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Detalhes</string>
+    <string name="feather_discard">Descartar</string>
+    <string name="feather_discard_edits">Descartar edição?</string>
+    <string name="feather_download">Baixar</string>
+    <string name="feather_download_start_failed">Falha no download. Tente novamente</string>
+    <string name="feather_draw">Desenhar</string>
+    <string name="feather_edit_bottom_text">Editar texto do rodapé</string>
+    <string name="feather_edit_top_text">Editar texto do cabeçalho</string>
+    <string name="feather_edit_your_photo">Editor de fotos</string>
+    <string name="feather_effect_intensity_tooltip">Deslize para cima ou para baixo para ajustar a intensidade</string>
+    <string name="feather_effect_loading_message">Aplicando efeitos</string>
+    <string name="feather_effects">Efeitos</string>
+    <string name="feather_email_email_invalid">Endereço de email inválido</string>
+    <string name="feather_email_feedback_empty">Comentário não pode ficar vazio</string>
+    <string name="feather_email_hint">Email (para mensagens de suporte)</string>
+    <string name="feather_enhance">Aprimorar</string>
+    <string name="feather_enhance_effect_food">Comida</string>
+    <string name="feather_enhance_effect_night">Noite</string>
+    <string name="feather_enhance_effect_portrait">Retrato</string>
+    <string name="feather_enhance_effect_scenery">Cenário</string>
+    <string name="feather_enter_text_here">Inserir texto aqui</string>
+    <string name="feather_error_download_image_message">Erro ao baixar a imagem. Tente novamente mais tarde.</string>
+    <string name="feather_error_saving_image">Ocorreu um erro ao salvar a imagem.</string>
+    <string name="feather_error_validating_adobe_id">Ocorreu um problema ao validar sua Adobe ID. Saia e faça logon novamente. Se o problema persistir, envie um email para support@aviary.com</string>
+    <string name="feather_essentials">Aviary Essentials</string>
+    <string name="feather_featured">Destaque</string>
+    <string name="feather_featured_effects">Efeitos em destaque</string>
+    <string name="feather_featured_frames">Molduras em destaque</string>
+    <string name="feather_featured_overlays">Sobreposições em destaque</string>
+    <string name="feather_featured_stickers">Adesivos em destaque</string>
+    <string name="feather_feedback">Comentário</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Tem uma sugestão para melhorar este editor de fotos? Conte para nós.</string>
+    <string name="feather_feedback_dislike">Conte-nos do que você não gosta</string>
+    <string name="feather_feedback_hint">Escreva seu feedback</string>
+    <string name="feather_feedback_love">Conte-nos do que você gosta</string>
+    <string name="feather_feedback_posted_failure">Não foi possível publicar feedback</string>
+    <string name="feather_feedback_posted_success">Feedback publicado!</string>
+    <string name="feather_feedback_title">Comentário</string>
+    <string name="feather_filters">Filtros</string>
+    <string name="feather_flip">Virar</string>
+    <string name="feather_free">Grátis</string>
+    <string name="feather_generic_error_title">Erro</string>
+    <string name="feather_get_more">Produtos</string>
+    <string name="feather_got_it">Entendi!</string>
+    <string name="feather_have_an_adobe_id">Tem uma Adobe ID?</string>
+    <string name="feather_hidef">Alta definição</string>
+    <string name="feather_iap_download">Grátis</string>
+    <string name="feather_iap_download_failed">Falha no download</string>
+    <string name="feather_iap_failed_download_informations">Falha no download das informações solicitadas</string>
+    <string name="feather_iap_install">Instalar</string>
+    <string name="feather_iap_installing">Instalando</string>
+    <string name="feather_iap_notification_installed_summary">Plug-in instalado com sucesso</string>
+    <string name="feather_iap_owned">Instalado</string>
+    <string name="feather_iap_pack_installed">Instalado</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Restaurar</string>
+    <string name="feather_iap_restore_all">Restaurar tudo</string>
+    <string name="feather_iap_restore_all_failed">Falha ao Restaurar todos</string>
+    <string name="feather_iap_restore_all_in_progress">Restaurar Todos em andamento</string>
+    <string name="feather_iap_retry">Tentar novamente</string>
+    <string name="feather_iap_unavailable">Indisponível</string>
+    <string name="feather_iap_uninstall">Desinstalar</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Iluminar</string>
+    <string name="feather_item_does_not_exists">O item solicitado não existe</string>
+    <string name="feather_item_not_found">Item não encontrado</string>
+    <string name="feather_learn_more">Saber mais</string>
+    <string name="feather_linear">Linear</string>
+    <string name="feather_loading_image">Carregando imagem...</string>
+    <string name="feather_loading_title">Carregando...</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_message_button_no">Não, obrigado.</string>
+    <string name="feather_message_button_yes">Claro!</string>
+    <string name="feather_my_account">Conta</string>
+    <string name="feather_no_thanks">Não, obrigado</string>
+    <string name="feather_notification_n_items_cant_be_restored">Não foi possível restaurar %1$s item(ns)</string>
+    <string name="feather_notification_no_items_to_restore">Nenhum item precisa ser restaurado</string>
+    <string name="feather_notification_plugins_installed_count">%1$d plug-ins instalados</string>
+    <string name="feather_notification_plus_more">Mais de %1$d</string>
+    <string name="feather_notification_restore_all_completed">Restaurar Todos concluídos</string>
+    <string name="feather_notification_some_items_cant_be_restored">Não foi possível restaurar alguns itens</string>
+    <string name="feather_ops_error_download_image">Problemas de conexão :(</string>
+    <string name="feather_original">Original</string>
+    <string name="feather_overlay_blemish_close_text">Confira a nova ferramenta &lt;b>Desfoque&lt;/b>.</string>
+    <string name="feather_overlay_blemish_tap_text">Toque nas imperfeições para removê-las.</string>
+    <string name="feather_overlay_stickers_text">Instale este pacote gratuito para começar!</string>
+    <string name="feather_overlay_tap_title">Tocar</string>
+    <string name="feather_overlay_undo_title">Deslize o dedo para desfazer ou refazer edições</string>
+    <string name="feather_overlay_zoom_text">Afaste e aproxime os dedos para ajustar o zoom.</string>
+    <string name="feather_overlay_zoom_title">Zoom</string>
+    <string name="feather_overlays">Sobreposições</string>
+    <string name="feather_owned">Propriedade de</string>
+    <string name="feather_passport">Aviary Passport</string>
+    <string name="feather_pinch_to_zoom">Afaste e aproxime os dedos para ajustar o zoom.</string>
+    <string name="feather_please_try_again_later">Tente novamente mais tarde</string>
+    <string name="feather_powered_by_aviary">Desenvolvido por Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Mais de 1000 &lt;b>Efeitos, Adesivos, Sobreposições e Molduras&lt;/b> para aprimorar suas fotos</string>
+    <string name="feather_premium_days_left">%d dias restantes no Premium</string>
+    <string name="feather_premium_description">Acesso por 30 dias à nossa crescente coleção de produtos para edição de fotos por apenas %s</string>
+    <string name="feather_premium_error_no_internet">Verifique sua conexão com a Internet para ativar seu acesso ao Premium</string>
+    <string name="feather_premium_expired_message">Seu acesso ao Aviary Premium expirou. Gostaria de ativá-lo por 30 dias por %s?</string>
+    <string name="feather_premium_expired_title">Acesso expirado</string>
+    <string name="feather_premium_get_price_error">Falha ao acessar o Google Play. Tente novamente mais tarde</string>
+    <string name="feather_premium_sign_in">&lt;u>Já tem uma Adobe ID? Faça logon&lt;/u></string>
+    <string name="feather_premium_subscribe">Ativar</string>
+    <string name="feather_premium_sync">Você sempre terá cópias de segurança dos produtos com sua Adobe ID.</string>
+    <string name="feather_premium_text1">• Acesso por 30 dias a TODOS os efeitos, molduras, adesivos e sobreposições do Aviary por
+		apenas %1$s.&lt;br />&lt;br />• Seus produtos são sincronizados automaticamente com sua Adobe ID. Recupere-os quando quiser em qualquer dispositivo.</string>
+    <string name="feather_premium_thank_you_message">Agora você tem acesso à coleção completa de produtos para edição de fotos do Aviary Premium por 30 dias.</string>
+    <string name="feather_premium_title">Aviary Premium</string>
+    <string name="feather_promo_text1">• Adquira o &lt;b>Aviary Essentials&lt;/b>, 16 dos nossos produtos mais populares de edição de fotos &lt;b>GRÁTIS&lt;/b>&lt;br />&lt;br />
+• Sincronize e restaure produtos com a Creative Cloud&lt;br />&lt;br />
+• Acesso exclusivo aos próximos recursos</string>
+    <string name="feather_promo_title1">Obrigado!</string>
+    <string name="feather_promo_title2">O Aviary Essentials inclui 16 pacotes de Efeitos, Molduras, Adesivos e Sobreposições. Procure o logotipo da Adobe e baixe-os na loja agora mesmo.</string>
+    <string name="feather_promo_title_with_promo">Habilite o Aviary Essentials
+com a Adobe ID</string>
+    <string name="feather_radial">Radial</string>
+    <string name="feather_rectangle">Retângulo</string>
+    <string name="feather_red_eye">Olhos vermelhos</string>
+    <string name="feather_redo">Refazer</string>
+    <string name="feather_refresh">Atualizar</string>
+    <string name="feather_report_bug">Informar um bug</string>
+    <string name="feather_report_bug_message">Isso coletará informações sobre o estado atual do seu dispositivo para enviá-las por email. Vai levar um tempo até o relatório ficar pronto para o envio. Aguarde.</string>
+    <string name="feather_restore_all_request_sent">Pedido enviado. Verifique a área de notificação do seu dispositivo para obter mais informações</string>
+    <string name="feather_rotate">Girar</string>
+    <string name="feather_saturation">Saturação</string>
+    <string name="feather_save">OK</string>
+    <string name="feather_save_progress">Salvando...</string>
+    <string name="feather_see_more">Saiba mais</string>
+    <string name="feather_send">Enviar</string>
+    <string name="feather_send_feedback">Enviar comentário</string>
+    <string name="feather_settings_join_beta_description">Tenha acesso antecipado a novos recursos e ajude a criar um Aviary ainda melhor!</string>
+    <string name="feather_settings_join_beta_title">Participe do Aviary Beta</string>
+    <string name="feather_sharpen">Nitidez</string>
+    <string name="feather_signin">Entrar</string>
+    <string name="feather_signup">Inscrever-se</string>
+    <string name="feather_square">Quadrado</string>
+    <string name="feather_sticker_flip_tooltip">Toque para virar este adesivo</string>
+    <string name="feather_stickers">Adesivos</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Este é um pacote gratuito e limitado. Se desinstalá-lo agora, talvez não seja possível restaurá-lo no futuro.</string>
+    <string name="feather_store_checking_additional_packs">Verificando se há mais pacotes...</string>
+    <string name="feather_store_connection_problem">Erro ao se conectar ao Google Play Store. Tente novamente.</string>
+    <string name="feather_store_monthly">Mensal</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Meus produtos</string>
+    <string name="feather_store_passport_banner_text">Adquira este pacote e vários outros efeitos do Aviary por um preço baixo com o Aviary Passport. Clique aqui para obter mais informações.</string>
+    <string name="feather_store_passport_cancelled">Cancelado</string>
+    <string name="feather_store_passport_unknown">Desconhecido</string>
+    <string name="feather_store_purchase_date">Data de compra</string>
+    <string name="feather_store_title">Loja de produtos do Aviary</string>
+    <string name="feather_take_survey">Nova pesquisa disponível.</string>
+    <string name="feather_tell_us_what_you_think">Conte-nos o que você acha</string>
+    <string name="feather_text">Texto</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Ferramenta</string>
+    <string name="feather_tool_color">Cor</string>
+    <string name="feather_tool_colorsplash">Respingo</string>
+    <string name="feather_tool_consolidation_adjust">Ajustar</string>
+    <string name="feather_tool_exposure">Exposição</string>
+    <string name="feather_tool_fade">Esmaecer</string>
+    <string name="feather_tool_highlight">Realces</string>
+    <string name="feather_tool_lighting">Iluminação</string>
+    <string name="feather_tool_shadow">Sombras</string>
+    <string name="feather_tool_temperature">Calor</string>
+    <string name="feather_tool_tiltshift">Foco</string>
+    <string name="feather_tool_tint">Matiz</string>
+    <string name="feather_tool_vibrance">Vibração</string>
+    <string name="feather_tooltip_adjust_intro">Brilho, Contraste, Calor e Saturação agora estão todos aqui!</string>
+    <string name="feather_try_again">Tentar novamente</string>
+    <string name="feather_try_again_connected">Tente novamente quando estiver conectado</string>
+    <string name="feather_undo">Desfazer</string>
+    <string name="feather_vignette">Vinheta</string>
+    <string name="feather_want_it_free">Deseja uma cópia gratuita?</string>
+    <string name="feather_warning">Aviso</string>
+    <string name="feather_welcome_to_frames">Bem-vindo a Molduras!</string>
+    <string name="feather_welcome_to_stickers">Bem-vindo a Adesivos!</string>
+    <string name="feather_whiten">Clarear</string>
+    <string name="feather_zoom_mode">Modo de zoom</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Limpar pesquisa"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Pesquisar"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

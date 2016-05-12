@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navega a la pàgina d\'inici"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navega cap a dalt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Més opcions"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fet"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Mostra\'ls tots"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecciona una aplicació"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Esborra la consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de cerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Envia la consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Cerca per veu"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Comparteix amb"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Comparteix amb %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Replega"</string>
+    <string name="adobe_aviary_client_id_required">Cal l\'ID del client</string>
+    <string name="adobe_aviary_client_secret_required">Cal el secret del client</string>
+    <string name="adobe_aviary_device_id_required">Cal l\'ID del dispositiu</string>
+    <string name="adobe_aviary_invalid_argument">L\'argument no és vàlid</string>
+    <string name="adobe_aviary_module_not_initialized">No s\'ha inicialitzat el mòdul</string>
+    <string name="adobe_aviary_unknown_error">Error desconegut</string>
+    <string name="adobe_aviary_user_cancelled">Usuari cancel·lat</string>
+    <string name="adobe_aviary_user_interaction_required">Cal la interacció de l\'usuari</string>
+    <string name="adobe_aviary_username_password_required">Calen el nom d\'usuari i la contrasenya</string>
+    <string name="com_adobe_image_recent">Recent</string>
+    <string msgid="2785372108150982144" name="common_google_play_services_api_unavailable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> necessita almenys un servei de Google Play que actualment no està disponible. Contacta amb el desenvolupador per obtenir ajuda."</string>
+    <string msgid="7334167077229901382" name="common_google_play_services_enable_button">"Activa els serveis de Google Play"</string>
+    <string msgid="2016066508617425489" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no funcionarà si no actives els serveis de Google Play."</string>
+    <string msgid="4763733806837472840" name="common_google_play_services_enable_title">"Activa els serveis de Google Play"</string>
+    <string msgid="5765996826213593005" name="common_google_play_services_install_button">"Obtén els serveis de Google Play"</string>
+    <string msgid="1545874412485515659" name="common_google_play_services_install_text_phone">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà si el telèfon no té instal·lats els serveis de Google Play."</string>
+    <string msgid="2742131317258851812" name="common_google_play_services_install_text_tablet">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà si la tauleta no té instal·lats els serveis de Google Play."</string>
+    <string msgid="2110712637922504348" name="common_google_play_services_install_title">"Obtén els serveis de Google Play"</string>
+    <string msgid="8004809446015217370" name="common_google_play_services_invalid_account_text">"El compte especificat no existeix en aquest dispositiu. Tria un altre compte."</string>
+    <string msgid="9894539456463288" name="common_google_play_services_invalid_account_title">"Compte no vàlid"</string>
+    <string msgid="2602915190038884860" name="common_google_play_services_network_error_text">"Cal una connexió de dades per connectar amb els serveis de Google Play."</string>
+    <string msgid="5183831421651758225" name="common_google_play_services_network_error_title">"Error de xarxa"</string>
+    <string msgid="3936796119014022295" name="common_google_play_services_notification_ticker">"Error dels serveis de Google Play"</string>
+    <string msgid="6951442375899151085" name="common_google_play_services_restricted_profile_text">"No es pot accedir als comptes d\'un perfil restringit."</string>
+    <string msgid="4958149393843193760" name="common_google_play_services_restricted_profile_title">"Perfil restringit"</string>
+    <string msgid="59739986196915578" name="common_google_play_services_sign_in_failed_text">"S\'ha produït un error en iniciar la sessió al compte especificat. Tria\'n un altre."</string>
+    <string msgid="8431204498860131150" name="common_google_play_services_sign_in_failed_title">"Error d\'inici de sessió"</string>
+    <string msgid="7170719956698345984" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> té problemes amb els serveis de Google Play. Si el problema continua, contacta amb el desenvolupador per obtenir ajuda."</string>
+    <string msgid="4291190028362992831" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> depèn dels serveis de Google Play, que no són compatibles amb el teu dispositiu. Contacta amb el fabricant per obtenir ajuda."</string>
+    <string msgid="909734065366822541" name="common_google_play_services_unsupported_title">"Serveis de Google Play"</string>
+    <string msgid="2221302284291941971" name="common_google_play_services_update_button">"Actualitza"</string>
+    <string msgid="6230553430311881723" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà si no actualitzes els serveis de Google Play."</string>
+    <string msgid="2926201203597631481" name="common_google_play_services_update_title">"Actualitza els serveis de Google Play"</string>
+    <string msgid="1576144479907495032" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> no s\'executarà sense els serveis de Google Play, que s\'estan actualitzant en aquest moment."</string>
+    <string msgid="1604540693139938838" name="common_google_play_services_updating_title">"Actualitzant els serveis de Google Play"</string>
+    <string msgid="8334920661858223093" name="common_google_play_services_wear_update_text">"Cal una nova versió dels serveis de Google Play. S\'actualitzaran automàticament aviat."</string>
+    <string msgid="311697239335516384" name="common_open_on_phone">"Obre al telèfon"</string>
+    <string msgid="3156914698180786012" name="common_signin_button_text">"Inicia sessió"</string>
+    <string msgid="1483290677806110088" name="common_signin_button_text_long">"Inicia la sessió amb Google"</string>
+    <string name="feather_acc_a_sticker">Un adhesiu</string>
+    <string name="feather_acc_color">Color</string>
+    <string name="feather_acc_flip_h">Inversió horitzontal</string>
+    <string name="feather_acc_flip_v">Inversió vertical</string>
+    <string name="feather_acc_lens_toggle">Commutador de zoom</string>
+    <string name="feather_acc_rotate_ccw">Gira en direcció contrària a les agulles del rellotge</string>
+    <string name="feather_acc_rotate_cw">Gira en la direcció de les agulles del rellotge</string>
+    <string name="feather_acc_size">Mida</string>
+    <string name="feather_activate">Activa</string>
+    <string name="feather_activity_not_found">Lamentablement, no hi ha cap aplicació al vostre dispositiu que pugui dur a terme aquesta acció. Voleu baixar-la ara del mercat?</string>
+    <string name="feather_adjust">Orientació</string>
+    <string name="feather_an_error_occurred">S\'ha produït un error</string>
+    <string name="feather_apply">Aplica</string>
+    <string name="feather_applying_actions">S\'estan aplicant accions...</string>
+    <string name="feather_ask_to_login_before_restore">Si ja heu iniciat la sessió prèviament amb un Adobe ID, registreu-vos per restaurar els subministraments sincronitzats</string>
+    <string name="feather_attention">Atenció</string>
+    <string name="feather_blemish">Taca</string>
+    <string name="feather_blemish_tool_tip">Toqueu i prou</string>
+    <string name="feather_blur">Difumina</string>
+    <string name="feather_borders">Marcs</string>
+    <string name="feather_borders_dialog_first_time">Per començar, instal·leu el paquet gratuït d\'Aviary, que inclou marcs de gran bellesa en alta resolució.</string>
+    <string name="feather_brightness">Brillantor</string>
+    <string name="feather_cant_undo_anymore">No es pot desfer més</string>
+    <string name="feather_circle" ns1:ignore="UnusedResources">Cercle</string>
+    <string name="feather_close">Tanca</string>
+    <string name="feather_colorfix">Correcció de color</string>
+    <string name="feather_colorsplash_eraser">Esborrador</string>
+    <string name="feather_colorsplash_free">Color lliure</string>
+    <string name="feather_colorsplash_smart">Color intel·ligent</string>
+    <string name="feather_contrast">Contrast</string>
+    <string name="feather_crop">Retalla</string>
+    <string name="feather_custom">Personalitzat</string>
+    <string name="feather_delete">Suprimeix</string>
+    <string name="feather_details" ns1:ignore="UnusedResources">Detalls</string>
+    <string name="feather_discard">Descarta</string>
+    <string name="feather_discard_edits">Voleu descartar l\'edició?</string>
+    <string name="feather_download">Baixa</string>
+    <string name="feather_download_start_failed">No s\'ha pogut iniciar la baixada. Torneu a provar-ho més tard</string>
+    <string name="feather_draw">Dibuixa</string>
+    <string name="feather_edit_bottom_text">Edita el text inferior</string>
+    <string name="feather_edit_top_text">Edita el text superior</string>
+    <string name="feather_edit_your_photo">Editor de fotos</string>
+    <string name="feather_effect_intensity_tooltip">Passeu el dit amunt o avall per ajustar la intensitat</string>
+    <string name="feather_effect_loading_message">S\'estan aplicant efectes</string>
+    <string name="feather_effects">Efectes</string>
+    <string name="feather_email_email_invalid">Adreça de correu electrònic no vàlida</string>
+    <string name="feather_email_feedback_empty">Els comentaris no poden estar buits</string>
+    <string name="feather_email_hint">Correu electrònic (per a les comunicacions d\'assistència tècnica)</string>
+    <string name="feather_enhance">Millora</string>
+    <string name="feather_enhance_effect_food">Menjar</string>
+    <string name="feather_enhance_effect_night">Nit</string>
+    <string name="feather_enhance_effect_portrait">Retrat</string>
+    <string name="feather_enhance_effect_scenery">Paisatge</string>
+    <string name="feather_enter_text_here">Introduïu text aquí</string>
+    <string name="feather_error_download_image_message">S\'ha produït un error en baixar la imatge, torneu a provar-ho més tard.</string>
+    <string name="feather_error_saving_image">S\'ha produït un error en desar la imatge.</string>
+    <string name="feather_error_validating_adobe_id">Ens estem trobant amb problemes per validar el vostre Adobe ID. Tanqueu la sessió i torneu-la a iniciar. Si el problema continua, envieu un correu electrònic a support@aviary.com</string>
+    <string name="feather_essentials">Essencials d\'Aviary</string>
+    <string name="feather_featured">Destacat</string>
+    <string name="feather_featured_effects">Efectes destacats</string>
+    <string name="feather_featured_frames">Marcs destacats</string>
+    <string name="feather_featured_overlays">Superposicions destacades</string>
+    <string name="feather_featured_stickers">Adhesius destacats</string>
+    <string name="feather_feedback">Comentaris</string>
+    <string name="feather_feedback_dialog_message" ns1:ignore="UnusedResources">Teniu cap suggeriment per millorar aquest editor de fotos? Feu-nos-ho saber.</string>
+    <string name="feather_feedback_dislike">Què no us agrada?</string>
+    <string name="feather_feedback_hint">Escriviu els vostres comentaris</string>
+    <string name="feather_feedback_love">Què us agrada?</string>
+    <string name="feather_feedback_posted_failure">No es poden publicar comentaris</string>
+    <string name="feather_feedback_posted_success">S\'han publicat els comentaris.</string>
+    <string name="feather_feedback_title">Comentaris</string>
+    <string name="feather_filters">Filtres</string>
+    <string name="feather_flip">Inverteix</string>
+    <string name="feather_free">Gratis</string>
+    <string name="feather_generic_error_title">Error</string>
+    <string name="feather_get_more">Subministraments</string>
+    <string name="feather_got_it">D\'acord</string>
+    <string name="feather_have_an_adobe_id">Disposeu d\'un Adobe ID?</string>
+    <string name="feather_hidef">Alta definició</string>
+    <string name="feather_iap_download">Gratis</string>
+    <string name="feather_iap_download_failed">La baixada ha fallat</string>
+    <string name="feather_iap_failed_download_informations">No s\'han pogut baixar les dades sol·licitades</string>
+    <string name="feather_iap_install">Instal·la</string>
+    <string name="feather_iap_installing">S\'està instal·lant</string>
+    <string name="feather_iap_notification_installed_summary">El complement s\'ha instal·lat correctament</string>
+    <string name="feather_iap_owned">Instal·lat</string>
+    <string name="feather_iap_pack_installed">Instal·lat</string>
+    <string name="feather_iap_premium">Premium</string>
+    <string name="feather_iap_restore">Restaura</string>
+    <string name="feather_iap_restore_all">Restaura-ho tot</string>
+    <string name="feather_iap_restore_all_failed">Restaura tot el que ha fallat</string>
+    <string name="feather_iap_restore_all_in_progress">Restaura tot el que hi ha en curs</string>
+    <string name="feather_iap_retry">Torna-ho a provar</string>
+    <string name="feather_iap_unavailable">No disponible</string>
+    <string name="feather_iap_uninstall">Desinstal·la</string>
+    <string name="feather_illuminate" ns1:ignore="UnusedResources">Il·lumina</string>
+    <string name="feather_item_does_not_exists">L\'element sol·licitat no existeix</string>
+    <string name="feather_item_not_found">Element no trobat</string>
+    <string name="feather_learn_more">Més informació</string>
+    <string name="feather_linear">Lineal</string>
+    <string name="feather_loading_image">S\'està carregant la imatge...</string>
+    <string name="feather_loading_title">S\'està carregant...</string>
+    <string name="feather_meme">Meme</string>
+    <string name="feather_message_button_no">No, gràcies.</string>
+    <string name="feather_message_button_yes">I tant!</string>
+    <string name="feather_my_account">Compte</string>
+    <string name="feather_no_thanks">No, gràcies</string>
+    <string name="feather_notification_n_items_cant_be_restored">%1$s element/s no s\'ha/n pogut restaurar</string>
+    <string name="feather_notification_no_items_to_restore">No cal restaurar cap element</string>
+    <string name="feather_notification_plugins_installed_count">Complements instal·lats: %1$d</string>
+    <string name="feather_notification_plus_more">%1$d més</string>
+    <string name="feather_notification_restore_all_completed">Restaura tot el que hi ha completat</string>
+    <string name="feather_notification_some_items_cant_be_restored">Alguns elements no s\'han pogut restaurar</string>
+    <string name="feather_ops_error_download_image">Ens estem trobant amb problemes de connexió :(</string>
+    <string name="feather_original">Original</string>
+    <string name="feather_overlay_blemish_close_text">Reviseu la nova eina &lt;b>Difumina&lt;/b>.</string>
+    <string name="feather_overlay_blemish_tap_text">Toqueu les imperfeccions per eliminar-les.</string>
+    <string name="feather_overlay_stickers_text">Instal·leu aquest paquet gratuït per començar.</string>
+    <string name="feather_overlay_tap_title">Toqueu</string>
+    <string name="feather_overlay_undo_title">Passeu el dit per desfer o refer les edicions</string>
+    <string name="feather_overlay_zoom_text">També podeu ajuntar o separar dos dits per ajustar el zoom.</string>
+    <string name="feather_overlay_zoom_title">Zoom</string>
+    <string name="feather_overlays">Superposicions</string>
+    <string name="feather_owned">De propietat</string>
+    <string name="feather_passport">Passaport d\'Aviary</string>
+    <string name="feather_pinch_to_zoom">Ajunteu o separeu dos dits per ajustar el zoom.</string>
+    <string name="feather_please_try_again_later">Torna a provar-ho més tard</string>
+    <string name="feather_powered_by_aviary">Desenvolupat per Aviary.com</string>
+    <string name="feather_premium">Premium</string>
+    <string name="feather_premium_content_description">Més de 1000 &lt;b>efectes, adhesius, superposicions i marcs&lt;/b> perquè milloreu les vostres fotos</string>
+    <string name="feather_premium_days_left">Resten %d dies en Premium</string>
+    <string name="feather_premium_description">Accés durant 30 dies a la nostra col·lecció de subministraments d\'edició fotogràfica, que s\'amplia contínuament, per només %s</string>
+    <string name="feather_premium_error_no_internet">Comproveu la connexió a Internet per activar l\'accés Premium</string>
+    <string name="feather_premium_expired_message">El vostre accés a Aviary Premium ha caducat. Voleu activar-lo durant 30 dies per %s?</string>
+    <string name="feather_premium_expired_title">L\'accés ha caducat</string>
+    <string name="feather_premium_get_price_error">No s\'ha pogut contactar amb Google Play. Torneu a provar-ho més tard</string>
+    <string name="feather_premium_sign_in">&lt;u>Disposeu d\'un identificador d\'Adobe? Inicieu sessió&lt;/u></string>
+    <string name="feather_premium_subscribe">Activa</string>
+    <string name="feather_premium_sync">Es farà una copia de seguretat automàtica permanent dels vostres subministraments amb el vostre identificador d\'Adobe</string>
+    <string name="feather_premium_text1">• 30 dies d\'accés a tots els Efectes, Marcs, Adhesius i Superposicions d\'Aviary per només %1$s.&lt;br />&lt;br />
+        • Els subministraments es sincronitzen automàticament amb l\'Adobe ID. Restaureu en qualsevol moment des de qualsevol dispositiu.</string>
+    <string name="feather_premium_thank_you_message">Ara disposeu d\'accés a la col·lecció completa de subministraments d\'edició fotogràfica d\'Aviary durant 30 dies.</string>
+    <string name="feather_premium_title">Premium d\'Aviary</string>
+    <string name="feather_promo_text1">• Aconseguiu els &lt;b>Essencials d\'Aviary&lt;/b>, 16 dels nostres subministraments d\'edició fotogràfica més populars &lt;b>GRATIS&lt;/b>&lt;br />&lt;br />
+• Sincronitzeu i restaureu els subministraments amb Creative Cloud&lt;br />&lt;br />
+• Accés exclusiu a les properes prestacions</string>
+    <string name="feather_promo_title1">Gràcies!</string>
+    <string name="feather_promo_title2">Els Essencials d\'Aviary inclouen un total de 16 paquets d\'Efectes, Marcs, Adhesius i Superposicions. Cerqueu el distintiu d\'Adobe i baixeu-los ara mateix a la botiga.</string>
+    <string name="feather_promo_title_with_promo">Desbloqueja Essencials
+d\'Aviary amb l\'Adobe ID</string>
+    <string name="feather_radial">Radial</string>
+    <string name="feather_rectangle">Rectangle</string>
+    <string name="feather_red_eye">Ulls vermells</string>
+    <string name="feather_redo">Refés</string>
+    <string name="feather_refresh">Actualitza</string>
+    <string name="feather_report_bug">Informa dels errors</string>
+    <string name="feather_report_bug_message">Es recopilarà informació sobre l\'estat del vostre dispositiu actual, per enviar-la com un missatge de correu electrònic. Passarà una estona des de l\'inici de l\'informe d\'errors fins al moment que estigui llest per enviar-se. Tingueu paciència.</string>
+    <string name="feather_restore_all_request_sent">Sol·licitud enviada. Comproveu l\'àrea de notificació del vostre dispositiu per obtenir més informació</string>
+    <string name="feather_rotate">Gira</string>
+    <string name="feather_saturation">Saturació</string>
+    <string name="feather_save">Fet</string>
+    <string name="feather_save_progress">S\'està desant...</string>
+    <string name="feather_see_more">Mostra\'n més</string>
+    <string name="feather_send">Envia</string>
+    <string name="feather_send_feedback">Envia comentaris</string>
+    <string name="feather_settings_join_beta_description">Aconseguiu accedir a les noves funcions abans que ningú i ajudeu a crear una Aviary millor.</string>
+    <string name="feather_settings_join_beta_title">Uneix-te a la versió Beta d\'Aviary</string>
+    <string name="feather_sharpen">Definició</string>
+    <string name="feather_signin">Inicia sessió</string>
+    <string name="feather_signup">Inscriu-me</string>
+    <string name="feather_square">Quadrat</string>
+    <string name="feather_sticker_flip_tooltip">Toqueu aquest adhesiu per invertir-lo</string>
+    <string name="feather_stickers">Adhesius</string>
+    <string name="feather_store_ask_uninstall_free_body" ns1:ignore="UnusedResources">Aquest és un paquet gratuït d\'edició limitada. Si el desinstal·leu, és possible que no pugueu tornar-lo a restaurar en el futur.</string>
+    <string name="feather_store_checking_additional_packs">S\'estan cercant paquets addicionals...</string>
+    <string name="feather_store_connection_problem">S\'ha produït un problema en establir la connexió amb Google Play Store. Torneu a provar-ho.</string>
+    <string name="feather_store_monthly">Mensual</string>
+    <string name="feather_store_my_stuff" ns1:ignore="UnusedResources">Els meus subministraments</string>
+    <string name="feather_store_passport_banner_text">Adquiriu aquest paquet i molts altres efectes d\'Aviary per un preu molt baix amb el Passaport d\'Aviary. Feu clic aquí per obtenir més informació.</string>
+    <string name="feather_store_passport_cancelled">Cancel·lat</string>
+    <string name="feather_store_passport_unknown">Desconegut</string>
+    <string name="feather_store_purchase_date">Data de compra</string>
+    <string name="feather_store_title">Botiga de subministrament d\'Aviary</string>
+    <string name="feather_take_survey">Nova enquesta disponible</string>
+    <string name="feather_tell_us_what_you_think">Què penseu?</string>
+    <string name="feather_text">Text</string>
+    <string name="feather_tool" ns1:ignore="UnusedResources">Eina</string>
+    <string name="feather_tool_color">Color</string>
+    <string name="feather_tool_colorsplash">Esquitxa</string>
+    <string name="feather_tool_consolidation_adjust">Ajusta</string>
+    <string name="feather_tool_exposure">Exposició</string>
+    <string name="feather_tool_fade">Esvaniment</string>
+    <string name="feather_tool_highlight">Llums intenses</string>
+    <string name="feather_tool_lighting">Il·luminació</string>
+    <string name="feather_tool_shadow">Ombres</string>
+    <string name="feather_tool_temperature">Calidesa</string>
+    <string name="feather_tool_tiltshift">Enfocament</string>
+    <string name="feather_tool_tint">Tint</string>
+    <string name="feather_tool_vibrance">Vibrància</string>
+    <string name="feather_tooltip_adjust_intro">Les opcions Brillantor, Contrast, Calidesa i Saturació ja són aquí.</string>
+    <string name="feather_try_again">Torneu a provar-ho</string>
+    <string name="feather_try_again_connected">Torneu a provar-ho quan estigueu connectats</string>
+    <string name="feather_undo">Desfés</string>
+    <string name="feather_vignette">Vinyeta</string>
+    <string name="feather_want_it_free">Ho voleu gratis?</string>
+    <string name="feather_warning">Advertència</string>
+    <string name="feather_welcome_to_frames">Us donem la benvinguda als Marcs</string>
+    <string name="feather_welcome_to_stickers">Us donem la benvinguda als Adhesius</string>
+    <string name="feather_whiten">Blanqueja</string>
+    <string name="feather_zoom_mode">Mode zoom</string>
+    <string msgid="2132213647576279742" name="place_autocomplete_clear_button">"Esborra la cerca"</string>
+    <string msgid="4600782048316473865" name="place_autocomplete_search_hint">"Cerca"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="@dimen/com_adobe_image_bottombar_default_panel_padding"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Free -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+            android:orientation="vertical">
+
+            <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+                android:id="@+id/AdobeImageHighlightImageButton16"
+                style="?attr/com_adobe_image_editor_bottombar_circle_button_nontoggle"
+                android:contentDescription="@string/feather_colorsplash_free"
+                app:adobe_checked="true"
+                android:src="@drawable/com_adobe_image_ic_colorsplash_free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.adobe.android.ui.view.AdobeTextView
+                style="?attr/com_adobe_image_editor_bottombar_circle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_colorsplash_free" />
+        </LinearLayout>
+
+        <!-- smart -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+            android:orientation="vertical">
+
+            <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+                android:id="@+id/AdobeImageHighlightImageButton17"
+                style="?attr/com_adobe_image_editor_bottombar_circle_button_nontoggle"
+                android:contentDescription="@string/feather_colorsplash_smart"
+                android:src="@drawable/com_adobe_image_ic_colorsplash_smart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.adobe.android.ui.view.AdobeTextView
+                style="?attr/com_adobe_image_editor_bottombar_circle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_colorsplash_smart" />
+        </LinearLayout>
+
+        <!-- eraser -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/com_adobe_image_circle_button_margin_right"
+            android:orientation="vertical">
+
+            <com.adobe.creativesdk.aviary.widget.AdobeImageHighlightImageButton
+                android:id="@+id/AdobeImageHighlightImageButton18"
+                style="?attr/com_adobe_image_editor_bottombar_circle_button_nontoggle"
+                android:contentDescription="@string/feather_colorsplash_eraser"
+                android:src="@drawable/com_adobe_image_ic_colorsplash_erase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.adobe.android.ui.view.AdobeTextView
+                style="?attr/com_adobe_image_editor_bottombar_circle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feather_colorsplash_eraser" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- disabled status -->
+    <include layout="@layout/com_adobe_image_bottombar_disabled_status_layout" />
+</RelativeLayout>

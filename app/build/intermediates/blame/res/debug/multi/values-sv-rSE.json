@@ -1,0 +1,292 @@
+[
+    {
+        "outputFile": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\res\\merged\\debug\\values-sv-rSE\\values-sv-rSE.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 72,
+                    "endOffset": 123
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 72,
+                        "endOffset": 123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 128,
+                    "endColumn": 63,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 128,
+                        "endColumn": 63,
+                        "endOffset": 187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 57,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endColumn": 57,
+                        "endOffset": 245
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 104,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 250,
+                        "endColumn": 104,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endColumn": 142,
+                    "endOffset": 493
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 355,
+                        "endColumn": 142,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 498,
+                    "endColumn": 68,
+                    "endOffset": 562
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 68,
+                        "endOffset": 562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 567,
+                    "endColumn": 64,
+                    "endOffset": 627
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 567,
+                        "endColumn": 64,
+                        "endOffset": 627
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 632,
+                    "endColumn": 145,
+                    "endOffset": 773
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 632,
+                        "endColumn": 145,
+                        "endOffset": 773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 778,
+                    "endColumn": 100,
+                    "endOffset": 874
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 778,
+                        "endColumn": 100,
+                        "endOffset": 874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 879,
+                    "endColumn": 110,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 879,
+                        "endColumn": 110,
+                        "endOffset": 985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endColumn": 76,
+                    "endOffset": 1062
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 990,
+                        "endColumn": 76,
+                        "endOffset": 1062
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1067,
+                    "endColumn": 55,
+                    "endOffset": 1118
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1067,
+                        "endColumn": 55,
+                        "endOffset": 1118
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1123,
+                    "endColumn": 66,
+                    "endOffset": 1185
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1123,
+                        "endColumn": 66,
+                        "endOffset": 1185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1190,
+                    "endColumn": 72,
+                    "endOffset": 1258
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1190,
+                        "endColumn": 72,
+                        "endOffset": 1258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1263,
+                    "endColumn": 142,
+                    "endOffset": 1401
+                },
+                "from": {
+                    "file": "G:\\School\\Spring2016\\MobileApps\\FinalProject\\HowHighAmI\\app\\build\\intermediates\\exploded-aar\\com.adobe.creativesdk.foundation\\auth\\0.9.7\\res\\values-sv-rSE\\values-sv-rSE.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1263,
+                        "endColumn": 142,
+                        "endOffset": 1401
+                    }
+                }
+            }
+        ]
+    }
+]

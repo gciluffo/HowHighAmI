@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/dragLayer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- toolbar container -->
+    <include layout="@layout/com_adobe_image_main_toolbar" />
+
+    <!-- main content -->
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottombar"
+        android:layout_below="@id/toolbar">
+
+        <!-- optional image view container -->
+
+        <RelativeLayout
+            android:id="@+id/drawing_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- main loader, visible while loading the image at start -->
+        <include layout="@layout/com_adobe_image_main_view_loader" />
+
+        <!-- main image view -->
+        <com.adobe.creativesdk.aviary.widget.AdobeImageViewUndoRedo
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UnusedAttribute" />
+
+    </RelativeLayout>
+
+    <!-- bottom bar (tools, panels) -->
+
+    <!-- shadow on top of the bottombar -->
+    <View
+        android:id="@+id/bottombar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="3dip"
+        android:layout_above="@+id/bottombar"
+        android:background="@drawable/com_adobe_image_bottombar_shadow" />
+
+    <include
+        android:id="@+id/bottombar"
+        layout="@layout/com_adobe_image_main_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/com_adobe_image_bottombar_height"
+        android:layout_alignParentBottom="true" />
+
+    <!-- popup container dialog -->
+
+    <RelativeLayout
+        android:id="@+id/feather_dialogs_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:visibility="visible" />
+
+    <!-- hidden surface view -->
+
+    <!--<SurfaceView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:visibility="invisible" />-->
+
+</RelativeLayout>
